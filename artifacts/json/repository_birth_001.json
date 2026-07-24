@@ -1,0 +1,15 @@
+{
+  "artifact": "repository_birth_001",
+  "version": "0.1.0",
+  "status": "accepted",
+  "summary": "Established the initial ontology of Thalean Mechanics.",
+  "claims": [
+    "The primitive computational object is the thalion.",
+    "A thalion possesses a canonical 60-address space.",
+    "Canonical registration is objective.",
+    "Observation is registration.",
+    "Representations are external to the thalion.",
+    "A bit is an interpreted representation of canonical registration.",
+    "Computational records preserve canonical registrations."
+  ]
+}

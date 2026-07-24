@@ -1,0 +1,29 @@
+{
+  "kind": "thalion",
+  "version": "0.1.0",
+
+  "ontology": {
+    "primitive": true,
+    "canonical_object": "thalion"
+  },
+
+  "identity": {
+    "id": null,
+    "name": null
+  },
+
+  "address_space": {
+    "structure": "5x3x4",
+    "address_count": 60,
+
+    "dimensions": {
+      "five": ["5a","5b","5c","5d","5e"],
+      "three": ["3a","3b","3c"],
+      "four": ["4a","4b","4c","4d"]
+    }
+  },
+
+  "canonical_registration": null,
+
+  "interpreters": []
+}
