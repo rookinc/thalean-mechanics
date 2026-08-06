@@ -1,0 +1,107 @@
+{
+  "artifact_id": "g60_receipt_packet_native_encounter_theorem_006",
+  "blind_census": {
+    "binary_conjugacy_class_count": 3,
+    "binary_conjugacy_orbit_sizes": [
+      1,
+      2,
+      15
+    ],
+    "blind_outcome": "multiple",
+    "cover_admissible_class_count": 22,
+    "edge_inverting_class_count": 0,
+    "fixed_point_free_nonidentity_element_count": 354,
+    "full_automorphism_group_order": 480,
+    "semiregular_subgroup_conjugacy_class_count": 22,
+    "semiregular_subgroup_count": 198
+  },
+  "boundary": {
+    "all_22_native_action_classes_remain_valid": true,
+    "binary_receipt_not_derived_from_unlabeled_G60_alone": true,
+    "electron_claim": false,
+    "full_automorphism_covariance_is_a_declared_premise": true,
+    "gauge_class_is_canonical_given_selected_cover": true,
+    "gravity_claim": false,
+    "orientation_claim": false,
+    "physics_claim": false,
+    "radiation_claim": false,
+    "section_dependent_voltage_values_are_not_canonical": true
+  },
+  "declared_selection_premises": {
+    "orientation_selected": false,
+    "physical_interpretation_claimed": false,
+    "receipt_action_is_invariant_under_full_native_automorphism_group": true,
+    "receipt_action_is_semiregular": true,
+    "receipt_group_is_binary": true
+  },
+  "gauge_and_holonomy": {
+    "base_cycle_rank": 31,
+    "fundamental_chord_count": 31,
+    "fundamental_holonomy_value_counts": {
+      "0": 11,
+      "1": 20
+    },
+    "gauge_normal_form_failure_count": 0,
+    "holonomy_image": [
+      0,
+      1
+    ],
+    "holonomy_surjective_to_C2": true,
+    "lift_connected": true,
+    "normalized_voltage_assignment_sha256": "1a791769f546d3640ddc44a224ba8da261688fe652bd63c42cdbbd65e7ff533b",
+    "single_vertex_gauge_test_count": 30,
+    "spanning_tree_edge_count": 29
+  },
+  "keeper": "The abstract packet met the raw graph. G60 returned its fully symmetric binary cover, its voltage, and its receipt.",
+  "native_voltage_construction": {
+    "base_edge_count": 60,
+    "base_vertex_count": 30,
+    "canonical_voltage_assignment_sha256": "0156b176cd72d105fd39dd23d23ec21be694a91da6357fe97d7426194412bb9e",
+    "exact_G60_reconstruction": true,
+    "lift_edge_count": 120,
+    "lift_vertex_count": 60,
+    "receipt_group": "C2",
+    "reconstruction_extra_edge_count": 0,
+    "reconstruction_missing_edge_count": 0,
+    "section_rule": "minimum_labeled_vertex_in_each_fiber_is_sheet0",
+    "voltage_edge_count": 60,
+    "voltage_value_counts": {
+      "0": 32,
+      "1": 28
+    }
+  },
+  "normal_binary_selection": {
+    "normal_binary_class_count": 1,
+    "selected_class_index": 22,
+    "selected_generator_index": 326,
+    "selected_group": "C2",
+    "selection_is_unique_given_declared_premises": true,
+    "selection_is_unique_without_declared_premises": false
+  },
+  "post_registered_unblinding": {
+    "exact_historical_deck_action_recovered": true,
+    "fiber_count": 30,
+    "fiber_disagreement_count": 0,
+    "historical_involution_name": "a",
+    "permutation_disagreement_count": 0,
+    "permutation_domain_size": 60,
+    "quotient_edge_count": 60,
+    "quotient_edge_disagreement_count": 0,
+    "quotient_vertex_count": 30,
+    "vertex_map_failure_count": 0
+  },
+  "schema": "thalean_mechanics.g60_receipt_packet_native_encounter_theorem.v1",
+  "source_locks": {
+    "adjudication_receipt": "f49281a06fd90336e4bae5ca9221ee9457e76399ccb2e890b9794887f242ec14",
+    "automorphism_action": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+    "blind_receipt": "9d0f1ef5975cd8cd2575192012c8bfeefe15c2856d6646e827ffc4ada851f383",
+    "g60_edges": "c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f",
+    "paper7": "09fd36fa74dd5868549349a5edd82d16c80b9efafa72561f53e69001235d3bda",
+    "quotient_certificate": "acaf79c52d5d83915afc425ba5b2e0547f168b73d1db7f144898599d30654822",
+    "unblinding_receipt": "339058c1fe40c50577eafcad3bda2ded753cbca7137a31c9aa7dbe5023f042c7",
+    "voltage_receipt": "fd57c49e368b5e1927e37bae7d8104a16c5fca5e4e64c554e9d70cde2b14ce2b"
+  },
+  "status": "conditional_native_graph_encounter_theorem",
+  "theorem": "Among native semiregular automorphism actions on G60, exactly one binary action is invariant under the full native automorphism group. It is exactly the preserved G60-to-G30 deck involution. A deterministic section of its fibers derives a C2 edge-voltage assignment on G30 whose regular lift reconstructs G60 exactly and whose holonomy image is all of C2.",
+  "verdict": "G60_is_the_exact_connected_regular_C2_receipt_lift_of_G30_selected_uniquely_by_binary_full_automorphism_covariance"
+}
