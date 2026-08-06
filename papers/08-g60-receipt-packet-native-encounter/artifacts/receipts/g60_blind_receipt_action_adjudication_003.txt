@@ -1,0 +1,68 @@
+OUT ==
+PACKET: g60_blind_receipt_action_adjudication_003
+MODE: read-only blind outcome adjudication
+TARGET: /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter
+REPOSITORY_MUTATION: none
+
+== LOCKED BLIND RECEIPT ==
+RECEIPT_EXISTS: true
+RECEIPT_SHA256: 9d0f1ef5975cd8cd2575192012c8bfeefe15c2856d6646e827ffc4ada851f383
+RECEIPT_BYTES: 16573
+CHECK_BLIND_RECEIPT_HASH_LOCKED: true
+
+== PREDECLARED OUTCOME RULE ==
+OUTCOME_RULE_NONE: class_count == 0
+OUTCOME_RULE_UNIQUE: class_count == 1
+OUTCOME_RULE_MULTIPLE: class_count > 1
+BLIND_OUTCOME: multiple
+
+== BLIND CENSUS ADJUDICATION ==
+SEMIREGULAR_SUBGROUP_COUNT: 198
+PARSED_CLASS_COUNT: 22
+DECLARED_CLASS_COUNT: 22
+CONJUGATE_SUBGROUP_TOTAL: 198
+GROUP_ORDER_CLASS_COUNTS: {"2": 3, "3": 1, "4": 4, "5": 1, "6": 3, "10": 3, "12": 4, "20": 2, "60": 1}
+GROUP_LABEL_CLASS_COUNTS: {"C10": 2, "C12": 1, "C2": 3, "C3": 1, "C4": 2, "C5": 1, "C6": 2, "S3": 1, "V4": 2, "abelian_order_12": 1, "abelian_order_20": 1, "nonabelian_order_10": 1, "nonabelian_order_12": 2, "nonabelian_order_20": 1, "nonabelian_order_60": 1}
+COVER_ADMISSIBLE_CLASS_COUNT: 22
+EDGE_INVERTING_CLASS_COUNT: 0
+
+== FULL-AUTOMORPHISM NORMAL CLASSES ==
+NORMAL_CLASS_COUNT: 3
+NORMAL_CLASS: {"class_index":5,"cover_admissible":true,"edge_orbit_count":2,"element_order_profile":{"1":1,"2":15,"3":20,"5":24},"generator_indices":[9,82],"group_label":"nonabelian_order_60","group_order":60,"vertex_orbit_count":1}
+NORMAL_CLASS: {"class_index":20,"cover_admissible":true,"edge_orbit_count":30,"element_order_profile":{"1":1,"2":3},"generator_indices":[65,124],"group_label":"V4","group_order":4,"vertex_orbit_count":15}
+NORMAL_CLASS: {"class_index":22,"cover_admissible":true,"edge_orbit_count":60,"element_order_profile":{"1":1,"2":1},"generator_indices":[326],"group_label":"C2","group_order":2,"vertex_orbit_count":30}
+
+== BLIND BINARY SUBSPECTRUM ==
+BINARY_CLASS_COUNT: 3
+BINARY_CLASS: {"class_index":15,"conjugate_subgroup_count":15,"cover_admissible":true,"fiber_preview":[[0,5],[1,9],[2,8],[3,7],[4,6]],"generator_indices":[41]}
+BINARY_CLASS: {"class_index":19,"conjugate_subgroup_count":2,"cover_admissible":true,"fiber_preview":[[0,8],[1,9],[2,5],[3,6],[4,7]],"generator_indices":[65]}
+BINARY_CLASS: {"class_index":22,"conjugate_subgroup_count":1,"cover_admissible":true,"fiber_preview":[[0,40],[1,50],[2,10],[3,20],[4,30]],"generator_indices":[326]}
+NORMAL_BINARY_CLASS_COUNT: 1
+NORMAL_BINARY_CLASS_INDEX: 22
+NORMAL_BINARY_GENERATOR_INDICES: [326]
+
+== ADJUDICATION CHECKS ==
+CHECK_BLIND_RECEIPT_HASH_LOCKED: true
+CHECK_BLIND_OUTCOME_IS_MULTIPLE: true
+CHECK_PARSED_22_CLASSES: true
+CHECK_DECLARED_22_CLASSES: true
+CHECK_CLASS_INDICES_EXACT: true
+CHECK_SUBGROUP_TOTAL_198: true
+CHECK_CLASS_ORBITS_SUM_TO_198: true
+CHECK_ALL_CLASSES_COVER_ADMISSIBLE: true
+CHECK_NO_EDGE_INVERTING_CLASSES: true
+CHECK_THREE_BINARY_CLASSES: true
+CHECK_BINARY_CONJUGACY_ORBIT_SIZES_ARE_1_2_15: true
+CHECK_UNIQUE_NORMAL_BINARY_CLASS: true
+CHECK_NORMAL_BINARY_IS_CLASS22: true
+FAILED_CHECKS: []
+
+== STATUS PRESERVATION ==
+STATUS_CHECK: {"after":["?? ../01-unit-action-and-finite-geometric-emergence/README.md","?? ../01-unit-action-and-finite-geometric-emergence/build/","?? ../01-unit-action-and-finite-geometric-emergence/dist/","?? ../01-unit-action-and-finite-geometric-emergence/notes/claim-status.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/source-ledger.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/theorem-dependency-audit.md","?? ../01-unit-action-and-finite-geometric-emergence/paper/","?? ../01-unit-action-and-finite-geometric-emergence/scripts/zipit.sh","?? ../02-extension-and-evolution-from-a-discrete-encounter/build/","?? ../03-encounter-orientation-receipt-tower/","?? ../04-binary-receipts-and-finite-cycle-doubling/","?? ../05-parity-in-the-dihedral-receipt-tower/","?? ../06-finite-receipt-holonomy-and-cycle-multiplication/"],"before":["?? ../01-unit-action-and-finite-geometric-emergence/README.md","?? ../01-unit-action-and-finite-geometric-emergence/build/","?? ../01-unit-action-and-finite-geometric-emergence/dist/","?? ../01-unit-action-and-finite-geometric-emergence/notes/claim-status.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/source-ledger.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/theorem-dependency-audit.md","?? ../01-unit-action-and-finite-geometric-emergence/paper/","?? ../01-unit-action-and-finite-geometric-emergence/scripts/zipit.sh","?? ../02-extension-and-evolution-from-a-discrete-encounter/build/","?? ../03-encounter-orientation-receipt-tower/","?? ../04-binary-receipts-and-finite-cycle-doubling/","?? ../05-parity-in-the-dihedral-receipt-tower/","?? ../06-finite-receipt-holonomy-and-cycle-multiplication/"],"preserved":true}
+CHECK_REPOSITORY_STATUS_PRESERVED: true
+
+FINAL_CLASSIFICATION: blind_native_G60_receipt_action_outcome_is_multiple_with_one_full_automorphism_normal_binary_class
+BOUNDARY: The locked blind census supplies 22 cover-admissible action classes. It does not uniquely select a receipt action. Within the binary subspectrum, exactly one C2 subgroup is normal under the full native automorphism group. Calling that class the historical G60 deck action requires a later unblinding comparison. Binary receipt and full-automorphism invariance have not been imported as retrospective selection premises.
+NEXT_GATE: Freeze this blind adjudication, then compare its unique normal C2 class with the independently preserved G60-to-G30 deck involution.
+KEEPER: The blind answer is many. Inside the binary answers, symmetry leaves one standing still.
+MUTATION_PERFORMED: false
