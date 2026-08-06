@@ -1,0 +1,81 @@
+OUT ==
+PACKET: g60_normal_binary_deck_unblinding_004
+MODE: read-only post-registered unblinding comparison
+TARGET: /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter
+REPOSITORY_MUTATION: none
+
+== SOURCE LOCK ==
+BLIND_RECEIPT_SHA256: 9d0f1ef5975cd8cd2575192012c8bfeefe15c2856d6646e827ffc4ada851f383
+CHECK_BLIND_RECEIPT_HASH: true
+ADJUDICATION_RECEIPT_SHA256: f49281a06fd90336e4bae5ca9221ee9457e76399ccb2e890b9794887f242ec14
+CHECK_ADJUDICATION_RECEIPT_HASH: true
+ACTION_SHA256: b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21
+CHECK_ACTION_HASH: true
+QUOTIENT_SHA256: acaf79c52d5d83915afc425ba5b2e0547f168b73d1db7f144898599d30654822
+CHECK_QUOTIENT_HASH: true
+G60_EDGES_SHA256: c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f
+CHECK_G60_EDGES_HASH: true
+
+== PRE-UNBLINDING SELECTION LOCK ==
+BLIND_CLASS_COUNT: 22
+BLIND_NORMAL_BINARY_CLASS_COUNT: 1
+BLIND_SELECTED_CLASS_INDEX: 22
+BLIND_SELECTED_GENERATOR_INDEX: 326
+CHECK_ADJUDICATION_PRECEDES_UNBLINDING: true
+
+== EXACT PERMUTATION UNBLINDING ==
+ACTION_MAPPING_ROW_COUNT: 480
+SELECTED_ROW_ACTUAL_INDEX: 326
+SELECTED_ROW_ACTUAL_ORDER: 2
+PERMUTATION_DOMAIN_SIZE: 60
+PERMUTATION_DISAGREEMENT_COUNT: 0
+PERMUTATION_DISAGREEMENT_VERTICES: []
+CHECK_BLIND_GENERATOR_EQUALS_HISTORICAL_INVOLUTION_A: true
+
+== FIBER UNBLINDING ==
+BLIND_ORBIT_COUNT: 30
+HISTORICAL_FIBER_COUNT: 30
+CHECK_ALL_BLIND_ORBITS_HAVE_SIZE2: true
+CHECK_BLIND_ORBITS_EQUAL_HISTORICAL_FIBERS: true
+
+== QUOTIENT MAP ==
+G60_VERTEX_MAP_COUNT: 60
+FIBER_MAP_FAILURE_COUNT: 0
+INVOLUTION_MAP_FAILURE_COUNT: 0
+CHECK_BLIND_INVOLUTION_PRESERVES_EACH_G30_FIBER: true
+
+== QUOTIENT EDGE RECONSTRUCTION ==
+RAW_G60_EDGE_COUNT: 120
+DERIVED_G30_EDGE_COUNT: 60
+CERTIFICATE_G30_EDGE_COUNT: 60
+CHECK_DERIVED_QUOTIENT_EDGES_EQUAL_CERTIFICATE: true
+CHECK_QUOTIENT_HAS_30_VERTICES_60_EDGES: true
+
+== UNBLINDING CHECKS ==
+CHECK_ALL_HASHES_LOCKED: true
+CHECK_BLIND_OUTCOME_PRE_REGISTERED: true
+CHECK_UNIQUE_NORMAL_BINARY_PRE_REGISTERED: true
+CHECK_SELECTED_ROW_INDEX_EXACT: true
+CHECK_SELECTED_ROW_ORDER2: true
+CHECK_PERMUTATION_DOMAIN60: true
+CHECK_PERMUTATION_EXACT_MATCH: true
+CHECK_ORBIT_COUNT30: true
+CHECK_ORBITS_EQUAL_HISTORICAL_FIBERS: true
+CHECK_VERTEX_MAP_EXACT_ON_FIBERS: true
+CHECK_BLIND_INVOLUTION_PRESERVES_VERTEX_MAP: true
+CHECK_QUOTIENT_EDGES_EXACT: true
+CHECK_QUOTIENT_PROFILE_30_60: true
+CHECK_CERTIFICATE_NAMES_INVOLUTION_A: true
+FAILED_CHECKS: []
+
+== STATUS PRESERVATION ==
+STATUS_CHECK: {"after":["?? ../01-unit-action-and-finite-geometric-emergence/README.md","?? ../01-unit-action-and-finite-geometric-emergence/build/","?? ../01-unit-action-and-finite-geometric-emergence/dist/","?? ../01-unit-action-and-finite-geometric-emergence/notes/claim-status.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/source-ledger.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/theorem-dependency-audit.md","?? ../01-unit-action-and-finite-geometric-emergence/paper/","?? ../01-unit-action-and-finite-geometric-emergence/scripts/zipit.sh","?? ../02-extension-and-evolution-from-a-discrete-encounter/build/","?? ../03-encounter-orientation-receipt-tower/","?? ../04-binary-receipts-and-finite-cycle-doubling/","?? ../05-parity-in-the-dihedral-receipt-tower/","?? ../06-finite-receipt-holonomy-and-cycle-multiplication/"],"before":["?? ../01-unit-action-and-finite-geometric-emergence/README.md","?? ../01-unit-action-and-finite-geometric-emergence/build/","?? ../01-unit-action-and-finite-geometric-emergence/dist/","?? ../01-unit-action-and-finite-geometric-emergence/notes/claim-status.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/source-ledger.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/theorem-dependency-audit.md","?? ../01-unit-action-and-finite-geometric-emergence/paper/","?? ../01-unit-action-and-finite-geometric-emergence/scripts/zipit.sh","?? ../02-extension-and-evolution-from-a-discrete-encounter/build/","?? ../03-encounter-orientation-receipt-tower/","?? ../04-binary-receipts-and-finite-cycle-doubling/","?? ../05-parity-in-the-dihedral-receipt-tower/","?? ../06-finite-receipt-holonomy-and-cycle-multiplication/"],"preserved":true,"root":"/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter"}
+STATUS_CHECK: {"after":["?? artifacts/json/native_g60_fiber_product_isomorphism_044.min.json","?? dist/project42_g60_native_register_overleaf.zip"],"before":["?? artifacts/json/native_g60_fiber_product_isomorphism_044.min.json","?? dist/project42_g60_native_register_overleaf.zip"],"preserved":true,"root":"/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups"}
+STATUS_CHECK: {"after":[],"before":[],"preserved":true,"root":"/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice"}
+CHECK_ALL_REPOSITORY_STATUS_PRESERVED: true
+
+FINAL_CLASSIFICATION: blind_unique_full_automorphism_normal_C2_action_is_exactly_the_historical_G60_to_G30_deck_involution
+BOUNDARY: The blind census did not select a unique receipt action among all 22 classes. It did independently recover a unique C2 action normal under the full native automorphism group. Post-registration unblinding proves that its 60-point permutation, 30 fibers, vertex projection, and 60 quotient edges equal the preserved historical G60-to-G30 quotient exactly. This does not select C2 unless binary receipt and full-automorphism covariance are declared premises.
+NEXT_GATE: Derive the native binary edge-voltage assignment from a section of the recovered quotient, reconstruct G60 as the corresponding regular C2 lift, and compute its circuit holonomy image.
+KEEPER: G60 offered many covers. Its unique fully symmetric binary cover was the old deck cover waiting under a new name.
+MUTATION_PERFORMED: false
