@@ -1,0 +1,188 @@
+{
+  "abstract_algebra_authority": {
+    "paper7_sha256": "09fd36fa74dd5868549349a5edd82d16c80b9efafa72561f53e69001235d3bda",
+    "statement": "Gauge classes of finite regular graph lifts are classified by holonomy representations."
+  },
+  "artifact_id": "g60_native_receipt_tower_theorem_009",
+  "artifact_type": "conditional_native_receipt_tower_theorem",
+  "artifact_version": 1,
+  "audit_pass": true,
+  "blind_native_spectrum": {
+    "conjugacy_class_count": 22,
+    "cover_admissible_class_count": 22,
+    "raw_graph_selects_unique_receipt_action": false,
+    "semiregular_subgroup_count": 198
+  },
+  "boundary": {
+    "binary_and_v4_receipt_are_declared_premises": true,
+    "blind_outcome_remains_multiple": true,
+    "electron_claim": false,
+    "full_automorphism_covariance_is_declared_premise": true,
+    "gravity_claim": false,
+    "orientation_claim": false,
+    "physics_claim": false,
+    "radiation_claim": false,
+    "receipt_group_selected_by_raw_graph_alone": false
+  },
+  "checks": {
+    "blind_class_count_22": true,
+    "blind_outcome_multiple": true,
+    "c2_exact_g30_quotient": true,
+    "c2_exact_historical_deck": true,
+    "c2_exact_reconstruction": true,
+    "c2_surjective_holonomy": true,
+    "hash_finite_covariant_receipt_algebra_on_graphs_theorem_001.v1.json": true,
+    "hash_g60_blind_receipt_action_adjudication_003.txt": true,
+    "hash_g60_local_edges.csv": true,
+    "hash_g60_native_binary_voltage_holonomy_005.txt": true,
+    "hash_g60_native_semiregular_receipt_action_census_002_mac.txt": true,
+    "hash_g60_normal_binary_deck_unblinding_004.txt": true,
+    "hash_g60_normal_v4_g15_quotient_unblinding_007.txt": true,
+    "hash_native_g60_fiber_product_isomorphism_044.json": true,
+    "hash_project42_g60_to_g30_a_quotient_certificate_035.json": true,
+    "hash_project42_native_voltage_derivation_certificate_033.json": true,
+    "normal_c2_in_v4": true,
+    "normal_c2_unique": true,
+    "normal_v4_unique": true,
+    "packet007_committed_exact": true,
+    "packet008_committed_exact": true,
+    "packet008_sidecar_hash": true,
+    "theorem006_pass": true,
+    "tower_factorization_exact": true,
+    "v4_certificate_match": true,
+    "v4_exact_g15_quotient": true,
+    "v4_exact_reconstruction": true,
+    "v4_identity_chart_match": true,
+    "v4_surjective_holonomy": true
+  },
+  "declared_selection_premises": {
+    "binary_receipt": true,
+    "derived_from_raw_graph_alone": false,
+    "full_automorphism_covariance": true,
+    "v4_receipt": true
+  },
+  "keeper": "The packet met the graph twice. The binary receipt found G30. The V4 receipt found G15. Together they rebuilt G60 as one exact connected receipt tower.",
+  "normal_subgroup_chain": {
+    "C2": {
+      "blind_class_index": 22,
+      "generator_index": 326,
+      "normal_under_full_automorphism_group": true,
+      "order": 2
+    },
+    "C2_is_subgroup_of_V4": true,
+    "V4": {
+      "blind_class_index": 20,
+      "generator_indices": [
+        65,
+        124
+      ],
+      "member_indices": [
+        0,
+        65,
+        124,
+        326
+      ],
+      "normal_under_full_automorphism_group": true,
+      "order": 4
+    },
+    "notation": "C2 normal in V4 normal in Aut(G60)"
+  },
+  "quotient_tower": {
+    "binary_quotient": {
+      "deck_group": "C2",
+      "edge_count": 60,
+      "exact_historical_match": true,
+      "fiber_size": 2,
+      "name": "G30",
+      "vertex_count": 30
+    },
+    "intermediate_factor": {
+      "edge_factorization_exact": true,
+      "fiber_size": 2,
+      "map": "G30_to_G15",
+      "quotient_group": "V4_over_C2"
+    },
+    "top": {
+      "edge_count": 120,
+      "name": "G60",
+      "vertex_count": 60
+    },
+    "v4_quotient": {
+      "deck_group": "V4",
+      "edge_count": 30,
+      "exact_labeled_historical_match": true,
+      "fiber_size": 4,
+      "name": "G15",
+      "vertex_count": 15
+    }
+  },
+  "sources": {
+    "adjudication003": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_blind_receipt_action_adjudication_003.txt",
+      "sha256": "f49281a06fd90336e4bae5ca9221ee9457e76399ccb2e890b9794887f242ec14"
+    },
+    "automorphism_action044": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json",
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "blind_census": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_native_semiregular_receipt_action_census_002_mac.txt",
+      "sha256": "9d0f1ef5975cd8cd2575192012c8bfeefe15c2856d6646e827ffc4ada851f383"
+    },
+    "c2_voltage005": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_native_binary_voltage_holonomy_005.txt",
+      "sha256": "fd57c49e368b5e1927e37bae7d8104a16c5fca5e4e64c554e9d70cde2b14ce2b"
+    },
+    "g15_certificate033": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/sources/project41-paper42/project42_native_voltage_derivation_certificate_033.json",
+      "sha256": "9d5046dec7ea5d32f88782aa158a79082d4facf6f0b4fd4a7d3a3e4c552a0f70"
+    },
+    "g30_certificate035": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/sources/project42_g60_to_g30_a_quotient_certificate_035.json",
+      "sha256": "acaf79c52d5d83915afc425ba5b2e0547f168b73d1db7f144898599d30654822"
+    },
+    "g60_edges": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/paper/data/g60_local_edges.csv",
+      "sha256": "c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f"
+    },
+    "paper7": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/07-finite-covariant-receipt-algebra-on-graphs/artifacts/json/finite_covariant_receipt_algebra_on_graphs_theorem_001.v1.json",
+      "sha256": "09fd36fa74dd5868549349a5edd82d16c80b9efafa72561f53e69001235d3bda"
+    },
+    "theorem006": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_receipt_packet_native_encounter_theorem_006.v1.json",
+      "sha256": "9bae16eab5d3d809866c7d90c24d5ee89efeae0ccc9c565de23c622b8d56b69a"
+    },
+    "unblinding004": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_normal_binary_deck_unblinding_004.txt",
+      "sha256": "339058c1fe40c50577eafcad3bda2ded753cbca7137a31c9aa7dbe5023f042c7"
+    },
+    "v4_quotient007": {
+      "locked_commit": "bbae505",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_normal_v4_g15_quotient_unblinding_007.txt",
+      "sha256": "0a5f257592d3ce6d9553c0f6b9ef529282fbe5ede3bdac557e3658ff8d002f17"
+    },
+    "v4_voltage008": {
+      "locked_commit": "2675e5d",
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_native_v4_voltage_certificate_comparison_008.txt",
+      "sha256": "08b67ac74e0cf88b80a27ce0021200c1c2566b046e294bf72bfb85dd14c3eaa0"
+    }
+  },
+  "theorem_statement": "For the native G60 graph, after binary receipt, V4 receipt, and covariance under the full automorphism group are declared, the blind action spectrum contains a unique normal C2 and a unique normal V4. They satisfy C2 <= V4. Their orbit quotients are exactly the preserved labeled graphs G30 and G15, and the induced quotient maps factor as G60 -> G30 -> G15. The native C2 and V4 voltages reconstruct G60 exactly and have surjective holonomy. The derived V4 voltage equals certificate033 already in the registered labeling, basis, and zero gauge.",
+  "verdict": "native_G60_G30_G15_receipt_tower_is_exact_connected_and_reproducible_under_declared_receipt_covariance_premises",
+  "voltage_and_holonomy": {
+    "G60_over_G15": {
+      "certificate033_match": "exact_in_identity_label_basis_and_zero_gauge",
+      "connected": true,
+      "exact_reconstruction": true,
+      "holonomy_image": "V4",
+      "receipt_group": "V4"
+    },
+    "G60_over_G30": {
+      "connected": true,
+      "exact_reconstruction": true,
+      "holonomy_image": "C2",
+      "receipt_group": "C2"
+    }
+  }
+}
