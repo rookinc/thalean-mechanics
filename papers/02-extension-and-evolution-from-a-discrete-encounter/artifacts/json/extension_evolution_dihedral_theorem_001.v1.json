@@ -1,0 +1,55 @@
+{
+  "artifact_id": "extension_evolution_dihedral_theorem_001",
+  "audit_pass": true,
+  "boundaries": {
+    "D16_uniquely_forced_by_general_theorem": false,
+    "backaction_physical": false,
+    "electron_claim": false,
+    "energy_claim": false,
+    "gravity_claim": false,
+    "physics_claim": false,
+    "radiation_claim": false,
+    "spatial_extension_claim": false
+  },
+  "closed_claims": {
+    "AB_and_BA_distinct_upstairs": true,
+    "AB_and_BA_same_visible_image": true,
+    "C8_to_C4_receipt_subquotient_exact": true,
+    "H_orbit_is_C8": true,
+    "commutator_equals_H_squared": true,
+    "commutator_in_kernel": true,
+    "commutator_nontrivial": true,
+    "reversal_covariant": true
+  },
+  "keeper": "The quotient records the encounter. The commutator records what the encounter could not forget.",
+  "lifted_realization": {
+    "commutator": "[A,B]=H^2",
+    "evolver_order": 8,
+    "forward_evolver": "H=AB",
+    "group": "D16",
+    "group_order": 16,
+    "presentation": "<A,B | A^2=B^2=1,(AB)^8=1>",
+    "reverse_evolver": "H_inverse=BA"
+  },
+  "quotient": {
+    "kernel": "<H^2>",
+    "kernel_order": 4,
+    "q_A": "a",
+    "q_AB": "ab",
+    "q_B": "b",
+    "q_BA": "ab"
+  },
+  "schema": "thalean_mechanics.extension_evolution_dihedral.v1",
+  "status": "abstract_extension_evolution_theorem",
+  "verdict": "noncommuting_involutive_action_and_carrier_generate_a_dihedral_extension_whose_commutator_retains_encounter_order_erased_by_the_visible_V4_quotient",
+  "visible_algebra": {
+    "elements": [
+      "1",
+      "a",
+      "b",
+      "ab"
+    ],
+    "isomorphism_type": "C2_x_C2",
+    "name": "E"
+  }
+}
