@@ -1,0 +1,38 @@
+\section{Holonomy classification}
+
+The path-receipt construction respects concatenation and cancellation of a
+dart with its reverse. It therefore descends from based loops to the graph
+fundamental group.
+
+\begin{theorem}[Gauge classification]
+Let $X$ be a connected finite graph and $R$ a finite group. Gauge-equivalence
+classes of inverse-compatible regular $R$-receipt lifts of $X$ are in
+bijection with $R$-conjugacy classes of homomorphisms
+\[
+\rho:\pi_1(X,r)\longrightarrow R.
+\]
+\end{theorem}
+
+\begin{proof}
+A gauge transformation conjugates every based loop receipt by the single
+element $g(r)$, so gauge-equivalent assignments give conjugate
+representations.
+
+Conversely, fix a spanning tree and normalize two assignments on it. They are
+then determined by their $\beta$ cotree receipts. If their representations
+are conjugate by $t\in R$, the constant gauge $g(v)=t$ simultaneously
+conjugates every cotree receipt while preserving identity on the tree.
+Composing this constant gauge with the two normalizing gauges proves gauge
+equivalence.
+\end{proof}
+
+Changing the root transports the representation by a path receipt and hence
+changes it only by conjugacy. Changing the spanning tree changes the free
+generating basis of $\pi_1(X,r)$ but not the underlying representation.
+
+When $R$ is abelian, conjugacy is trivial and a gauge class is an element of
+\[
+\operatorname{Hom}(\pi_1(X,r),R)\cong R^{\beta}.
+\]
+For nonabelian $R$, simultaneous conjugacy is essential: individual circuit
+values are coordinate-dependent, while the representation class is not.

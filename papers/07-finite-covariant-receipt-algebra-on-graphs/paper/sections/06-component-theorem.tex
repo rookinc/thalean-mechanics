@@ -1,0 +1,47 @@
+\section{The holonomy subgroup and connected components}
+
+Define the holonomy subgroup
+\[
+H_{\alpha}=\im(\rho_{\alpha})\leq R.
+\]
+It consists exactly of receipts of closed walks based at $r$.
+
+\begin{theorem}[Component theorem]
+The lifted graph $\widetilde X_{\alpha}$ has exactly
+\[
+[R:H_{\alpha}]=\frac{|R|}{|H_{\alpha}|}
+\]
+connected components. Every component contains
+\[
+|V(X)|\,|H_{\alpha}|
+\]
+vertices. In particular,
+\[
+\widetilde X_{\alpha}\text{ is connected}
+\quad\Longleftrightarrow\quad
+H_{\alpha}=R.
+\]
+\end{theorem}
+
+\begin{proof}
+At the root fiber, a lifted closed walk sends $(r,x)$ to $(r,xh)$ for some
+$h\in H_{\alpha}$. Conversely, every $h\in H_{\alpha}$ is realized by a
+based closed walk. Thus the root-fiber vertices reachable from $(r,x)$ are
+exactly
+\[
+\{(r,xh):h\in H_{\alpha}\}.
+\]
+They are indexed by the left coset $xH_{\alpha}$.
+
+For any base vertex $v$, choose a path $P_v$ from $r$ to $v$. The vertices
+over $v$ in the same component are
+\[
+\{(v,xh\alpha(P_v)):h\in H_{\alpha}\},
+\]
+again a set of size $|H_{\alpha}|$. Hence each component contains
+$|V(X)|\,|H_{\alpha}|$ vertices, and the components are indexed by the
+left cosets of $H_{\alpha}$ in $R$.
+\end{proof}
+
+The conjugacy class of $H_{\alpha}$ is gauge invariant. Its order, index, and
+the resulting component census are therefore intrinsic to the gauge class.

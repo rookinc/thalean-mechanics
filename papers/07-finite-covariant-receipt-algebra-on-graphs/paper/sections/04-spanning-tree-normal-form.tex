@@ -1,0 +1,44 @@
+\section{Spanning-tree normal form}
+
+Choose a root $r\in V(X)$ and a spanning tree $T\subseteq X$. Orient each
+tree edge away from $r$.
+
+\begin{proposition}[Tree normalization]
+Every receipt assignment is gauge equivalent to one whose receipt is the
+identity on every dart of $T$.
+\end{proposition}
+
+\begin{proof}
+Set $g(r)=e$. If a tree edge $a:u\to v$ points from a parent to a child,
+define recursively
+\[
+g(v)=\alpha(a)^{-1}g(u).
+\]
+Then
+\[
+\alpha^g(a)=g(u)^{-1}\alpha(a)g(v)=e.
+\]
+The reverse tree dart is also trivial. The tree contains a unique root path
+to every vertex, so the recursion is well defined.
+\end{proof}
+
+Let
+\[
+\beta=|E|-|V|+1
+\]
+be the cycle rank of $X$. There are exactly $\beta$ undirected cotree edges.
+After tree normalization, choosing one orientation of each cotree edge gives
+a tuple
+\[
+(c_1,\ldots,c_{\beta})\in R^{\beta}.
+\]
+Each $c_j$ is the receipt of the corresponding fundamental circuit, because
+the tree portions of that circuit have trivial receipt.
+
+The fundamental group of a connected graph is free of rank $\beta$
+\cite{serre-trees}. Therefore the tuple freely determines a homomorphism
+\[
+\rho_{\alpha}:\pi_1(X,r)\longrightarrow R.
+\]
+The spanning tree chooses free generators; it does not create the represented
+path-receipt law.

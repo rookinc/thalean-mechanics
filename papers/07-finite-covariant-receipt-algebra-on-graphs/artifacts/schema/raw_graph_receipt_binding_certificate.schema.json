@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "thalean_mechanics.raw_graph_receipt_binding_certificate.v1",
+  "title": "Raw graph receipt binding certificate",
+  "type": "object",
+  "required": [
+    "certificate_id",
+    "base_graph",
+    "lifted_graph",
+    "projection",
+    "receipt_group",
+    "fiber_action",
+    "edge_receipts",
+    "holonomy",
+    "reconstruction",
+    "boundaries"
+  ],
+  "properties": {
+    "certificate_id": {"type": "string"},
+    "base_graph": {
+      "type": "object",
+      "required": ["sha256", "vertex_count", "edge_count", "connected"],
+      "properties": {
+        "sha256": {"type": "string"},
+        "vertex_count": {"type": "integer", "minimum": 1},
+        "edge_count": {"type": "integer", "minimum": 0},
+        "connected": {"const": true}
+      }
+    },
+    "lifted_graph": {"type": "object"},
+    "projection": {"type": "object"},
+    "receipt_group": {"type": "object"},
+    "fiber_action": {"type": "object"},
+    "edge_receipts": {"type": "array"},
+    "holonomy": {"type": "object"},
+    "reconstruction": {"type": "object"},
+    "boundaries": {"type": "object"}
+  }
+}

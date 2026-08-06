@@ -1,0 +1,15 @@
+FINITE COVARIANT RECEIPT ALGEBRA ON GRAPHS
+
+This project is source complete. It does not compile LaTeX locally.
+
+1. Run the theorem audit:
+
+   python scripts/audits/audit_finite_covariant_receipt_algebra_on_graphs_001.py
+
+2. Create and test the source-only Overleaf archive:
+
+   bash scripts/zipit.sh
+
+3. Upload the generated ZIP from dist/ to Overleaf.
+
+The audit is read-only. The packaging script writes only into dist/.

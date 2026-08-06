@@ -1,0 +1,51 @@
+{
+  "artifact_id": "finite_covariant_receipt_algebra_on_graphs_theorem_001",
+  "schema": "thalean_mechanics.finite_covariant_receipt_algebra_on_graphs.v1",
+  "status": "abstract_regular_graph_cover_theorem",
+  "audit_pass": true,
+  "premises": {
+    "base": "finite_connected_graph_X",
+    "receipt_group": "finite_group_R",
+    "edge_data": "inverse_compatible_voltage_alpha_on_oriented_edges",
+    "lift": "regular_R_covariant_graph_lift",
+    "equivalence": "R_equivariant_vertex_gauge"
+  },
+  "classification": {
+    "path_receipt": "ordered_product_of_edge_voltages",
+    "holonomy_representation": "rho_alpha_from_pi1_X_to_R",
+    "complete_gauge_invariant": "R_conjugacy_class_of_rho_alpha",
+    "normal_form": "identity_on_a_spanning_tree_and_holonomy_values_on_cotree_edges"
+  },
+  "component_law": {
+    "holonomy_subgroup": "H_alpha=image_of_rho_alpha",
+    "component_count": "index_R_H_alpha",
+    "component_vertex_count": "cardinality_V_X_times_cardinality_H_alpha",
+    "connected_iff": "H_alpha_equals_R"
+  },
+  "cycle_specialization": {
+    "pi1": "infinite_cyclic",
+    "holonomy_subgroup": "subgroup_generated_by_h",
+    "component_count": "cardinality_R_divided_by_order_h",
+    "component_length": "n_times_order_h"
+  },
+  "raw_graph_binding_gates": [
+    "authoritative_base_graph_hash_locked",
+    "authoritative_lift_or_projection_hash_locked",
+    "finite_receipt_group_bound",
+    "regular_fiber_action_proved",
+    "native_or_independently_admitted_edge_receipts_bound",
+    "inverse_edge_law_proved",
+    "lift_reconstruction_isomorphism_proved",
+    "root_and_spanning_tree_invariance_verified"
+  ],
+  "boundaries": {
+    "raw_graph_binding_supplied": false,
+    "receipt_group_physically_derived": false,
+    "edge_receipts_natively_selected": false,
+    "absolute_orientation_selected": false,
+    "physics_claim": false,
+    "novelty_over_voltage_graph_theory_claimed": false
+  },
+  "verdict": "finite_regular_graph_lifts_are_classified_by_holonomy_representations_and_decompose_by_the_index_of_the_holonomy_subgroup",
+  "keeper": "The graph supplies the possible circuits. The receipt representation records what every circuit carries home."
+}

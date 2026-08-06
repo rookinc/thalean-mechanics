@@ -1,0 +1,28 @@
+\section{Introduction}
+
+A visible graph records which local transitions are available. It need not
+record what is retained when a path closes. A lifted system may return to the
+same visible vertex while its receipt coordinate has changed. On a single
+cycle, that retained receipt is one group element. On a general graph, there
+are several independent circuits, and their receipts form a representation of
+the graph fundamental group.
+
+This paper develops that graph-wide algebra. The ingredients are deliberately
+minimal: a connected finite graph $X$, a finite receipt group $R$, and one
+inverse-compatible group element on every oriented edge. These data construct
+a regular lift with vertex set $V(X)\times R$. The left action of $R$ changes
+the receipt coordinate, while edge transport multiplies it on the right.
+These actions commute even when $R$ is nonabelian.
+
+Gauge makes the local edge table highly redundant. After choosing a spanning
+tree, every tree receipt can be removed. The remaining receipts are exactly
+the values on a free generating set of $\pi_1(X)$. Residual gauge conjugates
+all generator images simultaneously. This gives the complete classification.
+
+The image subgroup of the holonomy representation has a second role: it
+determines reachability in the lift. Its cosets index connected components.
+Thus classification and connectivity arise from the same circuit-receipt map.
+The result belongs to the standard theory of voltage graphs and regular graph
+covers \cite{gross-tucker}. Our purpose is to isolate it as a compact receipt
+algebra and to state exactly what additional certificate is needed before it
+can be applied to a raw finite graph.

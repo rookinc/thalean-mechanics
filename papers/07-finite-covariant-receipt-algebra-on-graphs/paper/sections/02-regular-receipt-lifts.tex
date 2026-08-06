@@ -1,0 +1,46 @@
+\section{Regular receipt lifts}
+
+Let $X=(V,E)$ be a finite connected graph. Write $D(X)$ for its oriented
+edges, or darts. Each $a\in D(X)$ has a tail $t(a)$, a head $h(a)$, and an
+opposite dart $\bar a$ satisfying
+\[
+t(\bar a)=h(a),\qquad h(\bar a)=t(a),\qquad \bar{\bar a}=a.
+\]
+Let $R$ be a finite group with identity $e$.
+
+\begin{definition}[Receipt assignment]
+An inverse-compatible receipt assignment is a map
+\[
+\alpha:D(X)\longrightarrow R
+\]
+satisfying
+\[
+\alpha(\bar a)=\alpha(a)^{-1}
+\]
+for every dart $a$.
+\end{definition}
+
+The associated lifted graph $\widetilde X_{\alpha}$ has vertex set
+\[
+V(\widetilde X_{\alpha})=V(X)\times R.
+\]
+For every dart $a:u\to v$ and every $x\in R$, it has a lifted dart
+\[
+(a,x):(u,x)\longrightarrow (v,x\alpha(a)).
+\]
+Inverse compatibility ensures that $(\bar a,x\alpha(a))$ reverses this lifted
+dart.
+
+The group $R$ acts on the lift by left multiplication:
+\[
+L_r(v,x)=(v,rx).
+\]
+Because left multiplication commutes with right multiplication, every $L_r$
+is a deck transformation of the projection
+\[
+p:\widetilde X_{\alpha}\longrightarrow X,\qquad p(v,x)=v.
+\]
+
+Conversely, after one point in each regular $R$-fiber has been chosen, every
+regular $R$-covariant graph lift has such a receipt description. Changing
+those chosen fiber origins is precisely gauge.
