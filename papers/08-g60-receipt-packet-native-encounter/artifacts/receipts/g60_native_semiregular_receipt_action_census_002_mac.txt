@@ -1,0 +1,100 @@
+OUT ==
+PACKET: g60_native_semiregular_receipt_action_census_002
+MODE: read-only native semiregular subgroup census
+TARGET: /Users/scottcave/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter
+REPOSITORY_MUTATION: none
+
+== SOURCE LOCK ==
+PAPER7_SHA256: 09fd36fa74dd5868549349a5edd82d16c80b9efafa72561f53e69001235d3bda
+G60_EDGE_SHA256: c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f
+AUTOMORPHISM_ACTION_SHA256: b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21
+CHECK_SOURCE_HASHES: true
+
+== RAW G60 GRAPH ==
+G60_VERTEX_COUNT: 60
+G60_EDGE_COUNT: 120
+G60_DEGREE_PROFILE: {4: 60}
+CHECK_G60_IS_60_VERTEX_4_REGULAR: true
+
+== FULL AUTOMORPHISM ACTION ==
+MAPPING_ROW_COUNT: 480
+DISTINCT_PERMUTATION_COUNT: 480
+IDENTITY_INDEX: 0
+INVERSE_FAILURE_COUNT: 0
+GRAPH_AUTOMORPHISM_FAILURE_COUNT: 0
+CHECK_ALL_480_ROWS_ARE_G60_AUTOMORPHISMS: true
+
+== GROUP TABLE ==
+FULL_GROUP_ORDER: 480
+FULL_GROUP_ELEMENT_ORDER_PROFILE: {1: 1, 2: 83, 3: 20, 4: 140, 5: 24, 6: 100, 10: 72, 12: 40}
+CHECK_GROUP_TABLE_CLOSED: true
+
+== SEMIREGULAR ELEMENT CENSUS ==
+FIXED_POINT_COUNT_PROFILE: {0: 354, 2: 60, 4: 45, 6: 20, 60: 1}
+FIXED_POINT_FREE_NONIDENTITY_ELEMENT_COUNT: 354
+SEMIREGULAR_ELEMENT_ORDER_PROFILE: {2: 18, 3: 20, 4: 80, 5: 24, 6: 100, 10: 72, 12: 40}
+
+== SEMIREGULAR SUBGROUP ENUMERATION ==
+PROGRESS: semiregular_subgroups=25 queue=24
+PROGRESS: semiregular_subgroups=50 queue=49
+PROGRESS: semiregular_subgroups=75 queue=74
+PROGRESS: semiregular_subgroups=100 queue=99
+PROGRESS: semiregular_subgroups=125 queue=124
+PROGRESS: semiregular_subgroups=150 queue=137
+PROGRESS: semiregular_subgroups=175 queue=145
+SEMIREGULAR_SUBGROUP_COUNT: 198
+ENUMERATION_QUEUE_PROCESSED_COUNT: 199
+
+== CONJUGACY CLASS REDUCTION ==
+SEMIREGULAR_SUBGROUP_CONJUGACY_CLASS_COUNT: 22
+
+== NATIVE RECEIPT ACTION SPECTRUM ==
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 1, "conjugate_subgroup_count": 6, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 24, "edge_orbit_sizes": [5], "element_order_profile": {"1": 1, "5": 4}, "fiber_preview": [[0, 1, 2, 3, 4], [5, 6, 7, 8, 9], [10, 20, 30, 40, 50], [11, 21, 31, 41, 51], [12, 22, 32, 42, 52]], "generator_count_used": 1, "generator_indices": [9], "group_label": "C5", "group_order": 5, "vertex_orbit_count": 12, "vertex_orbit_sizes": [5]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 2, "conjugate_subgroup_count": 12, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 12, "edge_orbit_sizes": [10], "element_order_profile": {"1": 1, "10": 4, "2": 1, "5": 4}, "fiber_preview": [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [10, 15, 20, 25, 30, 35, 40, 45, 50, 55], [11, 19, 21, 29, 31, 39, 41, 49, 51, 59], [12, 18, 22, 28, 32, 38, 42, 48, 52, 58], [13, 17, 23, 27, 33, 37, 43, 47, 53, 57]], "generator_count_used": 1, "generator_indices": [40], "group_label": "C10", "group_order": 10, "vertex_orbit_count": 6, "vertex_orbit_sizes": [10]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 3, "conjugate_subgroup_count": 6, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 6, "edge_orbit_sizes": [20], "element_order_profile": {"1": 1, "10": 12, "2": 3, "5": 4}, "fiber_preview": [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55], [11, 14, 16, 19, 21, 24, 26, 29, 31, 34, 36, 39, 41, 44, 46, 49, 51, 54, 56, 59], [12, 13, 17, 18, 22, 23, 27, 28, 32, 33, 37, 38, 42, 43, 47, 48, 52, 53, 57, 58]], "generator_count_used": 2, "generator_indices": [40, 84], "group_label": "abelian_order_20", "group_order": 20, "vertex_orbit_count": 3, "vertex_orbit_sizes": [20]}
+RECEIPT_ACTION_CLASS: {"abelian": false, "class_index": 4, "conjugate_subgroup_count": 6, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 12, "edge_orbit_sizes": [10], "element_order_profile": {"1": 1, "2": 5, "5": 4}, "fiber_preview": [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9], [10, 15, 20, 25, 30, 35, 40, 45, 50, 55], [11, 16, 21, 26, 31, 36, 41, 46, 51, 56], [12, 17, 22, 27, 32, 37, 42, 47, 52, 57], [13, 18, 23, 28, 33, 38, 43, 48, 53, 58]], "generator_count_used": 2, "generator_indices": [9, 41], "group_label": "nonabelian_order_10", "group_order": 10, "vertex_orbit_count": 6, "vertex_orbit_sizes": [10]}
+RECEIPT_ACTION_CLASS: {"abelian": false, "class_index": 5, "conjugate_subgroup_count": 1, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 2, "edge_orbit_sizes": [60], "element_order_profile": {"1": 1, "2": 15, "3": 20, "5": 24}, "fiber_preview": [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]], "generator_count_used": 2, "generator_indices": [9, 82], "group_label": "nonabelian_order_60", "group_order": 60, "vertex_orbit_count": 1, "vertex_orbit_sizes": [60]}
+RECEIPT_ACTION_CLASS: {"abelian": false, "class_index": 6, "conjugate_subgroup_count": 12, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 6, "edge_orbit_sizes": [20], "element_order_profile": {"1": 1, "2": 5, "4": 10, "5": 4}, "fiber_preview": [[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 17, 22, 27, 32, 37, 42, 47, 52, 57], [10, 13, 15, 18, 20, 23, 25, 28, 30, 33, 35, 38, 40, 43, 45, 48, 50, 53, 55, 58], [11, 14, 16, 19, 21, 24, 26, 29, 31, 34, 36, 39, 41, 44, 46, 49, 51, 54, 56, 59]], "generator_count_used": 2, "generator_indices": [9, 99], "group_label": "nonabelian_order_20", "group_order": 20, "vertex_orbit_count": 3, "vertex_orbit_sizes": [20]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 7, "conjugate_subgroup_count": 6, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 12, "edge_orbit_sizes": [10], "element_order_profile": {"1": 1, "10": 4, "2": 1, "5": 4}, "fiber_preview": [[0, 1, 2, 3, 4, 10, 20, 30, 40, 50], [5, 6, 7, 8, 9, 15, 25, 35, 45, 55], [11, 16, 21, 26, 31, 36, 41, 46, 51, 56], [12, 13, 22, 23, 32, 33, 42, 43, 52, 53], [14, 19, 24, 29, 34, 39, 44, 49, 54, 59]], "generator_count_used": 1, "generator_indices": [84], "group_label": "C10", "group_order": 10, "vertex_orbit_count": 6, "vertex_orbit_sizes": [10]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 8, "conjugate_subgroup_count": 10, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 10, "edge_orbit_sizes": [12], "element_order_profile": {"1": 1, "2": 3, "3": 2, "6": 6}, "fiber_preview": [[0, 1, 8, 9, 15, 19, 25, 26, 40, 41, 50, 54], [2, 5, 10, 16, 22, 27, 31, 35, 44, 48, 53, 59], [3, 6, 12, 17, 20, 28, 33, 38, 43, 45, 52, 57], [4, 7, 14, 18, 23, 29, 30, 36, 42, 47, 51, 55], [11, 13, 21, 24, 32, 34, 37, 39, 46, 49, 56, 58]], "generator_count_used": 2, "generator_indices": [11, 65], "group_label": "abelian_order_12", "group_order": 12, "vertex_orbit_count": 5, "vertex_orbit_sizes": [12]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 9, "conjugate_subgroup_count": 20, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 20, "edge_orbit_sizes": [6], "element_order_profile": {"1": 1, "2": 1, "3": 2, "6": 2}, "fiber_preview": [[0, 1, 15, 19, 25, 26], [2, 16, 22, 27, 35, 59], [3, 12, 17, 28, 33, 45], [4, 18, 23, 29, 36, 55], [5, 10, 31, 44, 48, 53]], "generator_count_used": 1, "generator_indices": [11], "group_label": "C6", "group_order": 6, "vertex_orbit_count": 10, "vertex_orbit_sizes": [6]}
+RECEIPT_ACTION_CLASS: {"abelian": false, "class_index": 10, "conjugate_subgroup_count": 10, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 10, "edge_orbit_sizes": [12], "element_order_profile": {"1": 1, "2": 1, "3": 2, "4": 6, "6": 2}, "fiber_preview": [[0, 1, 2, 10, 11, 12, 40, 43, 44, 46, 50, 59], [3, 6, 13, 19, 20, 26, 32, 37, 41, 45, 54, 58], [4, 7, 14, 18, 23, 29, 30, 36, 42, 47, 51, 55], [5, 8, 9, 15, 16, 17, 24, 25, 31, 35, 38, 39], [21, 22, 27, 28, 33, 34, 48, 49, 52, 53, 56, 57]], "generator_count_used": 2, "generator_indices": [13, 22], "group_label": "nonabelian_order_12", "group_order": 12, "vertex_orbit_count": 5, "vertex_orbit_sizes": [12]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 11, "conjugate_subgroup_count": 10, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 10, "edge_orbit_sizes": [12], "element_order_profile": {"1": 1, "12": 4, "2": 1, "3": 2, "4": 2, "6": 2}, "fiber_preview": [[0, 1, 11, 12, 33, 34, 40, 43, 46, 49, 50, 52], [2, 4, 6, 10, 13, 30, 32, 36, 44, 45, 51, 59], [3, 5, 7, 14, 16, 20, 29, 31, 35, 37, 55, 58], [8, 9, 15, 17, 21, 24, 25, 28, 38, 39, 56, 57], [18, 19, 22, 23, 26, 27, 41, 42, 47, 48, 53, 54]], "generator_count_used": 1, "generator_indices": [102], "group_label": "C12", "group_order": 12, "vertex_orbit_count": 5, "vertex_orbit_sizes": [12]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 12, "conjugate_subgroup_count": 10, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 30, "edge_orbit_sizes": [4], "element_order_profile": {"1": 1, "2": 1, "4": 2}, "fiber_preview": [[0, 1, 40, 50], [2, 10, 44, 59], [3, 20, 37, 58], [4, 30, 36, 51], [5, 16, 31, 35]], "generator_count_used": 1, "generator_indices": [13], "group_label": "C4", "group_order": 4, "vertex_orbit_count": 15, "vertex_orbit_sizes": [4]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 13, "conjugate_subgroup_count": 30, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 30, "edge_orbit_sizes": [4], "element_order_profile": {"1": 1, "2": 1, "4": 2}, "fiber_preview": [[0, 2, 47, 49], [1, 11, 30, 48], [3, 19, 41, 45], [4, 27, 46, 50], [5, 15, 21, 42]], "generator_count_used": 1, "generator_indices": [18], "group_label": "C4", "group_order": 4, "vertex_orbit_count": 15, "vertex_orbit_sizes": [4]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 14, "conjugate_subgroup_count": 10, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 20, "edge_orbit_sizes": [6], "element_order_profile": {"1": 1, "2": 1, "3": 2, "6": 2}, "fiber_preview": [[0, 2, 10, 12, 40, 43], [1, 11, 44, 46, 50, 59], [3, 13, 20, 26, 32, 41], [4, 14, 23, 29, 30, 42], [5, 8, 15, 17, 35, 38]], "generator_count_used": 1, "generator_indices": [22], "group_label": "C6", "group_order": 6, "vertex_orbit_count": 10, "vertex_orbit_sizes": [6]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 15, "conjugate_subgroup_count": 15, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 60, "edge_orbit_sizes": [2], "element_order_profile": {"1": 1, "2": 1}, "fiber_preview": [[0, 5], [1, 9], [2, 8], [3, 7], [4, 6]], "generator_count_used": 1, "generator_indices": [41], "group_label": "C2", "group_order": 2, "vertex_orbit_count": 30, "vertex_orbit_sizes": [2]}
+RECEIPT_ACTION_CLASS: {"abelian": false, "class_index": 16, "conjugate_subgroup_count": 10, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 20, "edge_orbit_sizes": [6], "element_order_profile": {"1": 1, "2": 3, "3": 2}, "fiber_preview": [[0, 5, 10, 15, 38, 43], [1, 9, 11, 16, 39, 44], [2, 8, 12, 17, 35, 40], [3, 7, 13, 18, 36, 41], [4, 6, 14, 19, 37, 42]], "generator_count_used": 2, "generator_indices": [41, 82], "group_label": "S3", "group_order": 6, "vertex_orbit_count": 10, "vertex_orbit_sizes": [6]}
+RECEIPT_ACTION_CLASS: {"abelian": false, "class_index": 17, "conjugate_subgroup_count": 5, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 10, "edge_orbit_sizes": [12], "element_order_profile": {"1": 1, "2": 3, "3": 8}, "fiber_preview": [[0, 5, 11, 16, 20, 29, 33, 37, 42, 48, 54, 55], [1, 9, 12, 17, 21, 25, 34, 38, 43, 49, 50, 56], [2, 8, 13, 18, 22, 26, 30, 39, 44, 45, 51, 57], [3, 7, 14, 19, 23, 27, 31, 35, 40, 46, 52, 58], [4, 6, 10, 15, 24, 28, 32, 36, 41, 47, 53, 59]], "generator_count_used": 2, "generator_indices": [41, 91], "group_label": "nonabelian_order_12", "group_order": 12, "vertex_orbit_count": 5, "vertex_orbit_sizes": [12]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 18, "conjugate_subgroup_count": 5, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 30, "edge_orbit_sizes": [4], "element_order_profile": {"1": 1, "2": 3}, "fiber_preview": [[0, 5, 29, 54], [1, 9, 25, 50], [2, 8, 26, 51], [3, 7, 27, 52], [4, 6, 28, 53]], "generator_count_used": 2, "generator_indices": [41, 236], "group_label": "V4", "group_order": 4, "vertex_orbit_count": 15, "vertex_orbit_sizes": [4]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 19, "conjugate_subgroup_count": 2, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 60, "edge_orbit_sizes": [2], "element_order_profile": {"1": 1, "2": 1}, "fiber_preview": [[0, 8], [1, 9], [2, 5], [3, 6], [4, 7]], "generator_count_used": 1, "generator_indices": [65], "group_label": "C2", "group_order": 2, "vertex_orbit_count": 30, "vertex_orbit_sizes": [2]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 20, "conjugate_subgroup_count": 1, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 30, "edge_orbit_sizes": [4], "element_order_profile": {"1": 1, "2": 3}, "fiber_preview": [[0, 8, 15, 40], [1, 9, 25, 50], [2, 5, 10, 35], [3, 6, 20, 45], [4, 7, 30, 55]], "generator_count_used": 2, "generator_indices": [65, 124], "group_label": "V4", "group_order": 4, "vertex_orbit_count": 15, "vertex_orbit_sizes": [4]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 21, "conjugate_subgroup_count": 10, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 40, "edge_orbit_sizes": [3], "element_order_profile": {"1": 1, "3": 2}, "fiber_preview": [[0, 10, 43], [1, 11, 44], [2, 12, 40], [3, 13, 41], [4, 14, 42]], "generator_count_used": 1, "generator_indices": [82], "group_label": "C3", "group_order": 3, "vertex_orbit_count": 20, "vertex_orbit_sizes": [3]}
+RECEIPT_ACTION_CLASS: {"abelian": true, "class_index": 22, "conjugate_subgroup_count": 1, "cover_admissible": true, "edge_inversion": false, "edge_orbit_count": 60, "edge_orbit_sizes": [2], "element_order_profile": {"1": 1, "2": 1}, "fiber_preview": [[0, 40], [1, 50], [2, 10], [3, 20], [4, 30]], "generator_count_used": 1, "generator_indices": [326], "group_label": "C2", "group_order": 2, "vertex_orbit_count": 30, "vertex_orbit_sizes": [2]}
+
+== SPECTRUM COUNTS ==
+CLASS_COUNT_BY_GROUP_ORDER: {2: 3, 3: 1, 4: 4, 5: 1, 6: 3, 10: 3, 12: 4, 20: 2, 60: 1}
+CLASS_COUNT_BY_GROUP_LABEL: {'C10': 2, 'C12': 1, 'C2': 3, 'C3': 1, 'C4': 2, 'C5': 1, 'C6': 2, 'S3': 1, 'V4': 2, 'abelian_order_12': 1, 'abelian_order_20': 1, 'nonabelian_order_10': 1, 'nonabelian_order_12': 2, 'nonabelian_order_20': 1, 'nonabelian_order_60': 1}
+COVER_ADMISSIBLE_CLASS_COUNT: 22
+EDGE_INVERTING_CLASS_COUNT: 0
+COVER_ADMISSIBLE_LABEL_COUNTS: {'C10': 2, 'C12': 1, 'C2': 3, 'C3': 1, 'C4': 2, 'C5': 1, 'C6': 2, 'S3': 1, 'V4': 2, 'abelian_order_12': 1, 'abelian_order_20': 1, 'nonabelian_order_10': 1, 'nonabelian_order_12': 2, 'nonabelian_order_20': 1, 'nonabelian_order_60': 1}
+
+== STATUS PRESERVATION ==
+STATUS_CHECK: {"after": ["?? ../08-g60-receipt-packet-native-encounter/build/g60_native_semiregular_receipt_action_census_002_mac.txt"], "before": ["?? ../08-g60-receipt-packet-native-encounter/build/g60_native_semiregular_receipt_action_census_002_mac.txt"], "preserved": true, "root": "/Users/scottcave/dev/cori/research/thalean_mechanics/papers/07-finite-covariant-receipt-algebra-on-graphs"}
+STATUS_CHECK: {"after": [], "before": [], "preserved": true, "root": "/Users/scottcave/dev/cori/research/mathematics/42-graph-automorphism-groups"}
+STATUS_CHECK: {"after": [], "before": [], "preserved": true, "root": "/Users/scottcave/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice"}
+CHECK_ALL_REPOSITORY_STATUS_PRESERVED: true
+
+== FINAL GATES ==
+CHECK_SOURCE_HASHES: true
+CHECK_FULL_G60_ACTION_PARSED: true
+CHECK_ALL_ACTION_ROWS_PRESERVE_G60: true
+CHECK_SEMIREGULAR_SUBGROUPS_FOUND: true
+CHECK_CONJUGACY_CLASSES_REDUCED: true
+CHECK_NATIVE_ACTION_CENSUS_PASS: true
+
+FINAL_CLASSIFICATION: native_G60_semiregular_receipt_action_spectrum_enumerated
+BOUNDARY: This packet enumerates native semiregular automorphism subgroups and cover-admissible action classes. It does not yet derive quotient edge receipts, reconstruct G60, compute holonomy, or select one realization.
+NEXT_GATE: For each cover-admissible conjugacy class, construct the orbit quotient, derive edge receipts from a native section, reconstruct G60, and compute the holonomy image.
+KEEPER: G60 may answer with one receipt action, several, or none. The census does not choose for it.
+MUTATION_PERFORMED: false
