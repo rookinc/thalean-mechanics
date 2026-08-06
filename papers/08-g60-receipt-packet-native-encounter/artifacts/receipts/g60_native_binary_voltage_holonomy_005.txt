@@ -1,0 +1,179 @@
+OUT ==
+PACKET: g60_native_binary_voltage_holonomy_005
+MODE: read-only native C2 voltage and holonomy construction
+TARGET: /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter
+REPOSITORY_MUTATION: none
+
+== SOURCE LOCK ==
+PAPER7_SHA256: 09fd36fa74dd5868549349a5edd82d16c80b9efafa72561f53e69001235d3bda
+CHECK_PAPER7_HASH: true
+UNBLINDING_SHA256: 339058c1fe40c50577eafcad3bda2ded753cbca7137a31c9aa7dbe5023f042c7
+CHECK_UNBLINDING_HASH: true
+QUOTIENT_SHA256: acaf79c52d5d83915afc425ba5b2e0547f168b73d1db7f144898599d30654822
+CHECK_QUOTIENT_HASH: true
+G60_EDGES_SHA256: c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f
+CHECK_G60_EDGES_HASH: true
+
+== NATIVE COVER PROFILE ==
+G60_VERTEX_COUNT: 60
+G60_EDGE_COUNT: 120
+G30_VERTEX_COUNT: 30
+G30_EDGE_COUNT: 60
+FIBER_COUNT: 30
+SECTION_RULE: minimum labeled vertex in each fiber is sheet0
+CHECK_G60_CONNECTED: true
+CHECK_G30_CONNECTED: true
+DECK_SHEET_FLIP_FAILURE_COUNT: 0
+
+== NATIVE EDGE VOLTAGE ==
+LIFT_COUNT_PER_BASE_EDGE_PROFILE: {"2": 60}
+VOLTAGE_EDGE_COUNT: 60
+VOLTAGE_VALUE_COUNTS: {"0": 32, "1": 28}
+VOLTAGE_CONSISTENCY_FAILURE_COUNT: 0
+CANONICAL_VOLTAGE_ASSIGNMENT_SHA256: 0156b176cd72d105fd39dd23d23ec21be694a91da6357fe97d7426194412bb9e
+VOLTAGE_ROW: {"u":0,"v":7,"voltage":1}
+VOLTAGE_ROW: {"u":0,"v":9,"voltage":1}
+VOLTAGE_ROW: {"u":0,"v":14,"voltage":0}
+VOLTAGE_ROW: {"u":0,"v":17,"voltage":0}
+VOLTAGE_ROW: {"u":1,"v":5,"voltage":1}
+VOLTAGE_ROW: {"u":1,"v":8,"voltage":1}
+VOLTAGE_ROW: {"u":1,"v":13,"voltage":1}
+VOLTAGE_ROW: {"u":1,"v":22,"voltage":0}
+VOLTAGE_ROW: {"u":2,"v":6,"voltage":1}
+VOLTAGE_ROW: {"u":2,"v":9,"voltage":1}
+VOLTAGE_ROW: {"u":2,"v":21,"voltage":1}
+VOLTAGE_ROW: {"u":2,"v":27,"voltage":0}
+VOLTAGE_ROW: {"u":3,"v":5,"voltage":1}
+VOLTAGE_ROW: {"u":3,"v":7,"voltage":1}
+VOLTAGE_ROW: {"u":3,"v":10,"voltage":1}
+VOLTAGE_ROW: {"u":3,"v":26,"voltage":1}
+VOLTAGE_ROW: {"u":4,"v":6,"voltage":1}
+VOLTAGE_ROW: {"u":4,"v":8,"voltage":1}
+VOLTAGE_ROW: {"u":4,"v":18,"voltage":1}
+VOLTAGE_ROW: {"u":4,"v":29,"voltage":1}
+VOLTAGE_ROW: {"u":5,"v":10,"voltage":0}
+VOLTAGE_ROW: {"u":5,"v":13,"voltage":0}
+VOLTAGE_ROW: {"u":6,"v":18,"voltage":0}
+VOLTAGE_ROW: {"u":6,"v":21,"voltage":0}
+VOLTAGE_ROW: {"u":7,"v":14,"voltage":1}
+VOLTAGE_ROW: {"u":7,"v":26,"voltage":0}
+VOLTAGE_ROW: {"u":8,"v":22,"voltage":1}
+VOLTAGE_ROW: {"u":8,"v":29,"voltage":0}
+VOLTAGE_ROW: {"u":9,"v":17,"voltage":1}
+VOLTAGE_ROW: {"u":9,"v":27,"voltage":1}
+VOLTAGE_ROW: {"u":10,"v":15,"voltage":0}
+VOLTAGE_ROW: {"u":10,"v":20,"voltage":0}
+VOLTAGE_ROW: {"u":11,"v":14,"voltage":0}
+VOLTAGE_ROW: {"u":11,"v":16,"voltage":0}
+VOLTAGE_ROW: {"u":11,"v":21,"voltage":0}
+VOLTAGE_ROW: {"u":11,"v":28,"voltage":1}
+VOLTAGE_ROW: {"u":12,"v":15,"voltage":0}
+VOLTAGE_ROW: {"u":12,"v":24,"voltage":1}
+VOLTAGE_ROW: {"u":12,"v":27,"voltage":1}
+VOLTAGE_ROW: {"u":12,"v":29,"voltage":1}
+VOLTAGE_ROW: {"u":13,"v":25,"voltage":1}
+VOLTAGE_ROW: {"u":13,"v":28,"voltage":1}
+VOLTAGE_ROW: {"u":14,"v":28,"voltage":1}
+VOLTAGE_ROW: {"u":15,"v":20,"voltage":0}
+VOLTAGE_ROW: {"u":15,"v":29,"voltage":1}
+VOLTAGE_ROW: {"u":16,"v":19,"voltage":0}
+VOLTAGE_ROW: {"u":16,"v":21,"voltage":0}
+VOLTAGE_ROW: {"u":16,"v":22,"voltage":0}
+VOLTAGE_ROW: {"u":17,"v":20,"voltage":0}
+VOLTAGE_ROW: {"u":17,"v":23,"voltage":0}
+VOLTAGE_ROW: {"u":18,"v":23,"voltage":0}
+VOLTAGE_ROW: {"u":18,"v":25,"voltage":0}
+VOLTAGE_ROW: {"u":19,"v":22,"voltage":0}
+VOLTAGE_ROW: {"u":19,"v":24,"voltage":0}
+VOLTAGE_ROW: {"u":19,"v":26,"voltage":0}
+VOLTAGE_ROW: {"u":20,"v":23,"voltage":0}
+VOLTAGE_ROW: {"u":23,"v":25,"voltage":0}
+VOLTAGE_ROW: {"u":24,"v":26,"voltage":0}
+VOLTAGE_ROW: {"u":24,"v":27,"voltage":0}
+VOLTAGE_ROW: {"u":25,"v":28,"voltage":0}
+
+== EXACT G60 RECONSTRUCTION ==
+RECONSTRUCTED_VERTEX_COUNT: 60
+RECONSTRUCTED_EDGE_COUNT: 120
+MISSING_EDGE_COUNT: 0
+EXTRA_EDGE_COUNT: 0
+CHECK_RECONSTRUCTED_G60_EQUALS_RAW_G60: true
+
+== SPANNING TREE NORMAL FORM ==
+ROOT_VERTEX: 0
+TREE_EDGE_COUNT: 29
+CHORD_EDGE_COUNT: 31
+BASE_CYCLE_RANK: 31
+TREE_NONZERO_VOLTAGE_COUNT: 0
+FUNDAMENTAL_HOLONOMY_VALUE_COUNTS: {"0": 11, "1": 20}
+HOLONOMY_IMAGE: [0, 1]
+NORMALIZED_VOLTAGE_ASSIGNMENT_SHA256: 1a791769f546d3640ddc44a224ba8da261688fe652bd63c42cdbbd65e7ff533b
+HOLONOMY_ROW: {"chord":[1,13],"holonomy":1}
+HOLONOMY_ROW: {"chord":[1,22],"holonomy":1}
+HOLONOMY_ROW: {"chord":[2,27],"holonomy":0}
+HOLONOMY_ROW: {"chord":[3,26],"holonomy":0}
+HOLONOMY_ROW: {"chord":[4,8],"holonomy":0}
+HOLONOMY_ROW: {"chord":[4,18],"holonomy":1}
+HOLONOMY_ROW: {"chord":[4,29],"holonomy":1}
+HOLONOMY_ROW: {"chord":[5,10],"holonomy":0}
+HOLONOMY_ROW: {"chord":[5,13],"holonomy":1}
+HOLONOMY_ROW: {"chord":[6,18],"holonomy":1}
+HOLONOMY_ROW: {"chord":[6,21],"holonomy":0}
+HOLONOMY_ROW: {"chord":[7,14],"holonomy":0}
+HOLONOMY_ROW: {"chord":[8,22],"holonomy":1}
+HOLONOMY_ROW: {"chord":[8,29],"holonomy":1}
+HOLONOMY_ROW: {"chord":[9,17],"holonomy":0}
+HOLONOMY_ROW: {"chord":[10,15],"holonomy":1}
+HOLONOMY_ROW: {"chord":[10,20],"holonomy":1}
+HOLONOMY_ROW: {"chord":[11,21],"holonomy":1}
+HOLONOMY_ROW: {"chord":[11,28],"holonomy":0}
+HOLONOMY_ROW: {"chord":[12,15],"holonomy":1}
+HOLONOMY_ROW: {"chord":[12,24],"holonomy":1}
+HOLONOMY_ROW: {"chord":[13,25],"holonomy":0}
+HOLONOMY_ROW: {"chord":[15,29],"holonomy":1}
+HOLONOMY_ROW: {"chord":[16,19],"holonomy":1}
+HOLONOMY_ROW: {"chord":[16,21],"holonomy":1}
+HOLONOMY_ROW: {"chord":[16,22],"holonomy":1}
+HOLONOMY_ROW: {"chord":[18,25],"holonomy":1}
+HOLONOMY_ROW: {"chord":[19,24],"holonomy":0}
+HOLONOMY_ROW: {"chord":[20,23],"holonomy":0}
+HOLONOMY_ROW: {"chord":[23,25],"holonomy":1}
+HOLONOMY_ROW: {"chord":[24,27],"holonomy":1}
+
+== GAUGE COVARIANCE ==
+SINGLE_VERTEX_GAUGE_TEST_COUNT: 30
+GAUGE_NORMAL_FORM_FAILURE_COUNT: 0
+CHECK_TREE_NORMAL_FORM_GAUGE_INVARIANT: true
+
+== THEOREM CHECKS ==
+CHECK_SOURCE_HASHES_LOCKED: true
+CHECK_UNBLINDING_THEOREM_LOCKED: true
+CHECK_NATIVE_PROFILE_60_120_TO_30_60: true
+CHECK_BOTH_GRAPHS_CONNECTED: true
+CHECK_THIRTY_BINARY_FIBERS: true
+CHECK_DECK_FLIPS_EVERY_SHEET: true
+CHECK_TWO_LIFTS_PER_BASE_EDGE: true
+CHECK_VOLTAGE_DEFINED_ON_ALL_EDGES: true
+CHECK_VOLTAGE_CONSISTENT: true
+CHECK_RECONSTRUCTION_EXACT: true
+CHECK_TREE_HAS_29_EDGES: true
+CHECK_CYCLE_RANK_IS_31: true
+CHECK_TREE_NORMALIZED_TO_ZERO: true
+CHECK_FUNDAMENTAL_HOLONOMY_COUNT_31: true
+CHECK_HOLONOMY_IMAGE_IS_C2: true
+CHECK_GAUGE_NORMAL_FORM_EXACT: true
+FAILED_CHECKS: []
+
+== STATUS PRESERVATION ==
+STATUS_CHECK: {"after":["?? ../01-unit-action-and-finite-geometric-emergence/README.md","?? ../01-unit-action-and-finite-geometric-emergence/build/","?? ../01-unit-action-and-finite-geometric-emergence/dist/","?? ../01-unit-action-and-finite-geometric-emergence/notes/claim-status.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/source-ledger.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/theorem-dependency-audit.md","?? ../01-unit-action-and-finite-geometric-emergence/paper/","?? ../01-unit-action-and-finite-geometric-emergence/scripts/zipit.sh","?? ../02-extension-and-evolution-from-a-discrete-encounter/build/","?? ../03-encounter-orientation-receipt-tower/","?? ../04-binary-receipts-and-finite-cycle-doubling/","?? ../05-parity-in-the-dihedral-receipt-tower/","?? ../06-finite-receipt-holonomy-and-cycle-multiplication/"],"before":["?? ../01-unit-action-and-finite-geometric-emergence/README.md","?? ../01-unit-action-and-finite-geometric-emergence/build/","?? ../01-unit-action-and-finite-geometric-emergence/dist/","?? ../01-unit-action-and-finite-geometric-emergence/notes/claim-status.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/source-ledger.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/theorem-dependency-audit.md","?? ../01-unit-action-and-finite-geometric-emergence/paper/","?? ../01-unit-action-and-finite-geometric-emergence/scripts/zipit.sh","?? ../02-extension-and-evolution-from-a-discrete-encounter/build/","?? ../03-encounter-orientation-receipt-tower/","?? ../04-binary-receipts-and-finite-cycle-doubling/","?? ../05-parity-in-the-dihedral-receipt-tower/","?? ../06-finite-receipt-holonomy-and-cycle-multiplication/"],"preserved":true,"root":"/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter"}
+STATUS_CHECK: {"after":["?? artifacts/json/native_g60_fiber_product_isomorphism_044.min.json","?? dist/project42_g60_native_register_overleaf.zip"],"before":["?? artifacts/json/native_g60_fiber_product_isomorphism_044.min.json","?? dist/project42_g60_native_register_overleaf.zip"],"preserved":true,"root":"/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups"}
+STATUS_CHECK: {"after":[],"before":[],"preserved":true,"root":"/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice"}
+CHECK_ALL_REPOSITORY_STATUS_PRESERVED: true
+
+THEOREM_PASS: true
+FINAL_CLASSIFICATION: recovered_normal_binary_action_constructs_the_exact_native_G60_over_G30_C2_voltage_lift_with_surjective_holonomy
+THEOREM: Using the minimum-labeled section of the independently recovered normal binary quotient, every G30 edge receives a native C2 voltage. The resulting regular lift reconstructs all 60 G60 vertices and all 120 G60 edges exactly. Its fundamental circuit receipts generate C2, so the lift is connected.
+BOUNDARY: The edge-voltage values depend on the chosen section, while their gauge class and holonomy image do not. Binary receipt and full-automorphism covariance remain declared premises for selecting this cover from the complete 22-class native spectrum. No orientation or physical interpretation is claimed.
+NEXT_GATE: Package the blind census, normal-binary recovery, exact quotient unblinding, native voltage reconstruction, and surjective holonomy as the G60 receipt-packet encounter theorem.
+KEEPER: The quotient names the circuit. The voltage records which sheet the circuit brings home.
+MUTATION_PERFORMED: false
