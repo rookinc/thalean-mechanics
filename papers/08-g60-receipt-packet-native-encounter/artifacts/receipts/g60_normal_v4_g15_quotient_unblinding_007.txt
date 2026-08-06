@@ -1,0 +1,99 @@
+OUT ==
+PACKET: g60_normal_v4_g15_quotient_unblinding_007
+MODE: read-only preregistered normal-V4 quotient comparison
+TARGET: /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter
+REPOSITORY_MUTATION: none
+
+== SOURCE LOCK ==
+BLIND_SHA256: 9d0f1ef5975cd8cd2575192012c8bfeefe15c2856d6646e827ffc4ada851f383
+CHECK_BLIND_HASH: true
+ACTION_SHA256: b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21
+CHECK_ACTION_HASH: true
+G15_CERTIFICATE_SHA256: 9d5046dec7ea5d32f88782aa158a79082d4facf6f0b4fd4a7d3a3e4c552a0f70
+CHECK_G15_CERTIFICATE_HASH: true
+G30_CERTIFICATE_SHA256: acaf79c52d5d83915afc425ba5b2e0547f168b73d1db7f144898599d30654822
+CHECK_G30_CERTIFICATE_HASH: true
+G60_EDGES_SHA256: c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f
+CHECK_G60_EDGES_HASH: true
+
+== PREREGISTERED BLIND SELECTION ==
+BLIND_CLASS_COUNT: 22
+NORMAL_V4_CLASS_COUNT: 1
+SELECTED_V4_CLASS_INDEX: 20
+SELECTED_V4_GENERATOR_INDICES: [65, 124]
+NORMAL_C2_CLASS_COUNT: 1
+SELECTED_C2_CLASS_INDEX: 22
+SELECTED_C2_GENERATOR_INDICES: [326]
+
+== NATIVE NORMAL V4 ==
+V4_SUBGROUP_ORDER: 4
+V4_MEMBER_INDICES: [0, 65, 124, 326]
+V4_ELEMENT_ORDER_PROFILE: {"1": 1, "2": 3}
+NORMAL_C2_CONTAINED_IN_V4: true
+
+== BLIND V4 ORBIT QUOTIENT ==
+V4_ORBIT_COUNT: 15
+V4_ORBIT_SIZE_PROFILE: {"4": 15}
+BLIND_QUOTIENT_VERTEX_COUNT: 15
+BLIND_QUOTIENT_EDGE_COUNT: 30
+BLIND_QUOTIENT_LOOP_COUNT: 0
+BLIND_QUOTIENT_DEGREE_PROFILE: {"4": 15}
+G60_LIFTS_PER_QUOTIENT_EDGE_PROFILE: {"4": 30}
+V4_FIBER: {"g60_vertices":[0,8,15,40],"quotient_vertex":0}
+V4_FIBER: {"g60_vertices":[1,9,25,50],"quotient_vertex":1}
+V4_FIBER: {"g60_vertices":[2,5,10,35],"quotient_vertex":2}
+V4_FIBER: {"g60_vertices":[3,6,20,45],"quotient_vertex":3}
+V4_FIBER: {"g60_vertices":[4,7,30,55],"quotient_vertex":4}
+V4_FIBER: {"g60_vertices":[11,24,39,46],"quotient_vertex":5}
+V4_FIBER: {"g60_vertices":[12,17,38,43],"quotient_vertex":6}
+V4_FIBER: {"g60_vertices":[13,32,37,58],"quotient_vertex":7}
+V4_FIBER: {"g60_vertices":[14,29,36,51],"quotient_vertex":8}
+V4_FIBER: {"g60_vertices":[16,31,44,59],"quotient_vertex":9}
+V4_FIBER: {"g60_vertices":[18,23,42,47],"quotient_vertex":10}
+V4_FIBER: {"g60_vertices":[19,26,41,54],"quotient_vertex":11}
+V4_FIBER: {"g60_vertices":[21,34,49,56],"quotient_vertex":12}
+V4_FIBER: {"g60_vertices":[22,27,48,53],"quotient_vertex":13}
+V4_FIBER: {"g60_vertices":[28,33,52,57],"quotient_vertex":14}
+
+== POST-SELECTION G15 COMPARISON ==
+HISTORICAL_G15_VERTEX_COUNT: 15
+HISTORICAL_G15_EDGE_COUNT: 30
+QUOTIENT_GRAPH_ISOMORPHISM_COUNT: 120
+EXACT_LABELED_EDGE_MATCH: true
+ISOMORPHIC_EDGE_MATCH: true
+CANONICAL_QUOTIENT_TO_G15_MAP: {"0": 0, "1": 1, "2": 2, "3": 3, "4": 4, "5": 5, "6": 6, "7": 7, "8": 8, "9": 9, "10": 10, "11": 11, "12": 12, "13": 13, "14": 14}
+
+== INDUCED G30 TO V4-QUOTIENT TOWER ==
+C2_ORBIT_COUNT: 30
+C2_QUOTIENT_EDGE_COUNT: 60
+C2_ORBITS_PER_V4_ORBIT_PROFILE: {"2": 15}
+INDUCED_QUOTIENT_EDGE_COUNT: 30
+CHECK_INDUCED_TOWER_EDGES_EQUAL_DIRECT_V4_QUOTIENT: true
+
+== THEOREM CHECKS ==
+CHECK_SOURCE_HASHES_LOCKED: true
+CHECK_UNIQUE_NORMAL_V4_PREREGISTERED: true
+CHECK_UNIQUE_NORMAL_C2_PREREGISTERED: true
+CHECK_V4_SUBGROUP_EXACT: true
+CHECK_NORMAL_C2_CONTAINED_IN_V4: true
+CHECK_FIFTEEN_FOUR_POINT_ORBITS: true
+CHECK_QUOTIENT_PROFILE_15_30_4REGULAR: true
+CHECK_FOUR_LIFTS_PER_G15_EDGE: true
+CHECK_HISTORICAL_G15_AUTHORITY_PASSES: true
+CHECK_BLIND_QUOTIENT_MATCHES_HISTORICAL_G15: true
+CHECK_TWO_C2_ORBITS_PER_V4_ORBIT: true
+CHECK_TOWER_FACTORIZATION_EXACT: true
+FAILED_CHECKS: []
+
+== STATUS PRESERVATION ==
+STATUS_CHECK: {"after":["?? ../01-unit-action-and-finite-geometric-emergence/README.md","?? ../01-unit-action-and-finite-geometric-emergence/build/","?? ../01-unit-action-and-finite-geometric-emergence/dist/","?? ../01-unit-action-and-finite-geometric-emergence/notes/claim-status.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/source-ledger.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/theorem-dependency-audit.md","?? ../01-unit-action-and-finite-geometric-emergence/paper/","?? ../01-unit-action-and-finite-geometric-emergence/scripts/zipit.sh","?? ../02-extension-and-evolution-from-a-discrete-encounter/build/","?? ../03-encounter-orientation-receipt-tower/","?? ../04-binary-receipts-and-finite-cycle-doubling/","?? ../05-parity-in-the-dihedral-receipt-tower/","?? ../06-finite-receipt-holonomy-and-cycle-multiplication/"],"before":["?? ../01-unit-action-and-finite-geometric-emergence/README.md","?? ../01-unit-action-and-finite-geometric-emergence/build/","?? ../01-unit-action-and-finite-geometric-emergence/dist/","?? ../01-unit-action-and-finite-geometric-emergence/notes/claim-status.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/source-ledger.md","?? ../01-unit-action-and-finite-geometric-emergence/notes/theorem-dependency-audit.md","?? ../01-unit-action-and-finite-geometric-emergence/paper/","?? ../01-unit-action-and-finite-geometric-emergence/scripts/zipit.sh","?? ../02-extension-and-evolution-from-a-discrete-encounter/build/","?? ../03-encounter-orientation-receipt-tower/","?? ../04-binary-receipts-and-finite-cycle-doubling/","?? ../05-parity-in-the-dihedral-receipt-tower/","?? ../06-finite-receipt-holonomy-and-cycle-multiplication/"],"preserved":true,"root":"/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter"}
+STATUS_CHECK: {"after":["?? artifacts/json/native_g60_fiber_product_isomorphism_044.min.json","?? dist/project42_g60_native_register_overleaf.zip"],"before":["?? artifacts/json/native_g60_fiber_product_isomorphism_044.min.json","?? dist/project42_g60_native_register_overleaf.zip"],"preserved":true,"root":"/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups"}
+STATUS_CHECK: {"after":[],"before":[],"preserved":true,"root":"/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice"}
+CHECK_ALL_REPOSITORY_STATUS_PRESERVED: true
+
+THEOREM_PASS: true
+FINAL_CLASSIFICATION: blind_unique_normal_V4_action_recovers_the_exact_labeled_G15_quotient_and_factors_the_G60_G30_G15_tower
+BOUNDARY: The blind census selected class 20 before G15 authority was consulted. The exact quotient-edge comparison occurs after the G15 schema was inspected. V4 receipt and full-automorphism covariance remain declared premises. The V4 voltage comparison is deferred to the next packet.
+NEXT_GATE: Compare the derived native V4 edge translations with certificate033 up to quotient relabeling, V4 basis change, and vertex gauge.
+KEEPER: The binary cover remembers the first sheet. The normal V4 quotient reveals the fifteen-state floor beneath it.
+MUTATION_PERFORMED: false
