@@ -1,0 +1,112 @@
+{
+  "artifact_id": "c4_binary_receipt_order_forcing_theorem_001",
+  "audit_pass": true,
+  "boundaries": {
+    "WXYZ_native_successor_cycle_derived": false,
+    "binary_receipt_native_source_bound": false,
+    "electron_claim": false,
+    "gravity_claim": false,
+    "nontrivial_receipt_after_one_native_circuit_bound": false,
+    "orders_forced_without_premises": false,
+    "physical_realization_derived": false,
+    "physics_claim": false,
+    "radiation_claim": false
+  },
+  "census": {
+    "binary_edge_assignment_count": 16,
+    "gauge_class_count": 2,
+    "nontrivial_class": {
+      "canonical_representative": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "connected": true,
+      "cycle_lengths": [
+        8
+      ],
+      "lifted_successor_order": 8
+    },
+    "nontrivial_holonomy_assignment_count": 8,
+    "nontrivial_holonomy_gauge_class_count": 1,
+    "trivial_class": {
+      "canonical_representative": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "connected": false,
+      "cycle_lengths": [
+        4,
+        4
+      ],
+      "lifted_successor_order": 4
+    },
+    "trivial_holonomy_assignment_count": 8,
+    "trivial_holonomy_gauge_class_count": 1
+  },
+  "checks": {
+    "eight_nontrivial_assignments": true,
+    "eight_trivial_assignments": true,
+    "nontrivial_lifts_are_one_C8": true,
+    "one_nontrivial_gauge_class": true,
+    "one_trivial_gauge_class": true,
+    "sixteen_assignments": true,
+    "trivial_lifts_are_two_C4": true,
+    "two_gauge_classes": true
+  },
+  "keeper": "Four visible phases and one nontrivial binary return receipt leave only the eight-cycle.",
+  "next_gate": "Bind WXYZ to an independently supplied visible successor cycle and bind the nontrivial signed full-circuit receipt without importing the C8 conclusion.",
+  "premises": {
+    "lift": {
+      "deterministic": true,
+      "fiber_covariant": true,
+      "locally_bijective": true,
+      "nontrivial_circuit_holonomy": true
+    },
+    "receipt_fiber": {
+      "elements": [
+        0,
+        1
+      ],
+      "isomorphism_type": "C2"
+    },
+    "visible_base": {
+      "first_return_step": 4,
+      "isomorphism_type": "C4",
+      "roles": [
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ],
+      "successor_cycle": [
+        "W",
+        "X",
+        "Y",
+        "Z",
+        "W"
+      ]
+    }
+  },
+  "proof": {
+    "circuit_holonomy": "omega = v0 + v1 + v2 + v3 mod 2",
+    "edge_voltage_domain": "C2",
+    "four_step_law": "T^4(i,s) = (i,s + omega)",
+    "gauge_classification": "binary voltage assignments on C4 are gauge equivalent exactly when they have the same holonomy",
+    "nontrivial_case": "omega=1 implies T^4 swaps sheets, T has order 8, and the lift is one C8 orbit",
+    "trivial_case": "omega=0 implies T has order 4 and two C4 orbits"
+  },
+  "schema": "thalean_mechanics.c4_binary_receipt_order_forcing_theorem.v1",
+  "status": "abstract_finite_order_forcing_theorem",
+  "theorem": {
+    "name": "C4 binary-receipt connected-lift order-forcing theorem",
+    "not_unique_as_edge_labeling": true,
+    "order_consequence": "visible_order_4_plus_nontrivial_binary_receipt_forces_lifted_order_8",
+    "statement": "Every deterministic C2-covariant two-sheeted lift of a visible four-cycle is classified by one binary circuit holonomy. Trivial holonomy gives two disjoint four-cycles. Nontrivial holonomy gives one connected eight-cycle. All nontrivial voltage assignments are gauge equivalent.",
+    "uniqueness_scope": "unique_up_to_fiber_preserving_gauge_and_isomorphism"
+  },
+  "verdict": "visible_C4_with_binary_nontrivial_receipt_holonomy_uniquely_forces_connected_C8_lift_up_to_gauge"
+}
