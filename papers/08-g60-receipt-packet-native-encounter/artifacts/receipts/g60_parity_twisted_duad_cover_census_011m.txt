@@ -1,0 +1,92 @@
+== G60 PARITY-TWISTED DUAD COVER CENSUS AUDIT 011m ==
+PACKET: g60_parity_twisted_duad_cover_census_011m
+MODE: frozen_complete_parity_twisted_duad_cover_census
+JSON_SHA256: 8c556050e4ea028cc41eca4514366c3a0d6baa83620831259151dbed0b046a7e
+NOTE_SHA256: 88c697d5861e12bb8fa6de011da8f566170b059a0098803b8ff127c6a4294e5e
+COMPUTATION_SCRIPT_SHA256: 62c25f2195b3da0a3fb7280f8217221a358800bebf703ba63a5d137d2bf2ff81
+RAW_RUN_RECEIPT_SHA256: af2ce125c4c3a2ae24c588366245db7e76cb5651630c709633525a48073edfee
+SOURCE_ACTION_VALID: true
+SOURCE_ORBIT_SIZE_PROFILE: [20]
+STABILIZER_MATCH_FAILURE_COUNT: 0
+N_BRIDGE_COUNT: 2
+N_MAP_SHA256S: ['782dbcb9dae045cfc5dadd1b81f51895e447e981491263e09514c9077dfe1728', 'bb61e5018270d8954e8115bb9c1fbbcfb07f360ba307c451cb16103ef7336c01']
+COMPLEMENT_BRIDGE_COUNTS: [2, 2]
+REVERSAL_RELATION_VERIFIED: true
+ANCHOR_BRIDGE_COUNT_PROFILE: {'1': 40}
+CLASSIFICATION: exactly_two_inversion_related_bridges_anchor_selects_one
+CHECK_COUNT: 67
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK locked_head: true
+CHECK result_frozen: true
+CHECK audit_pass_recorded: true
+CHECK json_hash: true
+CHECK raw_hash: true
+CHECK note_hash: true
+CHECK compute_hash: true
+CHECK candidate_hash: true
+CHECK candidate_promoted: true
+CHECK raw_copied: true
+CHECK compute_copied: true
+CHECK failed_run_not_promoted: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK group_480: true
+CHECK identity_0: true
+CHECK closure_zero: true
+CHECK inverse_zero: true
+CHECK operation_ok: true
+CHECK N_240: true
+CHECK two_complements: true
+CHECK S5_120: true
+CHECK source_name: true
+CHECK source_count_20: true
+CHECK source_identity_zero: true
+CHECK source_closure_zero: true
+CHECK source_valid: true
+CHECK source_one_orbit: true
+CHECK source_orbit_20: true
+CHECK source_transitive: true
+CHECK stabilizer_order_12: true
+CHECK stabilizer_image_6: true
+CHECK one_stabilizer_profile: true
+CHECK twenty_stabilizer_rows: true
+CHECK stabilizer_failures_zero: true
+CHECK stabilizer_failure_rows_empty: true
+CHECK stabilizers_exact: true
+CHECK N_two_bridges: true
+CHECK map_hashes_exact: true
+CHECK two_bridge_rows: true
+CHECK no_rejected_incomplete: true
+CHECK no_rejected_nonbijective: true
+CHECK no_rejected_equivariance: true
+CHECK complements_two_each: true
+CHECK complement_maps_equal_N: true
+CHECK sheet_reversal_zero: true
+CHECK root_inversion_zero: true
+CHECK reversal_verified: true
+CHECK two_reversal_rows: true
+CHECK anchors_40: true
+CHECK anchor_profile_one: true
+CHECK anchors_unique: true
+CHECK without_anchor_two: true
+CHECK one_bit_sufficient: true
+CHECK classification: true
+CHECK prediction_matches: true
+CHECK replacement_N_set: true
+CHECK not_full_A_set: true
+CHECK bounded_sufficiency: true
+CHECK no_global_minimality: true
+CHECK no_unanchored_orientation: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physics: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: The parity-twisted double cover of the ten unordered five-point duads is a canonical transitive twenty-object action of N. Its point stabilizers agree exactly with the stabilizers of the two orientation roots assigned to the underlying unordered duad. Exactly two N-equivariant bijections from the twisted cover to the twenty roots exist. Global source-sheet reversal and root inversion exchange the same two bijections. Each of the forty compatible anchored source-root choices selects exactly one bijection, and both native S5 complements recover the same bridge pair.
+REPLACEMENT_SOURCE_N_SET_CONSTRUCTED: true
+ORIENTATION_SELECTED_WITHOUT_ANCHOR: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
