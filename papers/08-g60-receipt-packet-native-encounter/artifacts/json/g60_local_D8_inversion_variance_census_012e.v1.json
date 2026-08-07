@@ -1,0 +1,171 @@
+{
+  "audit_pass": true,
+  "audit_pass_candidate": true,
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_full_A_orientation_character_extension_census_011o.v1.json": {
+      "sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_gauge_covariant_update_census_012a.v1.json": {
+      "sha256": "4e6936b9b48c6f033b826df7c3ad4ac70ec3480129c5c73ec6a24630077096d2"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_local_D8_inversion_variance_preregistration_012d.v1.json": {
+      "sha256": "16ece0c496bfa2021e60e3c36df523825efbd8db13bcc6b0871fd903da6c50aa"
+    }
+  },
+  "boundary": {
+    "autonomous_native_update_law_constructed": false,
+    "chart_orbit_selected": false,
+    "instruction_selected": false,
+    "manuscript_mutated": false,
+    "mechanics_state_cell_established": false,
+    "orientation_selected": false,
+    "physical_claim": false,
+    "three_torsors_identified": false
+  },
+  "candidate_provenance": {
+    "candidate_json_path": "/data/data/com.termux/files/home/tmp/g60_local_D8_inversion_variance_census_012e.candidate.v1.json",
+    "candidate_json_sha256": "c3815bff0ca7fcc96749ee6b6b4095c90112ec2600139c39ea2a11a9e50c96d1",
+    "computation_script_path": "/data/data/com.termux/files/home/tmp/run-g60-local-d8-inversion-variance-census-012e.py",
+    "computation_script_sha256": "866c593453fa5a9c44867c45a238c9b4d5c967c6343e1c5cf8cb195fd1aac982",
+    "promotion_guard_report_path": "/data/data/com.termux/files/home/tmp/g60-local-d8-inversion-variance-census-012e-guard.txt",
+    "promotion_guard_report_sha256": "c2b68e751ad4edb05dc513c616dc28bfe30e4c859e7ad03addbc60594a2b54ab",
+    "promotion_guard_script_path": "/data/data/com.termux/files/home/tmp/guard-g60-local-d8-inversion-variance-census-012e.py",
+    "promotion_guard_script_sha256": "3e8dd1fb0076aeeebf65fbe50ad28dab7797368425c1c27de95999262209353b",
+    "raw_report_path": "/data/data/com.termux/files/home/tmp/g60_local_D8_inversion_variance_census_012e.candidate.txt",
+    "raw_report_sha256": "c70eebf5bc394c1122a0398dd517a316dea5143222e4288a719034b1ca0b56db"
+  },
+  "classification": "local_D8_inversion_is_opposite_law_isomorphism_not_Aut_D8_character",
+  "earned_statement": "In both selected local D8 presentations, inversion is involutive, fixes six elements, exchanges the two order-four elements, has nonzero ordinary homomorphism failures, has zero anti-homomorphism failures, and is absent from Aut(D8). It carries right multiplication to left multiplication by the inverse instruction. Together with the locked 011o reversal, this identifies orientation reversal as an opposite-law variance candidate rather than a local Aut(D8) character.",
+  "locked_head": "cb7c2db Preregister G60 local D8 inversion variance",
+  "mode": "frozen_complete_local_D8_inversion_variance_census",
+  "orientation_reversal": {
+    "bridge_count": 2,
+    "reversal_rows": [
+      {
+        "map_index": 0,
+        "reversal_changes_map": true,
+        "root_inversion_map_indices": [
+          1
+        ],
+        "sheet_reversal_equals_root_inversion": true,
+        "sheet_reversal_map_indices": [
+          1
+        ]
+      },
+      {
+        "map_index": 1,
+        "reversal_changes_map": true,
+        "root_inversion_map_indices": [
+          0
+        ],
+        "sheet_reversal_equals_root_inversion": true,
+        "sheet_reversal_map_indices": [
+          0
+        ]
+      }
+    ],
+    "reversal_verified": true
+  },
+  "packet": "g60_local_D8_inversion_variance_census_012e",
+  "preregistration_comparison": {
+    "check_count": 38,
+    "failed_check_count": 0,
+    "failed_checks": [],
+    "prediction_matches": true
+  },
+  "presentation_rows": [
+    {
+      "anti_homomorphism_failure_count": 0,
+      "double_inversion_failure_count": 0,
+      "identity_indices": [
+        0
+      ],
+      "inverse_permutation": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "inverse_uniqueness_failures": [],
+      "inversion_fixed_points": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "inversion_involutive": true,
+      "inversion_matches_automorphism_indices": [],
+      "local_group_order": 8,
+      "noncommuting_pair_count": 24,
+      "order_four_elements": [
+        2,
+        3
+      ],
+      "order_four_inverse_images": [
+        3,
+        2
+      ],
+      "ordinary_homomorphism_failure_count": 24,
+      "presentation_index": 0,
+      "right_update_to_left_inverse_failure_count": 0,
+      "right_update_to_right_inverse_failure_count": 24
+    },
+    {
+      "anti_homomorphism_failure_count": 0,
+      "double_inversion_failure_count": 0,
+      "identity_indices": [
+        0
+      ],
+      "inverse_permutation": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "inverse_uniqueness_failures": [],
+      "inversion_fixed_points": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        7
+      ],
+      "inversion_involutive": true,
+      "inversion_matches_automorphism_indices": [],
+      "local_group_order": 8,
+      "noncommuting_pair_count": 24,
+      "order_four_elements": [
+        2,
+        3
+      ],
+      "order_four_inverse_images": [
+        3,
+        2
+      ],
+      "ordinary_homomorphism_failure_count": 24,
+      "presentation_index": 1,
+      "right_update_to_left_inverse_failure_count": 0,
+      "right_update_to_right_inverse_failure_count": 24
+    }
+  ],
+  "promotion": {
+    "candidate_promoted_without_recomputation": true,
+    "guard_check_count": 72,
+    "guard_failed_check_count": 0,
+    "manuscript_mutated": false,
+    "promotion_guard_passed": true
+  },
+  "repository_mutation_performed": false,
+  "result_frozen": true
+}

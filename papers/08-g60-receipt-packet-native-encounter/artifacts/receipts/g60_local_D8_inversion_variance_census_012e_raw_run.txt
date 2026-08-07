@@ -1,0 +1,21 @@
+== G60 LOCAL D8 INVERSION VARIANCE CENSUS 012e ==
+PACKET: g60_local_D8_inversion_variance_census_012e
+MODE: temporary_read_only_complete_local_inversion_variance_census
+LOCKED_HEAD: cb7c2db Preregister G60 local D8 inversion variance
+PRESENTATION_ROW: {"anti_homomorphism_failure_count": 0, "double_inversion_failure_count": 0, "identity_indices": [0], "inverse_permutation": [0, 1, 3, 2, 4, 5, 6, 7], "inverse_uniqueness_failures": [], "inversion_fixed_points": [0, 1, 4, 5, 6, 7], "inversion_involutive": true, "inversion_matches_automorphism_indices": [], "local_group_order": 8, "noncommuting_pair_count": 24, "order_four_elements": [2, 3], "order_four_inverse_images": [3, 2], "ordinary_homomorphism_failure_count": 24, "presentation_index": 0, "right_update_to_left_inverse_failure_count": 0, "right_update_to_right_inverse_failure_count": 24}
+PRESENTATION_ROW: {"anti_homomorphism_failure_count": 0, "double_inversion_failure_count": 0, "identity_indices": [0], "inverse_permutation": [0, 1, 3, 2, 4, 5, 6, 7], "inverse_uniqueness_failures": [], "inversion_fixed_points": [0, 1, 4, 5, 6, 7], "inversion_involutive": true, "inversion_matches_automorphism_indices": [], "local_group_order": 8, "noncommuting_pair_count": 24, "order_four_elements": [2, 3], "order_four_inverse_images": [3, 2], "ordinary_homomorphism_failure_count": 24, "presentation_index": 1, "right_update_to_left_inverse_failure_count": 0, "right_update_to_right_inverse_failure_count": 24}
+ORIENTATION_BRIDGE_COUNT: 2
+ORIENTATION_REVERSAL_VERIFIED: true
+CHECK_COUNT: 38
+FAILED_CHECK_COUNT: 0
+PREDICTION_MATCHES: true
+CLASSIFICATION: local_D8_inversion_is_opposite_law_isomorphism_not_Aut_D8_character
+FAILED_CHECKS: []
+EARNED_STATEMENT_CANDIDATE: In both selected local D8 presentations, inversion is involutive, fixes six elements, exchanges the two order-four elements, has nonzero ordinary homomorphism failures, has zero anti-homomorphism failures, and is absent from Aut(D8). It carries right multiplication to left multiplication by the inverse instruction. Together with the locked 011o reversal, this identifies orientation reversal as an opposite-law variance candidate rather than a local Aut(D8) character.
+INSTRUCTION_SELECTED: false
+CHART_ORBIT_SELECTED: false
+ORIENTATION_SELECTED: false
+MECHANICS_STATE_CELL_ESTABLISHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
+PROJECT_MUTATION_PERFORMED: false

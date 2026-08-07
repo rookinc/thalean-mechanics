@@ -1,0 +1,79 @@
+== G60 LOCAL D8 INVERSION VARIANCE CENSUS GUARD 012e ==
+CHECK_COUNT: 72
+FAILED_CHECK_COUNT: 0
+CHECK head: true
+CHECK candidate_script_hash: true
+CHECK candidate_json_hash: true
+CHECK candidate_report_hash: true
+CHECK update_hash: true
+CHECK orientation_hash: true
+CHECK prereg_hash: true
+CHECK p0_identity: true
+CHECK p0_inverse_unique: true
+CHECK p0_inverse_permutation: true
+CHECK p0_fixed_points: true
+CHECK p0_order_four: true
+CHECK p0_not_in_Aut_D8: true
+CHECK p0_noncommuting_24: true
+CHECK p0_ordinary_24: true
+CHECK p0_anti_0: true
+CHECK p0_double_inversion_0: true
+CHECK p0_candidate_identity: true
+CHECK p0_candidate_inverse: true
+CHECK p0_candidate_fixed_points: true
+CHECK p0_candidate_order_four: true
+CHECK p0_candidate_noncommuting: true
+CHECK p0_candidate_ordinary: true
+CHECK p0_candidate_anti: true
+CHECK p0_candidate_not_Aut: true
+CHECK p0_candidate_right_to_left: true
+CHECK p0_candidate_right_to_right: true
+CHECK p0_candidate_double: true
+CHECK p1_identity: true
+CHECK p1_inverse_unique: true
+CHECK p1_inverse_permutation: true
+CHECK p1_fixed_points: true
+CHECK p1_order_four: true
+CHECK p1_not_in_Aut_D8: true
+CHECK p1_noncommuting_24: true
+CHECK p1_ordinary_24: true
+CHECK p1_anti_0: true
+CHECK p1_double_inversion_0: true
+CHECK p1_candidate_identity: true
+CHECK p1_candidate_inverse: true
+CHECK p1_candidate_fixed_points: true
+CHECK p1_candidate_order_four: true
+CHECK p1_candidate_noncommuting: true
+CHECK p1_candidate_ordinary: true
+CHECK p1_candidate_anti: true
+CHECK p1_candidate_not_Aut: true
+CHECK p1_candidate_right_to_left: true
+CHECK p1_candidate_right_to_right: true
+CHECK p1_candidate_double: true
+CHECK orientation_bridge_count: true
+CHECK orientation_reversal_verified: true
+CHECK sheet_reversal_swaps: true
+CHECK root_inversion_swaps: true
+CHECK sheet_equals_root: true
+CHECK candidate_check_count: true
+CHECK candidate_failures_zero: true
+CHECK candidate_prediction_matches: true
+CHECK classification: true
+CHECK candidate_audit_pass: true
+CHECK candidate_no_mutation: true
+CHECK all_boundaries_false: true
+CHECK report_CHECK_COUNT: true
+CHECK report_FAILED_CHECK_COUNT: true
+CHECK report_PREDICTION_MATCHES: true
+CHECK report_CLASSIFICATION: true
+CHECK report_INSTRUCTION_SELECTED: true
+CHECK report_CHART_ORBIT_SELECTED: true
+CHECK report_ORIENTATION_SELECTED: true
+CHECK report_MECHANICS_STATE_CELL_ESTABLISHED: true
+CHECK report_MANUSCRIPT_MUTATED: true
+CHECK report_PHYSICAL_CLAIM: true
+CHECK report_PROJECT_MUTATION_PERFORMED: true
+GUARD_PASS: true
+FAILED_CHECKS: []
+CANDIDATE_PROMOTED: false
+PROJECT_MUTATION_PERFORMED: false
