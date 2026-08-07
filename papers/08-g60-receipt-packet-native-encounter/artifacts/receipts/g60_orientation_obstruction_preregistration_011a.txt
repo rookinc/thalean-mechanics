@@ -1,0 +1,44 @@
+== G60 ORIENTATION OBSTRUCTION PREREGISTRATION AUDIT 011a ==
+PACKET: g60_orientation_obstruction_preregistration_011a
+MODE: orientation_obstruction_preregistration
+JSON_SHA256: 932fde55ce357dd9cb1e5e9b9b15a923adb2a554344712d514259b589257cedf
+NOTE_SHA256: e282beb6a695849019c32bbeddc05a62a04adcd69d752a363d4b1439af4a4fc1
+LOCKED_TOWER_SHA256: 63fcdb0ff8e1d243eb5f44dd9cd630a361d777ef609c094a9009b8cc12029f2e
+LOCKED_HEAD: d01b068 Lock intrinsic G60 upper-central receipt tower
+OUTCOME_ORDER: ['computation_failure', 'no_exact_evolver_candidate', 'self_inverse_collapse', 'unique_orientation_selected', 'multiple_reversal_orbits', 'exact_reversal_obstruction']
+OUTCOME_COUNT: 6
+GENERAL_OBSTRUCTION_CONDITIONAL: true
+EXACT_EVOLVER_DEFINED: false
+ORIENTATION_SELECTED: false
+NATIVE_EXCHANGE_SYMMETRY_VERIFIED: false
+MINIMAL_DIRECTIONAL_DATUM_IDENTIFIED: false
+CHECK_COUNT: 24
+FAILED_CHECK_COUNT: 0
+CHECK packet_name: true
+CHECK tower_hash: true
+CHECK tower_hash_match: true
+CHECK head_d01b068: true
+CHECK six_outcomes_frozen: true
+CHECK general_theorem_has_five_hypotheses: true
+CHECK conditional_boundary: true
+CHECK necessary_stabilizer_condition: true
+CHECK sufficiency_requires_unique_selection: true
+CHECK minimality_requires_ablation: true
+CHECK no_preregistered_winner: true
+CHECK obstruction_first: true
+CHECK inventory_second: true
+CHECK candidate_before_native_test: true
+CHECK later_program_paused: true
+CHECK orientation_not_selected: true
+CHECK evolver_not_defined: true
+CHECK exchange_not_verified: true
+CHECK minimal_datum_not_identified: true
+CHECK no_manuscript_mutation: true
+CHECK no_geometry_claim: true
+CHECK no_physical_claim: true
+CHECK status_frozen: true
+CHECK note_exists: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false

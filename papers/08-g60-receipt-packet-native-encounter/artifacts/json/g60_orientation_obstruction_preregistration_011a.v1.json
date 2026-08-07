@@ -1,0 +1,125 @@
+{
+  "boundary": {
+    "exact_evolver_defined_now": false,
+    "geometry_claim": false,
+    "manuscript_mutation_allowed": false,
+    "minimal_directional_datum_identified_now": false,
+    "native_exchange_symmetry_verified_now": false,
+    "orientation_selected_now": false,
+    "physical_claim": false
+  },
+  "created_at": "2026-08-06T18:26:47.125360-07:00",
+  "frozen_definitions": {
+    "base_datum": "D consists only of the unoriented raw graph, the full automorphism action, and the characteristic Z1 < Z2 tower.",
+    "canonical_selector": "A selector constructed from D must be invariant under every isomorphism or automorphism preserving D.",
+    "evolver_candidate": "An exactly defined admissible action H on an explicitly declared lifted carrier. No candidate may be introduced after its orientation behavior has been inspected.",
+    "exchange_symmetry": "A D-preserving symmetry sigma exchanges H and inverse(H).",
+    "reversal": "The reversal involution sends an evolver H to inverse(H).",
+    "self_inverse": "H is self-inverse exactly when H equals inverse(H)."
+  },
+  "frozen_native_outcomes": {
+    "computation_failure": "The candidate action, inverse, carrier, or symmetry action cannot be reconstructed consistently.",
+    "exact_reversal_obstruction": "A preregistered non-self-inverse evolver pair exists, a D-preserving symmetry exchanges its members, and no D-invariant singleton selector exists.",
+    "multiple_reversal_orbits": "The base datum preserves more than one admissible unordered pair, so even the pair is not canonically selected.",
+    "no_exact_evolver_candidate": "No exact, preregistered evolver candidate can be constructed from the available algebraic authorities.",
+    "self_inverse_collapse": "The admitted candidate satisfies H equals inverse(H), so there is no distinct orientation pair for this candidate.",
+    "unique_orientation_selected": "The base datum D intrinsically distinguishes one orientation and the proposed exchange symmetry does not preserve D."
+  },
+  "general_obstruction_theorem": {
+    "conclusion": "No canonical selector from D can select exactly one member of the pair {H, inverse(H)}.",
+    "hypotheses": [
+      "H is an admitted evolver candidate defined before orientation testing.",
+      "H is not equal to inverse(H).",
+      "There exists a symmetry sigma preserving D.",
+      "Sigma sends H to inverse(H) and inverse(H) to H.",
+      "A canonical selector from D is invariant under sigma."
+    ],
+    "proof_scheme": [
+      "Assume a canonical selector from D chooses H.",
+      "Apply the D-preserving symmetry sigma.",
+      "Invariance requires the selected output to remain H.",
+      "The exchange property requires the selected output to become inverse(H).",
+      "Therefore H equals inverse(H), contradicting the distinctness hypothesis."
+    ],
+    "theorem_is_conditional_until_native_hypotheses_verified": true
+  },
+  "locked_input": {
+    "datum": "The raw native G60 graph, its full automorphism action, and the characteristic upper-central tower Z1 < Z2.",
+    "expected_sha256": "63fcdb0ff8e1d243eb5f44dd9cd630a361d777ef609c094a9009b8cc12029f2e",
+    "hash_match": true,
+    "locked_commit": "d01b068 Lock intrinsic G60 upper-central receipt tower",
+    "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_upper_central_receipt_tower_unblinding_010c.v1.json",
+    "sha256": "63fcdb0ff8e1d243eb5f44dd9cd630a361d777ef609c094a9009b8cc12029f2e"
+  },
+  "minimal_additional_datum_standard": {
+    "examples_are_not_preregistered_as_winners": [
+      "orientation of a non-self-reversing cycle",
+      "ordered incident pair",
+      "sign choice on a registered generator",
+      "ordered source-target flag"
+    ],
+    "minimality_condition": "Every declared proper ablation of the added datum restores the exchange symmetry or loses unique selection.",
+    "necessary_condition": "The stabilizer of the additional datum must exclude every D-preserving symmetry that exchanges H and inverse(H).",
+    "sufficiency_condition": "After adjoining the datum, exactly one member of the reversal pair is selected.",
+    "winner_may_not_be_chosen_after_result_inspection": true
+  },
+  "mode": "orientation_obstruction_preregistration",
+  "native_witness_requirements": [
+    "Exact carrier and candidate action authority hashes.",
+    "Exact action law for H.",
+    "Exact inverse action.",
+    "Proof that H and inverse(H) are distinct.",
+    "Exact D-preserving exchange symmetry.",
+    "Proof that the symmetry exchanges the two actions.",
+    "Complete invariant-singleton selector census in the declared selector language.",
+    "Repository-status preservation.",
+    "Outcome classification under the frozen predicates."
+  ],
+  "outcome_priority": [
+    "computation_failure",
+    "no_exact_evolver_candidate",
+    "self_inverse_collapse",
+    "unique_orientation_selected",
+    "multiple_reversal_orbits",
+    "exact_reversal_obstruction"
+  ],
+  "packet": "g60_orientation_obstruction_preregistration_011a",
+  "preregistration_status": "frozen_before_evolver_authority_inspection",
+  "question": "Does the unoriented raw graph together with its characteristic receipt tower canonically select one evolver H, or only a reversal orbit containing H and inverse(H)?",
+  "repository_status_at_preregistration_freeze": {
+    "clean_worktree_claim": false,
+    "head": "d01b068 Lock intrinsic G60 upper-central receipt tower",
+    "status_short": [
+      "?? ../01-unit-action-and-finite-geometric-emergence/README.md",
+      "?? ../01-unit-action-and-finite-geometric-emergence/build/",
+      "?? ../01-unit-action-and-finite-geometric-emergence/dist/",
+      "?? ../01-unit-action-and-finite-geometric-emergence/notes/claim-status.md",
+      "?? ../01-unit-action-and-finite-geometric-emergence/notes/source-ledger.md",
+      "?? ../01-unit-action-and-finite-geometric-emergence/notes/theorem-dependency-audit.md",
+      "?? ../01-unit-action-and-finite-geometric-emergence/paper/",
+      "?? ../01-unit-action-and-finite-geometric-emergence/scripts/zipit.sh",
+      "?? ../02-extension-and-evolution-from-a-discrete-encounter/build/",
+      "?? ../03-encounter-orientation-receipt-tower/",
+      "?? ../04-binary-receipts-and-finite-cycle-doubling/",
+      "?? ../05-parity-in-the-dihedral-receipt-tower/",
+      "?? ../06-finite-receipt-holonomy-and-cycle-multiplication/",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ]
+  },
+  "research_ethos": "Do not protect the idea. Make the idea protect itself.",
+  "sequencing": {
+    "extension_evolution_factorization_allowed_now": false,
+    "geometric_emergence_allowed_now": false,
+    "inventory_native_evolver_authorities_second": true,
+    "physical_bridge_allowed_now": false,
+    "preregister_exact_candidate_before_native_test": true,
+    "prove_general_obstruction_first": true,
+    "test_minimal_additional_datum_only_after_obstruction": true
+  },
+  "version": 1
+}
