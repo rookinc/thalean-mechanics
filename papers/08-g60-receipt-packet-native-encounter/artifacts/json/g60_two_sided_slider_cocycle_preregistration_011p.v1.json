@@ -1,0 +1,182 @@
+{
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/s3_sign_v4_d8_local_system_audit_021.json": {
+      "expected_sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa",
+      "hash_match": true,
+      "sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/synthematic_total_534_transport_tower_audit_020.json": {
+      "expected_sha256": "bd45e9224afaa22ae39855fb87ed391221340a6bb5b9375edcc012d2610449e4",
+      "hash_match": true,
+      "sha256": "bd45e9224afaa22ae39855fb87ed391221340a6bb5b9375edcc012d2610449e4"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_s5_extension_splitting_audit_079.json": {
+      "expected_sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221",
+      "hash_match": true,
+      "sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_v4_recovery_052.json": {
+      "expected_sha256": "8ddf9791ff0814ced4b72ea14a4c7f330f1b0de577579ec3755b0d411f83f9ca",
+      "hash_match": true,
+      "sha256": "8ddf9791ff0814ced4b72ea14a4c7f330f1b0de577579ec3755b0d411f83f9ca"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_full_A_orientation_character_extension_census_011o.v1.json": {
+      "expected_sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941",
+      "hash_match": true,
+      "sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941"
+    }
+  },
+  "boundary": {
+    "finite_central_extension_test_only": true,
+    "geometry_claim": false,
+    "global_minimality_claim": false,
+    "local_global_sheet_identification_claim": false,
+    "manuscript_mutated": false,
+    "native_authorities_are_comparison_constraints": true,
+    "physical_claim": false,
+    "physical_direction_claim": false,
+    "unique_representative_claim": false
+  },
+  "claims_withheld": {
+    "AB_BA_distinguished": false,
+    "local_side_equals_011o_orientation_sheet": false,
+    "local_to_global_side_map_constructed": false,
+    "mechanics_state_cell_established": false,
+    "native_class_selected": false,
+    "native_update_law_constructed": false,
+    "orientation_selected": false,
+    "two_sided_slider_cocycle_constructed": false
+  },
+  "declared_two_sided_model": {
+    "ab_ba_test_performed": false,
+    "base_group": "V4",
+    "cocycle_enumeration_performed": false,
+    "cohomology_quotient_computed": false,
+    "extension_types_classified": false,
+    "lifted_object_count": 8,
+    "multiplication": "(x,e)*(y,f)=(xy,e+f+omega(x,y)) mod 2",
+    "native_axis_filter_applied": false,
+    "normalization": "omega(1,x)=omega(x,1)=0",
+    "normalized_cocycle_codomain": "C2",
+    "orientation_sheet_comparison_performed": false,
+    "route_pair": [
+      "A_then_B",
+      "B_then_A"
+    ],
+    "route_side_discrepancy": "omega(a,b)+omega(b,a) mod 2",
+    "route_visible_endpoint": "ab",
+    "side_group": "C2",
+    "visible_projection": "(x,e)->x"
+  },
+  "falsifiers": [
+    "the normalized cocycle count is not 16",
+    "the cohomology class count is not 8",
+    "the extension-type class profile differs from 1,3,3,1",
+    "no central extension separates AB from BA",
+    "the native D8 order profile selects no cohomology class",
+    "the fixed-a and exchanged-b-ab condition selects more than one class",
+    "the selected class is Q8 or abelian rather than D8",
+    "AB and BA occupy the same central side in the selected class"
+  ],
+  "known_structure": {
+    "native_ab_equals_ba": true,
+    "native_axis_swap": {
+      "1": "1",
+      "a": "a",
+      "ab": "b",
+      "b": "ab"
+    },
+    "native_b_ab_global_trivialization_exists": false,
+    "native_carrier_axis": "a",
+    "native_local_structure_group": "D8",
+    "native_local_structure_group_center_order": 2,
+    "native_local_structure_group_element_order_profile": {
+      "1": 1,
+      "2": 5,
+      "4": 2
+    },
+    "native_local_structure_group_order": 8,
+    "native_triangle_holonomy_nontrivial": true,
+    "native_v4_is_abelian": true,
+    "native_v4_verified": true,
+    "orientation_cover_bridge_count": 2,
+    "orientation_cover_full_A_character": "p+n",
+    "orientation_selected_without_anchor": false,
+    "visible_state_count": 4,
+    "visible_state_register": "V4={1,a,b,ab}"
+  },
+  "locked_head": "656c767 Lock G60 full-A orientation character bridge",
+  "mode": "post_full_A_bridge_two_sided_slider_cocycle_preregistration",
+  "outcome_order": [
+    "computation_failure",
+    "authority_failure",
+    "normalized_cocycle_count_mismatch",
+    "cohomology_class_count_mismatch",
+    "extension_type_profile_mismatch",
+    "no_route_separating_central_extension",
+    "native_D8_profile_selects_no_class",
+    "native_D8_profile_selects_multiple_classes",
+    "unique_native_axis_class_does_not_separate_AB_BA",
+    "unique_native_axis_D8_class_separates_AB_BA_without_orientation_sheet_identification"
+  ],
+  "packet": "g60_two_sided_slider_cocycle_preregistration_011p",
+  "predictions": {
+    "AB_BA_opposite_central_sides": true,
+    "AB_BA_same_visible_endpoint": true,
+    "all_route_separating_classes_nonabelian": true,
+    "cocycle_representatives_per_class": 2,
+    "cohomology_class_count": 8,
+    "distinct_normalized_coboundary_count": 2,
+    "extension_type_class_profile": {
+      "C2_x_C2_x_C2": 1,
+      "C4_x_C2": 3,
+      "D8": 3,
+      "Q8": 1
+    },
+    "native_D8_abstract_group_match": true,
+    "native_axis_selected_class_count": 1,
+    "native_axis_selected_class_separates_AB_BA": true,
+    "native_axis_selected_cocycle_count": 2,
+    "native_axis_selected_extension_type": "D8",
+    "native_axis_square_signature": {
+      "q(a)": 1,
+      "q(ab)": 0,
+      "q(b)": 0
+    },
+    "normalized_cocycle_count": 16,
+    "normalized_function_count": 512,
+    "orientation_sheet_identification_predicted": false,
+    "orientation_sheet_identification_status": "not tested because no canonical local-to-global side map has yet been defined",
+    "prediction_blind": false,
+    "prediction_declared_before_computation": true,
+    "reason": "The normalized cohomology counts are standard finite central-extension expectations. The native-axis selection prediction is informed by the locked D8 local-system authority.",
+    "route_separating_class_count": 4,
+    "route_separating_cocycle_count": 8,
+    "two_representatives_are_gauge_related": true,
+    "unique_cocycle_representative_predicted": false
+  },
+  "required_tests": [
+    "construct_V4_multiplication_table",
+    "enumerate_all_512_normalized_binary_two_cochains",
+    "verify_normalized_two_cocycle_equation",
+    "count_all_normalized_two_cocycles",
+    "enumerate_normalized_one_cochains",
+    "compute_distinct_normalized_two_coboundaries",
+    "partition_cocycles_into_cohomology_classes",
+    "construct_all_eight_element_central_extensions",
+    "verify_group_associativity_identity_and_inverses",
+    "classify_extension_isomorphism_types",
+    "measure_element_order_profiles",
+    "measure_centers_and_quotients",
+    "compute_square_signature_q_on_a_b_ab",
+    "compute_AB_BA_central_discrepancy",
+    "count_route_separating_representatives_and_classes",
+    "apply_native_D8_order_profile_filter",
+    "apply_native_fixed_a_swapped_b_ab_axis_filter",
+    "measure_selected_class_and_representative_counts",
+    "test_label_compatible_native_D8_abstract_match",
+    "record_orientation_sheet_identification_as_unresolved"
+  ],
+  "status": "frozen_before_cocycle_enumeration",
+  "version": 1
+}

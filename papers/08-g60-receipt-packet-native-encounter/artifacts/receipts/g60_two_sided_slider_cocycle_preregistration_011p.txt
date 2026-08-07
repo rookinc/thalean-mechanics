@@ -1,0 +1,91 @@
+== G60 TWO-SIDED SLIDER COCYCLE PREREGISTRATION AUDIT 011p ==
+PACKET: g60_two_sided_slider_cocycle_preregistration_011p
+MODE: post_full_A_bridge_two_sided_slider_cocycle_preregistration
+JSON_SHA256: 5c09a3f307b05bf25c8ed11606ee3c58a93da16a973699b3905fa03c1b51b7bf
+NOTE_SHA256: 6f6db963cb65eefa6712dc7ba3e6162b14dd63b38cc1e4adb41b5cd842778f0d
+LOCKED_HEAD: 656c767 Lock G60 full-A orientation character bridge
+PREDICTED_NORMALIZED_COCYCLE_COUNT: 16
+PREDICTED_COHOMOLOGY_CLASS_COUNT: 8
+PREDICTED_EXTENSION_TYPE_PROFILE: {'C2_x_C2_x_C2': 1, 'C4_x_C2': 3, 'D8': 3, 'Q8': 1}
+PREDICTED_ROUTE_SEPARATING_CLASS_COUNT: 4
+PREDICTED_NATIVE_SELECTED_CLASS_COUNT: 1
+PREDICTED_NATIVE_EXTENSION_TYPE: D8
+COCYCLE_ENUMERATION_PERFORMED: false
+CHECK_COUNT: 70
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK status: true
+CHECK head: true
+CHECK json_hash: true
+CHECK note_hash: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK visible_V4: true
+CHECK visible_count_4: true
+CHECK native_V4_verified: true
+CHECK native_commutative: true
+CHECK native_D8: true
+CHECK native_D8_order_8: true
+CHECK native_center_2: true
+CHECK native_order_profile: true
+CHECK native_axis_swap: true
+CHECK native_carrier_a: true
+CHECK native_no_global_trivialization: true
+CHECK native_triangle_holonomy: true
+CHECK model_base_V4: true
+CHECK model_side_C2: true
+CHECK model_count_8: true
+CHECK model_normalized: true
+CHECK no_cocycle_enumeration: true
+CHECK no_cohomology: true
+CHECK no_classification: true
+CHECK no_native_filter: true
+CHECK no_AB_BA_test: true
+CHECK no_sheet_comparison: true
+CHECK prediction_declared: true
+CHECK prediction_not_blind: true
+CHECK predict_functions_512: true
+CHECK predict_cocycles_16: true
+CHECK predict_coboundaries_2: true
+CHECK predict_classes_8: true
+CHECK predict_two_per_class: true
+CHECK predict_type_profile: true
+CHECK predict_route_cocycles_8: true
+CHECK predict_route_classes_4: true
+CHECK predict_route_nonabelian: true
+CHECK predict_signature: true
+CHECK predict_selected_class_1: true
+CHECK predict_selected_cocycles_2: true
+CHECK predict_selected_D8: true
+CHECK predict_separates: true
+CHECK predict_same_endpoint: true
+CHECK predict_opposite_sides: true
+CHECK predict_not_unique_representative: true
+CHECK predict_gauge_pair: true
+CHECK no_sheet_identification_prediction: true
+CHECK required_test_count: true
+CHECK outcome_count: true
+CHECK falsifier_count: true
+CHECK no_slider_claim: true
+CHECK no_native_selection_claim: true
+CHECK no_AB_BA_claim: true
+CHECK no_local_global_claim: true
+CHECK no_update_law: true
+CHECK no_mechanics_cell: true
+CHECK no_orientation: true
+CHECK bounded_test: true
+CHECK no_unique_representative: true
+CHECK no_sheet_identity: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physical_direction: true
+CHECK no_physics: true
+CHECK note_exists: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+AB_BA_DISTINGUISHED: false
+LOCAL_SIDE_EQUALS_011O_ORIENTATION_SHEET: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
