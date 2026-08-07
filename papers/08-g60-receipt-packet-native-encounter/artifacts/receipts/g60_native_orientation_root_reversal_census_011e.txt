@@ -1,0 +1,44 @@
+== G60 NATIVE ORIENTATION-ROOT REVERSAL AUDIT 011e ==
+JSON_SHA256: 15ef444f6ed6bfbf0dc2611985edeffd0c38ec41142dfeb2f9ca53ef32813623
+NOTE_SHA256: 7d9f6f13569da77eee52d7ff93dfcab152396d7c713c88971fba42703df05636
+COMPUTATION_SCRIPT_SHA256: 5c703ea99d73cf1cdbc3ba196c96a52636790c6ddd4beeca10dec7c75c659bf4
+RAW_RUN_RECEIPT_SHA256: 3ec6eaa00e6725b3c6a1f64a9ceaeb26bc4901b1f76f50701820cb52c6d08a50
+ROOT_COUNT: 20
+INVERSE_PAIR_COUNT: 10
+ELEMENT_CONJUGACY_ORBIT_COUNT: 1
+PAIR_CONJUGACY_ORBIT_COUNT: 1
+ALL_ROOTS_HAVE_INVOLUTIVE_REVERSER: true
+GENERATED_SUBGROUP_ORDER_PROFILE: {'8': 320}
+CLASSIFICATION: multiple_reversal_orbits
+CHECK_COUNT: 27
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK compute_hash: true
+CHECK raw_hash: true
+CHECK authorities: true
+CHECK operation: true
+CHECK root_count_20: true
+CHECK square_failures_zero: true
+CHECK order_failures_zero: true
+CHECK inverse_closed: true
+CHECK no_self_inverse: true
+CHECK ten_pairs: true
+CHECK one_element_orbit: true
+CHECK one_pair_orbit: true
+CHECK all_reversed: true
+CHECK no_missing_witness: true
+CHECK all_D8: true
+CHECK obstruction: true
+CHECK classification: true
+CHECK not_H: true
+CHECK orientation_not_selected: true
+CHECK result_frozen: true
+CHECK no_larger_carrier: true
+CHECK no_manuscript: true
+CHECK no_physics: true
+CHECK promotion_unchanged: true
+CHECK note: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: The canonical root set C_tau={c in Aut(G60):c^2=tau} contains 20 order-4 elements forming ten inverse pairs. The elements form one conjugacy orbit, the pairs form one conjugacy orbit, and every root has an involutive preserving symmetry that sends c to c_inverse. Thus the unoriented native datum selects the full reversal-covariant family, not one pair or one orientation.

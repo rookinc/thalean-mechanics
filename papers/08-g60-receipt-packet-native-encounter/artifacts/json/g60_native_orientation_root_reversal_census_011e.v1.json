@@ -1,0 +1,695 @@
+{
+  "authorities": {
+    "absence_011d_sha256": "0ad32f6908e1cf8f7ad1093aafa9ff51ce8b3ff03481aa2a4a9d18b841f26691",
+    "absence_hash_match": true,
+    "action_hash_match": true,
+    "action_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+  },
+  "boundary": {
+    "candidate_only": false,
+    "larger_carrier_constructed": false,
+    "manuscript_mutated": false,
+    "minimal_directional_datum_identified": false,
+    "multiple_inverse_pairs": true,
+    "one_inverse_pair_selected": false,
+    "orientation_selected": false,
+    "physical_claim": false,
+    "result_frozen": true,
+    "roots_relabelled_as_absent_H": false
+  },
+  "classification": "multiple_reversal_orbits",
+  "earned_statement": "The canonical root set C_tau={c in Aut(G60):c^2=tau} contains 20 order-4 elements forming ten inverse pairs. The elements form one conjugacy orbit, the pairs form one conjugacy orbit, and every root has an involutive preserving symmetry that sends c to c_inverse. Thus the unoriented native datum selects the full reversal-covariant family, not one pair or one orientation.",
+  "group_reconstruction": {
+    "closure_failure_count": 0,
+    "group_order": 480,
+    "identity_index": 0,
+    "inverse_failure_count": 0,
+    "operation_ok": true
+  },
+  "mode": "frozen_native_orientation_root_reversal_census",
+  "orientation_root_set": {
+    "element_conjugacy_orbit_count": 1,
+    "element_conjugacy_orbits": [
+      [
+        13,
+        37,
+        67,
+        68,
+        88,
+        121,
+        126,
+        198,
+        209,
+        230,
+        247,
+        270,
+        314,
+        331,
+        354,
+        370,
+        400,
+        420,
+        457,
+        477
+      ]
+    ],
+    "inverse_closure_failure_count": 0,
+    "inverse_pair_count": 10,
+    "inverse_pairs": [
+      [
+        13,
+        400
+      ],
+      [
+        37,
+        247
+      ],
+      [
+        67,
+        126
+      ],
+      [
+        68,
+        121
+      ],
+      [
+        88,
+        370
+      ],
+      [
+        198,
+        314
+      ],
+      [
+        209,
+        331
+      ],
+      [
+        230,
+        457
+      ],
+      [
+        270,
+        420
+      ],
+      [
+        354,
+        477
+      ]
+    ],
+    "order_failure_count": 0,
+    "pair_conjugacy_orbit_count": 1,
+    "pair_conjugacy_orbits": [
+      [
+        [
+          13,
+          400
+        ],
+        [
+          37,
+          247
+        ],
+        [
+          67,
+          126
+        ],
+        [
+          68,
+          121
+        ],
+        [
+          88,
+          370
+        ],
+        [
+          198,
+          314
+        ],
+        [
+          209,
+          331
+        ],
+        [
+          230,
+          457
+        ],
+        [
+          270,
+          420
+        ],
+        [
+          354,
+          477
+        ]
+      ]
+    ],
+    "root_count": 20,
+    "root_indices": [
+      13,
+      37,
+      67,
+      68,
+      88,
+      121,
+      126,
+      198,
+      209,
+      230,
+      247,
+      270,
+      314,
+      331,
+      354,
+      370,
+      400,
+      420,
+      457,
+      477
+    ],
+    "self_inverse_root_count": 0,
+    "square_failure_count": 0,
+    "tau_index": 326
+  },
+  "packet": "g60_native_orientation_root_reversal_census_011e",
+  "promotion": {
+    "candidate_json_sha256": "0555dfcf04fcbf5f1f787b802dfca7543d5c72b92c8dbf09cdd8b20f904310f1",
+    "candidate_report_sha256": "3ec6eaa00e6725b3c6a1f64a9ceaeb26bc4901b1f76f50701820cb52c6d08a50",
+    "candidate_script_sha256": "5c703ea99d73cf1cdbc3ba196c96a52636790c6ddd4beeca10dec7c75c659bf4",
+    "mathematical_result_fields_changed": false
+  },
+  "repository_status_preserved": true,
+  "reversal_obstruction_verified_on_orientation_root_layer": true,
+  "reversal_witnesses": {
+    "D_preservation_basis": "Conjugation inside A preserves the characteristic upper-central layers Z1 and Z2.",
+    "all_roots_have_involutive_reverser": true,
+    "generated_subgroup_order_profile": {
+      "8": 320
+    },
+    "involution_count": 83,
+    "missing_witness_count": 0,
+    "missing_witness_roots": [],
+    "witnesses_by_root": {
+      "121": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 68,
+        "witness_count": 16,
+        "witness_indices": [
+          4,
+          6,
+          8,
+          65,
+          70,
+          75,
+          123,
+          124,
+          158,
+          201,
+          211,
+          320,
+          322,
+          329,
+          405,
+          432
+        ]
+      },
+      "126": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 67,
+        "witness_count": 16,
+        "witness_indices": [
+          4,
+          6,
+          33,
+          62,
+          65,
+          70,
+          123,
+          124,
+          135,
+          243,
+          252,
+          320,
+          322,
+          355,
+          443,
+          479
+        ]
+      },
+      "13": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 400,
+        "witness_count": 16,
+        "witness_indices": [
+          6,
+          8,
+          65,
+          75,
+          93,
+          96,
+          124,
+          201,
+          269,
+          276,
+          320,
+          350,
+          371,
+          399,
+          405,
+          419
+        ]
+      },
+      "198": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 314,
+        "witness_count": 16,
+        "witness_indices": [
+          7,
+          16,
+          65,
+          75,
+          87,
+          93,
+          96,
+          124,
+          135,
+          197,
+          201,
+          252,
+          313,
+          325,
+          350,
+          371
+        ]
+      },
+      "209": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 331,
+        "witness_count": 16,
+        "witness_indices": [
+          6,
+          24,
+          65,
+          124,
+          158,
+          162,
+          197,
+          211,
+          224,
+          298,
+          313,
+          320,
+          329,
+          432,
+          459,
+          469
+        ]
+      },
+      "230": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 457,
+        "witness_count": 16,
+        "witness_indices": [
+          1,
+          62,
+          65,
+          75,
+          124,
+          201,
+          224,
+          269,
+          276,
+          288,
+          323,
+          399,
+          413,
+          419,
+          443,
+          459
+        ]
+      },
+      "247": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 37,
+        "witness_count": 16,
+        "witness_indices": [
+          4,
+          33,
+          62,
+          65,
+          124,
+          185,
+          197,
+          243,
+          269,
+          288,
+          313,
+          322,
+          343,
+          413,
+          419,
+          443
+        ]
+      },
+      "270": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 420,
+        "witness_count": 16,
+        "witness_indices": [
+          1,
+          65,
+          124,
+          135,
+          158,
+          216,
+          224,
+          252,
+          269,
+          298,
+          323,
+          389,
+          419,
+          432,
+          459,
+          469
+        ]
+      },
+      "314": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 198,
+        "witness_count": 16,
+        "witness_indices": [
+          7,
+          16,
+          65,
+          75,
+          87,
+          93,
+          96,
+          124,
+          135,
+          197,
+          201,
+          252,
+          313,
+          325,
+          350,
+          371
+        ]
+      },
+      "331": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 209,
+        "witness_count": 16,
+        "witness_indices": [
+          6,
+          24,
+          65,
+          124,
+          158,
+          162,
+          197,
+          211,
+          224,
+          298,
+          313,
+          320,
+          329,
+          432,
+          459,
+          469
+        ]
+      },
+      "354": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 477,
+        "witness_count": 16,
+        "witness_indices": [
+          4,
+          16,
+          65,
+          87,
+          93,
+          124,
+          135,
+          216,
+          224,
+          252,
+          322,
+          355,
+          371,
+          389,
+          459,
+          479
+        ]
+      },
+      "37": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 247,
+        "witness_count": 16,
+        "witness_indices": [
+          4,
+          33,
+          62,
+          65,
+          124,
+          185,
+          197,
+          243,
+          269,
+          288,
+          313,
+          322,
+          343,
+          413,
+          419,
+          443
+        ]
+      },
+      "370": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 88,
+        "witness_count": 16,
+        "witness_indices": [
+          7,
+          24,
+          62,
+          65,
+          93,
+          124,
+          158,
+          162,
+          185,
+          197,
+          313,
+          325,
+          343,
+          371,
+          432,
+          443
+        ]
+      },
+      "400": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 13,
+        "witness_count": 16,
+        "witness_indices": [
+          6,
+          8,
+          65,
+          75,
+          93,
+          96,
+          124,
+          201,
+          269,
+          276,
+          320,
+          350,
+          371,
+          399,
+          405,
+          419
+        ]
+      },
+      "420": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 270,
+        "witness_count": 16,
+        "witness_indices": [
+          1,
+          65,
+          124,
+          135,
+          158,
+          216,
+          224,
+          252,
+          269,
+          298,
+          323,
+          389,
+          419,
+          432,
+          459,
+          469
+        ]
+      },
+      "457": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 230,
+        "witness_count": 16,
+        "witness_indices": [
+          1,
+          62,
+          65,
+          75,
+          124,
+          201,
+          224,
+          269,
+          276,
+          288,
+          323,
+          399,
+          413,
+          419,
+          443,
+          459
+        ]
+      },
+      "477": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 354,
+        "witness_count": 16,
+        "witness_indices": [
+          4,
+          16,
+          65,
+          87,
+          93,
+          124,
+          135,
+          216,
+          224,
+          252,
+          322,
+          355,
+          371,
+          389,
+          459,
+          479
+        ]
+      },
+      "67": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 126,
+        "witness_count": 16,
+        "witness_indices": [
+          4,
+          6,
+          33,
+          62,
+          65,
+          70,
+          123,
+          124,
+          135,
+          243,
+          252,
+          320,
+          322,
+          355,
+          443,
+          479
+        ]
+      },
+      "68": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 121,
+        "witness_count": 16,
+        "witness_indices": [
+          4,
+          6,
+          8,
+          65,
+          70,
+          75,
+          123,
+          124,
+          158,
+          201,
+          211,
+          320,
+          322,
+          329,
+          405,
+          432
+        ]
+      },
+      "88": {
+        "generated_subgroup_order_profile": {
+          "8": 16
+        },
+        "inverse": 370,
+        "witness_count": 16,
+        "witness_indices": [
+          7,
+          24,
+          62,
+          65,
+          93,
+          124,
+          158,
+          162,
+          185,
+          197,
+          313,
+          325,
+          343,
+          371,
+          432,
+          443
+        ]
+      }
+    }
+  },
+  "version": 1
+}
