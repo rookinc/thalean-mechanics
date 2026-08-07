@@ -1,0 +1,189 @@
+{
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/s3_sign_v4_d8_local_system_audit_021.json": {
+      "expected_sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa",
+      "hash_match": true,
+      "sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json": {
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "hash_match": true,
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_s5_extension_splitting_audit_079.json": {
+      "expected_sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221",
+      "hash_match": true,
+      "sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_center_quotient_character_bridge_census_011u.v1.json": {
+      "expected_sha256": "9d5163f4c56ed1309a73902b8327e7747adcfa1cbef1566838af56c2768f90a7",
+      "hash_match": true,
+      "sha256": "9d5163f4c56ed1309a73902b8327e7747adcfa1cbef1566838af56c2768f90a7"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_full_A_orientation_character_extension_census_011o.v1.json": {
+      "expected_sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941",
+      "hash_match": true,
+      "sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_d8_chart_coherence_census_011w.v1.json": {
+      "expected_sha256": "e5630a02b4e4c28caac017906aebae10b00c5b1a8e1ccdf640a414c1174f6919",
+      "hash_match": true,
+      "sha256": "e5630a02b4e4c28caac017906aebae10b00c5b1a8e1ccdf640a414c1174f6919"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_two_sided_slider_cocycle_census_011q.v1.json": {
+      "expected_sha256": "63034d0c0fe4a35480bf879209a1da5dae0d5a581eeef063e489d8be1be2459e",
+      "hash_match": true,
+      "sha256": "63034d0c0fe4a35480bf879209a1da5dae0d5a581eeef063e489d8be1be2459e"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g60_native_d8_chart_coherence_census_011w.py": {
+      "expected_sha256": "329824bc477fff56531f232da711638bce048967b77d04b80bf94b48c83dab13",
+      "hash_match": true,
+      "sha256": "329824bc477fff56531f232da711638bce048967b77d04b80bf94b48c83dab13"
+    }
+  },
+  "boundary": {
+    "absolute_chart_orbit_selected": false,
+    "bounded_native_D8_chart_model_only": true,
+    "extra_binary_datum_proved_necessary": false,
+    "gauge_covariant_bundle_already_classified": true,
+    "geometry_claim": false,
+    "global_minimality_claim": false,
+    "local_D8_automorphisms_enumerated": false,
+    "local_side_equals_011o_orientation_sheet": false,
+    "manuscript_mutated": false,
+    "mechanics_state_cell_established": false,
+    "native_update_law_constructed": false,
+    "orientation_selected": false,
+    "outer_C2_exchange_verified": false,
+    "outer_selector_census_performed": false,
+    "physical_claim": false,
+    "physical_direction_claim": false,
+    "strict_equivariant_chart_selected": false
+  },
+  "companion_files": {
+    "note_path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/notes/g60_native_d8_outer_c2_selector_preregistration_011x.md",
+    "note_sha256": "747d1360eb2cd154e21b3de74a35ac401e6122df2972ea004415b74972d84ac3"
+  },
+  "falsifiers": [
+    "either selected cocycle presentation fails to reconstruct D8",
+    "the local D8 automorphism group has order other than eight",
+    "the inner automorphism subgroup has order other than four",
+    "the outer quotient has order other than two",
+    "an inner automorphism exchanges the locked four-chart fiber orbits",
+    "an outer automorphism preserves rather than exchanges a fiber orbit",
+    "an outer automorphism fails to exchange the global forty-chart orbits",
+    "the extended eighty-chart action is not transitive",
+    "the extended chart stabilizer has order other than twelve",
+    "alpha_1 or the q-axis signature distinguishes the outer orbits",
+    "the gauge-related presentations carry inequivalent outer torsors",
+    "a single global chart orbit is invariant under residual outer gauge",
+    "the minimal additional selector torsor has cardinality other than two"
+  ],
+  "locked_head": "18ae44f Lock G60 native D8 chart coherence obstruction",
+  "locked_input_surface": {
+    "alpha_1_character": {
+      "1": 0,
+      "a": 0,
+      "ab": 1,
+      "b": 1
+    },
+    "alpha_1_constant_across_outer_orbits": true,
+    "chart_count_per_presentation": 80,
+    "chart_orbit_profile_per_presentation": [
+      40,
+      40
+    ],
+    "fiber_orbit_profile": [
+      4,
+      4
+    ],
+    "fiber_size": 8,
+    "full_group_order": 480,
+    "local_presentation_count": 2,
+    "native_D8_subgroup_count": 10,
+    "normalizer_fiber_image_order": 4,
+    "normalizer_image_equals_inner_automorphisms": true,
+    "presentation_gauge_map_count": 4,
+    "presentation_gauge_maps_preserve_orbit_classes": true,
+    "q_axis_signature": {
+      "a": 1,
+      "ab": 0,
+      "b": 0
+    },
+    "q_axis_signature_constant_across_outer_orbits": true,
+    "residual_outer_gauge_group": "C2",
+    "strict_equivariant_section_count_per_presentation": [
+      0,
+      0
+    ],
+    "total_chart_count": 160
+  },
+  "mode": "post_chart_coherence_outer_C2_selector_preregistration",
+  "outcome_order": [
+    "computation_failure",
+    "authority_failure",
+    "local_D8_reconstruction_failure",
+    "automorphism_count_mismatch",
+    "inner_outer_partition_mismatch",
+    "fiber_outer_exchange_failure",
+    "global_outer_exchange_failure",
+    "extended_chart_action_not_transitive",
+    "extended_chart_stabilizer_mismatch",
+    "locked_observable_separates_outer_orbits",
+    "gauge_presentation_outer_torsor_mismatch",
+    "outer_gauge_invariant_selector_exists",
+    "minimal_selector_torsor_not_binary",
+    "native_D8_chart_orbit_selection_requires_one_external_outer_C2_torsor_choice"
+  ],
+  "packet": "g60_native_d8_outer_c2_selector_preregistration_011x",
+  "predictions": {
+    "absolute_orbit_selected_by_locked_data": false,
+    "alpha_1_constant_under_outer_exchange": true,
+    "extended_chart_action_order_per_presentation": 960,
+    "extended_chart_orbit_profile_per_presentation": [
+      80
+    ],
+    "extended_chart_stabilizer_order": 12,
+    "full_A_invariant_orbit_choices_before_outer_quotient": 2,
+    "gauge_related_presentations_have_equivalent_outer_C2_torsors": true,
+    "global_outer_involution_count_per_presentation": 4,
+    "inner_automorphism_count": 4,
+    "inner_automorphisms_preserve_each_fiber_orbit": true,
+    "local_D8_automorphism_group_order": 8,
+    "local_D8_inner_automorphism_group_order": 4,
+    "local_D8_outer_automorphism_group_order": 2,
+    "minimal_extra_binary_choice_count": 1,
+    "minimal_extra_torsor_cardinality": 2,
+    "outer_automorphism_count": 4,
+    "outer_automorphisms_exchange_fiber_orbits": true,
+    "outer_automorphisms_exchange_global_chart_orbits": true,
+    "predicted_classification": "native_D8_chart_orbit_selection_requires_one_external_outer_C2_torsor_choice",
+    "q_axis_signature_constant_under_outer_exchange": true,
+    "strict_outer_gauge_invariant_orbit_selector_count": 0
+  },
+  "required_tests": [
+    "reconstruct_both_locked_local_D8_presentations",
+    "enumerate_all_local_D8_automorphisms",
+    "verify_local_D8_automorphism_group_order_eight",
+    "identify_inner_automorphism_subgroup",
+    "verify_inner_automorphism_group_order_four",
+    "classify_inner_and_outer_automorphism_cosets",
+    "verify_outer_automorphism_quotient_C2",
+    "construct_precomposition_action_on_all_160_charts",
+    "verify_inner_automorphisms_preserve_each_four_chart_fiber_orbit",
+    "verify_every_outer_automorphism_exchanges_the_two_fiber_orbits",
+    "verify_outer_automorphisms_exchange_global_forty_chart_orbits",
+    "adjoin_each_outer_automorphism_to_the_full_A_chart_action",
+    "verify_extended_eighty_chart_action_is_transitive",
+    "verify_extended_chart_stabilizer_order_twelve",
+    "verify_alpha_1_constant_under_outer_exchange",
+    "verify_q_axis_signature_constant_under_outer_exchange",
+    "transport_outer_torsor_across_all_four_presentation_gauge_maps",
+    "verify_gauge_related_presentations_have_equivalent_outer_torsors",
+    "enumerate_full_A_invariant_global_orbit_choices",
+    "test_each_choice_for_outer_gauge_invariance",
+    "verify_no_outer_gauge_invariant_single_orbit_selector",
+    "verify_minimal_selector_torsor_has_cardinality_two"
+  ],
+  "status": "frozen_before_local_D8_automorphism_enumeration"
+}

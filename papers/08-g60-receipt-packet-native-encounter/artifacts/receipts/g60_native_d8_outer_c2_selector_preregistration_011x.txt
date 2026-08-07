@@ -1,0 +1,91 @@
+== G60 NATIVE D8 OUTER-C2 SELECTOR PREREGISTRATION AUDIT 011x ==
+PACKET: g60_native_d8_outer_c2_selector_preregistration_011x
+MODE: post_chart_coherence_outer_C2_selector_preregistration
+JSON_SHA256: a093ff51f40063d6bdf6754dc3dd8406b10c3ddcea62954cb8520f0331a9a201
+NOTE_SHA256: 747d1360eb2cd154e21b3de74a35ac401e6122df2972ea004415b74972d84ac3
+LOCKED_HEAD: 18ae44f Lock G60 native D8 chart coherence obstruction
+PREDICTED_AUT_D8_ORDER: 8
+PREDICTED_INNER_D8_ORDER: 4
+PREDICTED_OUTER_D8_ORDER: 2
+PREDICTED_EXTENDED_CHART_ORBIT_PROFILE: [80]
+PREDICTED_OUTER_INVARIANT_SELECTOR_COUNT: 0
+PREDICTED_MINIMAL_TORSOR_CARDINALITY: 2
+PREDICTED_CLASSIFICATION: native_D8_chart_orbit_selection_requires_one_external_outer_C2_torsor_choice
+OUTER_SELECTOR_CENSUS_PERFORMED: false
+CHECK_COUNT: 67
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK status: true
+CHECK head: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK note_exists: true
+CHECK note_hash: true
+CHECK group_480: true
+CHECK subgroups_10: true
+CHECK presentations_2: true
+CHECK charts_80: true
+CHECK charts_160: true
+CHECK orbits_40_40: true
+CHECK fiber_8: true
+CHECK fiber_orbits_4_4: true
+CHECK inner_image_4: true
+CHECK image_inner: true
+CHECK residual_C2: true
+CHECK alpha_character: true
+CHECK q_signature: true
+CHECK alpha_constant_locked: true
+CHECK q_constant_locked: true
+CHECK gauge_maps_4: true
+CHECK gauge_preserves_orbits: true
+CHECK sections_zero: true
+CHECK predict_aut_8: true
+CHECK predict_inner_4: true
+CHECK predict_outer_2: true
+CHECK predict_inner_count_4: true
+CHECK predict_outer_count_4: true
+CHECK predict_inner_preserves: true
+CHECK predict_outer_fiber_exchange: true
+CHECK predict_outer_global_exchange: true
+CHECK predict_global_outer_4: true
+CHECK predict_extended_order_960: true
+CHECK predict_extended_orbit_80: true
+CHECK predict_extended_stabilizer_12: true
+CHECK predict_selector_zero: true
+CHECK predict_choices_two: true
+CHECK predict_torsor_two: true
+CHECK predict_binary_one: true
+CHECK predict_alpha_constant: true
+CHECK predict_q_constant: true
+CHECK predict_gauge_equivalent: true
+CHECK predict_no_absolute: true
+CHECK classification: true
+CHECK required_tests: true
+CHECK outcomes: true
+CHECK falsifiers: true
+CHECK bounded: true
+CHECK no_census: true
+CHECK no_automorphisms: true
+CHECK no_exchange_claim: true
+CHECK no_necessity_claim: true
+CHECK no_orbit_selected: true
+CHECK no_chart_selected: true
+CHECK bundle_locked: true
+CHECK no_update: true
+CHECK no_cell: true
+CHECK no_side_identity: true
+CHECK no_orientation: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_direction: true
+CHECK no_physics: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+EXTRA_BINARY_DATUM_PROVED_NECESSARY: false
+ABSOLUTE_CHART_ORBIT_SELECTED: false
+NATIVE_UPDATE_LAW_CONSTRUCTED: false
+MECHANICS_STATE_CELL_ESTABLISHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
