@@ -1,0 +1,171 @@
+{
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/s3_sign_v4_d8_local_system_audit_021.json": {
+      "expected_sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa",
+      "hash_match": true,
+      "sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json": {
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "hash_match": true,
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_center_quotient_character_bridge_census_011u.v1.json": {
+      "expected_sha256": "9d5163f4c56ed1309a73902b8327e7747adcfa1cbef1566838af56c2768f90a7",
+      "hash_match": true,
+      "sha256": "9d5163f4c56ed1309a73902b8327e7747adcfa1cbef1566838af56c2768f90a7"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_d8_chart_coherence_census_011w.v1.json": {
+      "expected_sha256": "e5630a02b4e4c28caac017906aebae10b00c5b1a8e1ccdf640a414c1174f6919",
+      "hash_match": true,
+      "sha256": "e5630a02b4e4c28caac017906aebae10b00c5b1a8e1ccdf640a414c1174f6919"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_d8_outer_c2_selector_census_011y.v1.json": {
+      "expected_sha256": "d5a9036cf96aa97dd8848cd947bff4d07c711db0db2e3dca3ad13ec1c9cdfdab",
+      "hash_match": true,
+      "sha256": "d5a9036cf96aa97dd8848cd947bff4d07c711db0db2e3dca3ad13ec1c9cdfdab"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_two_sided_slider_cocycle_census_011q.v1.json": {
+      "expected_sha256": "63034d0c0fe4a35480bf879209a1da5dae0d5a581eeef063e489d8be1be2459e",
+      "hash_match": true,
+      "sha256": "63034d0c0fe4a35480bf879209a1da5dae0d5a581eeef063e489d8be1be2459e"
+    }
+  },
+  "boundary": {
+    "absolute_chart_orbit_selected": false,
+    "autonomous_native_update_instruction_selected": false,
+    "chart_decorated_update_rows_enumerated": false,
+    "finite_instruction_parametrized_update_test_only": true,
+    "gauge_covariant_instruction_parametrized_update_constructed": false,
+    "gauge_quotient_computed": false,
+    "geometry_claim": false,
+    "global_minimality_claim": false,
+    "local_automorphism_action_recomputed": false,
+    "local_side_equals_011o_orientation_sheet": false,
+    "manuscript_mutated": false,
+    "mechanics_state_cell_established": false,
+    "native_update_law_constructed": false,
+    "order_four_instruction_pair_identified_with_outer_C2_torsor": false,
+    "orientation_selected": false,
+    "physical_claim": false,
+    "physical_direction_claim": false,
+    "strict_equivariant_chart_selected": false,
+    "update_census_performed": false
+  },
+  "definitions": {
+    "chart_decorated_update_row": {
+      "fields": [
+        "presentation",
+        "native_subgroup",
+        "chart",
+        "local_state",
+        "local_instruction",
+        "local_next_state"
+      ],
+      "native_evaluation": [
+        "chart(local_state)",
+        "chart(local_instruction)",
+        "chart(local_next_state)"
+      ]
+    },
+    "gauge_action": {
+      "automorphism_order": 8,
+      "expected_to_preserve_native_evaluation": true,
+      "rule": "(chart,state,instruction) maps to (chart composed with automorphism inverse, automorphism(state),automorphism(instruction))"
+    },
+    "honest_update_boundary": {
+      "autonomous_evolution": "state alone determines a uniquely selected next state",
+      "instruction_parametrized_operation": "state plus supplied instruction gives next state",
+      "these_are_not_identified": true
+    },
+    "local_update_graph": {
+      "arity": 2,
+      "graph_row": "(state, instruction, next_state)",
+      "objects": "ordered pairs (state, instruction) in a selected local D8 presentation",
+      "output": "local product state times instruction"
+    }
+  },
+  "falsifiers": [
+    "a reconstructed chart is not a group isomorphism",
+    "local multiplication fails automorphism covariance",
+    "the chart-decorated gauge action is not free",
+    "a gauge orbit evaluates to more than one native multiplication row",
+    "quotient evaluation misses or duplicates a native subgroup multiplication row",
+    "the two cocycle presentations produce different native quotient relations",
+    "a presentation gauge map fails to intertwine the quotient relation",
+    "the q-axis order-four instruction pair has an invariant singleton",
+    "an absolute chart or autonomous instruction is silently selected"
+  ],
+  "locked_head": "f3ee198 Lock G60 outer-C2 chart selector obstruction",
+  "mode": "post_outer_C2_obstruction_gauge_covariant_update_preregistration",
+  "packet": "g60_gauge_covariant_update_preregistration_011z",
+  "possible_outcomes": {
+    "chart_failure": "chart_reconstruction_or_isomorphism_failure",
+    "covariance_failure": "local_update_not_Aut_D8_covariant",
+    "descent_failure": "chart_decorated_update_does_not_descend",
+    "native_mismatch": "quotient_update_not_native_subgroup_multiplication",
+    "predicted": "gauge_covariant_instruction_parametrized_D8_update_descends_without_autonomous_instruction_selection",
+    "presentation_failure": "gauge_presentations_produce_inequivalent_update_relations",
+    "unexpected_selector": "autonomous_noncentral_instruction_selected"
+  },
+  "predictions": {
+    "Aut_D8_invariant_q_axis_order_four_singleton_count": 0,
+    "absolute_chart_selected": false,
+    "all_presentation_gauge_maps_intertwine_update": true,
+    "automorphism_group_order": 8,
+    "autonomous_noncentral_instruction_selected": false,
+    "chart_count_per_presentation": 80,
+    "chart_count_per_subgroup": 8,
+    "chart_decorated_update_row_count_both_presentations": 10240,
+    "chart_decorated_update_row_count_per_presentation": 5120,
+    "chart_decorated_update_row_count_per_subgroup": 512,
+    "gauge_action_free_on_chart_decorated_rows": true,
+    "gauge_covariant_instruction_parametrized_update_constructible": true,
+    "gauge_orbit_count_both_presentations": 1280,
+    "gauge_orbit_count_per_presentation": 640,
+    "gauge_orbit_count_per_subgroup": 64,
+    "local_element_orbit_size_profile": [
+      1,
+      1,
+      2,
+      4
+    ],
+    "local_instruction_count": 8,
+    "local_state_count": 8,
+    "local_update_row_count_per_chart": 64,
+    "native_D8_subgroup_count": 10,
+    "native_multiplication_row_count_per_presentation": 640,
+    "native_multiplication_row_count_per_subgroup": 64,
+    "native_unary_evolution_law_constructed": false,
+    "predicted_classification": "gauge_covariant_instruction_parametrized_D8_update_descends_without_autonomous_instruction_selection",
+    "presentation_count": 2,
+    "presentation_gauge_intertwiner_count": 4,
+    "presentation_quotient_relations_equal": true,
+    "q_axis_order_four_instruction_candidate_count": 2,
+    "quotient_evaluation_bijective": true,
+    "quotient_evaluation_well_defined": true
+  },
+  "required_tests": [
+    "reconstruct both selected local D8 multiplication tables",
+    "reconstruct all eighty charts for each presentation",
+    "verify every chart is a group isomorphism",
+    "enumerate the eight local D8 automorphisms per presentation",
+    "compute the automorphism action on local elements",
+    "verify the local element orbit-size profile is 1,1,2,4",
+    "identify the two order-four elements over the q-distinguished axis",
+    "verify no singleton order-four instruction is Aut(D8)-invariant",
+    "construct all chart-state-instruction update rows",
+    "verify local multiplication is equivariant under every automorphism",
+    "verify the automorphism action on chart-decorated rows is free",
+    "compute gauge orbits of chart-decorated update rows",
+    "evaluate every quotient row in its native D8 subgroup",
+    "verify quotient evaluation is independent of chart representative",
+    "verify quotient evaluation is bijective onto native subgroup multiplication",
+    "verify all ten native subgroup relations have sixty-four rows",
+    "compare the quotient relations across both cocycle presentations",
+    "verify all four presentation gauge maps intertwine the quotient relation",
+    "test whether any autonomous noncentral instruction is selected",
+    "preserve the distinction between a ternary update operation and a unary evolution law"
+  ],
+  "status": "preregistered_before_update_census"
+}

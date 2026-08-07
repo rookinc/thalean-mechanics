@@ -1,0 +1,83 @@
+== G60 GAUGE-COVARIANT UPDATE PREREGISTRATION AUDIT 011z ==
+PACKET: g60_gauge_covariant_update_preregistration_011z
+MODE: post_outer_C2_obstruction_gauge_covariant_update_preregistration
+JSON_SHA256: 63b669fcbd75d29bc6e81fa624e427da91d9eb9013d881e7e511889c648e17f4
+NOTE_SHA256: 9cdb713446a37bf9b654964dec8f1c932105cf59ab4ec2623a612cb5a6d64b63
+LOCKED_HEAD: f3ee198 Lock G60 outer-C2 chart selector obstruction
+PREDICTED_DECORATED_ROWS_PER_PRESENTATION: 5120
+PREDICTED_GAUGE_ORBITS_PER_PRESENTATION: 640
+PREDICTED_LOCAL_ELEMENT_ORBITS: [1, 1, 2, 4]
+PREDICTED_Q_AXIS_ORDER4_CANDIDATES: 2
+PREDICTED_CLASSIFICATION: gauge_covariant_instruction_parametrized_D8_update_descends_without_autonomous_instruction_selection
+UPDATE_CENSUS_PERFORMED: false
+CHECK_COUNT: 61
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK status: true
+CHECK locked_head: true
+CHECK current_head: true
+CHECK json_hash: true
+CHECK note_hash: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK presentations_2: true
+CHECK subgroups_10: true
+CHECK charts_per_subgroup_8: true
+CHECK charts_per_presentation_80: true
+CHECK states_8: true
+CHECK instructions_8: true
+CHECK local_rows_64: true
+CHECK decorated_subgroup_512: true
+CHECK decorated_presentation_5120: true
+CHECK decorated_total_10240: true
+CHECK aut_order_8: true
+CHECK element_orbits: true
+CHECK q_candidates_2: true
+CHECK q_invariant_zero: true
+CHECK free_action: true
+CHECK quotient_subgroup_64: true
+CHECK quotient_presentation_640: true
+CHECK quotient_total_1280: true
+CHECK native_subgroup_64: true
+CHECK native_presentation_640: true
+CHECK descent_well_defined: true
+CHECK descent_bijective: true
+CHECK presentations_equal: true
+CHECK gauge_maps_4: true
+CHECK gauge_intertwines: true
+CHECK covariant_constructible: true
+CHECK no_autonomous_instruction: true
+CHECK no_absolute_chart: true
+CHECK no_unary_law: true
+CHECK classification: true
+CHECK required_tests_20: true
+CHECK falsifiers_9: true
+CHECK finite_test: true
+CHECK no_census: true
+CHECK no_aut_recompute: true
+CHECK no_update_rows: true
+CHECK no_quotient: true
+CHECK no_constructed_update: true
+CHECK no_autonomous_native_instruction: true
+CHECK no_native_update_law: true
+CHECK no_absolute_orbit: true
+CHECK no_strict_chart: true
+CHECK no_torsor_identification: true
+CHECK no_cell: true
+CHECK no_side_identity: true
+CHECK no_orientation: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_direction: true
+CHECK no_physics: true
+CHECK note_exists: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+GAUGE_COVARIANT_INSTRUCTION_PARAMETRIZED_UPDATE_CONSTRUCTED: false
+AUTONOMOUS_NATIVE_UPDATE_INSTRUCTION_SELECTED: false
+NATIVE_UPDATE_LAW_CONSTRUCTED: false
+MECHANICS_STATE_CELL_ESTABLISHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
