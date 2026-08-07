@@ -1,0 +1,162 @@
+{
+  "authorities": {
+    "exact_action_044": {
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json",
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "extension_splitting_079": {
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_s5_extension_splitting_audit_079.json",
+      "sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221"
+    },
+    "five_point_action_078": {
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_five_petersen_matching_equivariance_audit_078.json",
+      "sha256": "db01304b44015a25e8f207d3fe869ad96ebcd82d3d2bd7017908a9ed7c843ec7"
+    },
+    "kernel_obstruction_011g": {
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_duad_orientation_bridge_census_011g.v1.json",
+      "sha256": "abc9e038b323fdd5af852a91b87aca4c5a1e35a6e484608af27a04a399c52e9c"
+    },
+    "kernel_obstruction_receipt_011g": {
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_duad_orientation_bridge_census_011g.txt",
+      "sha256": "83909a266580b0094574e8c2b37d0717e5b468d3486f72d8f779878841097c1b"
+    }
+  },
+  "candidate_datum_ladder": [
+    {
+      "datum": "raw_graph_and_full_A",
+      "level": "D0",
+      "test": "reconfirm zero A-equivariant ordered-duad-to-root bridges"
+    },
+    {
+      "datum": "canonical_unordered_family_of_all_S5_complements",
+      "level": "D1",
+      "test": "derive the conjugation action on the complement family and its kernel N without selecting either complement"
+    },
+    {
+      "datum": "canonical_complement_family_kernel_N",
+      "level": "D2",
+      "test": "count all N-equivariant ordered-duad-to-root bridges"
+    },
+    {
+      "datum": "one_selected_S5_complement",
+      "level": "D3",
+      "test": "count bridges for each complement and compare the complete map sets to determine whether complement choice is load-bearing"
+    },
+    {
+      "datum": "one_anchored_root_above_one_named_ordered_duad",
+      "level": "D4",
+      "test": "for every compatible anchor, count propagation maps satisfying that anchor under N and under each complement"
+    }
+  ],
+  "created_at": "2026-08-06T19:32:34.052550-07:00",
+  "frozen_definitions": {
+    "anchor_bit": "with d fixed, choosing one of the two roots in its certified inverse pair",
+    "canonical_propagation_subgroup": "N is the kernel of the conjugation action of A on the complete unordered complement family; equivalently the common normalizer only if the computation proves those descriptions agree",
+    "compatible_anchor": "an ordered duad d=(i,j) together with one root c belonging to the unique inverse pair assigned to {i,j} by Packet011g",
+    "complements": "all order-120 subgroups H of A that intersect Z2 trivially and map isomorphically onto the canonical five-point S5 quotient"
+  },
+  "frozen_tests": [
+    "reconstruct and verify every S5 complement without trusting row labels",
+    "verify the complete complement count and conjugacy action",
+    "compute every complement normalizer and their intersection",
+    "test whether a canonical index-two propagation subgroup N exists",
+    "count all N-equivariant ordered-duad-to-root bijections",
+    "count all H-equivariant bijections separately for every complement H",
+    "compare complete bridge map sets rather than selected representatives",
+    "test all compatible anchors, not one favorable anchor",
+    "test removal of the root choice from every anchor",
+    "test whether exchanging the anchor root exchanges exactly two global bridges",
+    "do not replace the candidate ladder after inspecting the result"
+  ],
+  "known_before_test": {
+    "S5_complement_count_reported_by_079": 2,
+    "Z1_indices": [
+      0,
+      326
+    ],
+    "Z2_indices": [
+      0,
+      65,
+      124,
+      326
+    ],
+    "anchor_ablation_performed": false,
+    "complement_conjugacy_orbit_sizes_reported_by_079": [
+      2
+    ],
+    "complement_map_sets_compared": false,
+    "complement_normalizer_order_reported_by_079": 240,
+    "full_A_ordered_bridge_count": 0,
+    "full_A_unordered_bridge_count": 1,
+    "full_group_order": 480,
+    "minimal_datum_census_performed": false
+  },
+  "locked_head": "fdfc28b Lock G60 duad orientation kernel obstruction",
+  "minimality_boundary": {
+    "anchor_not_declared_sufficient_before_test": true,
+    "complement_choice_not_declared_unnecessary_before_test": true,
+    "geometry_claim": false,
+    "global_information_theoretic_minimality_claim": false,
+    "manuscript_mutation_allowed": false,
+    "minimality_claim_scope": "only_the_frozen_candidate_datum_ladder",
+    "one_bit_language_allowed_only_if_every_fiber_has_exactly_two_choices": true,
+    "orientation_selected_now": false,
+    "physical_claim": false,
+    "physical_direction_claim": false
+  },
+  "mode": "post_obstruction_minimal_datum_preregistration",
+  "outcome_order": [
+    "computation_failure",
+    "authority_failure",
+    "no_canonical_propagation_subgroup",
+    "canonical_subgroup_has_no_oriented_bridge",
+    "unexpected_unique_bridge_without_anchor",
+    "multiple_bridges_beyond_global_reversal",
+    "complement_choice_is_load_bearing",
+    "anchor_does_not_select_unique_bridge",
+    "anchored_binary_choice_is_sufficient_without_complement_choice"
+  ],
+  "outcome_predicates": {
+    "anchor_does_not_select_unique_bridge": "some compatible anchor admits zero or multiple propagation maps",
+    "anchored_binary_choice_is_sufficient_without_complement_choice": "N is intrinsic, N admits exactly two inverse-related bridges, both complements admit the same two maps, and every compatible anchor selects exactly one",
+    "authority_failure": "a locked hash or previously proved finite result fails",
+    "canonical_subgroup_has_no_oriented_bridge": "N exists but admits no ordered-duad-to-root equivariant bridge",
+    "complement_choice_is_load_bearing": "the complete bridge map sets differ between the two complements",
+    "computation_failure": "the exact group or required subgroup actions cannot be reconstructed",
+    "multiple_bridges_beyond_global_reversal": "N admits more than two bridges",
+    "no_canonical_propagation_subgroup": "the complete complement family does not determine one common intrinsic subgroup N",
+    "unexpected_unique_bridge_without_anchor": "N admits exactly one bridge before any anchor is supplied"
+  },
+  "packet": "g60_minimal_directional_datum_preregistration_011h",
+  "repository_baseline": {
+    "status_short_before_preregistration": [
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ],
+    "status_used_as_clean_worktree_claim": false
+  },
+  "status": "frozen_before_complement_normalizer_and_anchor_census",
+  "structural_prediction": {
+    "declared_before_computation": true,
+    "not_blind": true,
+    "predicted_N_bridge_count": 2,
+    "predicted_anchor_ablation_bridge_count": 2,
+    "predicted_bridge_count_per_compatible_anchor": 1,
+    "predicted_bridge_count_per_complement": 2,
+    "predicted_common_normalizer_order": 240,
+    "predicted_complement_count": 2,
+    "predicted_complement_map_sets_identical": true,
+    "predicted_minimal_result": "the complement family and propagation subgroup are intrinsic; one root choice in a named two-state fiber is the only additional binary datum required within the tested ladder",
+    "prediction_is_not_a_result": true
+  },
+  "version": 1
+}

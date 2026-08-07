@@ -1,0 +1,60 @@
+== G60 MINIMAL DIRECTIONAL DATUM PREREGISTRATION AUDIT 011h ==
+PACKET: g60_minimal_directional_datum_preregistration_011h
+MODE: post_obstruction_minimal_datum_preregistration
+JSON_SHA256: 4cd0130cb68c9df2425bdf98ae0fb109497ae98f0702b6af9274ce6ae671d003
+NOTE_SHA256: 8ac1bfea9d0782e3b22fe09415e537f7cea0c93cfdaf01dcf9320f87c900091e
+LOCKED_HEAD: fdfc28b Lock G60 duad orientation kernel obstruction
+LADDER_LEVELS: ['D0', 'D1', 'D2', 'D3', 'D4']
+PREDICTED_COMPLEMENT_COUNT: 2
+PREDICTED_COMMON_NORMALIZER_ORDER: 240
+PREDICTED_N_BRIDGE_COUNT: 2
+PREDICTED_ANCHORED_BRIDGE_COUNT: 1
+PREDICTION_BLIND: false
+MINIMAL_DATUM_CENSUS_PERFORMED: false
+OUTCOME_ORDER: ['computation_failure', 'authority_failure', 'no_canonical_propagation_subgroup', 'canonical_subgroup_has_no_oriented_bridge', 'unexpected_unique_bridge_without_anchor', 'multiple_bridges_beyond_global_reversal', 'complement_choice_is_load_bearing', 'anchor_does_not_select_unique_bridge', 'anchored_binary_choice_is_sufficient_without_complement_choice']
+CHECK_COUNT: 39
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK frozen: true
+CHECK head: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK group_480: true
+CHECK Z1: true
+CHECK Z2: true
+CHECK full_A_obstruction: true
+CHECK full_A_unordered_unique: true
+CHECK two_complements_known: true
+CHECK no_census: true
+CHECK no_map_comparison: true
+CHECK no_anchor_ablation: true
+CHECK five_ladder_levels: true
+CHECK test_count_11: true
+CHECK prediction_not_blind: true
+CHECK prediction_declared: true
+CHECK predict_two_complements: true
+CHECK predict_N_240: true
+CHECK predict_N_two_maps: true
+CHECK predict_each_complement_two: true
+CHECK predict_same_maps: true
+CHECK predict_anchor_one: true
+CHECK predict_ablation_two: true
+CHECK prediction_not_result: true
+CHECK nine_outcomes: true
+CHECK all_outcomes_defined: true
+CHECK bounded_minimality: true
+CHECK no_global_minimality: true
+CHECK complement_not_prejudged: true
+CHECK anchor_not_prejudged: true
+CHECK orientation_not_selected: true
+CHECK no_physical_direction: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physics: true
+CHECK note_exists: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+ORIENTATION_SELECTED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
