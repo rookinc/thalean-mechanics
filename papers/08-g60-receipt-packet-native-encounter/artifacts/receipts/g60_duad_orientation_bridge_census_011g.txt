@@ -1,0 +1,76 @@
+== G60 DUAD ORIENTATION BRIDGE CENSUS AUDIT 011g ==
+PACKET: g60_duad_orientation_bridge_census_011g
+MODE: frozen_complete_finite_action_census
+JSON_SHA256: abc9e038b323fdd5af852a91b87aca4c5a1e35a6e484608af27a04a399c52e9c
+NOTE_SHA256: a676276b5b342b13c766f6413c0b5781bc6db89da67902ed441a6e93951a2b39
+COMPUTATION_SCRIPT_SHA256: c8b19325654e4eddb612e0a5d8dee372838d1f563e80074b066dcc0fdaee645b
+RAW_RUN_RECEIPT_SHA256: a544c3ebe80ce4aeccf17beecde468bb1dd14804f1783863c3babf1a6120a0c0
+ORDERED_DUAD_KERNEL: [0, 65, 124, 326]
+ROOT_KERNEL: [0, 326]
+INVERSE_PAIR_KERNEL: [0, 65, 124, 326]
+ORDERED_BRIDGE_COUNT: 0
+UNORDERED_BRIDGE_COUNT: 1
+KERNEL_OBSTRUCTION_VERIFIED: true
+CLASSIFICATION: unique_unordered_bridge_with_oriented_kernel_obstruction
+CHECK_COUNT: 53
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode_frozen: true
+CHECK head_locked: true
+CHECK result_frozen: true
+CHECK audit_pass_recorded: true
+CHECK candidate_hash: true
+CHECK raw_hash: true
+CHECK compute_hash: true
+CHECK raw_copied: true
+CHECK compute_copied: true
+CHECK group_order_480: true
+CHECK identity_0: true
+CHECK closure_zero: true
+CHECK inverse_zero: true
+CHECK operation_ok: true
+CHECK block_action_consistent: true
+CHECK root_action_closed: true
+CHECK ordered_20_transitive: true
+CHECK unordered_10_transitive: true
+CHECK roots_20_transitive: true
+CHECK pairs_10_transitive: true
+CHECK ordered_kernel_Z2: true
+CHECK unordered_kernel_Z2: true
+CHECK root_kernel_Z1: true
+CHECK pair_kernel_Z2: true
+CHECK kernel_obstruction: true
+CHECK inversion_equivariance: true
+CHECK duad_reversal_equivariance: true
+CHECK identity_fixes_roots: true
+CHECK tau_fixes_roots: true
+CHECK 65_inverts_roots: true
+CHECK 124_inverts_roots: true
+CHECK no_other_root_actions: true
+CHECK ordered_stabilizer_24: true
+CHECK ordered_fixed_targets_zero: true
+CHECK ordered_bridge_zero: true
+CHECK unordered_stabilizer_48: true
+CHECK unordered_fixed_target_one: true
+CHECK unordered_bridge_one: true
+CHECK unordered_mapping_row_count_10: true
+CHECK mapping_exact: true
+CHECK classification: true
+CHECK prediction_matches: true
+CHECK predicted_counts_match: true
+CHECK orientation_not_selected: true
+CHECK minimal_datum_not_identified: true
+CHECK no_larger_carrier: true
+CHECK no_replacement: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physics: true
+CHECK repository_preserved: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: The canonical five-matching S5 quotient determines a unique Aut(G60)-equivariant bijection from its ten unordered duads to the ten inverse pairs of roots of tau. No equivariant bijection exists from the twenty ordered duads to the twenty individual roots. The duad and inverse-pair actions have pointwise kernel Z2(A)=V4, while root conjugation has pointwise kernel Z1(A)=C2. The residual quotient Z2(A)/Z1(A)=C2 exchanges every root with its inverse. Thus the native unoriented graph selects one reversal-covariant pair, not one orientation.
+ORIENTATION_SELECTED: false
+MINIMAL_DIRECTIONAL_DATUM_IDENTIFIED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false

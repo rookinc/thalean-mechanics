@@ -1,0 +1,343 @@
+{
+  "A_sets": {
+    "inverse_root_pairs": {
+      "count": 10,
+      "orbit_count": 1,
+      "pairs": [
+        [
+          13,
+          400
+        ],
+        [
+          37,
+          247
+        ],
+        [
+          67,
+          126
+        ],
+        [
+          68,
+          121
+        ],
+        [
+          88,
+          370
+        ],
+        [
+          198,
+          314
+        ],
+        [
+          209,
+          331
+        ],
+        [
+          230,
+          457
+        ],
+        [
+          270,
+          420
+        ],
+        [
+          354,
+          477
+        ]
+      ],
+      "pointwise_kernel_indices": [
+        0,
+        65,
+        124,
+        326
+      ],
+      "pointwise_kernel_order": 4
+    },
+    "ordered_duads": {
+      "count": 20,
+      "orbit_count": 1,
+      "pointwise_kernel_indices": [
+        0,
+        65,
+        124,
+        326
+      ],
+      "pointwise_kernel_order": 4
+    },
+    "orientation_roots": {
+      "count": 20,
+      "orbit_count": 1,
+      "pointwise_kernel_indices": [
+        0,
+        326
+      ],
+      "pointwise_kernel_order": 2
+    },
+    "unordered_duads": {
+      "count": 10,
+      "orbit_count": 1,
+      "pointwise_kernel_indices": [
+        0,
+        65,
+        124,
+        326
+      ],
+      "pointwise_kernel_order": 4
+    }
+  },
+  "audit_pass": true,
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json": {
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "hash_match": true,
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_five_petersen_matching_equivariance_audit_078.json": {
+      "expected_sha256": "db01304b44015a25e8f207d3fe869ad96ebcd82d3d2bd7017908a9ed7c843ec7",
+      "hash_match": true,
+      "sha256": "db01304b44015a25e8f207d3fe869ad96ebcd82d3d2bd7017908a9ed7c843ec7"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_five_petersen_matching_partition_theorem_077.json": {
+      "expected_sha256": "7db5162f2dbd9d53b44e8a9716f097394e5a75040951eceb8ec1e6ddbbb372b0",
+      "hash_match": true,
+      "sha256": "7db5162f2dbd9d53b44e8a9716f097394e5a75040951eceb8ec1e6ddbbb372b0"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_s5_extension_splitting_audit_079.json": {
+      "expected_sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221",
+      "hash_match": true,
+      "sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_duad_orientation_bridge_preregistration_011f.v1.json": {
+      "expected_sha256": "af7eda5bad497faf6f68d5225bce35c0f8184a577853d2b50ea055af4356aa37",
+      "hash_match": true,
+      "sha256": "af7eda5bad497faf6f68d5225bce35c0f8184a577853d2b50ea055af4356aa37"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_orientation_root_reversal_census_011e.v1.json": {
+      "expected_sha256": "15ef444f6ed6bfbf0dc2611985edeffd0c38ec41142dfeb2f9ca53ef32813623",
+      "hash_match": true,
+      "sha256": "15ef444f6ed6bfbf0dc2611985edeffd0c38ec41142dfeb2f9ca53ef32813623"
+    }
+  },
+  "boundary": {
+    "geometry_claim": false,
+    "larger_carrier_constructed": false,
+    "manuscript_mutated": false,
+    "minimal_directional_datum_identified": false,
+    "orientation_selected": false,
+    "physical_claim": false,
+    "replacement_selector_used": false
+  },
+  "classification": "unique_unordered_bridge_with_oriented_kernel_obstruction",
+  "earned_statement": "The canonical five-matching S5 quotient determines a unique Aut(G60)-equivariant bijection from its ten unordered duads to the ten inverse pairs of roots of tau. No equivariant bijection exists from the twenty ordered duads to the twenty individual roots. The duad and inverse-pair actions have pointwise kernel Z2(A)=V4, while root conjugation has pointwise kernel Z1(A)=C2. The residual quotient Z2(A)/Z1(A)=C2 exchanges every root with its inverse. Thus the native unoriented graph selects one reversal-covariant pair, not one orientation.",
+  "equivariant_bridges": {
+    "ordered_to_roots": {
+      "bridge_count": 0,
+      "fixed_target_candidate_count": 0,
+      "rows": [],
+      "source_stabilizer_order": 24
+    },
+    "unordered_to_inverse_pairs": {
+      "bridge_count": 1,
+      "fixed_target_candidate_count": 1,
+      "rows": [
+        {
+          "inverse_pair": [
+            13,
+            400
+          ],
+          "map_index": 0,
+          "unordered_duad": [
+            0,
+            1
+          ]
+        },
+        {
+          "inverse_pair": [
+            354,
+            477
+          ],
+          "map_index": 0,
+          "unordered_duad": [
+            0,
+            2
+          ]
+        },
+        {
+          "inverse_pair": [
+            209,
+            331
+          ],
+          "map_index": 0,
+          "unordered_duad": [
+            0,
+            3
+          ]
+        },
+        {
+          "inverse_pair": [
+            37,
+            247
+          ],
+          "map_index": 0,
+          "unordered_duad": [
+            0,
+            4
+          ]
+        },
+        {
+          "inverse_pair": [
+            88,
+            370
+          ],
+          "map_index": 0,
+          "unordered_duad": [
+            1,
+            2
+          ]
+        },
+        {
+          "inverse_pair": [
+            67,
+            126
+          ],
+          "map_index": 0,
+          "unordered_duad": [
+            1,
+            3
+          ]
+        },
+        {
+          "inverse_pair": [
+            270,
+            420
+          ],
+          "map_index": 0,
+          "unordered_duad": [
+            1,
+            4
+          ]
+        },
+        {
+          "inverse_pair": [
+            230,
+            457
+          ],
+          "map_index": 0,
+          "unordered_duad": [
+            2,
+            3
+          ]
+        },
+        {
+          "inverse_pair": [
+            68,
+            121
+          ],
+          "map_index": 0,
+          "unordered_duad": [
+            2,
+            4
+          ]
+        },
+        {
+          "inverse_pair": [
+            198,
+            314
+          ],
+          "map_index": 0,
+          "unordered_duad": [
+            3,
+            4
+          ]
+        }
+      ],
+      "source_stabilizer_order": 48
+    }
+  },
+  "group_reconstruction": {
+    "block_action_consistency_failure_count": 0,
+    "closure_failure_count": 0,
+    "group_order": 480,
+    "identity_index": 0,
+    "inverse_failure_count": 0,
+    "operation_ok": true,
+    "permutation_dictionary_size": 480,
+    "root_action_failure_count": 0
+  },
+  "kernel_action": {
+    "duad_reversal_equivariance_failure_count": 0,
+    "inversion_equivariance_failure_count": 0,
+    "kernel_obstruction_verified": true,
+    "native_v4_indices_derived_as_duad_kernel": [
+      0,
+      65,
+      124,
+      326
+    ],
+    "root_action_rows": [
+      {
+        "element_index": 0,
+        "fixed_root_count": 20,
+        "inverse_root_count": 0,
+        "other_root_count": 0
+      },
+      {
+        "element_index": 65,
+        "fixed_root_count": 0,
+        "inverse_root_count": 20,
+        "other_root_count": 0
+      },
+      {
+        "element_index": 124,
+        "fixed_root_count": 0,
+        "inverse_root_count": 20,
+        "other_root_count": 0
+      },
+      {
+        "element_index": 326,
+        "fixed_root_count": 20,
+        "inverse_root_count": 0,
+        "other_root_count": 0
+      }
+    ]
+  },
+  "locked_head": "b0353ef Preregister G60 duad orientation bridge test",
+  "mode": "frozen_complete_finite_action_census",
+  "packet": "g60_duad_orientation_bridge_census_011g",
+  "prediction": {
+    "actual_ordered_bridge_count": 0,
+    "actual_unordered_bridge_count": 1,
+    "predicted_ordered_bridge_count": 0,
+    "predicted_unordered_bridge_count": 1,
+    "prediction_matches": true
+  },
+  "promotion": {
+    "candidate_json_sha256": "2890a55548f2f4077a2ee736ad4991d267cc470725e47c46350c30305a4900a0",
+    "computation_script_copied_byte_for_byte": true,
+    "computation_script_sha256": "c8b19325654e4eddb612e0a5d8dee372838d1f563e80074b066dcc0fdaee645b",
+    "raw_run_receipt_copied_byte_for_byte": true,
+    "raw_run_receipt_sha256": "a544c3ebe80ce4aeccf17beecde468bb1dd14804f1783863c3babf1a6120a0c0"
+  },
+  "repository": {
+    "project_mutation_performed": false,
+    "status_after": [
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ],
+    "status_before": [
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ],
+    "status_preserved": true
+  },
+  "result_frozen": true,
+  "version": 1
+}
