@@ -1,0 +1,79 @@
+== G60 FULL-A ORIENTATION CHARACTER-EXTENSION PREREGISTRATION AUDIT 011n ==
+PACKET: g60_full_A_orientation_character_extension_preregistration_011n
+MODE: post_twisted_N_bridge_character_extension_preregistration
+JSON_SHA256: ce0671b9d0ad33880c8b3d043878366abe885438976481f6fef3fbde16c21097
+NOTE_SHA256: c151a8da092897830661a0e99bad2d2b6cc9590d181e36af1260664b41580a07
+LOCKED_HEAD: dcefe45 Lock G60 parity-twisted orientation bridge
+DECLARED_EXTENSIONS: ['alpha_0=p', 'alpha_1=p+n']
+PREDICTED_ALPHA_0_BRIDGE_COUNT: 0
+PREDICTED_ALPHA_1_BRIDGE_COUNT: 2
+PREDICTED_UNIQUE_CHARACTER: alpha_1=p+n
+PREDICTION_BLIND: false
+FULL_ACTIONS_CONSTRUCTED: false
+BRIDGE_ENUMERATION_PERFORMED: false
+OUTCOME_ORDER: ['computation_failure', 'authority_failure', 'p_or_n_not_homomorphism', 'extension_count_not_two', 'declared_full_action_invalid', 'character_kernel_prediction_failure', 'alpha_0_unexpectedly_supports_bridge', 'alpha_1_supports_no_bridge', 'alpha_1_supports_unexpected_unique_bridge', 'alpha_1_supports_more_than_two_bridges', 'alpha_1_bridge_pair_differs_from_011m', 'alpha_1_bridges_not_inversion_related', 'anchor_does_not_select_unique_alpha_1_bridge', 'p_plus_n_unique_full_A_extension_supports_two_bridges']
+CHECK_COUNT: 58
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK frozen: true
+CHECK head: true
+CHECK json_hash: true
+CHECK note_hash: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK authorities_tracked: true
+CHECK group_480: true
+CHECK N_240: true
+CHECK N_index_two: true
+CHECK N_normal: true
+CHECK kernel_V4: true
+CHECK root_kernel_Z1: true
+CHECK residual_elements: true
+CHECK locked_N_bridges: true
+CHECK characters_p_n: true
+CHECK alpha_0_p: true
+CHECK alpha_1_p_plus_n: true
+CHECK declared_extensions_two: true
+CHECK no_character_computation: true
+CHECK no_homomorphism_test: true
+CHECK no_actions: true
+CHECK no_bridges: true
+CHECK no_anchor_ablation: true
+CHECK prediction_declared: true
+CHECK prediction_not_blind: true
+CHECK predict_two_extensions: true
+CHECK predict_both_valid: true
+CHECK predict_both_transitive: true
+CHECK predict_alpha_0_V4: true
+CHECK predict_alpha_1_Z1: true
+CHECK predict_residual_split: true
+CHECK predict_alpha_0_zero: true
+CHECK predict_alpha_1_two: true
+CHECK predict_maps_equal_011m: true
+CHECK predict_inversion: true
+CHECK predict_anchor_one: true
+CHECK predict_no_anchor_two: true
+CHECK predict_unique_character: true
+CHECK nineteen_tests: true
+CHECK fourteen_outcomes: true
+CHECK eight_falsifiers: true
+CHECK no_verified_characters: true
+CHECK no_full_A_source: true
+CHECK no_unique_character_claim: true
+CHECK no_bridge_claim: true
+CHECK no_count_claim: true
+CHECK no_anchor_claim: true
+CHECK no_orientation: true
+CHECK bounded_test: true
+CHECK no_replacement_search: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physics: true
+CHECK note_exists: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+ORIENTATION_SELECTED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false

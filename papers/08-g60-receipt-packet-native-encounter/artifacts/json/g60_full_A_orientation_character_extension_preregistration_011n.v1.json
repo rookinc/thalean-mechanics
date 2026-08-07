@@ -1,0 +1,187 @@
+{
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json": {
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "git_tracked": true,
+      "hash_match": true,
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_five_petersen_matching_equivariance_audit_078.json": {
+      "expected_sha256": "db01304b44015a25e8f207d3fe869ad96ebcd82d3d2bd7017908a9ed7c843ec7",
+      "git_tracked": true,
+      "hash_match": true,
+      "sha256": "db01304b44015a25e8f207d3fe869ad96ebcd82d3d2bd7017908a9ed7c843ec7"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_minimal_directional_datum_census_011i.v1.json": {
+      "expected_sha256": "6d7164f98d686dc9d54b8146f19ab56c22c8aa70009f65bbcad7c7c88e9b962d",
+      "git_tracked": true,
+      "hash_match": true,
+      "sha256": "6d7164f98d686dc9d54b8146f19ab56c22c8aa70009f65bbcad7c7c88e9b962d"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_parity_twisted_duad_cover_census_011m.v1.json": {
+      "expected_sha256": "8c556050e4ea028cc41eca4514366c3a0d6baa83620831259151dbed0b046a7e",
+      "git_tracked": true,
+      "hash_match": true,
+      "sha256": "8c556050e4ea028cc41eca4514366c3a0d6baa83620831259151dbed0b046a7e"
+    }
+  },
+  "boundary": {
+    "bounded_two_character_extension_test": true,
+    "geometry_claim": false,
+    "global_minimality_claim": false,
+    "manuscript_mutated": false,
+    "physical_claim": false,
+    "physical_direction_claim": false,
+    "replacement_character_search_beyond_p_and_p_plus_n": false
+  },
+  "claims_withheld": {
+    "anchor_sufficiency_extended_to_full_A": false,
+    "bridge_count_is_two": false,
+    "characters_verified": false,
+    "full_A_equivariant_bridge_exists": false,
+    "full_A_source_action_constructed": false,
+    "orientation_selected": false,
+    "unique_supporting_character_identified": false
+  },
+  "falsifiers": [
+    "p or n fails the homomorphism test",
+    "more or fewer than two extensions restrict to p on N",
+    "either declared full action fails closure",
+    "alpha_0 has a full-A bridge",
+    "alpha_1 has zero or other than two full-A bridges",
+    "alpha_1 bridge maps differ from the locked 011m maps",
+    "65 or 124 fails to exchange every alpha_1 sheet",
+    "a compatible alpha_1 anchor admits zero or more than one bridge"
+  ],
+  "known_structure": {
+    "canonical_N_index": 2,
+    "canonical_N_normal": true,
+    "canonical_N_order": 240,
+    "canonical_subgroup": "N",
+    "five_point_kernel": "Z2(A)=V4",
+    "five_point_kernel_indices": [
+      0,
+      65,
+      124,
+      326
+    ],
+    "five_point_quotient": "S5",
+    "full_group": "A=Aut(G60)",
+    "full_group_order": 480,
+    "residual_internal_quotient": "Z2(A)/Z1(A)=C2",
+    "residual_sheet_exchangers": [
+      65,
+      124
+    ],
+    "root_action_kernel": "Z1(A)=C2",
+    "root_action_kernel_indices": [
+      0,
+      326
+    ],
+    "twisted_N_bridge_count": 2,
+    "twisted_N_bridge_sha256s": [
+      "782dbcb9dae045cfc5dadd1b81f51895e447e981491263e09514c9077dfe1728",
+      "bb61e5018270d8954e8115bb9c1fbbcfb07f360ba307c451cb16103ef7336c01"
+    ],
+    "twisted_N_source_object_count": 20
+  },
+  "locked_head": "dcefe45 Lock G60 parity-twisted orientation bridge",
+  "mode": "post_twisted_N_bridge_character_extension_preregistration",
+  "outcome_order": [
+    "computation_failure",
+    "authority_failure",
+    "p_or_n_not_homomorphism",
+    "extension_count_not_two",
+    "declared_full_action_invalid",
+    "character_kernel_prediction_failure",
+    "alpha_0_unexpectedly_supports_bridge",
+    "alpha_1_supports_no_bridge",
+    "alpha_1_supports_unexpected_unique_bridge",
+    "alpha_1_supports_more_than_two_bridges",
+    "alpha_1_bridge_pair_differs_from_011m",
+    "alpha_1_bridges_not_inversion_related",
+    "anchor_does_not_select_unique_alpha_1_bridge",
+    "p_plus_n_unique_full_A_extension_supports_two_bridges"
+  ],
+  "packet": "g60_full_A_orientation_character_extension_preregistration_011n",
+  "predictions": {
+    "alpha_0_action_transitive": true,
+    "alpha_0_action_valid": true,
+    "alpha_0_full_A_bridge_count": 0,
+    "alpha_0_pointwise_kernel": "Z2(A)=V4",
+    "alpha_0_residual_elements_fix_sheets": [
+      65,
+      124
+    ],
+    "alpha_1_action_transitive": true,
+    "alpha_1_action_valid": true,
+    "alpha_1_bridge_sha256s_equal_011m": true,
+    "alpha_1_compatible_anchor_selects_unique_bridge": true,
+    "alpha_1_full_A_bridge_count": 2,
+    "alpha_1_pointwise_kernel": "Z1(A)=C2",
+    "alpha_1_residual_elements_exchange_sheets": [
+      65,
+      124
+    ],
+    "alpha_1_two_bridges_inversion_related": true,
+    "alpha_1_without_anchor_bridge_count": 2,
+    "extension_count": 2,
+    "full_A_source_action_constructed_if_prediction_passes": true,
+    "orientation_selected_without_anchor": false,
+    "prediction_blind": false,
+    "prediction_declared_before_computation": true,
+    "reason": "p and p+n are the two extensions of the locked N-sheet character across A/N, and only p+n acts nontrivially on the residual central quotient Z2(A)/Z1(A)",
+    "unique_supporting_character": "alpha_1=p+n"
+  },
+  "preregistered_characters": {
+    "alpha_0": {
+      "declared_full_action_formula": "g.(D,epsilon)=(gD,epsilon+p(g) mod 2)",
+      "formula": "p",
+      "restriction_to_N": "p"
+    },
+    "alpha_1": {
+      "declared_full_action_formula": "g.(D,epsilon)=(gD,epsilon+p(g)+n(g) mod 2)",
+      "formula": "p+n",
+      "restriction_to_N": "p"
+    },
+    "anchor_ablation_performed": false,
+    "bridge_enumeration_performed": false,
+    "character_homomorphisms_verified": false,
+    "character_values_computed": false,
+    "declared_extension_count": 2,
+    "full_actions_constructed": false,
+    "n": {
+      "codomain": "C2",
+      "definition": "quotient_character_A_to_A_over_N",
+      "kernel": "N"
+    },
+    "p": {
+      "codomain": "C2",
+      "definition": "parity_of_five_point_S5_image",
+      "kernel_contains_full_native_V4": true
+    }
+  },
+  "required_tests": [
+    "reconstruct_exact_group_operation",
+    "reconstruct_canonical_N",
+    "verify_N_membership_character_n",
+    "verify_five_point_parity_character_p",
+    "verify_p_and_n_are_homomorphisms",
+    "enumerate_extensions_of_p_restricted_to_N",
+    "verify_exactly_two_extensions",
+    "construct_alpha_0_full_A_action",
+    "construct_alpha_1_full_A_action",
+    "verify_both_actions_closed",
+    "verify_both_actions_transitive",
+    "measure_both_pointwise_kernels",
+    "measure_residual_Z2_actions",
+    "compare_source_and_root_stabilizers",
+    "enumerate_alpha_0_full_A_bridges",
+    "enumerate_alpha_1_full_A_bridges",
+    "compare_alpha_1_maps_with_011m",
+    "verify_sheet_reversal_root_inversion_relation",
+    "perform_anchor_ablation"
+  ],
+  "status": "frozen_before_computation",
+  "version": 1
+}
