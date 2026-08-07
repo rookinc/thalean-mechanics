@@ -1,0 +1,105 @@
+== G60 NATIVE D8 CHART-COHERENCE CENSUS AUDIT 011w ==
+PACKET: g60_native_d8_chart_coherence_census_011w
+MODE: frozen_complete_native_D8_chart_coherence_census
+JSON_SHA256: e5630a02b4e4c28caac017906aebae10b00c5b1a8e1ccdf640a414c1174f6919
+NOTE_SHA256: 729e331ff35563fd710dd1cbd55346ee72b6045ad529fc39b528a02aef35e0b8
+COMPUTATION_SCRIPT_SHA256: 329824bc477fff56531f232da711638bce048967b77d04b80bf94b48c83dab13
+RAW_RUN_RECEIPT_SHA256: 8cabab601fd45b9f66dd16c0cc95ecfedb9c277c21e9fb55e5589624ca2d1d05
+BASE_ORBIT_SIZE_PROFILE: [10]
+BASE_STABILIZER_ORDER_PROFILE: {'48': 10}
+CHART_ORBIT_PROFILES: [[40, 40], [40, 40]]
+STRICT_EQUIVARIANT_SECTION_COUNTS: [0, 0]
+GAUGE_ISOMORPHISM_COUNT: 4
+RESIDUAL_OUTER_GAUGE_GROUP: C2
+CLASSIFICATION: native_D8_chart_bundle_has_exact_outer_C2_obstruction_to_equivariant_section
+CHECK_COUNT: 80
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK locked_head: true
+CHECK result_frozen: true
+CHECK audit_pass_recorded: true
+CHECK json_hash: true
+CHECK raw_hash: true
+CHECK note_hash: true
+CHECK compute_hash: true
+CHECK candidate_hash: true
+CHECK guard_hash: true
+CHECK candidate_promoted: true
+CHECK raw_copied: true
+CHECK compute_copied: true
+CHECK guard_passed: true
+CHECK path_failures_not_promoted: true
+CHECK promotion_no_manuscript: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK group_480: true
+CHECK identity_0: true
+CHECK native_indices: true
+CHECK subgroups_10: true
+CHECK subgroup_rows_10: true
+CHECK presentations_2: true
+CHECK presentation_rows_2: true
+CHECK chart_counts: true
+CHECK total_charts_160: true
+CHECK chart_groups_2: true
+CHECK chart_rows_80_each: true
+CHECK chart_rows_exact: true
+CHECK base_failures_zero: true
+CHECK base_orbit_one: true
+CHECK base_orbit_size_10: true
+CHECK base_stabilizers_48: true
+CHECK action_failures_zero: true
+CHECK identity_failures_zero: true
+CHECK closure_failures_zero: true
+CHECK orbit_profiles: true
+CHECK combined_orbits: true
+CHECK orbit_row_groups_2: true
+CHECK orbit_rows_exact: true
+CHECK section_counts_zero: true
+CHECK no_strict_section: true
+CHECK normalizer_groups: true
+CHECK normalizer_rows_exact: true
+CHECK all_normalizers_48: true
+CHECK all_stabilizers_12: true
+CHECK all_fiber_images_4: true
+CHECK all_fiber_profiles: true
+CHECK all_images_inner: true
+CHECK outer_C2: true
+CHECK gauge_count_4: true
+CHECK gauge_rows_4: true
+CHECK gauge_rows_exact: true
+CHECK gauge_equivalent: true
+CHECK alpha_constant: true
+CHECK alpha_character: true
+CHECK q_constant: true
+CHECK q_signature: true
+CHECK no_outer_selection: true
+CHECK prediction_matches: true
+CHECK classification: true
+CHECK bundle_classified: true
+CHECK orbit_census: true
+CHECK section_test: true
+CHECK no_chart_selected: true
+CHECK no_update_law: true
+CHECK no_mechanics_cell: true
+CHECK no_orientation: true
+CHECK no_side_identity: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physical_direction: true
+CHECK no_physics: true
+CHECK repository_preserved: true
+CHECK candidate_no_project_mutation: true
+CHECK earned_statement: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: For each gauge-related presentation of the selected local D8 extension, the full automorphism group acts validly on eighty isomorphism charts over the ten native transposition-local D8 subgroups. The base action is transitive with stabilizer order 48. Each chart bundle splits into exactly two orbits of size 40. Every chart stabilizer has order 12. On each eight-chart fiber the native normalizer has image of order four, exactly the inner automorphism group of D8, producing two fiber orbits of size four and a residual Out(D8)=C2 chart gauge. Therefore no strict equivariant one-chart-per-subgroup section exists. The locked alpha_1 character and q-axis signature are constant across both outer orbits, and the two cocycle presentations give equivalent chart bundles. The native local system is gauge-covariant but does not select an absolute chart.
+GAUGE_COVARIANT_BUNDLE_CLASSIFIED: true
+STRICT_EQUIVARIANT_CHART_SELECTED: false
+NATIVE_UPDATE_LAW_CONSTRUCTED: false
+MECHANICS_STATE_CELL_ESTABLISHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
