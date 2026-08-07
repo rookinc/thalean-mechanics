@@ -1,0 +1,127 @@
+== G60 CENTER-QUOTIENT CHARACTER BRIDGE CENSUS AUDIT 011u ==
+PACKET: g60_center_quotient_character_bridge_census_011u
+MODE: frozen_complete_center_quotient_character_bridge_census
+JSON_SHA256: 9d5163f4c56ed1309a73902b8327e7747adcfa1cbef1566838af56c2768f90a7
+NOTE_SHA256: da1d0f55120fa0bedb3f2b2f95feb3dc71f7858a5b31153ac8abb4300ebe6a63
+COMPUTATION_SCRIPT_SHA256: 23ff65af37e14cff328dcf6014c72b5ffd0e39bdeb0a917d6f152fefe079bd69
+RAW_RUN_RECEIPT_SHA256: 4a5011e882a370fc9e24ad282d906e67d1147f0f3381b251c051aff30e5b6041
+RECONSTRUCTED_ALPHA_1_SHA256: 3d057f3e36004b4c59aa2754220cf4987587bf0e58ea3492e88f88a31515f39c
+NATIVE_D8_SUBGROUP_COUNT: 10
+TOTAL_ISOMORPHISM_COUNT: 160
+TOTAL_COMPARISON_COUNT: 160
+UNIQUE_QUOTIENT_CHARACTERS: [{'1': 0, 'a': 0, 'ab': 1, 'b': 1}]
+QUOTIENT_KERNEL: ['1', 'a']
+PULLED_BACK_KERNEL_GROUP_TYPE: C4
+CLASSIFICATION: unique_center_quotient_character_bridge
+CHECK_COUNT: 101
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK locked_head: true
+CHECK result_frozen: true
+CHECK audit_pass_recorded: true
+CHECK json_hash: true
+CHECK raw_hash: true
+CHECK note_hash: true
+CHECK compute_hash: true
+CHECK candidate_hash: true
+CHECK guard_hash: true
+CHECK candidate_promoted: true
+CHECK raw_copied: true
+CHECK compute_copied: true
+CHECK wrong_run_preserved: true
+CHECK wrong_run_not_promoted: true
+CHECK alpha_correction: true
+CHECK promotion_no_manuscript: true
+CHECK failed_script_hash: true
+CHECK failed_json_hash: true
+CHECK failed_report_hash: true
+CHECK failed_not_promoted: true
+CHECK failed_wrong_character: true
+CHECK alpha_formula: true
+CHECK alpha_hash: true
+CHECK alpha_locked_hash: true
+CHECK alpha_hash_match: true
+CHECK wrong_formula: true
+CHECK wrong_reconstructs_n: true
+CHECK n_hash: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK group_480: true
+CHECK identity_0: true
+CHECK native_indices: true
+CHECK native_index_ok: true
+CHECK alpha_restriction: true
+CHECK expected_alpha: true
+CHECK transpositions_10: true
+CHECK lifts_40: true
+CHECK subgroups_10: true
+CHECK subgroup_rows_10: true
+CHECK transposition_rows_10: true
+CHECK all_subgroups_D8: true
+CHECK all_subgroups_center_a: true
+CHECK each_subgroup_D8: true
+CHECK each_subgroup_order_8: true
+CHECK each_subgroup_center_2: true
+CHECK each_subgroup_center_a: true
+CHECK each_subgroup_four_lifts: true
+CHECK each_transposition_four_lifts: true
+CHECK presentations_2: true
+CHECK presentation_rows_2: true
+CHECK presentations_D8: true
+CHECK presentations_signature: true
+CHECK presentations_gauge_related: true
+CHECK pairs_20: true
+CHECK pair_rows_20: true
+CHECK eight_each: true
+CHECK pair_counts_eight: true
+CHECK isomorphisms_160: true
+CHECK comparisons_160: true
+CHECK centers_map_a: true
+CHECK centers_killed: true
+CHECK homomorphisms: true
+CHECK row_center_a: true
+CHECK row_center_killed: true
+CHECK row_descends: true
+CHECK row_homomorphism: true
+CHECK character_profile: true
+CHECK kernel_profile: true
+CHECK all_descend: true
+CHECK unique_character_count_1: true
+CHECK unique_character: true
+CHECK expected_character: true
+CHECK all_match_expected: true
+CHECK kernel_axis: true
+CHECK all_kernel_axis: true
+CHECK kernel_type_C4: true
+CHECK all_kernel_C4: true
+CHECK gauge_agreement: true
+CHECK quotient_forgets_side: true
+CHECK obstruction_not_reversed: true
+CHECK prediction_matches: true
+CHECK classification: true
+CHECK bridge_constructed: true
+CHECK bounded_comparison: true
+CHECK obstruction_preserved: true
+CHECK no_side_identity: true
+CHECK no_update_law: true
+CHECK no_mechanics_cell: true
+CHECK no_orientation: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physical_direction: true
+CHECK no_physics: true
+CHECK repository_preserved: true
+CHECK candidate_no_project_mutation: true
+CHECK earned_statement: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: The ten native transposition-local subgroups are D8 groups sharing the native V4 translation subgroup and the unique nonidentity center a. Across both gauge-related presentations of the selected 011q extension, each presentation-subgroup pair admits exactly eight group isomorphisms, giving 160 marked comparisons. Every pulled-back 011o alpha_1 character kills the local central flip and therefore descends through the center quotient to the same visible V4 character: lambda(1)=lambda(a)=0 and lambda(b)=lambda(ab)=1. Its quotient kernel is exactly the q-distinguished axis {1,a}, while its full preimage is C4. Thus a unique center-quotient character bridge exists. It relates the local D8 history lift to the 011o orientation character only after forgetting the local central side, and does not identify the two side coordinates.
+CENTER_QUOTIENT_CHARACTER_BRIDGE_CONSTRUCTED: true
+LOCAL_SIDE_EQUALS_011O_ORIENTATION_SHEET: false
+NATIVE_UPDATE_LAW_CONSTRUCTED: false
+MECHANICS_STATE_CELL_ESTABLISHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
