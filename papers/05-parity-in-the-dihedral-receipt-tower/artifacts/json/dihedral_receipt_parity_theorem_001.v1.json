@@ -1,0 +1,53 @@
+{
+  "artifact_id": "dihedral_receipt_parity_theorem_001",
+  "schema": "thalean_mechanics.dihedral_receipt_parity.v1",
+  "status": "abstract_finite_group_theorem",
+  "audit_pass": true,
+  "premises": {
+    "minimum_n": 3,
+    "A_order": 2,
+    "B_order": 2,
+    "H_definition": "H=AB",
+    "H_order": "2n"
+  },
+  "forced_structure": {
+    "generated_group": "dihedral_group_of_order_4n",
+    "reverse_evolver": "H_inverse=BA",
+    "commutator": "c=[A,B]=H^2",
+    "commutator_order": "n",
+    "derived_subgroup": "<c>=<H^2>",
+    "binary_return_receipt": "tau=H^n",
+    "tau_order": 2
+  },
+  "parity_law": {
+    "even_n": {
+      "tau_formula": "tau=c^(n/2)",
+      "tau_in_commutator_subgroup": true,
+      "encounter_quotient_image": "identity"
+    },
+    "odd_n": {
+      "tau_in_commutator_subgroup": false,
+      "cyclic_factorization": "<H>=<c> x <tau>",
+      "H_reconstruction": "H=c^((n+1)/2) tau",
+      "encounter_quotient_image": "ab"
+    }
+  },
+  "n4_corollary": {
+    "generated_group_order": 16,
+    "commutator": "c=H^2",
+    "binary_receipt": "tau=c^2=H^4"
+  },
+  "audit_range": {
+    "minimum_n": 3,
+    "maximum_n": 32,
+    "full_group_enumeration_for_each_n": true
+  },
+  "boundaries": {
+    "involutive_factorization_physically_derived": false,
+    "cycle_length_natively_selected": false,
+    "physics_claim": false
+  },
+  "verdict": "binary_return_receipt_lies_in_the_commutator_tower_exactly_for_even_visible_cycle_length",
+  "keeper": "The commutator reaches the hidden receipt exactly when the visible cycle is even."
+}
+

@@ -1,0 +1,38 @@
+\section{Regular receipt lifts}
+
+Fix $n\geq3$ and a finite group $R$ with identity $e$. Let the visible state
+set be $\mathbb Z/n\mathbb Z$, with successor $i\mapsto i+1$. The lifted state
+set is
+\[
+\widetilde V=(\mathbb Z/n\mathbb Z)\times R.
+\]
+The group $R$ acts on each fiber by left multiplication:
+\[
+L_r(i,x)=(i,rx).
+\]
+
+\begin{definition}
+A deterministic regular $R$-covariant lift is a map
+$T:\widetilde V\to\widetilde V$ satisfying
+\[
+\pi T=s\pi,
+\qquad
+TL_r=L_rT
+\quad\text{for every }r\in R,
+\]
+where $\pi(i,x)=i$ and $s(i)=i+1$.
+\end{definition}
+
+The covering condition fixes the next visible coordinate. Covariance under
+all left multiplications forces the fiber map on edge $i$ to be right
+multiplication by one element $v_i\in R$. Therefore every lift has a unique
+voltage description
+\[
+T_v(i,x)=(i+1,xv_i),
+\qquad
+v=(v_0,\ldots,v_{n-1})\in R^n.
+\]
+
+The choice of left deck action and right edge multiplication is deliberate:
+the two actions commute even when $R$ is nonabelian.
+

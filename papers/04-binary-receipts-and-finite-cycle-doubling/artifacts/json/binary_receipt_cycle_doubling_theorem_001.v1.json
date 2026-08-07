@@ -1,0 +1,40 @@
+{
+  "artifact_id": "binary_receipt_cycle_doubling_theorem_001",
+  "schema": "thalean_mechanics.binary_receipt_cycle_doubling.v1",
+  "status": "abstract_finite_cover_theorem",
+  "audit_pass": true,
+  "domain": "directed_visible_cycles_C_n_for_n_at_least_3",
+  "fiber": "C2",
+  "classification": {
+    "complete_gauge_invariant": "binary_circuit_holonomy",
+    "gauge_class_count": 2,
+    "trivial_holonomy_cycle_profile": ["n", "n"],
+    "nontrivial_holonomy_cycle_profile": ["2n"],
+    "nontrivial_holonomy_connected": true,
+    "connected_lift_unique_up_to": "fiber_preserving_gauge_and_directed_cover_isomorphism"
+  },
+  "order_forcing": {
+    "visible_successor_order": "n",
+    "nontrivial_receipt_lifted_successor_order": "2n",
+    "one_visible_circuit_equals": "nontrivial_deck_involution",
+    "two_visible_circuits_equal": "lifted_identity"
+  },
+  "corollary": {
+    "n": 4,
+    "visible_cycle": "C4",
+    "forced_connected_lift": "C8"
+  },
+  "audit_range": {
+    "minimum_n": 3,
+    "maximum_n": 12,
+    "exhaustive_within_each_n": true
+  },
+  "boundaries": {
+    "visible_cycle_physically_derived": false,
+    "binary_fiber_physically_derived": false,
+    "nontrivial_holonomy_natively_selected": false,
+    "physics_claim": false
+  },
+  "verdict": "visible_Cn_with_nontrivial_binary_circuit_receipt_uniquely_forces_connected_C2n_lift_up_to_gauge",
+  "keeper": "A visible cycle closes after n steps. A nontrivial binary receipt closes only after 2n."
+}

@@ -1,0 +1,38 @@
+\section{Binary lift forcing}
+
+Model the visible orientation cycle by vertices \(0,1,2,3\) and a
+successor \(i\mapsto i+1\pmod 4\). A deterministic two-sheet lift is
+specified by four edge voltages
+\[
+\epsilon_0,\epsilon_1,\epsilon_2,\epsilon_3\in C_2.
+\]
+Its circuit holonomy is
+\[
+\omega=\epsilon_0+\epsilon_1+\epsilon_2+\epsilon_3\in C_2.
+\]
+
+Changing the sheet labels over individual visible vertices is a gauge
+transformation. Gauge transformation changes the individual edge
+voltages but preserves \(\omega\).
+
+\begin{theorem}[Binary lift classification]
+Every deterministic two-sheet lift of the visible four-cycle belongs
+to one of two gauge classes.
+\begin{enumerate}
+\item If \(\omega=0\), the lift is two disjoint four-cycles.
+\item If \(\omega=1\), the lift is one connected eight-cycle.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+After four lifted successor steps, the visible vertex returns and the
+sheet changes by \(\omega\). Trivial holonomy therefore closes each
+sheet separately after four steps. Nontrivial holonomy exchanges the
+sheets after four steps and returns to the initial lifted state only
+after eight. Gauge normalization moves all nonzero voltage to one
+chosen edge, proving uniqueness within each holonomy class.
+\end{proof}
+
+Hence a nontrivial binary full-circuit receipt uniquely forces the
+connected \(C_8\) lift, up to fiber-preserving gauge and isomorphism.
+Its deck involution is the four-step element \(H^4=\tau\).

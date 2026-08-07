@@ -1,0 +1,41 @@
+\section{Order forcing}
+
+\begin{theorem}[Binary-receipt order forcing]
+For a deterministic \(C_2\)-covariant two-sheeted lift of \(C_4\):
+\begin{enumerate}
+\item \(\omega=0\) gives \(C_4\sqcup C_4\) and successor order
+four;
+\item \(\omega=1\) gives \(C_8\) and successor order eight;
+\item two voltage assignments are gauge equivalent exactly when they
+have the same holonomy.
+\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+The four-step law is \(T^4(i,s)=(i,s+\omega)\).
+For \(\omega=0\), each sheet closes separately after four steps.
+For \(\omega=1\), \(T^4\) swaps sheets, so \(T^4\neq\id\) but
+\(T^8=\id\). Projection has order four, hence \(T\) has order
+eight and one orbit on all eight states.
+
+A gauge \(g:V\to\Ztwo\) changes voltages by
+\[
+v_i'=v_i+g_i+g_{i+1},
+\]
+which preserves their sum. Conversely, if \(v\) and \(v'\) have
+equal sums, set \(d_i=v_i+v_i'\), choose \(g_0=0\), and define
+\(g_{i+1}=g_i+d_i\). The zero-sum condition closes this recursion,
+so equal holonomy implies gauge equivalence.
+\end{proof}
+
+\begin{corollary}
+A visible four-cycle with binary fiber and nontrivial circuit receipt
+has a unique connected lift up to fiber-preserving isomorphism:
+\(C_8\).
+\end{corollary}
+
+In the nontrivial class,
+\[
+pT^4=p,\qquad T^4\neq\id,\qquad T^8=\id.
+\]
+Visible return therefore precedes lifted closure.

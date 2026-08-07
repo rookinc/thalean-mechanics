@@ -1,0 +1,47 @@
+\section{Deterministic binary lifts}
+
+Fix (n\geq 3). Write the visible state set as
+\[
+V=\mathbb Z/n\mathbb Z
+\]
+with successor
+\[
+s(i)=i+1.
+\]
+The lifted state set is
+\[
+\widetilde V=V\times\Ztwo.
+\]
+The nontrivial deck transformation is
+\[
+\deck(i,\epsilon)=(i,\epsilon+1).
+\]
+
+\begin{definition}
+A deterministic binary lift of (s) is a map
+\(
+T:\widetilde V\to\widetilde V
+\)
+such that
+\[
+\pi T=s\pi,
+\qquad
+T\deck=\deck T,
+\]
+where \(\pi(i,\epsilon)=i\).
+\end{definition}
+
+The covering condition requires the first coordinate of (T(i,\epsilon)) to
+be (i+1). Deck covariance then implies that the second coordinate differs
+from (epsilon) by a quantity depending only on (i). Consequently there is
+a unique voltage vector
+\[
+v=(v_0,\ldots,v_{n-1})\in(\Ztwo)^n
+\]
+such that
+\[
+T_v(i,\epsilon)=(i+1,\epsilon+v_i).
+\]
+Thus the (2^n) local voltage assignments describe all deterministic
+binary lifts before gauge identification.
+

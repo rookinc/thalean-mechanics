@@ -1,0 +1,16 @@
+Paper 5 installation
+====================
+
+Extract the containing archive into:
+
+  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers
+
+Then run:
+
+  TARGET=~/dev/cori/research/thalean_mechanics/papers/05-parity-in-the-dihedral-receipt-tower
+  python "$TARGET/scripts/audits/audit_dihedral_receipt_parity_theorem_001.py"
+  bash "$TARGET/scripts/zipit.sh"
+
+The script does not compile LaTeX. It creates a source-only Overleaf archive
+under the project's dist directory.
+

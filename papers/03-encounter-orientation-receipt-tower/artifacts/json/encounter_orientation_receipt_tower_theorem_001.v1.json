@@ -1,0 +1,59 @@
+{
+  "artifact_id": "encounter_orientation_receipt_tower_theorem_001",
+  "audit_pass": true,
+  "boundaries": {
+    "electron_claim": false,
+    "energy_claim": false,
+    "gravity_claim": false,
+    "physical_action_claim": false,
+    "physics_claim": false,
+    "premises_derived_from_physics": false,
+    "radiation_claim": false,
+    "spatial_extension_claim": false,
+    "time_claim": false
+  },
+  "closed_claims": {
+    "binary_nontrivial_C4_lift_forces_connected_C8_up_to_gauge": true,
+    "commutator_equals_H_squared": true,
+    "commutator_square_equals_binary_deck_involution": true,
+    "encounter_and_orientation_four_state_groups_are_distinct": true,
+    "involutive_factorization_of_order8_evolver_forces_D16": true
+  },
+  "exact_tower": [
+    "<tau>=<H^4> isomorphic C2",
+    "<c>=<H^2> isomorphic C4",
+    "<H> isomorphic C8",
+    "<A,B> isomorphic D16"
+  ],
+  "keeper": "The encounter sees the product. Orientation sees the half-turn. The hidden sheet remembers the completed return.",
+  "nonidentification": {
+    "E_and_O_isomorphic_as_groups": false,
+    "E_and_O_same_cardinality": true,
+    "reason": "E_has_three_nonidentity_involutions_while_O_has_order4_elements"
+  },
+  "objects": {
+    "dihedral_completion": "generated_by_A_B_isomorphic_D16",
+    "encounter_quotient": "E_isomorphic_C2_x_C2",
+    "lifted_evolver": "H_order8",
+    "orientation_quotient": "O_isomorphic_C4"
+  },
+  "receipt_tower": {
+    "binary_return_receipt": "tau=c^2=H^4",
+    "encounter_readout": {
+      "H": "ab",
+      "c": "1",
+      "tau": "1"
+    },
+    "evolver": "H=AB",
+    "extension_receipt": "c=[A,B]=H^2",
+    "orientation_readout": {
+      "H": "r",
+      "c": "r^2",
+      "tau": "1"
+    },
+    "reverse_evolver": "H_inverse=BA"
+  },
+  "schema": "thalean_mechanics.encounter_orientation_receipt_tower.v1",
+  "status": "abstract_receipt_tower_theorem",
+  "verdict": "encounter_V4_and_orientation_C4_are_distinct_quotients_joined_by_commutator_square_binary_receipt_forcing_C8_and_D16"
+}

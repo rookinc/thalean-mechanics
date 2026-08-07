@@ -1,0 +1,56 @@
+\section{Gauge and circuit holonomy}
+
+A local change of sheet labels is a function
+\[
+g:V\longrightarrow\Ztwo
+\]
+acting by
+\[
+G_g(i,\epsilon)=(i,\epsilon+g_i).
+\]
+Conjugating (T_v) by (G_g) produces another voltage vector (v') with
+\[
+v_i'=v_i+g_i+g_{i+1}.
+\]
+This is fiber-preserving gauge equivalence.
+
+\begin{definition}
+The circuit holonomy of (v) is
+\[
+\hol(v)=\sum_{i=0}^{n-1}v_i\in\Ztwo.
+\]
+\end{definition}
+
+\begin{proposition}
+Circuit holonomy is invariant under gauge transformation.
+\end{proposition}
+
+\begin{proof}
+Summing the transformed voltages gives
+\[
+\sum_i v_i'
+=\sum_i v_i+\sum_i g_i+\sum_i g_{i+1}
+=\sum_i v_i,
+\]
+because the last two sums agree and cancel in (Ztwo).
+\end{proof}
+
+\begin{proposition}
+Two voltage assignments are gauge equivalent if and only if they have the
+same circuit holonomy.
+\end{proposition}
+
+\begin{proof}
+Necessity was just proved. For sufficiency, suppose (v) and (w) have the
+same sum. Set (g_0=0) and recursively define
+\[
+g_{i+1}=g_i+v_i+w_i
+\]
+for (0\leq i<n-1). Then (w_i=v_i+g_i+g_{i+1}) for the first (n-1)
+edges. Equality of the total sums supplies the same identity on the final
+edge. Hence (v) and (w) are gauge equivalent.
+\end{proof}
+
+The holonomy is therefore not merely an invariant. It is the complete gauge
+classifier.
+

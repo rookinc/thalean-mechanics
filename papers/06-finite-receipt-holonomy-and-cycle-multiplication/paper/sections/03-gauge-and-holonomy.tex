@@ -1,0 +1,53 @@
+\section{Gauge and circuit holonomy}
+
+An equivariant change of fiber coordinates is specified by
+$g=(g_0,\ldots,g_{n-1})\in R^n$ and acts by
+\[
+G_g(i,x)=(i,xg_i).
+\]
+We use the conjugation convention
+\[
+T_{v'}=G_gT_vG_g^{-1}.
+\]
+It produces the transformed voltages
+\[
+v_i'=g_i^{-1}v_i g_{i+1},
+\]
+with indices read modulo $n$.
+
+\begin{definition}
+The circuit holonomy is the ordered product
+\[
+h(v)=v_0v_1\cdots v_{n-1}\in R.
+\]
+\end{definition}
+
+The transformed product telescopes:
+\[
+h(v')=g_0^{-1}h(v)g_0.
+\]
+Thus gauge does not preserve a chosen holonomy element in a nonabelian group;
+it preserves its conjugacy class. In an abelian group, conjugacy is trivial
+and the element itself is gauge invariant.
+
+\begin{proposition}[One-edge normalization]
+Every voltage assignment is gauge equivalent to
+\[
+(e,e,\ldots,e,h),
+\]
+where $h$ is its circuit holonomy.
+\end{proposition}
+
+\begin{proof}
+Set $g_0=e$ and recursively choose
+\[
+g_{i+1}=v_i^{-1}g_i
+\]
+for $0\leq i<n-1$. Then $g_i^{-1}v_i g_{i+1}=e$ on the first $n-1$
+edges. On the final edge, the transformed voltage is
+\[
+g_{n-1}^{-1}v_{n-1}g_0
+=v_0v_1\cdots v_{n-1}=h.
+\]
+\end{proof}
+

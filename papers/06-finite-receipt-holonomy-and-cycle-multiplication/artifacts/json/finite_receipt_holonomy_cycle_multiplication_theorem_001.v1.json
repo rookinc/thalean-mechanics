@@ -1,0 +1,42 @@
+{
+  "artifact_id": "finite_receipt_holonomy_cycle_multiplication_theorem_001",
+  "schema": "thalean_mechanics.finite_receipt_holonomy_cycle_multiplication.v1",
+  "status": "abstract_regular_cover_theorem",
+  "audit_pass": true,
+  "premises": {
+    "visible_base": "directed_Cn_for_n_at_least_3",
+    "receipt_fiber": "finite_group_R",
+    "lift": "deterministic_regular_R_covariant_successor",
+    "equivalence": "R_equivariant_fiber_preserving_gauge"
+  },
+  "classification": {
+    "edge_data": "v_0_through_v_(n-1)_in_R",
+    "holonomy": "h=v_0_v_1_..._v_(n-1)",
+    "complete_invariant": "conjugacy_class_of_h",
+    "normal_form": "identity_on_first_n_minus_1_edges_and_h_on_final_edge"
+  },
+  "cycle_law": {
+    "holonomy_order": "d=ord(h)",
+    "component_count": "|R|/d",
+    "component_length": "n*d",
+    "connected_iff": "d=|R|",
+    "connected_implies": "R_is_cyclic_and_h_generates_R"
+  },
+  "corollaries": {
+    "cyclic_receipt_group": "R=Cm_and_h_generator_implies_connected_C_(nm)",
+    "binary_receipt": "R=C2_and_h_nontrivial_implies_connected_C_(2n)"
+  },
+  "audit": {
+    "receipt_groups": ["C2", "C3", "C4", "C5", "C6", "V4", "S3", "D8"],
+    "abelian_and_nonabelian_cases": true,
+    "exhaustive_voltage_assignments_within_declared_cases": true
+  },
+  "boundaries": {
+    "receipt_group_physically_derived": false,
+    "holonomy_class_natively_selected": false,
+    "physics_claim": false
+  },
+  "verdict": "finite_regular_cycle_lifts_are_classified_by_receipt_holonomy_conjugacy_and_multiply_cycle_length_by_holonomy_order",
+  "keeper": "A receipt does not merely remember the circuit. Its order determines how many circuits are required for complete return."
+}
+

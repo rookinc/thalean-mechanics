@@ -1,0 +1,16 @@
+Paper 4 installation
+====================
+
+Extract the containing archive into:
+
+  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers
+
+Then run:
+
+  TARGET=~/dev/cori/research/thalean_mechanics/papers/04-binary-receipts-and-finite-cycle-doubling
+  python "$TARGET/scripts/audits/audit_binary_receipt_cycle_doubling_theorem_001.py"
+  bash "$TARGET/scripts/zipit.sh"
+
+The script does not compile LaTeX. It creates a source-only Overleaf archive
+under the project's dist directory.
+

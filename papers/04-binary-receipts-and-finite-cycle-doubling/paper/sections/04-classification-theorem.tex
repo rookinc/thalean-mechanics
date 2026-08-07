@@ -1,0 +1,34 @@
+\section{The classification theorem}
+
+Iterating the lifted successor through one visible circuit gives
+\[
+T_v^n(i,\epsilon)=(i,\epsilon+\hol(v)).
+\]
+This identity contains the entire classification.
+
+\begin{theorem}[Binary cycle-lift classification]
+For every (n\geq3), deterministic (Ctwo)-covariant two-sheeted lifts of a
+directed visible (n)-cycle have exactly two fiber-preserving gauge classes.
+\begin{enumerate}
+\item If (hol=0), the lifted successor has two orbits of length (n), so
+the lift is (C_n\sqcup C_n).
+\item If (hol=1), the lifted successor has one orbit of length (2n), so
+the lift is (C_{2n}).
+\end{enumerate}
+Each class is unique up to fiber-preserving gauge and directed-cover
+isomorphism.
+\end{theorem}
+
+\begin{proof}
+The preceding propositions give exactly two gauge classes, indexed by
+(hol\in\Ztwo). If (hol=0), then (T_v^n) fixes every lifted state. Since
+the visible coordinate first returns after (n) steps, each lifted orbit has
+length (n), producing two components.
+
+If (hol=1), then (T_v^n=\deck), so no lifted state returns after (n)
+steps. A second circuit gives (T_v^{2n}=\deck^2=1). Hence every lifted orbit
+has length (2n). Because there are exactly (2n) lifted states, the lift is
+one connected cycle. Completeness of holonomy as a gauge invariant proves
+uniqueness in both cases.
+\end{proof}
+

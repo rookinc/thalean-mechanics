@@ -1,0 +1,56 @@
+\section{The cycle-profile theorem}
+
+At the chosen visible basepoint $0$, iterating the lifted successor through
+one visible circuit gives
+\[
+T_v^n(0,x)=(0,xh),
+\qquad
+h=v_0v_1\cdots v_{n-1}.
+\]
+At a general visible state $i$, define the based circuit holonomy
+\[
+h_i
+=
+v_i v_{i+1}\cdots v_{n-1}v_0\cdots v_{i-1}.
+\]
+Then
+\[
+T_v^n(i,x)=(i,xh_i).
+\]
+Every $h_i$ is conjugate to $h$, so all based circuit holonomies have the
+same order. Let
+\[
+d=\ord(h)=\ord(h_i).
+\]
+Right multiplication by $h_i$ partitions $R$ into $|R|/d$ orbits, each of
+length $d$.
+
+\begin{theorem}[Cycle profile]
+If the circuit holonomy has order $d$, then the lifted successor has exactly
+\[
+\frac{|R|}{d}
+\]
+orbits. Every orbit has length $nd$. Equivalently, the lifted cycle profile is
+\[
+\underbrace{[nd,\ldots,nd]}_{|R|/d\text{ entries}}.
+\]
+\end{theorem}
+
+\begin{proof}
+A lifted state over visible coordinate $i$ can return to that coordinate only
+after a multiple of $n$ steps. After $qn$ steps its receipt coordinate is
+\[
+xh_i^q.
+\]
+Because $h_i$ is conjugate to $h$, its order is $d$. Therefore the smallest
+positive $q$ returning the receipt coordinate is $d$, and every lifted orbit
+has length $nd$. Since the lifted state set has cardinality $n|R|$, the
+number of orbits is
+\[
+\frac{n|R|}{nd}=\frac{|R|}{d}.
+\]
+\end{proof}
+
+The cycle profile depends only on receipt order, while the finer gauge class
+retains the full holonomy conjugacy class.
+

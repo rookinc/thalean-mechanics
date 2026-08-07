@@ -1,0 +1,31 @@
+\section{Finite dihedral census}
+
+The executable audit realizes the theorem on the (2n) residues for every
+(3\leq n\leq32). It takes
+\[
+H(x)=x+1,
+\qquad
+A(x)=-x,
+\qquad
+B(x)=-x-1
+\pmod{2n},
+\]
+so that (A^2=B^2=1) and (AB=H).
+
+For every tested (n), the audit enumerates the generated permutation group
+and checks:
+\begin{enumerate}
+\item the group order is (4n);
+\item all (4n) dihedral normal forms are distinct;
+\item (BA=H^{-1}) and ([A,B]=H^2);
+\item the commutator subgroup has order (n);
+\item (	au=H^n) is a central involution;
+\item (	au\in\langle H^2\rangle) exactly for even (n);
+\item the even and odd reconstruction formulas hold;
+\item the Klein-four quotient has kernel (langle H^2\rangle);
+\item the quotient image of (	au) is parity-correct.
+\end{enumerate}
+
+The census is a reproducible implementation witness. The theorem for every
+(n\geq3) is established by the symbolic proofs in the main text.
+

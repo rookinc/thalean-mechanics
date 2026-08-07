@@ -1,0 +1,47 @@
+\section{Regular receipt lifts}
+
+Let \(X=(V,E)\) be a connected finite graph and let \(R\) be a finite
+group.  Choose an orientation of each undirected edge and assign a
+voltage
+\[
+  \alpha(u,v)\in R,
+  \qquad
+  \alpha(v,u)=\alpha(u,v)^{-1}.
+\]
+The associated regular lift has vertex set \(V\times R\), with
+\[
+  (u,r)\sim (v,r\alpha(u,v)).
+\]
+Changing the section of the fibers applies a vertex gauge.  For
+\(g:V\to R\), the transformed voltage is
+\[
+  \alpha^g(u,v)
+  =
+  g(u)^{-1}\alpha(u,v)g(v).
+\]
+Thus individual edge values are chart-dependent, while circuit
+holonomy is gauge-covariant.
+
+Fix a root \(x_0\) and a spanning tree \(T\).  Every voltage assignment
+is gauge-equivalent to one that is trivial on \(T\).  The remaining
+chord voltages give the fundamental circuit receipts.  They determine
+a homomorphism
+\[
+  \rho_\alpha:\pi_1(X,x_0)\longrightarrow R
+\]
+up to conjugation in \(R\).
+
+\begin{theorem}[Finite receipt classification]
+Gauge classes of regular \(R\)-receipt lifts of a connected graph
+\(X\) correspond to \(R\)-conjugacy classes of homomorphisms
+\(\pi_1(X)\to R\).  If \(H\) is the image, then the lift has
+\([R:H]\) connected components, each containing
+\(\lvert V(X)\rvert\lvert H\rvert\) vertices.  In particular, the lift
+is connected exactly when \(H=R\).
+\end{theorem}
+
+For \(R=\Ctwo\), a nontrivial circuit receipt doubles the visible return
+cycle.  For \(R=\Vfour\), connectedness requires two independent
+binary holonomy directions.  These statements classify a proposed
+lift; they do not select the proposal.  The native encounter begins at
+that boundary.

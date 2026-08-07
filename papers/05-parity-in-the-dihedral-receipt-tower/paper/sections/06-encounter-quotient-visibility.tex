@@ -1,0 +1,53 @@
+\section{Encounter-quotient visibility}
+
+Let
+\[
+E=\{1,a,b,ab\}\cong C_2\times C_2
+\]
+and define the natural encounter quotient
+\[
+q:\langle A,B\rangle\longrightarrow E,
+\qquad
+q(A)=a,
+\qquad
+q(B)=b.
+\]
+It follows that
+\[
+q(H)=ab,
+\qquad
+q(\comm)=q(H^2)=1.
+\]
+The kernel is exactly
+\[
+\Ker(q)=\langle H^2\rangle=\langle\comm\rangle,
+\]
+which has order (n).
+
+The binary return receipt has image
+\[
+q(\receipt)=q(H^n)=(ab)^n.
+\]
+Therefore
+\[
+q(\receipt)=
+\begin{cases}
+1, & n\text{ even},\\
+ab, & n\text{ odd}.
+\end{cases}
+\]
+
+\begin{proposition}[Parity-sensitive concealment]
+The encounter quotient hides the binary return receipt if and only if the
+visible cycle length (n) is even.
+\end{proposition}
+
+The same parity law has now appeared in two equivalent forms:
+\[
+\receipt\in\langle\comm\rangle
+\quad\Longleftrightarrow\quad
+q(\receipt)=1
+\quad\Longleftrightarrow\quad
+n\text{ is even}.
+\]
+
