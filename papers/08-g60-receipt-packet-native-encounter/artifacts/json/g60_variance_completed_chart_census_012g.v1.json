@@ -1,0 +1,2351 @@
+{
+  "audit_pass": true,
+  "audit_pass_candidate": true,
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json": {
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "hash_match": true,
+      "role": "native",
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_binary_torsor_action_character_probe_012c.v1.json": {
+      "expected_sha256": "b08d3012ed20301897baa771ed99ecd6a859b8e7d1ef5b31c497652287962d76",
+      "hash_match": true,
+      "role": "012c",
+      "sha256": "b08d3012ed20301897baa771ed99ecd6a859b8e7d1ef5b31c497652287962d76"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_full_A_orientation_character_extension_census_011o.v1.json": {
+      "expected_sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941",
+      "hash_match": true,
+      "role": "011o",
+      "sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_gauge_covariant_update_census_012a.v1.json": {
+      "expected_sha256": "4e6936b9b48c6f033b826df7c3ad4ac70ec3480129c5c73ec6a24630077096d2",
+      "hash_match": true,
+      "role": "012a",
+      "sha256": "4e6936b9b48c6f033b826df7c3ad4ac70ec3480129c5c73ec6a24630077096d2"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_local_D8_inversion_variance_census_012e.v1.json": {
+      "expected_sha256": "a42aed2a1b56144285fd0b2e575a7f932eb7de93b636e49b55cb9a7bd498328a",
+      "hash_match": true,
+      "role": "012e",
+      "sha256": "a42aed2a1b56144285fd0b2e575a7f932eb7de93b636e49b55cb9a7bd498328a"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_d8_chart_coherence_census_011w.v1.json": {
+      "expected_sha256": "e5630a02b4e4c28caac017906aebae10b00c5b1a8e1ccdf640a414c1174f6919",
+      "hash_match": true,
+      "role": "011w",
+      "sha256": "e5630a02b4e4c28caac017906aebae10b00c5b1a8e1ccdf640a414c1174f6919"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_d8_outer_c2_selector_census_011y.v1.json": {
+      "expected_sha256": "d5a9036cf96aa97dd8848cd947bff4d07c711db0db2e3dca3ad13ec1c9cdfdab",
+      "hash_match": true,
+      "role": "011y",
+      "sha256": "d5a9036cf96aa97dd8848cd947bff4d07c711db0db2e3dca3ad13ec1c9cdfdab"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_variance_completed_chart_preregistration_012f.v1.json": {
+      "expected_sha256": "61af21d541a2f7e47ea152fdd71620ac79fb8d0bfd3576b7629adf45b8eae5c8",
+      "hash_match": true,
+      "role": "prereg",
+      "sha256": "61af21d541a2f7e47ea152fdd71620ac79fb8d0bfd3576b7629adf45b8eae5c8"
+    }
+  },
+  "boundary": {
+    "autonomous_native_update_law_constructed": false,
+    "chart_orbit_selected": false,
+    "geometry_claim": false,
+    "instruction_selected": false,
+    "manuscript_mutated": false,
+    "mechanics_state_cell_established": false,
+    "opposite_chart_bundle_constructed": true,
+    "orientation_selected": false,
+    "orientation_to_local_variance_identified": false,
+    "physical_claim": false,
+    "variance_completed_census_performed": true
+  },
+  "candidate_provenance": {
+    "candidate_json_path": "/data/data/com.termux/files/home/tmp/g60_variance_completed_chart_census_012g.candidate.v1.json",
+    "candidate_json_sha256": "91a4d6254d829286244d62326d32d8cff7643569b5dea6e6f9ce9a7b2ec0cb75",
+    "computation_script_path": "/data/data/com.termux/files/home/tmp/run-g60-variance-completed-chart-census-012g.py",
+    "computation_script_sha256": "40c7628428923e8b13555dd5cb3d49db3047f5e43b9651d9b99ac3f0d43bdb1f",
+    "promotion_guard_report_path": "/data/data/com.termux/files/home/tmp/g60-variance-completed-chart-census-012g-guard.txt",
+    "promotion_guard_report_sha256": "f6c2e0f774d5d83d5742a3ba7b370e2a9bcc0b07871edfac9327dc6ad6f8c20c",
+    "promotion_guard_script_path": "/data/data/com.termux/files/home/tmp/guard-g60-variance-completed-chart-census-012g.py",
+    "promotion_guard_script_sha256": "62fbf0d884ad30d118ee4b1fc42644a9ea64f1474af0e80278f8920f162e9713",
+    "raw_report_path": "/data/data/com.termux/files/home/tmp/g60_variance_completed_chart_census_012g.candidate.txt",
+    "raw_report_sha256": "c95275d148989a8a790570a996aaa5d078750fd33cfaf5e446c5b17f9ee7a0b6"
+  },
+  "classification": "variance_completed_local_chart_system_has_three_independent_binary_characters_without_canonical_torsor_collapse",
+  "earned_statement": "For each selected D8 presentation, the eighty ordinary charts extend canonically to eighty disjoint opposite-law charts. Local inversion commutes with all eight automorphisms, giving a sixteen-element Aut(D8) x C2 variance-completed action. The instruction, chart-orbit, and local variance characters are pairwise distinct and have joint image C2 x C2 x C2 with joint kernel of order two. All four locked presentation gauge maps preserve the opposite-law sheet and the character decomposition. The locked 011o orientation bridge remains an external comparison authority: no common action or canonical identification with local variance is established.",
+  "locked_head": "cd746bd Preregister G60 variance-completed chart test",
+  "mode": "frozen_complete_variance_completed_chart_census",
+  "orientation_comparison_boundary": {
+    "locked_orientation_summary": {
+      "bridge_count": 2,
+      "reversal_verified": true,
+      "root_inversion_targets": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ],
+      "sheet_reversal_targets": [
+        [
+          1
+        ],
+        [
+          0
+        ]
+      ]
+    },
+    "orientation_anchor_selects_chart_orbit": false,
+    "orientation_anchor_selects_instruction": false,
+    "orientation_bridge_common_action_established": false,
+    "orientation_to_local_variance_canonical_map_established": false
+  },
+  "packet": "g60_variance_completed_chart_census_012g",
+  "preregistration_comparison": {
+    "prediction_checks": {
+      "completed_chart_count": true,
+      "extended_group": true,
+      "gauge_count": true,
+      "joint_image": true,
+      "joint_kernel": true,
+      "opposite_chart_count": true,
+      "opposite_ordinary_failures": true,
+      "ordinary_chart_count": true,
+      "orientation_unlinked": true,
+      "pairwise_bijections": true,
+      "presentation_count": true
+    },
+    "prediction_matches": true
+  },
+  "presentation_gauge_comparison": {
+    "all_gauge_maps_commute_with_inversion": true,
+    "all_gauge_maps_preserve_character_decomposition": true,
+    "all_gauge_maps_preserve_variance_sheet": true,
+    "gauge_map_count": 4,
+    "gauge_rows": [
+      {
+        "character_transport_failure_count": 0,
+        "chart_gauge_conjugates_outer_flip": true,
+        "chart_gauge_preserves_orbit_labels": true,
+        "conjugated_automorphism_indices": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5,
+          7,
+          6
+        ],
+        "function_bits": [
+          0,
+          0,
+          1
+        ],
+        "gauge_index": 0,
+        "inversion_commutation_failure_count": 0,
+        "local_isomorphism": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          6
+        ],
+        "opposite_chart_transport_failure_count": 0,
+        "opposite_chart_transport_is_permutation": true,
+        "ordinary_chart_transport_failure_count": 0,
+        "ordinary_chart_transport_is_permutation": true
+      },
+      {
+        "character_transport_failure_count": 0,
+        "chart_gauge_conjugates_outer_flip": true,
+        "chart_gauge_preserves_orbit_labels": true,
+        "conjugated_automorphism_indices": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5,
+          7,
+          6
+        ],
+        "function_bits": [
+          0,
+          1,
+          0
+        ],
+        "gauge_index": 1,
+        "inversion_commutation_failure_count": 0,
+        "local_isomorphism": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          4,
+          6,
+          7
+        ],
+        "opposite_chart_transport_failure_count": 0,
+        "opposite_chart_transport_is_permutation": true,
+        "ordinary_chart_transport_failure_count": 0,
+        "ordinary_chart_transport_is_permutation": true
+      },
+      {
+        "character_transport_failure_count": 0,
+        "chart_gauge_conjugates_outer_flip": true,
+        "chart_gauge_preserves_orbit_labels": true,
+        "conjugated_automorphism_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "function_bits": [
+          1,
+          0,
+          0
+        ],
+        "gauge_index": 2,
+        "inversion_commutation_failure_count": 0,
+        "local_isomorphism": [
+          0,
+          1,
+          3,
+          2,
+          4,
+          5,
+          6,
+          7
+        ],
+        "opposite_chart_transport_failure_count": 0,
+        "opposite_chart_transport_is_permutation": true,
+        "ordinary_chart_transport_failure_count": 0,
+        "ordinary_chart_transport_is_permutation": true
+      },
+      {
+        "character_transport_failure_count": 0,
+        "chart_gauge_conjugates_outer_flip": true,
+        "chart_gauge_preserves_orbit_labels": true,
+        "conjugated_automorphism_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "function_bits": [
+          1,
+          1,
+          1
+        ],
+        "gauge_index": 3,
+        "inversion_commutation_failure_count": 0,
+        "local_isomorphism": [
+          0,
+          1,
+          3,
+          2,
+          5,
+          4,
+          7,
+          6
+        ],
+        "opposite_chart_transport_failure_count": 0,
+        "opposite_chart_transport_is_permutation": true,
+        "ordinary_chart_transport_failure_count": 0,
+        "ordinary_chart_transport_is_permutation": true
+      }
+    ]
+  },
+  "presentation_rows": [
+    {
+      "character_rows": [
+        {
+          "automorphism_index": 0,
+          "chart_bit": 0,
+          "instruction_bit": 0,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 0,
+          "chart_bit": 0,
+          "instruction_bit": 1,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 1,
+          "chart_bit": 0,
+          "instruction_bit": 0,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 1,
+          "chart_bit": 0,
+          "instruction_bit": 1,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 2,
+          "chart_bit": 1,
+          "instruction_bit": 0,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 2,
+          "chart_bit": 1,
+          "instruction_bit": 1,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 3,
+          "chart_bit": 1,
+          "instruction_bit": 0,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 3,
+          "chart_bit": 1,
+          "instruction_bit": 1,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 4,
+          "chart_bit": 0,
+          "instruction_bit": 1,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 4,
+          "chart_bit": 0,
+          "instruction_bit": 0,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 5,
+          "chart_bit": 0,
+          "instruction_bit": 1,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 5,
+          "chart_bit": 0,
+          "instruction_bit": 0,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 6,
+          "chart_bit": 1,
+          "instruction_bit": 1,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 6,
+          "chart_bit": 1,
+          "instruction_bit": 0,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 7,
+          "chart_bit": 1,
+          "instruction_bit": 1,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 7,
+          "chart_bit": 1,
+          "instruction_bit": 0,
+          "variance_bit": 1
+        }
+      ],
+      "chart_variance_character_image": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "chart_variance_classes": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "direct_product_failure_count": 0,
+      "direct_product_failures": [],
+      "extended_transformation_count": 16,
+      "instruction_formula_failures": [],
+      "inversion_commutation_failure_indices": [],
+      "opposite_anti_homomorphism_failure_profile": {
+        "0": 80
+      },
+      "opposite_chart_count": 80,
+      "opposite_chart_distinct_count": 80,
+      "opposite_charts": [
+        [
+          0,
+          326,
+          67,
+          126,
+          4,
+          322,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          126,
+          67,
+          4,
+          322,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          126,
+          67,
+          65,
+          124,
+          4,
+          322
+        ],
+        [
+          0,
+          326,
+          67,
+          126,
+          65,
+          124,
+          322,
+          4
+        ],
+        [
+          0,
+          326,
+          67,
+          126,
+          124,
+          65,
+          4,
+          322
+        ],
+        [
+          0,
+          326,
+          126,
+          67,
+          124,
+          65,
+          322,
+          4
+        ],
+        [
+          0,
+          326,
+          126,
+          67,
+          322,
+          4,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          67,
+          126,
+          322,
+          4,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          68,
+          121,
+          6,
+          320,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          121,
+          68,
+          6,
+          320,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          121,
+          68,
+          65,
+          124,
+          6,
+          320
+        ],
+        [
+          0,
+          326,
+          68,
+          121,
+          65,
+          124,
+          320,
+          6
+        ],
+        [
+          0,
+          326,
+          68,
+          121,
+          124,
+          65,
+          6,
+          320
+        ],
+        [
+          0,
+          326,
+          121,
+          68,
+          124,
+          65,
+          320,
+          6
+        ],
+        [
+          0,
+          326,
+          121,
+          68,
+          320,
+          6,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          68,
+          121,
+          320,
+          6,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          400,
+          13,
+          65,
+          124,
+          75,
+          201
+        ],
+        [
+          0,
+          326,
+          13,
+          400,
+          65,
+          124,
+          201,
+          75
+        ],
+        [
+          0,
+          326,
+          13,
+          400,
+          75,
+          201,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          400,
+          13,
+          75,
+          201,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          13,
+          400,
+          124,
+          65,
+          75,
+          201
+        ],
+        [
+          0,
+          326,
+          400,
+          13,
+          124,
+          65,
+          201,
+          75
+        ],
+        [
+          0,
+          326,
+          400,
+          13,
+          201,
+          75,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          13,
+          400,
+          201,
+          75,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          37,
+          247,
+          62,
+          443,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          247,
+          37,
+          62,
+          443,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          247,
+          37,
+          65,
+          124,
+          62,
+          443
+        ],
+        [
+          0,
+          326,
+          37,
+          247,
+          65,
+          124,
+          443,
+          62
+        ],
+        [
+          0,
+          326,
+          37,
+          247,
+          124,
+          65,
+          62,
+          443
+        ],
+        [
+          0,
+          326,
+          247,
+          37,
+          124,
+          65,
+          443,
+          62
+        ],
+        [
+          0,
+          326,
+          247,
+          37,
+          443,
+          62,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          37,
+          247,
+          443,
+          62,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          88,
+          370,
+          65,
+          124,
+          197,
+          313
+        ],
+        [
+          0,
+          326,
+          370,
+          88,
+          65,
+          124,
+          313,
+          197
+        ],
+        [
+          0,
+          326,
+          370,
+          88,
+          124,
+          65,
+          197,
+          313
+        ],
+        [
+          0,
+          326,
+          88,
+          370,
+          124,
+          65,
+          313,
+          197
+        ],
+        [
+          0,
+          326,
+          370,
+          88,
+          197,
+          313,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          88,
+          370,
+          197,
+          313,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          88,
+          370,
+          313,
+          197,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          370,
+          88,
+          313,
+          197,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          198,
+          314,
+          65,
+          124,
+          93,
+          371
+        ],
+        [
+          0,
+          326,
+          314,
+          198,
+          65,
+          124,
+          371,
+          93
+        ],
+        [
+          0,
+          326,
+          314,
+          198,
+          93,
+          371,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          198,
+          314,
+          93,
+          371,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          314,
+          198,
+          124,
+          65,
+          93,
+          371
+        ],
+        [
+          0,
+          326,
+          198,
+          314,
+          124,
+          65,
+          371,
+          93
+        ],
+        [
+          0,
+          326,
+          198,
+          314,
+          371,
+          93,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          314,
+          198,
+          371,
+          93,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          477,
+          354,
+          65,
+          124,
+          135,
+          252
+        ],
+        [
+          0,
+          326,
+          354,
+          477,
+          65,
+          124,
+          252,
+          135
+        ],
+        [
+          0,
+          326,
+          354,
+          477,
+          124,
+          65,
+          135,
+          252
+        ],
+        [
+          0,
+          326,
+          477,
+          354,
+          124,
+          65,
+          252,
+          135
+        ],
+        [
+          0,
+          326,
+          354,
+          477,
+          135,
+          252,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          477,
+          354,
+          135,
+          252,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          477,
+          354,
+          252,
+          135,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          354,
+          477,
+          252,
+          135,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          209,
+          331,
+          65,
+          124,
+          158,
+          432
+        ],
+        [
+          0,
+          326,
+          331,
+          209,
+          65,
+          124,
+          432,
+          158
+        ],
+        [
+          0,
+          326,
+          331,
+          209,
+          124,
+          65,
+          158,
+          432
+        ],
+        [
+          0,
+          326,
+          209,
+          331,
+          124,
+          65,
+          432,
+          158
+        ],
+        [
+          0,
+          326,
+          331,
+          209,
+          158,
+          432,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          209,
+          331,
+          158,
+          432,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          209,
+          331,
+          432,
+          158,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          331,
+          209,
+          432,
+          158,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          270,
+          420,
+          65,
+          124,
+          224,
+          459
+        ],
+        [
+          0,
+          326,
+          420,
+          270,
+          65,
+          124,
+          459,
+          224
+        ],
+        [
+          0,
+          326,
+          420,
+          270,
+          124,
+          65,
+          224,
+          459
+        ],
+        [
+          0,
+          326,
+          270,
+          420,
+          124,
+          65,
+          459,
+          224
+        ],
+        [
+          0,
+          326,
+          420,
+          270,
+          224,
+          459,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          270,
+          420,
+          224,
+          459,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          270,
+          420,
+          459,
+          224,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          420,
+          270,
+          459,
+          224,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          230,
+          457,
+          65,
+          124,
+          269,
+          419
+        ],
+        [
+          0,
+          326,
+          457,
+          230,
+          65,
+          124,
+          419,
+          269
+        ],
+        [
+          0,
+          326,
+          457,
+          230,
+          124,
+          65,
+          269,
+          419
+        ],
+        [
+          0,
+          326,
+          230,
+          457,
+          124,
+          65,
+          419,
+          269
+        ],
+        [
+          0,
+          326,
+          457,
+          230,
+          269,
+          419,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          230,
+          457,
+          269,
+          419,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          230,
+          457,
+          419,
+          269,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          457,
+          230,
+          419,
+          269,
+          124,
+          65
+        ]
+      ],
+      "opposite_ordinary_failure_profile": {
+        "24": 80
+      },
+      "ordinary_chart_count": 80,
+      "ordinary_chart_distinct_count": 80,
+      "ordinary_homomorphism_failure_profile": {
+        "0": 80
+      },
+      "ordinary_opposite_intersection_count": 0,
+      "pairwise_character_comparisons": [
+        {
+          "characters_equal": false,
+          "equivariant_bijection_count": 0,
+          "left": "instruction",
+          "right": "chart"
+        },
+        {
+          "characters_equal": false,
+          "equivariant_bijection_count": 0,
+          "left": "instruction",
+          "right": "variance"
+        },
+        {
+          "characters_equal": false,
+          "equivariant_bijection_count": 0,
+          "left": "chart",
+          "right": "variance"
+        }
+      ],
+      "presentation_index": 0,
+      "three_character_joint_image": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "three_character_joint_kernel": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "variance_completed_chart_count": 160
+    },
+    {
+      "character_rows": [
+        {
+          "automorphism_index": 0,
+          "chart_bit": 0,
+          "instruction_bit": 0,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 0,
+          "chart_bit": 0,
+          "instruction_bit": 1,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 1,
+          "chart_bit": 0,
+          "instruction_bit": 0,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 1,
+          "chart_bit": 0,
+          "instruction_bit": 1,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 2,
+          "chart_bit": 1,
+          "instruction_bit": 0,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 2,
+          "chart_bit": 1,
+          "instruction_bit": 1,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 3,
+          "chart_bit": 1,
+          "instruction_bit": 0,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 3,
+          "chart_bit": 1,
+          "instruction_bit": 1,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 4,
+          "chart_bit": 0,
+          "instruction_bit": 1,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 4,
+          "chart_bit": 0,
+          "instruction_bit": 0,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 5,
+          "chart_bit": 0,
+          "instruction_bit": 1,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 5,
+          "chart_bit": 0,
+          "instruction_bit": 0,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 6,
+          "chart_bit": 1,
+          "instruction_bit": 1,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 6,
+          "chart_bit": 1,
+          "instruction_bit": 0,
+          "variance_bit": 1
+        },
+        {
+          "automorphism_index": 7,
+          "chart_bit": 1,
+          "instruction_bit": 1,
+          "variance_bit": 0
+        },
+        {
+          "automorphism_index": 7,
+          "chart_bit": 1,
+          "instruction_bit": 0,
+          "variance_bit": 1
+        }
+      ],
+      "chart_variance_character_image": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "chart_variance_classes": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "direct_product_failure_count": 0,
+      "direct_product_failures": [],
+      "extended_transformation_count": 16,
+      "instruction_formula_failures": [],
+      "inversion_commutation_failure_indices": [],
+      "opposite_anti_homomorphism_failure_profile": {
+        "0": 80
+      },
+      "opposite_chart_count": 80,
+      "opposite_chart_distinct_count": 80,
+      "opposite_charts": [
+        [
+          0,
+          326,
+          126,
+          67,
+          4,
+          322,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          67,
+          126,
+          4,
+          322,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          67,
+          126,
+          65,
+          124,
+          4,
+          322
+        ],
+        [
+          0,
+          326,
+          126,
+          67,
+          65,
+          124,
+          322,
+          4
+        ],
+        [
+          0,
+          326,
+          126,
+          67,
+          124,
+          65,
+          4,
+          322
+        ],
+        [
+          0,
+          326,
+          67,
+          126,
+          124,
+          65,
+          322,
+          4
+        ],
+        [
+          0,
+          326,
+          67,
+          126,
+          322,
+          4,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          126,
+          67,
+          322,
+          4,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          121,
+          68,
+          6,
+          320,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          68,
+          121,
+          6,
+          320,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          68,
+          121,
+          65,
+          124,
+          6,
+          320
+        ],
+        [
+          0,
+          326,
+          121,
+          68,
+          65,
+          124,
+          320,
+          6
+        ],
+        [
+          0,
+          326,
+          121,
+          68,
+          124,
+          65,
+          6,
+          320
+        ],
+        [
+          0,
+          326,
+          68,
+          121,
+          124,
+          65,
+          320,
+          6
+        ],
+        [
+          0,
+          326,
+          68,
+          121,
+          320,
+          6,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          121,
+          68,
+          320,
+          6,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          13,
+          400,
+          65,
+          124,
+          75,
+          201
+        ],
+        [
+          0,
+          326,
+          400,
+          13,
+          65,
+          124,
+          201,
+          75
+        ],
+        [
+          0,
+          326,
+          400,
+          13,
+          75,
+          201,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          13,
+          400,
+          75,
+          201,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          400,
+          13,
+          124,
+          65,
+          75,
+          201
+        ],
+        [
+          0,
+          326,
+          13,
+          400,
+          124,
+          65,
+          201,
+          75
+        ],
+        [
+          0,
+          326,
+          13,
+          400,
+          201,
+          75,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          400,
+          13,
+          201,
+          75,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          247,
+          37,
+          62,
+          443,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          37,
+          247,
+          62,
+          443,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          37,
+          247,
+          65,
+          124,
+          62,
+          443
+        ],
+        [
+          0,
+          326,
+          247,
+          37,
+          65,
+          124,
+          443,
+          62
+        ],
+        [
+          0,
+          326,
+          247,
+          37,
+          124,
+          65,
+          62,
+          443
+        ],
+        [
+          0,
+          326,
+          37,
+          247,
+          124,
+          65,
+          443,
+          62
+        ],
+        [
+          0,
+          326,
+          37,
+          247,
+          443,
+          62,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          247,
+          37,
+          443,
+          62,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          370,
+          88,
+          65,
+          124,
+          197,
+          313
+        ],
+        [
+          0,
+          326,
+          88,
+          370,
+          65,
+          124,
+          313,
+          197
+        ],
+        [
+          0,
+          326,
+          88,
+          370,
+          124,
+          65,
+          197,
+          313
+        ],
+        [
+          0,
+          326,
+          370,
+          88,
+          124,
+          65,
+          313,
+          197
+        ],
+        [
+          0,
+          326,
+          88,
+          370,
+          197,
+          313,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          370,
+          88,
+          197,
+          313,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          370,
+          88,
+          313,
+          197,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          88,
+          370,
+          313,
+          197,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          314,
+          198,
+          65,
+          124,
+          93,
+          371
+        ],
+        [
+          0,
+          326,
+          198,
+          314,
+          65,
+          124,
+          371,
+          93
+        ],
+        [
+          0,
+          326,
+          198,
+          314,
+          93,
+          371,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          314,
+          198,
+          93,
+          371,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          198,
+          314,
+          124,
+          65,
+          93,
+          371
+        ],
+        [
+          0,
+          326,
+          314,
+          198,
+          124,
+          65,
+          371,
+          93
+        ],
+        [
+          0,
+          326,
+          314,
+          198,
+          371,
+          93,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          198,
+          314,
+          371,
+          93,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          354,
+          477,
+          65,
+          124,
+          135,
+          252
+        ],
+        [
+          0,
+          326,
+          477,
+          354,
+          65,
+          124,
+          252,
+          135
+        ],
+        [
+          0,
+          326,
+          477,
+          354,
+          124,
+          65,
+          135,
+          252
+        ],
+        [
+          0,
+          326,
+          354,
+          477,
+          124,
+          65,
+          252,
+          135
+        ],
+        [
+          0,
+          326,
+          477,
+          354,
+          135,
+          252,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          354,
+          477,
+          135,
+          252,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          354,
+          477,
+          252,
+          135,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          477,
+          354,
+          252,
+          135,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          331,
+          209,
+          65,
+          124,
+          158,
+          432
+        ],
+        [
+          0,
+          326,
+          209,
+          331,
+          65,
+          124,
+          432,
+          158
+        ],
+        [
+          0,
+          326,
+          209,
+          331,
+          124,
+          65,
+          158,
+          432
+        ],
+        [
+          0,
+          326,
+          331,
+          209,
+          124,
+          65,
+          432,
+          158
+        ],
+        [
+          0,
+          326,
+          209,
+          331,
+          158,
+          432,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          331,
+          209,
+          158,
+          432,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          331,
+          209,
+          432,
+          158,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          209,
+          331,
+          432,
+          158,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          420,
+          270,
+          65,
+          124,
+          224,
+          459
+        ],
+        [
+          0,
+          326,
+          270,
+          420,
+          65,
+          124,
+          459,
+          224
+        ],
+        [
+          0,
+          326,
+          270,
+          420,
+          124,
+          65,
+          224,
+          459
+        ],
+        [
+          0,
+          326,
+          420,
+          270,
+          124,
+          65,
+          459,
+          224
+        ],
+        [
+          0,
+          326,
+          270,
+          420,
+          224,
+          459,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          420,
+          270,
+          224,
+          459,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          420,
+          270,
+          459,
+          224,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          270,
+          420,
+          459,
+          224,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          457,
+          230,
+          65,
+          124,
+          269,
+          419
+        ],
+        [
+          0,
+          326,
+          230,
+          457,
+          65,
+          124,
+          419,
+          269
+        ],
+        [
+          0,
+          326,
+          230,
+          457,
+          124,
+          65,
+          269,
+          419
+        ],
+        [
+          0,
+          326,
+          457,
+          230,
+          124,
+          65,
+          419,
+          269
+        ],
+        [
+          0,
+          326,
+          230,
+          457,
+          269,
+          419,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          457,
+          230,
+          269,
+          419,
+          124,
+          65
+        ],
+        [
+          0,
+          326,
+          457,
+          230,
+          419,
+          269,
+          65,
+          124
+        ],
+        [
+          0,
+          326,
+          230,
+          457,
+          419,
+          269,
+          124,
+          65
+        ]
+      ],
+      "opposite_ordinary_failure_profile": {
+        "24": 80
+      },
+      "ordinary_chart_count": 80,
+      "ordinary_chart_distinct_count": 80,
+      "ordinary_homomorphism_failure_profile": {
+        "0": 80
+      },
+      "ordinary_opposite_intersection_count": 0,
+      "pairwise_character_comparisons": [
+        {
+          "characters_equal": false,
+          "equivariant_bijection_count": 0,
+          "left": "instruction",
+          "right": "chart"
+        },
+        {
+          "characters_equal": false,
+          "equivariant_bijection_count": 0,
+          "left": "instruction",
+          "right": "variance"
+        },
+        {
+          "characters_equal": false,
+          "equivariant_bijection_count": 0,
+          "left": "chart",
+          "right": "variance"
+        }
+      ],
+      "presentation_index": 1,
+      "three_character_joint_image": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "three_character_joint_kernel": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "variance_completed_chart_count": 160
+    }
+  ],
+  "promotion": {
+    "candidate_promoted_without_recomputation": true,
+    "guard_check_count": 77,
+    "guard_failed_check_count": 0,
+    "manuscript_mutated": false,
+    "promotion_guard_passed": true
+  },
+  "repository_mutation_performed": false,
+  "result_frozen": true
+}

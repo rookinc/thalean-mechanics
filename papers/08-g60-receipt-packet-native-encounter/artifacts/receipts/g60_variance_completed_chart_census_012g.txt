@@ -1,0 +1,84 @@
+== G60 VARIANCE-COMPLETED CHART CENSUS GUARD 012g ==
+CHECK_COUNT: 77
+FAILED_CHECK_COUNT: 0
+CHECK head: true
+CHECK compute_hash: true
+CHECK candidate_hash: true
+CHECK report_hash: true
+CHECK packet: true
+CHECK mode: true
+CHECK locked_head: true
+CHECK candidate_audit_pass: true
+CHECK candidate_prediction_matches: true
+CHECK candidate_authority_count: true
+CHECK candidate_authority_hashes: true
+CHECK scoped_status: true
+CHECK presentation_count: true
+CHECK reconstructed_count: true
+CHECK p0_exact_reconstruction: true
+CHECK p0_ordinary_80: true
+CHECK p0_opposite_80: true
+CHECK p0_completed_160: true
+CHECK p0_disjoint: true
+CHECK p0_ordinary_hom_zero: true
+CHECK p0_opposite_anti_zero: true
+CHECK p0_opposite_ordinary_24: true
+CHECK p0_commutation: true
+CHECK p0_extended_16: true
+CHECK p0_direct_product: true
+CHECK p0_joint_image_8: true
+CHECK p0_joint_kernel_2: true
+CHECK p0_pairwise_distinct: true
+CHECK p0_instruction_formula: true
+CHECK p1_exact_reconstruction: true
+CHECK p1_ordinary_80: true
+CHECK p1_opposite_80: true
+CHECK p1_completed_160: true
+CHECK p1_disjoint: true
+CHECK p1_ordinary_hom_zero: true
+CHECK p1_opposite_anti_zero: true
+CHECK p1_opposite_ordinary_24: true
+CHECK p1_commutation: true
+CHECK p1_extended_16: true
+CHECK p1_direct_product: true
+CHECK p1_joint_image_8: true
+CHECK p1_joint_kernel_2: true
+CHECK p1_pairwise_distinct: true
+CHECK p1_instruction_formula: true
+CHECK gauge_exact_reconstruction: true
+CHECK gauge_count_4: true
+CHECK gauge_indices: true
+CHECK gauge_inversion: true
+CHECK gauge_variance_sheet: true
+CHECK gauge_character_decomposition: true
+CHECK gauge_ordinary_permutations: true
+CHECK gauge_opposite_permutations: true
+CHECK orientation_summary_exact: true
+CHECK orientation_bridge_count: true
+CHECK orientation_reversal: true
+CHECK orientation_targets: true
+CHECK orientation_common_action_false: true
+CHECK orientation_identification_false: true
+CHECK orientation_anchor_instruction_false: true
+CHECK orientation_anchor_chart_false: true
+CHECK classification: true
+CHECK earned_statement: true
+CHECK repository_no_mutation: true
+CHECK boundary_exact: true
+CHECK report_CHECK_COUNT: true
+CHECK report_FAILED_CHECK_COUNT: true
+CHECK report_PREDICTION_MATCHES: true
+CHECK report_CLASSIFICATION: true
+CHECK report_ORIENTATION_TO_LOCAL_VARIANCE_IDENTIFIED: true
+CHECK report_INSTRUCTION_SELECTED: true
+CHECK report_CHART_ORBIT_SELECTED: true
+CHECK report_ORIENTATION_SELECTED: true
+CHECK report_MECHANICS_STATE_CELL_ESTABLISHED: true
+CHECK report_MANUSCRIPT_MUTATED: true
+CHECK report_PHYSICAL_CLAIM: true
+CHECK report_PROJECT_MUTATION_PERFORMED: true
+CHECK report_SCOPED_STATUS_PRESERVED: true
+GUARD_PASS: true
+FAILED_CHECKS: []
+CANDIDATE_PROMOTED: false
+PROJECT_MUTATION_PERFORMED: false
