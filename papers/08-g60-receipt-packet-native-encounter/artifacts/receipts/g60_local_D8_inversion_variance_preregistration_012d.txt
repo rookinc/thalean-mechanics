@@ -1,0 +1,40 @@
+== G60 LOCAL D8 INVERSION VARIANCE PREREGISTRATION GUARD 012d ==
+CHECK_COUNT: 33
+FAILED_CHECK_COUNT: 0
+CHECK head: true
+CHECK candidate_hash: true
+CHECK orientation_hash: true
+CHECK update_hash: true
+CHECK comparison_hash: true
+CHECK packet: true
+CHECK mode: true
+CHECK prediction_presentation_count: true
+CHECK prediction_local_group_order_each: true
+CHECK prediction_local_group_nonabelian_each: true
+CHECK prediction_unique_inverse_exists_for_every_element_each: true
+CHECK prediction_inversion_is_involutive_each: true
+CHECK prediction_inversion_fixed_point_count_each: true
+CHECK prediction_order_four_elements_each: true
+CHECK prediction_inversion_exchanges_order_four_pair_each: true
+CHECK prediction_ordinary_homomorphism_failure_count_positive_each: true
+CHECK prediction_anti_homomorphism_failure_count_each: true
+CHECK prediction_inversion_is_local_automorphism_each: true
+CHECK prediction_inversion_is_present_in_Aut_D8_rows_each: true
+CHECK prediction_right_update_to_left_inverse_update_failure_count_each: true
+CHECK prediction_right_update_to_right_inverse_update_failure_count_positive_each: true
+CHECK prediction_double_inversion_restores_original_element_each: true
+CHECK prediction_predicted_classification: true
+CHECK sheet_equals_root_inverse: true
+CHECK restriction_to_D8: true
+CHECK restriction_anti: true
+CHECK not_instruction_character: true
+CHECK not_chart_character: true
+CHECK not_product_character: true
+CHECK variance_candidate: true
+CHECK required_test_count: true
+CHECK all_boundaries_false: true
+CHECK repository_no_mutation: true
+GUARD_PASS: true
+FAILED_CHECKS: []
+CANDIDATE_PROMOTED: false
+PROJECT_MUTATION_PERFORMED: false

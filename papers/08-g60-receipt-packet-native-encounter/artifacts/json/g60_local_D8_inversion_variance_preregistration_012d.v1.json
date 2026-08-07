@@ -1,0 +1,61 @@
+{
+  "packet": "g60_local_D8_inversion_variance_preregistration_012d",
+  "mode": "frozen_predictions_before_local_inversion_variance_census",
+  "locked_head": "dc85e32 Lock G60 binary torsor character comparison",
+  "objective": "Test whether inversion on each selected local D8 presentation is an opposite-law anti-automorphism rather than an ordinary Aut(D8) character.",
+  "authorities": {
+    "orientation_011o_sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941",
+    "update_012a_sha256": "4e6936b9b48c6f033b826df7c3ad4ac70ec3480129c5c73ec6a24630077096d2",
+    "torsor_comparison_012c_sha256": "b08d3012ed20301897baa771ed99ecd6a859b8e7d1ef5b31c497652287962d76"
+  },
+  "frozen_predictions": {
+    "presentation_count": 2,
+    "local_group_order_each": 8,
+    "local_group_nonabelian_each": true,
+    "unique_inverse_exists_for_every_element_each": true,
+    "inversion_is_involutive_each": true,
+    "inversion_fixed_point_count_each": 6,
+    "order_four_elements_each": [2, 3],
+    "inversion_exchanges_order_four_pair_each": true,
+    "ordinary_homomorphism_failure_count_positive_each": true,
+    "anti_homomorphism_failure_count_each": 0,
+    "inversion_is_local_automorphism_each": false,
+    "inversion_is_present_in_Aut_D8_rows_each": false,
+    "right_update_to_left_inverse_update_failure_count_each": 0,
+    "right_update_to_right_inverse_update_failure_count_positive_each": true,
+    "double_inversion_restores_original_element_each": true,
+    "predicted_classification": "local_D8_inversion_is_opposite_law_isomorphism_not_Aut_D8_character"
+  },
+  "orientation_bridge_prediction": {
+    "011o_sheet_reversal_equals_target_root_inversion": true,
+    "target_root_inversion_restricts_to_each_native_D8_subgroup": true,
+    "restriction_is_anti_automorphic_not_Aut_D8": true,
+    "orientation_torsor_is_instruction_character": false,
+    "orientation_torsor_is_chart_character": false,
+    "orientation_torsor_is_product_character": false,
+    "orientation_torsor_as_opposite_law_variance_candidate": true
+  },
+  "required_tests": [
+    "reconstruct both local multiplication tables from locked 012a",
+    "derive every local inverse directly from the table",
+    "count ordinary homomorphism failures",
+    "count anti-homomorphism failures",
+    "compare inversion against all eight local automorphism rows",
+    "test action on the order-four pair",
+    "test right-update to left-inverse-update covariance",
+    "test failure of same-side right-update covariance",
+    "verify the locked 011o reversal statement"
+  ],
+  "boundary": {
+    "instruction_selected": false,
+    "chart_orbit_selected": false,
+    "orientation_selected": false,
+    "three_torsors_identified": false,
+    "autonomous_native_update_law_constructed": false,
+    "mechanics_state_cell_established": false,
+    "geometry_claim": false,
+    "manuscript_mutated": false,
+    "physical_claim": false
+  },
+  "repository_mutation_performed": false
+}
