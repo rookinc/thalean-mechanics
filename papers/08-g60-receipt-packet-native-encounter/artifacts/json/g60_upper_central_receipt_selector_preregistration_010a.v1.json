@@ -1,0 +1,181 @@
+{
+  "authorities": {
+    "action": {
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "hash_match": true,
+      "mapping_path": "$.mapping_rows",
+      "mapping_row_count": 480,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json",
+      "permitted_fields": [
+        "actual_index",
+        "actual_permutation",
+        "actual_order"
+      ],
+      "permutation_degree": 60,
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "raw_edges": {
+      "edge_row_count": 120,
+      "expected_sha256": "c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f",
+      "fields": [
+        "local_u",
+        "local_v"
+      ],
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/paper/data/g60_local_edges.csv",
+      "sha256": "c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f"
+    }
+  },
+  "blindness_contract": {
+    "allowed_action_fields": [
+      "actual_index",
+      "actual_permutation",
+      "actual_order"
+    ],
+    "central_series_computed_before_preregistration": false,
+    "historical_deck_names_used": false,
+    "historical_reference_fields_used": false,
+    "member_indices_named_in_outcome_predicates": false,
+    "phase": "A",
+    "prior_class_member_indices_used": false,
+    "prior_quotient_labels_used": false,
+    "prior_voltage_certificates_used": false,
+    "unblinding_allowed_before_phase_a_freeze": false
+  },
+  "created_at": "2026-08-06T17:58:17.644258-07:00",
+  "falsification_conditions": [
+    "The first center is not the previously certified normal binary action.",
+    "The second center is larger than the previously certified order-4 action.",
+    "The second center equals the first center.",
+    "The recovered normal order-4 action is not the second center.",
+    "A recovered central layer is not semiregular.",
+    "A central-layer quotient fails the local covering law.",
+    "A central-layer orbit quotient fails to reproduce the certified tower."
+  ],
+  "frozen_group_conventions": {
+    "commutator": "commutator(g,h) = inverse(g)*inverse(h)*g*h under the frozen composition convention.",
+    "composition": "compose(p,q)[v] = p[q[v]], so p*q means apply q first and then p.",
+    "first_center": "Z1 is the set of g such that g*h=h*g for every h.",
+    "identity": "The unique permutation e satisfying e[v]=v for all v.",
+    "inverse": "inverse(p)[p[v]]=v for every vertex v.",
+    "optional_third_center": "Z3 is the set of g such that commutator(g,h) lies in Z2 for every h.",
+    "permutation_representation": "A permutation p is stored by images p[v] on vertices 0..59.",
+    "second_center": "Z2 is the set of g such that commutator(g,h) lies in Z1 for every h."
+  },
+  "frozen_outcome_order": [
+    "computation_failure",
+    "unexpected_center",
+    "center_only",
+    "exact_target",
+    "larger_second_center"
+  ],
+  "interpretive_boundary": {
+    "blind_spectrum_retains_22_admissible_classes": true,
+    "claim_every_receipt_action_is_uniquely_selected": false,
+    "manuscript_mutation_allowed": false,
+    "orientation_claim": false,
+    "physical_claim": false,
+    "smallest_order_selector_allowed": false,
+    "substitute_selector_allowed_after_failure_in_same_packet": false
+  },
+  "metadata_correction": {
+    "blindness_contract_changed": false,
+    "central_series_computed_before_correction": false,
+    "group_conventions_changed": false,
+    "mathematical_predicates_changed": false,
+    "reason": "The preregistration generator was rerun before commit, so the status snapshot included the preregistration files themselves."
+  },
+  "mode": "blind_upper_central_preregistration",
+  "outcome_predicates": {
+    "center_only": {
+      "predicate": "The first center has order 2 and the second center equals the first center."
+    },
+    "computation_failure": {
+      "predicate": "The exact group operation cannot be reconstructed consistently from the permitted action fields."
+    },
+    "exact_target": {
+      "predicate": "The first center has order 2 and the second center has order 4."
+    },
+    "larger_second_center": {
+      "predicate": "The first center has order 2 and the second center has order greater than 4."
+    },
+    "unexpected_center": {
+      "predicate": "The first center does not have order 2."
+    }
+  },
+  "packet": "g60_upper_central_receipt_selector_preregistration_010a",
+  "phase_a_execution_contract": {
+    "complete_center_check": true,
+    "complete_inverse_check": true,
+    "complete_multiplication_closure_check": true,
+    "complete_second_center_check": true,
+    "progress_interval_candidates": 40,
+    "raw_graph_used_for_orbit_and_edge_checks_only": true,
+    "replacement_selector_search_in_same_packet": false,
+    "serial_execution_first": true
+  },
+  "phase_a_required_checks": [
+    "exact_action_hash",
+    "mapping_row_count",
+    "identity_index",
+    "closure_failures",
+    "inverse_failures",
+    "multiplication_consistency_failures",
+    "group_order",
+    "center_order",
+    "center_member_indices",
+    "second_center_order",
+    "second_center_member_indices",
+    "optional_third_center_order_and_members",
+    "element_order_profiles_by_central_layer",
+    "vertex_orbit_profiles",
+    "edge_orbit_profiles",
+    "semiregularity",
+    "edge_inversion_failures",
+    "repository_status_preservation",
+    "preregistered_outcome_classification"
+  ],
+  "phase_b_gate": {
+    "allowed_only_after_phase_a_report_hashed": true,
+    "allowed_only_after_phase_a_report_written": true,
+    "compare_with_prior_blind_classes": true,
+    "compare_with_prior_quotient_tower": true,
+    "compare_with_prior_voltage_certificates": true,
+    "preferred_after_phase_a_commit": true
+  },
+  "preregistration_status": "frozen_before_central_computation",
+  "repository_baseline": {
+    "head": "62f05c3 Lock native G60 receipt tower theorem",
+    "status_short_at_final_preregistration_freeze": [
+      "?? ../01-unit-action-and-finite-geometric-emergence/README.md",
+      "?? ../01-unit-action-and-finite-geometric-emergence/build/",
+      "?? ../01-unit-action-and-finite-geometric-emergence/dist/",
+      "?? ../01-unit-action-and-finite-geometric-emergence/notes/claim-status.md",
+      "?? ../01-unit-action-and-finite-geometric-emergence/notes/source-ledger.md",
+      "?? ../01-unit-action-and-finite-geometric-emergence/notes/theorem-dependency-audit.md",
+      "?? ../01-unit-action-and-finite-geometric-emergence/paper/",
+      "?? ../01-unit-action-and-finite-geometric-emergence/scripts/zipit.sh",
+      "?? ../02-extension-and-evolution-from-a-discrete-encounter/build/",
+      "?? ../03-encounter-orientation-receipt-tower/",
+      "?? ../04-binary-receipts-and-finite-cycle-doubling/",
+      "?? ../05-parity-in-the-dihedral-receipt-tower/",
+      "?? ../06-finite-receipt-holonomy-and-cycle-multiplication/",
+      "?? artifacts/json/g60_upper_central_receipt_selector_preregistration_010a.v1.json",
+      "?? artifacts/receipts/g60_upper_central_receipt_selector_preregistration_010a.txt",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? notes/g60_upper_central_receipt_selector_preregistration_010a.md",
+      "?? paper/",
+      "?? scripts/audits/audit_g60_upper_central_receipt_selector_preregistration_010a.py",
+      "?? scripts/zipit.sh"
+    ],
+    "status_snapshot_semantics": "Repository status immediately before the final preregistration lock. Because the preregistration generator had been rerun, this snapshot includes the untracked preregistration files themselves as well as pre-existing unrelated work.",
+    "used_as_clean_worktree_claim": false,
+    "used_as_pre_packet_status_claim": false
+  },
+  "research_ethos": "Do not protect the idea. Make the idea protect itself.",
+  "target_question": "Does the upper-central series of the exact native full automorphism group intrinsically select a nested order-2 and order-4 receipt tower?",
+  "version": 1
+}

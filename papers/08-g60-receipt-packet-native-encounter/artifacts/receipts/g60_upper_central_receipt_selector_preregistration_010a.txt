@@ -1,0 +1,57 @@
+== G60 UPPER-CENTRAL PREREGISTRATION AUDIT 010a ==
+PACKET: g60_upper_central_receipt_selector_preregistration_010a
+MODE: blind_upper_central_preregistration
+JSON_SHA256: f43a9d1b3e97133d62d6f1b193409617226c63caba304e7613de4745182be2ea
+NOTE_SHA256: 3a9a23786279de0f4779f2c7232c34996c5cdd71857fd188899dd8da0eb91195
+ACTION_SHA256: b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21
+RAW_EDGE_SHA256: c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f
+MAPPING_ROW_COUNT: 480
+PERMUTATION_DEGREE: 60
+RAW_EDGE_ROW_COUNT: 120
+CENTRAL_SERIES_COMPUTED: false
+HISTORICAL_REFERENCE_FIELDS_USED: false
+PRIOR_CLASS_MEMBER_INDICES_USED: false
+OUTCOME_ORDER: ['computation_failure', 'unexpected_center', 'center_only', 'exact_target', 'larger_second_center']
+OUTCOME_COUNT: 5
+COMPOSITION: compose(p,q)[v] = p[q[v]], so p*q means apply q first and then p.
+COMMUTATOR: commutator(g,h) = inverse(g)*inverse(h)*g*h under the frozen composition convention.
+PHASE_B_ALLOWED_NOW: false
+REPOSITORY_STATUS_SNAPSHOT: status_short_at_final_preregistration_freeze
+STATUS_USED_AS_CLEAN_WORKTREE_CLAIM: false
+METADATA_CORRECTION_ONLY: true
+SMALLEST_ORDER_SELECTOR_ALLOWED: false
+MANUSCRIPT_MUTATION_ALLOWED: false
+CHECK_COUNT: 28
+FAILED_CHECK_COUNT: 0
+CHECK packet_name: true
+CHECK action_hash_match: true
+CHECK edge_hash_match: true
+CHECK mapping_row_count_480: true
+CHECK permutation_degree_60: true
+CHECK edge_row_count_120: true
+CHECK phase_a_blind: true
+CHECK historical_fields_unused: true
+CHECK prior_indices_unused: true
+CHECK central_series_not_precomputed: true
+CHECK member_indices_not_preregistered: true
+CHECK five_outcomes_frozen: true
+CHECK composition_frozen: true
+CHECK commutator_frozen: true
+CHECK phase_b_gated: true
+CHECK no_replacement_selector: true
+CHECK no_smallest_order_selector: true
+CHECK blind_spectrum_preserved: true
+CHECK no_orientation_claim: true
+CHECK no_physical_claim: true
+CHECK no_manuscript_mutation: true
+CHECK status_frozen: true
+CHECK final_freeze_status_present: true
+CHECK misleading_pre_preregistration_key_absent: true
+CHECK status_not_used_as_clean_worktree_claim: true
+CHECK metadata_only_correction: true
+CHECK central_series_not_computed_before_correction: true
+CHECK note_exists: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+MUTATION_SCOPE: preregistration_packet_only
+GROUP_COMPUTATION_PERFORMED: false
