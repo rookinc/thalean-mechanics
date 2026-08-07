@@ -1,0 +1,82 @@
+== G60 ROOT STABILIZER ACTION-TYPE CENSUS AUDIT 011k ==
+PACKET: g60_root_stabilizer_action_type_census_011k
+MODE: frozen_complete_stabilizer_action_type_census
+JSON_SHA256: 6685932b584a9784410ed57eabe7cfab27de43365ac74bc844c166f375b31574
+NOTE_SHA256: 4f0c002e51f4a7f0e9a4f4252ac6320eb823dfaf09d18a332cf51ca977d6dc65
+COMPUTATION_SCRIPT_SHA256: df5f1fa8de373033bd7cf6bee5489f04844440cc592b11cc630ca9abe913877c
+RAW_RUN_RECEIPT_SHA256: 087bf2aed6bbf869d32f497a1c8c94120a313bfdf08dd80d94908eacd9239ffd
+ROOT_STABILIZER_PROFILE: {'cycle_type_profile': {'1,1,1,1,1': 1, '2,2,1': 3, '3,1,1': 2}, 'element_order_profile': {'1': 1, '2': 3, '3': 2}, 'orbit_size_profile': [2, 3], 'order': 6, 'parity_profile': {'even': 6}}
+ORDERED_DUAD_STABILIZER_PROFILE: {'cycle_type_profile': {'1,1,1,1,1': 1, '2,1,1,1': 3, '3,1,1': 2}, 'element_order_profile': {'1': 1, '2': 3, '3': 2}, 'orbit_size_profile': [1, 1, 3], 'order': 6, 'parity_profile': {'even': 3, 'odd': 3}}
+EVEN_DUAD_STABILIZER_PROFILE: {'cycle_type_profile': {'1,1,1,1,1': 1, '2,2,1': 3, '3,1,1': 2}, 'element_order_profile': {'1': 1, '2': 3, '3': 2}, 'orbit_size_profile': [2, 3], 'order': 6, 'parity_profile': {'even': 6}}
+ROOT_AND_ORDERED_CONJUGATE_IN_S5: false
+N_EXACT_MATCH_FAILURE_COUNT: 0
+COMPLEMENT_EXACT_MATCH_FAILURE_COUNT: 0
+CLASSIFICATION: root_stabilizer_exactly_matches_even_duad_setwise_stabilizer
+CHECK_COUNT: 59
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode_frozen: true
+CHECK locked_head_recorded: true
+CHECK head_still_locked: true
+CHECK result_frozen: true
+CHECK audit_pass_recorded: true
+CHECK json_hash: true
+CHECK raw_hash: true
+CHECK note_hash: true
+CHECK compute_hash: true
+CHECK candidate_hash: true
+CHECK candidate_promoted: true
+CHECK raw_copied: true
+CHECK compute_copied: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK group_order_480: true
+CHECK identity_0: true
+CHECK closure_zero: true
+CHECK inverse_zero: true
+CHECK operation_ok: true
+CHECK five_point_image_120: true
+CHECK root_uniform: true
+CHECK ordered_uniform: true
+CHECK even_duad_uniform: true
+CHECK root_profile_exact: true
+CHECK ordered_profile_exact: true
+CHECK even_profile_equals_root: true
+CHECK same_abstract_profile: true
+CHECK not_conjugate_in_S5: true
+CHECK N_root_rows_20: true
+CHECK N_ordered_rows_20: true
+CHECK complement_root_rows_40: true
+CHECK complement_ordered_rows_40: true
+CHECK even_duad_rows_10: true
+CHECK distinct_N_root_10: true
+CHECK distinct_N_ordered_10: true
+CHECK distinct_complement_root_10: true
+CHECK distinct_complement_ordered_10: true
+CHECK distinct_even_duad_10: true
+CHECK N_match_failures_zero: true
+CHECK N_failure_rows_empty: true
+CHECK complement_match_failures_zero: true
+CHECK complement_failure_rows_empty: true
+CHECK N_family_exact: true
+CHECK complement_family_exact: true
+CHECK exact_even_match: true
+CHECK prediction_matches: true
+CHECK classification: true
+CHECK classification_only: true
+CHECK no_replacement_A_set: true
+CHECK no_new_selector: true
+CHECK no_minimal_datum: true
+CHECK no_orientation: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physics: true
+CHECK promotion_no_manuscript: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: The root stabilizers and ordered-duad stabilizers have the same abstract S3 element-order profile but are nonconjugate embeddings in the canonical five-point S5 action. Ordered-duad stabilizers are mixed-parity S3 subgroups with orbit profile 1+1+3, whereas root stabilizers are all-even S3 subgroups with orbit profile 2+3. Under the unique unordered-duad to inverse-root-pair bridge, every root stabilizer image is exactly the even setwise stabilizer of its assigned unordered duad. Thus the failure of ordered orientation propagation is an embedding obstruction, not a difference of abstract stabilizer type.
+REPLACEMENT_SOURCE_A_SET_CONSTRUCTED: false
+ORIENTATION_SELECTED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
