@@ -1,0 +1,148 @@
+{
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/s3_sign_v4_d8_local_system_audit_021.json": {
+      "expected_sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa",
+      "hash_match": true,
+      "sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json": {
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "hash_match": true,
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_s5_extension_splitting_audit_079.json": {
+      "expected_sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221",
+      "hash_match": true,
+      "sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_v4_recovery_052.json": {
+      "expected_sha256": "8ddf9791ff0814ced4b72ea14a4c7f330f1b0de577579ec3755b0d411f83f9ca",
+      "hash_match": true,
+      "sha256": "8ddf9791ff0814ced4b72ea14a4c7f330f1b0de577579ec3755b0d411f83f9ca"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_full_A_orientation_character_extension_census_011o.v1.json": {
+      "expected_sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941",
+      "hash_match": true,
+      "sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_two_sided_slider_cocycle_census_011q.v1.json": {
+      "expected_sha256": "63034d0c0fe4a35480bf879209a1da5dae0d5a581eeef063e489d8be1be2459e",
+      "hash_match": true,
+      "sha256": "63034d0c0fe4a35480bf879209a1da5dae0d5a581eeef063e489d8be1be2459e"
+    }
+  },
+  "boundary": {
+    "bounded_marked_D8_comparison_only": true,
+    "broader_local_global_relation_ruled_out": false,
+    "geometry_claim": false,
+    "global_minimality_claim": false,
+    "manuscript_mutated": false,
+    "physical_claim": false,
+    "physical_direction_claim": false
+  },
+  "claims_withheld": {
+    "center_mapping_verified_by_enumeration": false,
+    "complete_isomorphism_census_performed": false,
+    "direct_side_identification_obstructed": false,
+    "intermediate_bridge_constructed": false,
+    "local_side_identified_with_011o_orientation_sheet": false,
+    "mechanics_state_cell_established": false,
+    "native_update_law_constructed": false,
+    "orientation_selected": false
+  },
+  "falsifiers": [
+    "either selected 011q representative fails to reconstruct D8",
+    "the native local square group fails to reconstruct D8",
+    "the native V4 index-name assignment differs from 65=ab, 124=b, 326=a",
+    "either selected extension has other than eight isomorphisms to native D8",
+    "any D8 isomorphism sends the local central flip anywhere other than native a",
+    "the local central flip fails to exchange the two local sides",
+    "native a changes the 011o orientation sheet",
+    "any direct marked side identification survives the center-action test"
+  ],
+  "known_marked_structures": {
+    "011o_alpha_1_restriction_to_native_V4": {
+      "1": 0,
+      "a": 0,
+      "ab": 1,
+      "b": 1
+    },
+    "native_V4_indices": {
+      "1": 0,
+      "a": 326,
+      "ab": 65,
+      "b": 124
+    },
+    "native_axis_action": {
+      "a": "a",
+      "ab": "b",
+      "b": "ab"
+    },
+    "native_local_center_order": 2,
+    "native_local_group_order": 8,
+    "native_local_group_type": "D8",
+    "selected_011q_central_flip": [
+      0,
+      1
+    ],
+    "selected_011q_central_kernel": "C2",
+    "selected_011q_extension_type": "D8",
+    "selected_011q_representative_count": 2,
+    "selected_011q_square_signature": {
+      "q(a)": 1,
+      "q(ab)": 0,
+      "q(b)": 0
+    }
+  },
+  "locked_head": "7696ddb Lock G60 two-sided slider route witness",
+  "mode": "post_two_sided_slider_marked_action_obstruction_preregistration",
+  "outcome_order": [
+    "computation_failure",
+    "authority_failure",
+    "native_V4_index_name_mismatch",
+    "selected_extension_not_D8",
+    "native_local_group_not_D8",
+    "isomorphism_count_mismatch",
+    "center_mapping_failure",
+    "local_center_does_not_flip_local_side",
+    "native_center_unexpectedly_flips_011o_sheet",
+    "unexpected_direct_marked_side_identification",
+    "native_center_kernel_obstructs_direct_side_identification"
+  ],
+  "packet": "g60_local_global_side_obstruction_preregistration_011r",
+  "predictions": {
+    "011o_sheet_delta_under_native_a": 0,
+    "all_isomorphisms_map_local_center_to_native_a": true,
+    "both_gauge_representatives_have_same_obstruction": true,
+    "direct_marked_side_identification_count": 0,
+    "intermediate_bridge_required_if_any_relation_exists": true,
+    "isomorphism_count_per_representative": 8,
+    "local_side_delta_under_central_flip": 1,
+    "predicted_classification": "native_center_kernel_obstructs_direct_side_identification",
+    "prediction_blind": false,
+    "prediction_declared_before_marked_action_census": true,
+    "reason": "The prediction follows from the characteristic center of D8 and the locked 011o character values, but the complete finite isomorphism census has not yet been performed.",
+    "selected_cocycle_representative_count": 2,
+    "total_isomorphism_count": 16
+  },
+  "required_tests": [
+    "reconstruct_selected_011q_cocycle_extension_for_both_representatives",
+    "reconstruct_native_local_square_group_from_locked_D8_authority",
+    "verify_both_groups_have_D8_order_profile",
+    "identify_native_V4_indices_by_exact_permutation_equality",
+    "verify_index_65_is_ab",
+    "verify_index_124_is_b",
+    "verify_index_326_is_a",
+    "restrict_011o_alpha_1_character_to_native_V4",
+    "verify_alpha_1_restriction_is_1_0_1_1_on_1_a_b_ab",
+    "enumerate_all_isomorphisms_from_each_selected_extension_to_native_D8",
+    "verify_eight_isomorphisms_per_cocycle_representative",
+    "verify_every_isomorphism_maps_local_central_flip_to_native_a",
+    "measure_local_side_delta_under_local_central_flip",
+    "measure_011o_sheet_delta_under_native_a",
+    "count_direct_marked_side_identifications",
+    "compare_both_gauge_related_representatives"
+  ],
+  "status": "frozen_before_marked_action_census",
+  "version": 1
+}

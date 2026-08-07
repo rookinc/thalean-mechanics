@@ -1,0 +1,72 @@
+== G60 LOCAL/GLOBAL SIDE OBSTRUCTION PREREGISTRATION AUDIT 011r ==
+PACKET: g60_local_global_side_obstruction_preregistration_011r
+MODE: post_two_sided_slider_marked_action_obstruction_preregistration
+JSON_SHA256: 66156d68d525a45fa6e7800e3b6093f911306352080725e08249f25ffe69c59d
+NOTE_SHA256: f7c7c149fa5a6cda4afa49acf021342a4e504ab1c8cecb3033476554c357a421
+LOCKED_HEAD: 7696ddb Lock G60 two-sided slider route witness
+NATIVE_V4_INDICES: {'1': 0, 'a': 326, 'ab': 65, 'b': 124}
+ALPHA_1_RESTRICTION: {'1': 0, 'a': 0, 'ab': 1, 'b': 1}
+PREDICTED_ISOMORPHISM_COUNT_PER_REPRESENTATIVE: 8
+PREDICTED_TOTAL_ISOMORPHISM_COUNT: 16
+PREDICTED_DIRECT_MARKED_SIDE_IDENTIFICATION_COUNT: 0
+PREDICTED_CLASSIFICATION: native_center_kernel_obstructs_direct_side_identification
+MARKED_ACTION_CENSUS_PERFORMED: false
+CHECK_COUNT: 50
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK status: true
+CHECK head: true
+CHECK json_hash: true
+CHECK note_hash: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK selected_D8: true
+CHECK selected_representatives_2: true
+CHECK selected_kernel_C2: true
+CHECK selected_central_flip: true
+CHECK selected_signature: true
+CHECK native_D8: true
+CHECK native_order_8: true
+CHECK native_center_2: true
+CHECK native_axis_action: true
+CHECK native_indices: true
+CHECK alpha_restriction: true
+CHECK prediction_declared: true
+CHECK prediction_not_blind: true
+CHECK predict_representatives_2: true
+CHECK predict_eight_each: true
+CHECK predict_total_16: true
+CHECK predict_center_mapping: true
+CHECK predict_local_delta_1: true
+CHECK predict_global_delta_0: true
+CHECK predict_identifications_0: true
+CHECK predict_same_obstruction: true
+CHECK predict_classification: true
+CHECK predict_bridge_needed: true
+CHECK required_test_count: true
+CHECK outcome_count: true
+CHECK falsifier_count: true
+CHECK no_census_claim: true
+CHECK no_center_mapping_claim: true
+CHECK no_obstruction_claim: true
+CHECK no_bridge: true
+CHECK no_sheet_identity: true
+CHECK no_update_law: true
+CHECK no_mechanics_cell: true
+CHECK no_orientation: true
+CHECK bounded_test: true
+CHECK broader_relation_open: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physical_direction: true
+CHECK no_physics: true
+CHECK note_exists: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+DIRECT_SIDE_IDENTIFICATION_OBSTRUCTED: false
+LOCAL_SIDE_EQUALS_011O_ORIENTATION_SHEET: false
+INTERMEDIATE_BRIDGE_CONSTRUCTED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
