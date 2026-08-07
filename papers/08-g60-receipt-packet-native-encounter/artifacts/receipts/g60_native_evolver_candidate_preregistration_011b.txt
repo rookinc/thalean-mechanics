@@ -1,0 +1,49 @@
+== G60 NATIVE EVOLVER CANDIDATE PREREGISTRATION AUDIT 011b ==
+PACKET: g60_native_evolver_candidate_preregistration_011b
+JSON_SHA256: ee8ed4313bdbb18081a85f9de1e648536106b16fbeee7e49a6a482889d18100a
+NOTE_SHA256: b692372ce9f9f7a0bb43c44489109700e5b0339cfd8f77a3fd128573f824eacd
+LOCKED_HEAD: b2541d0 Preregister G60 orientation obstruction test
+SOURCE dihedral_grammar_02: ebf63b7faf36f5d7d8dcb917d9ff76ee57e8dfedce75755bbaa30e590b1ed6e5 tracked=true role=required
+SOURCE native_tower_010c: 63fcdb0ff8e1d243eb5f44dd9cd630a361d777ef609c094a9009b8cc12029f2e tracked=true role=required
+SOURCE order_forcing_01: d2b1313c90fe17cf276fa8c99d86b2df6db980981c455f68877f1fdb84f4404d tracked=true role=required
+SOURCE orientation_tower_03_advisory_only: 1874a165a03c01c3f7f28d268e5b5b5f35351199f68ca7310b6f5569a7d44ba3 tracked=false role=advisory_excluded_from_candidate_definition
+PRIMARY_FAMILY: native_order8_receipt_evolver_family_U2
+PRIMARY_REQUIREMENT_COUNT: 5
+ABLATION_FAMILIES: ['U0', 'U1', 'U2']
+ELEMENT_CENSUS_PERFORMED: false
+U2_NONEMPTY_CLAIM: false
+NATIVE_EVOLVER_SELECTED: false
+ORIENTATION_SELECTED: false
+CHECK_COUNT: 27
+FAILED_CHECK_COUNT: 0
+CHECK packet_name: true
+CHECK head_b2541d0: true
+CHECK required_sources_tracked: true
+CHECK all_source_hashes_match: true
+CHECK paper03_untracked: true
+CHECK paper03_excluded: true
+CHECK no_existing_native_H: true
+CHECK bridge_test_required: true
+CHECK primary_family_U2: true
+CHECK five_primary_requirements: true
+CHECK candidate_adopted_before_counting: true
+CHECK three_ablation_families: true
+CHECK no_ablation_fallback: true
+CHECK complete_reversal_search: true
+CHECK six_classification_rules: true
+CHECK U2_not_claimed_nonempty: true
+CHECK evolver_not_selected: true
+CHECK orientation_not_selected: true
+CHECK obstruction_not_verified: true
+CHECK paper03_not_promoted: true
+CHECK fallback_forbidden: true
+CHECK minimal_datum_search_paused: true
+CHECK no_manuscript_mutation: true
+CHECK no_geometry_claim: true
+CHECK no_physical_claim: true
+CHECK status_frozen: true
+CHECK note_exists: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
