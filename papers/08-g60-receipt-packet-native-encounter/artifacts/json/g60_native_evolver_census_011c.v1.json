@@ -1,0 +1,129 @@
+{
+  "authorities": {
+    "action": {
+      "actual_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "hash_match": true
+    },
+    "edges": {
+      "actual_sha256": "c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f",
+      "expected_sha256": "c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f",
+      "hash_match": true
+    },
+    "phase_a": {
+      "actual_sha256": "6c69d4e6c6a5eca1c5b7d15840a8958cc93eff5a13c1fe62a8840fe2bf0e8f26",
+      "expected_sha256": "6c69d4e6c6a5eca1c5b7d15840a8958cc93eff5a13c1fe62a8840fe2bf0e8f26",
+      "hash_match": true
+    },
+    "prereg": {
+      "actual_sha256": "ee8ed4313bdbb18081a85f9de1e648536106b16fbeee7e49a6a482889d18100a",
+      "expected_sha256": "ee8ed4313bdbb18081a85f9de1e648536106b16fbeee7e49a6a482889d18100a",
+      "hash_match": true
+    }
+  },
+  "boundary": {
+    "candidate_report_only": false,
+    "carrier_obstruction_on_native_60_vertex_action": true,
+    "geometry_claim": false,
+    "larger_lifted_carrier_constructed": false,
+    "larger_lifted_carrier_required_for_same_order8_grammar": true,
+    "local_reversal_obstruction_verified": false,
+    "manuscript_mutated": false,
+    "minimal_directional_datum_identified": false,
+    "multiple_inverse_pairs": false,
+    "native_evolver_uniquely_selected": false,
+    "one_inverse_pair_selected": false,
+    "physical_claim": false,
+    "result_frozen": true
+  },
+  "candidate_census": {
+    "U0_count": 0,
+    "U0_member_indices": [],
+    "U1_count": 0,
+    "U1_member_indices": [],
+    "U2_count": 0,
+    "U2_element_conjugacy_orbit_count": 0,
+    "U2_element_conjugacy_orbits": [],
+    "U2_inverse_closure_failure_count": 0,
+    "U2_inverse_closure_failures": [],
+    "U2_inverse_pair_count": 0,
+    "U2_inverse_pairs": [],
+    "U2_member_indices": [],
+    "U2_pair_conjugacy_orbit_count": 0,
+    "U2_pair_conjugacy_orbits": [],
+    "U2_self_inverse_count": 0,
+    "U2_self_inverse_members": [],
+    "cyclic_intersections_with_Z2": {},
+    "outer_pair_actions": {}
+  },
+  "classification": {
+    "fallback_to_U0_or_U1_used": false,
+    "frozen_outcome": "no_exact_evolver_candidate",
+    "primary_family": "U2",
+    "replacement_selector_used": false
+  },
+  "created_at": "2026-08-06T18:38:52.018992-07:00",
+  "earned_statement": "No element H of the exact native automorphism group Aut(G60) has order 8 and fourth power equal to the canonical central involution tau. Therefore the preregistered native candidate families U0, U1, and U2 are all empty.",
+  "group_reconstruction": {
+    "closure_failure_count": 0,
+    "declared_order_failure_count": 0,
+    "group_order": 480,
+    "identity_index": 0,
+    "inverse_failure_count": 0,
+    "operation_ok": true
+  },
+  "mode": "frozen_native_evolver_census",
+  "native_action_profile": {
+    "edge_inversion_count_profile": {},
+    "edge_inversion_counts_by_element": {},
+    "fixed_point_count_profile": {},
+    "fixed_point_counts_by_element": {}
+  },
+  "native_tower": {
+    "Z1_member_indices": [
+      0,
+      326
+    ],
+    "Z2_member_indices": [
+      0,
+      65,
+      124,
+      326
+    ],
+    "outer_pair_indices": [
+      65,
+      124
+    ],
+    "tau_index": 326
+  },
+  "packet": "g60_native_evolver_census_011c",
+  "promotion": {
+    "candidate_json_sha256": "7f5935ad9124662bf7314590193f08552135b42bef37d25cb91411f89cda3461",
+    "candidate_report_sha256": "33307657c39ee8d22a282683a18605d19bc32303e2e75da7853a7cf9afe0d493",
+    "candidate_script_sha256": "10fad018817ac365ee4ea67346d7180677143e07f353a7bc72b245d088a02ec1",
+    "classification_changed": false,
+    "computation_script_copied_byte_for_byte": true,
+    "fallback_introduced": false,
+    "frozen_at": "2026-08-06T18:41:16.899251-07:00",
+    "mathematical_result_fields_changed": false,
+    "raw_run_receipt_copied_byte_for_byte": true
+  },
+  "repository_preservation": {
+    "head_after": "da2bb02 Preregister native G60 evolver candidate family",
+    "head_before": "da2bb02 Preregister native G60 evolver candidate family",
+    "project_mutation_performed": false,
+    "repository_status_preserved": true,
+    "status_after_sha256": "0df2dd0a83dc0cd7edb676d01c411492ebf22ff164a1cb5d9d1464a30733cd70",
+    "status_before_sha256": "0df2dd0a83dc0cd7edb676d01c411492ebf22ff164a1cb5d9d1464a30733cd70"
+  },
+  "reversal_witness_census": {
+    "all_U2_elements_have_involutive_reverser": false,
+    "all_generated_subgroup_order_profile": {},
+    "involution_count_in_A": 83,
+    "local_reversal_obstruction_verified": false,
+    "missing_reversal_witness_count": 0,
+    "missing_reversal_witness_members": [],
+    "witnesses_by_element": {}
+  },
+  "version": 1
+}

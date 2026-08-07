@@ -1,0 +1,65 @@
+== G60 NATIVE EVOLVER CENSUS AUDIT 011c ==
+PACKET: g60_native_evolver_census_011c
+MODE: frozen_native_evolver_census
+JSON_SHA256: 806a62bc3d67c1dd97f4bdb06ecc82868beb599c278cf1ee8da9cdf28bca1c49
+NOTE_SHA256: 20922d620d0c8f0d22c5f6ea4d8756e68a186bab8fb260fde9774dfa7c032126
+COMPUTATION_SCRIPT_SHA256: 10fad018817ac365ee4ea67346d7180677143e07f353a7bc72b245d088a02ec1
+RAW_RUN_RECEIPT_SHA256: 33307657c39ee8d22a282683a18605d19bc32303e2e75da7853a7cf9afe0d493
+PREREGISTRATION_SHA256: ee8ed4313bdbb18081a85f9de1e648536106b16fbeee7e49a6a482889d18100a
+GROUP_ORDER: 480
+CLOSURE_FAILURE_COUNT: 0
+INVERSE_FAILURE_COUNT: 0
+TAU_INDEX: 326
+U0_COUNT: 0
+U1_COUNT: 0
+U2_COUNT: 0
+U2_INVERSE_PAIR_COUNT: 0
+LOCAL_REVERSAL_OBSTRUCTION_VERIFIED: false
+CLASSIFICATION: no_exact_evolver_candidate
+FALLBACK_USED: false
+CARRIER_OBSTRUCTION: true
+LARGER_CARRIER_CONSTRUCTED: false
+CHECK_COUNT: 37
+FAILED_CHECK_COUNT: 0
+CHECK packet_name: true
+CHECK mode_frozen: true
+CHECK preregistration_hash: true
+CHECK candidate_json_provenance: true
+CHECK compute_script_hash: true
+CHECK raw_receipt_hash: true
+CHECK all_authority_hashes: true
+CHECK group_order_480: true
+CHECK identity_index_0: true
+CHECK closure_zero: true
+CHECK inverse_zero: true
+CHECK order_failures_zero: true
+CHECK operation_ok: true
+CHECK Z1_exact: true
+CHECK Z2_exact: true
+CHECK tau_326: true
+CHECK outer_pair_exact: true
+CHECK U0_empty: true
+CHECK U1_empty: true
+CHECK U2_empty: true
+CHECK no_inverse_pairs: true
+CHECK no_reversal_claim: true
+CHECK classification_no_candidate: true
+CHECK primary_family_remains_U2: true
+CHECK no_fallback: true
+CHECK no_replacement_selector: true
+CHECK repository_preserved: true
+CHECK result_frozen: true
+CHECK carrier_obstruction: true
+CHECK larger_carrier_not_constructed: true
+CHECK orientation_not_selected: true
+CHECK minimal_datum_not_identified: true
+CHECK no_manuscript_mutation: true
+CHECK no_geometry_claim: true
+CHECK no_physical_claim: true
+CHECK promotion_result_unchanged: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: No element H of the exact native automorphism group Aut(G60) has order 8 and fourth power equal to the canonical central involution tau. Therefore the preregistered native candidate families U0, U1, and U2 are all empty.
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
