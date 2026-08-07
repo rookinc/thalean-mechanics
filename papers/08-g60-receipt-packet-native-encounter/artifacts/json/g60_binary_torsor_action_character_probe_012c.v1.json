@@ -1,0 +1,61 @@
+{
+  "packet": "g60_binary_torsor_action_character_probe_012c",
+  "mode": "frozen_exact_non_preregistered_action_character_comparison",
+  "locked_head": "4646919 Lock G60 gauge-covariant update descent",
+  "classification": "instruction_and_chart_are_independent_C2_characters_on_local_Aut_D8",
+  "audit_pass": true,
+  "result_frozen": true,
+  "preregistered": false,
+  "authorities": {
+    "orientation_011o_sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941",
+    "chart_011y_sha256": "d5a9036cf96aa97dd8848cd947bff4d07c711db0db2e3dca3ad13ec1c9cdfdab",
+    "instruction_012a_sha256": "4e6936b9b48c6f033b826df7c3ad4ac70ec3480129c5c73ec6a24630077096d2"
+  },
+  "instruction_chart_comparison": {
+    "presentation_count": 2,
+    "joined_automorphism_count_each": 8,
+    "instruction_pair_each": [2, 3],
+    "instruction_kernel_indices_each": [0, 1, 2, 3],
+    "chart_kernel_indices_each": [0, 1, 4, 5],
+    "kernel_intersection_indices_each": [0, 1],
+    "combined_character_image_each": [[0, 0], [0, 1], [1, 0], [1, 1]],
+    "characters_equal": false,
+    "Aut_D8_equivariant_bijection_exists": false
+  },
+  "presentation_gauge_comparison": {
+    "gauge_count": 4,
+    "instruction_gauge_bits": [0, 0, 1, 1],
+    "chart_gauge_bits": [0, 0, 0, 0],
+    "comparison_delta_set": [0, 1],
+    "gauge_compatible_bijection_family_exists": false
+  },
+  "orientation_torsor": {
+    "bridge_count": 2,
+    "without_anchor_bridge_count": 2,
+    "compatible_anchor_count": 40,
+    "all_compatible_anchors_select_unique_bridge": true,
+    "sheet_reversal_targets": [[1], [0]],
+    "root_inversion_targets": [[1], [0]],
+    "orientation_common_Aut_D8_link_established": false
+  },
+  "earned_statement": "The q-axis order-four instruction pair and the global chart-orbit pair carry distinct nontrivial C2 characters of local Aut(D8). Their kernels are different index-two subgroups with order-two intersection, and their joint character has full C2 x C2 image in both presentations. Hence no Aut(D8)-equivariant bijection exists between the instruction and chart torsors. The four locked presentation gauges also obstruct a gauge-compatible family of bijections. The two 011o orientation bridges form a reversal torsor selected by any compatible anchor, but no common acting-group link to local Aut(D8) is established, so no three-way identification or anchor transfer is earned.",
+  "boundary": {
+    "three_way_canonical_identification_established": false,
+    "anchor_transfer_established": false,
+    "orientation_Aut_D8_link_established": false,
+    "autonomous_native_update_instruction_selected": false,
+    "absolute_chart_orbit_selected": false,
+    "orientation_selected_without_anchor": false,
+    "mechanics_state_cell_established": false,
+    "manuscript_mutated": false,
+    "physical_claim": false
+  },
+  "provenance": {
+    "candidate_script_sha256": "fb7e5caa8d09110a81ff016302c976cd146eb1baf178dc0ba0e45f1b852bef2a",
+    "candidate_report_sha256": "868d89956ca8a2af5911334197ab5c5be92989c5d3689367a16b0e9c074d3e96",
+    "memory_safe_guard_script_sha256": "0caf690af0a5b0c5af70ff29c67ce5f97a193ec7f613cf8a7dacc99c4002e917",
+    "guard_report_sha256": "d5e629b06f13930ebb13a74b09e2e0f3900712cb79e34c801f1c8d054061ece7",
+    "guard_check_count": 63,
+    "guard_failed_check_count": 0
+  }
+}

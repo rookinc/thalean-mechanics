@@ -1,0 +1,70 @@
+== G60 BINARY TORSOR ACTION CHARACTER GUARD 012c ==
+CHECK_COUNT: 63
+FAILED_CHECK_COUNT: 0
+CHECK head: true
+CHECK candidate_script_hash: true
+CHECK candidate_report_hash: true
+CHECK orientation_hash: true
+CHECK chart_hash: true
+CHECK instruction_hash: true
+CHECK p0_pair_preserved_0: true
+CHECK p0_chart_perm_0: true
+CHECK p0_pair_preserved_1: true
+CHECK p0_chart_perm_1: true
+CHECK p0_pair_preserved_2: true
+CHECK p0_chart_perm_2: true
+CHECK p0_pair_preserved_3: true
+CHECK p0_chart_perm_3: true
+CHECK p0_pair_preserved_4: true
+CHECK p0_chart_perm_4: true
+CHECK p0_pair_preserved_5: true
+CHECK p0_chart_perm_5: true
+CHECK p0_pair_preserved_6: true
+CHECK p0_chart_perm_6: true
+CHECK p0_pair_preserved_7: true
+CHECK p0_chart_perm_7: true
+CHECK p0_instruction_bits: true
+CHECK p0_chart_bits: true
+CHECK p0_instruction_kernel: true
+CHECK p0_chart_kernel: true
+CHECK p0_joint_image: true
+CHECK p1_pair_preserved_0: true
+CHECK p1_chart_perm_0: true
+CHECK p1_pair_preserved_1: true
+CHECK p1_chart_perm_1: true
+CHECK p1_pair_preserved_2: true
+CHECK p1_chart_perm_2: true
+CHECK p1_pair_preserved_3: true
+CHECK p1_chart_perm_3: true
+CHECK p1_pair_preserved_4: true
+CHECK p1_chart_perm_4: true
+CHECK p1_pair_preserved_5: true
+CHECK p1_chart_perm_5: true
+CHECK p1_pair_preserved_6: true
+CHECK p1_chart_perm_6: true
+CHECK p1_pair_preserved_7: true
+CHECK p1_chart_perm_7: true
+CHECK p1_instruction_bits: true
+CHECK p1_chart_bits: true
+CHECK p1_instruction_kernel: true
+CHECK p1_chart_kernel: true
+CHECK p1_joint_image: true
+CHECK instruction_gauge_bits: true
+CHECK chart_gauge_bits: true
+CHECK gauge_deltas: true
+CHECK orientation_bridge_count: true
+CHECK sheet_reversal_targets: true
+CHECK root_inversion_targets: true
+CHECK anchors_unique: true
+CHECK report_marker_CLASSIFICATION: true
+CHECK report_marker_INSTRUCTION_CHART_CHARACTERS_EQUAL: true
+CHECK report_marker_COMBINED_CHARACTER_IMAGE_IS_C2xC2: true
+CHECK report_marker_GAUGE_COMPATIBLE_BIJECTION_FAMILY_EXISTS: true
+CHECK report_marker_ORIENTATION_COMMON_ACTING_GROUP_LINK_ESTABLISHED: true
+CHECK report_marker_THREE_WAY_CANONICAL_IDENTIFICATION_ESTABLISHED: true
+CHECK report_marker_ANCHOR_TRANSFER_ESTABLISHED: true
+CHECK report_marker_PROJECT_MUTATION_PERFORMED: true
+GUARD_PASS: true
+FAILED_CHECKS: []
+CANDIDATE_PROMOTED: false
+PROJECT_MUTATION_PERFORMED: false

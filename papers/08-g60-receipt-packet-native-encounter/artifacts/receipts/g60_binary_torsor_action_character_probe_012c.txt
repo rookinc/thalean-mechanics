@@ -1,0 +1,68 @@
+PACKET: g60_binary_torsor_action_character_probe_012c
+MODE: read_only_exact_action_character_comparison
+REPOSITORY_MUTATION: none
+CANONICAL_IDENTIFICATION_ASSUMED: false
+ORIENTATION_AUT_D8_LINK_ASSUMED: false
+SOURCE_SHA256_ORIENTATION: ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941
+SOURCE_SHA256_CHART: d5a9036cf96aa97dd8848cd947bff4d07c711db0db2e3dca3ad13ec1c9cdfdab
+SOURCE_SHA256_INSTRUCTION: 4e6936b9b48c6f033b826df7c3ad4ac70ec3480129c5c73ec6a24630077096d2
+
+PRESENTATION: 0
+INSTRUCTION_PAIR: [2, 3]
+JOINED_AUTOMORPHISM_COUNT: 8
+AUT_ROW: {"automorphism_index": 0, "automorphism_order": 1, "chart_bit": 0, "chart_class": "inner", "instruction_bit": 0}
+AUT_ROW: {"automorphism_index": 1, "automorphism_order": 2, "chart_bit": 0, "chart_class": "inner", "instruction_bit": 0}
+AUT_ROW: {"automorphism_index": 2, "automorphism_order": 4, "chart_bit": 1, "chart_class": "outer", "instruction_bit": 0}
+AUT_ROW: {"automorphism_index": 3, "automorphism_order": 4, "chart_bit": 1, "chart_class": "outer", "instruction_bit": 0}
+AUT_ROW: {"automorphism_index": 4, "automorphism_order": 2, "chart_bit": 0, "chart_class": "inner", "instruction_bit": 1}
+AUT_ROW: {"automorphism_index": 5, "automorphism_order": 2, "chart_bit": 0, "chart_class": "inner", "instruction_bit": 1}
+AUT_ROW: {"automorphism_index": 6, "automorphism_order": 2, "chart_bit": 1, "chart_class": "outer", "instruction_bit": 1}
+AUT_ROW: {"automorphism_index": 7, "automorphism_order": 2, "chart_bit": 1, "chart_class": "outer", "instruction_bit": 1}
+INSTRUCTION_KERNEL_INDICES: [0, 1, 2, 3]
+CHART_KERNEL_INDICES: [0, 1, 4, 5]
+KERNEL_INTERSECTION_INDICES: [0, 1]
+COMBINED_CHARACTER_IMAGE: [(0, 0), (0, 1), (1, 0), (1, 1)]
+CHARACTERS_EQUAL: false
+AUT_D8_EQUIVARIANT_BIJECTION_EXISTS: false
+
+PRESENTATION: 1
+INSTRUCTION_PAIR: [2, 3]
+JOINED_AUTOMORPHISM_COUNT: 8
+AUT_ROW: {"automorphism_index": 0, "automorphism_order": 1, "chart_bit": 0, "chart_class": "inner", "instruction_bit": 0}
+AUT_ROW: {"automorphism_index": 1, "automorphism_order": 2, "chart_bit": 0, "chart_class": "inner", "instruction_bit": 0}
+AUT_ROW: {"automorphism_index": 2, "automorphism_order": 4, "chart_bit": 1, "chart_class": "outer", "instruction_bit": 0}
+AUT_ROW: {"automorphism_index": 3, "automorphism_order": 4, "chart_bit": 1, "chart_class": "outer", "instruction_bit": 0}
+AUT_ROW: {"automorphism_index": 4, "automorphism_order": 2, "chart_bit": 0, "chart_class": "inner", "instruction_bit": 1}
+AUT_ROW: {"automorphism_index": 5, "automorphism_order": 2, "chart_bit": 0, "chart_class": "inner", "instruction_bit": 1}
+AUT_ROW: {"automorphism_index": 6, "automorphism_order": 2, "chart_bit": 1, "chart_class": "outer", "instruction_bit": 1}
+AUT_ROW: {"automorphism_index": 7, "automorphism_order": 2, "chart_bit": 1, "chart_class": "outer", "instruction_bit": 1}
+INSTRUCTION_KERNEL_INDICES: [0, 1, 2, 3]
+CHART_KERNEL_INDICES: [0, 1, 4, 5]
+KERNEL_INTERSECTION_INDICES: [0, 1]
+COMBINED_CHARACTER_IMAGE: [(0, 0), (0, 1), (1, 0), (1, 1)]
+CHARACTERS_EQUAL: false
+AUT_D8_EQUIVARIANT_BIJECTION_EXISTS: false
+
+== PRESENTATION GAUGE COMPARISON ==
+GAUGE_ROW: {"chart_bit": 0, "comparison_delta": 0, "gauge_index": 0, "instruction_bit": 0}
+GAUGE_ROW: {"chart_bit": 0, "comparison_delta": 0, "gauge_index": 1, "instruction_bit": 0}
+GAUGE_ROW: {"chart_bit": 0, "comparison_delta": 1, "gauge_index": 2, "instruction_bit": 1}
+GAUGE_ROW: {"chart_bit": 0, "comparison_delta": 1, "gauge_index": 3, "instruction_bit": 1}
+GAUGE_COMPARISON_DELTAS: [0, 1]
+GAUGE_COMPATIBLE_BIJECTION_FAMILY_EXISTS: false
+
+== ORIENTATION REVERSAL TORSOR ==
+ORIENTATION_SUMMARY: {"all_anchors_select_unique_bridge": true, "bridge_count": 2, "compatible_anchor_count": 40, "reversal_verified": true, "without_anchor_bridge_count": 2}
+ORIENTATION_ROW: {"map_index": 0, "root_inversion_bit": 1, "root_inversion_target": 1, "sheet_reversal_bit": 1, "sheet_reversal_target": 1}
+ORIENTATION_ROW: {"map_index": 1, "root_inversion_bit": 1, "root_inversion_target": 0, "sheet_reversal_bit": 1, "sheet_reversal_target": 0}
+
+== RESULT ==
+CLASSIFICATION: instruction_and_chart_are_independent_C2_characters_on_local_Aut_D8
+INSTRUCTION_CHART_CHARACTERS_EQUAL: false
+COMBINED_CHARACTER_IMAGE_IS_C2xC2: true
+GAUGE_COMPATIBLE_BIJECTION_FAMILY_EXISTS: false
+ORIENTATION_REVERSAL_BITS: [1, 1]
+ORIENTATION_COMMON_ACTING_GROUP_LINK_ESTABLISHED: false
+THREE_WAY_CANONICAL_IDENTIFICATION_ESTABLISHED: false
+ANCHOR_TRANSFER_ESTABLISHED: false
+PROJECT_MUTATION_PERFORMED: false
