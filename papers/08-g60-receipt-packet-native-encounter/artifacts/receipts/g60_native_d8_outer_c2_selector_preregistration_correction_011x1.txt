@@ -1,0 +1,80 @@
+== G60 OUTER-C2 SELECTOR PREREGISTRATION CORRECTION AUDIT 011x1 ==
+PACKET: g60_native_d8_outer_c2_selector_preregistration_correction_011x1
+MODE: pre_census_algebraic_correction_to_outer_C2_selector_preregistration
+JSON_SHA256: f1960c60fc243612dca4c769eb7783f784243c2b7bb4a736ba594b2f94d032de
+NOTE_SHA256: c3f41a56c05c2d52f0855f497d0788a66162053b39774b6704f09f6d2e3f527c
+LOCKED_HEAD: ca9e015 Preregister G60 outer-C2 chart selector test
+AUT_D8_ORDER_PROFILE: {'1': 1, '2': 5, '4': 2}
+INNER_AUT_ORDER_PROFILE: {'1': 1, '2': 3}
+OUTER_COSET_ORDER_PROFILE: {'2': 2, '4': 2}
+OUTER_INVOLUTION_COUNT: 2
+OUTER_ORDER4_COUNT: 2
+PREDICTED_CLASSIFICATION: native_D8_chart_orbit_selection_requires_one_external_outer_C2_torsor_choice
+OUTER_SELECTOR_CENSUS_PERFORMED: false
+CHECK_COUNT: 57
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK status: true
+CHECK head: true
+CHECK corrects_packet: true
+CHECK corrects_commit: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK note_exists: true
+CHECK note_hash: true
+CHECK no_census_source: true
+CHECK aut_order_8: true
+CHECK aut_profile: true
+CHECK inner_order_4: true
+CHECK inner_profile: true
+CHECK outer_group_C2: true
+CHECK outer_order_2: true
+CHECK outer_coset_4: true
+CHECK outer_profile: true
+CHECK outer_involutions_2: true
+CHECK outer_order4_2: true
+CHECK fiber_exchange: true
+CHECK global_exchange: true
+CHECK outer_class: true
+CHECK extended_count_2: true
+CHECK extended_order_960: true
+CHECK extended_orbit_80: true
+CHECK extended_stabilizer_12: true
+CHECK no_order4_extension_prediction: true
+CHECK alpha_constant: true
+CHECK q_constant: true
+CHECK gauge_equivalent: true
+CHECK selector_zero: true
+CHECK torsor_two: true
+CHECK binary_one: true
+CHECK classification: true
+CHECK superseded_fields_4: true
+CHECK required_tests_20: true
+CHECK outcomes_14: true
+CHECK pre_census: true
+CHECK no_census: true
+CHECK no_enumeration: true
+CHECK no_profile_measurement: true
+CHECK no_exchange_claim: true
+CHECK no_necessity_claim: true
+CHECK no_orbit: true
+CHECK no_chart: true
+CHECK no_update: true
+CHECK no_cell: true
+CHECK no_side_identity: true
+CHECK no_orientation: true
+CHECK bounded: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_direction: true
+CHECK no_physics: true
+CORRECTION_PASS: true
+FAILED_CHECKS: []
+EXTRA_BINARY_DATUM_PROVED_NECESSARY: false
+ABSOLUTE_CHART_ORBIT_SELECTED: false
+NATIVE_UPDATE_LAW_CONSTRUCTED: false
+MECHANICS_STATE_CELL_ESTABLISHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
