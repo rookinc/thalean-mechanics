@@ -1,0 +1,113 @@
+== G60 FULL-A ORIENTATION CHARACTER-EXTENSION CENSUS AUDIT 011o ==
+PACKET: g60_full_A_orientation_character_extension_census_011o
+MODE: frozen_complete_full_A_character_extension_census
+JSON_SHA256: ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941
+NOTE_SHA256: 5df67d21baaf1f392d3b3a2ff0194bc16d1d7f3980cc93564f29e28b829caac4
+COMPUTATION_SCRIPT_SHA256: 98356ac2b2b0f19b6d8ec6d8f79056877d63b3d0981e4140ac966dd6805cc695
+RAW_RUN_RECEIPT_SHA256: 83e5c75e98f4c4c676cbdac9ef522e516604bac8520f3429563c8f1d7c2bdc28
+VALID_BINARY_CHARACTER_COUNT: 4
+EXTENSION_COUNT: 2
+ALPHA_0_POINTWISE_KERNEL: [0, 65, 124, 326]
+ALPHA_1_POINTWISE_KERNEL: [0, 326]
+ALPHA_0_BRIDGE_COUNT: 0
+ALPHA_1_BRIDGE_COUNT: 2
+ALPHA_1_MAP_SHA256S: ['782dbcb9dae045cfc5dadd1b81f51895e447e981491263e09514c9077dfe1728', 'bb61e5018270d8954e8115bb9c1fbbcfb07f360ba307c451cb16103ef7336c01']
+REVERSAL_VERIFIED: true
+ANCHOR_BRIDGE_COUNT_PROFILE: {'1': 40}
+CLASSIFICATION: p_plus_n_unique_full_A_extension_supports_two_bridges
+CHECK_COUNT: 87
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK locked_head: true
+CHECK result_frozen: true
+CHECK audit_pass_recorded: true
+CHECK json_hash: true
+CHECK raw_hash: true
+CHECK note_hash: true
+CHECK compute_hash: true
+CHECK candidate_hash: true
+CHECK candidate_promoted: true
+CHECK raw_copied: true
+CHECK compute_copied: true
+CHECK syntax_failed_build_not_promoted: true
+CHECK promotion_no_manuscript: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK group_480: true
+CHECK identity_0: true
+CHECK closure_zero: true
+CHECK inverse_zero: true
+CHECK operation_ok: true
+CHECK N_240: true
+CHECK generator_count_4: true
+CHECK greedy_generators: true
+CHECK assignment_count_16: true
+CHECK character_row_count_16: true
+CHECK valid_binary_characters_4: true
+CHECK p_homomorphism: true
+CHECK n_homomorphism: true
+CHECK alpha_0_homomorphism: true
+CHECK alpha_1_homomorphism: true
+CHECK p_hash: true
+CHECK alpha_0_hash: true
+CHECK alpha_1_hash: true
+CHECK n_hash: true
+CHECK extension_count_2: true
+CHECK extensions_exact: true
+CHECK extension_hashes: true
+CHECK declared_extension_hashes: true
+CHECK residual_rows: true
+CHECK alpha_0_formula: true
+CHECK alpha_1_formula: true
+CHECK alpha_0_valid: true
+CHECK alpha_1_valid: true
+CHECK alpha_0_identity_zero: true
+CHECK alpha_1_identity_zero: true
+CHECK alpha_0_closure_zero: true
+CHECK alpha_1_closure_zero: true
+CHECK alpha_0_transitive: true
+CHECK alpha_1_transitive: true
+CHECK alpha_0_kernel_V4: true
+CHECK alpha_1_kernel_Z1: true
+CHECK alpha_0_stabilizer_failures_40: true
+CHECK alpha_1_stabilizer_failures_zero: true
+CHECK alpha_0_bridge_zero: true
+CHECK alpha_0_maps_empty: true
+CHECK alpha_0_conflict_roots_20: true
+CHECK alpha_1_bridge_two: true
+CHECK alpha_1_map_hashes: true
+CHECK locked_011m_map_hashes: true
+CHECK alpha_1_maps_equal_011m: true
+CHECK reversal_failure_zero: true
+CHECK reversal_row_count_2: true
+CHECK reversal_verified: true
+CHECK reversal_rows_exact: true
+CHECK anchors_40: true
+CHECK anchor_rows_40: true
+CHECK anchor_profile_one: true
+CHECK all_anchor_rows_unique: true
+CHECK anchors_select_unique: true
+CHECK without_anchor_two: true
+CHECK classification: true
+CHECK prediction_matches: true
+CHECK full_A_source_constructed: true
+CHECK unique_character: true
+CHECK bounded_anchor: true
+CHECK no_unanchored_orientation: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physical_direction: true
+CHECK no_physics: true
+CHECK repository_preserved: true
+CHECK candidate_no_project_mutation: true
+CHECK earned_statement_present: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: The locked N-sheet character has exactly two extensions to the full automorphism group A: p and p+n. Both define valid transitive twenty-object full-group actions. The p-only action has pointwise kernel V4 and admits no equivariant bridge to the orientation roots. The p+n action has pointwise kernel Z1 and admits exactly the two bridges already frozen over N. These two bridges are exchanged by global source-sheet reversal and root inversion. Every compatible anchored source-root choice selects exactly one bridge. Thus p+n is the unique extension of the locked N-sheet character that supports the full-A orientation-root bridge, while the native structure still does not select one orientation without an added anchor.
+FULL_A_SOURCE_ACTION_CONSTRUCTED: true
+ORIENTATION_SELECTED_WITHOUT_ANCHOR: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false

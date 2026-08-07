@@ -1,0 +1,999 @@
+{
+  "anchor_ablation": {
+    "all_compatible_anchors_select_unique_bridge": true,
+    "anchor_bridge_count_profile": {
+      "1": 40
+    },
+    "anchor_rows": [
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 13,
+        "unordered_duad": [
+          0,
+          1
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 400,
+        "unordered_duad": [
+          0,
+          1
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 13,
+        "unordered_duad": [
+          0,
+          1
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 400,
+        "unordered_duad": [
+          0,
+          1
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 354,
+        "unordered_duad": [
+          0,
+          2
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 477,
+        "unordered_duad": [
+          0,
+          2
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 354,
+        "unordered_duad": [
+          0,
+          2
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 477,
+        "unordered_duad": [
+          0,
+          2
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 209,
+        "unordered_duad": [
+          0,
+          3
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 331,
+        "unordered_duad": [
+          0,
+          3
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 209,
+        "unordered_duad": [
+          0,
+          3
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 331,
+        "unordered_duad": [
+          0,
+          3
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 37,
+        "unordered_duad": [
+          0,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 247,
+        "unordered_duad": [
+          0,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 37,
+        "unordered_duad": [
+          0,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 247,
+        "unordered_duad": [
+          0,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 88,
+        "unordered_duad": [
+          1,
+          2
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 370,
+        "unordered_duad": [
+          1,
+          2
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 88,
+        "unordered_duad": [
+          1,
+          2
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 370,
+        "unordered_duad": [
+          1,
+          2
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 67,
+        "unordered_duad": [
+          1,
+          3
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 126,
+        "unordered_duad": [
+          1,
+          3
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 67,
+        "unordered_duad": [
+          1,
+          3
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 126,
+        "unordered_duad": [
+          1,
+          3
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 270,
+        "unordered_duad": [
+          1,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 420,
+        "unordered_duad": [
+          1,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 270,
+        "unordered_duad": [
+          1,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 420,
+        "unordered_duad": [
+          1,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 230,
+        "unordered_duad": [
+          2,
+          3
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 457,
+        "unordered_duad": [
+          2,
+          3
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 230,
+        "unordered_duad": [
+          2,
+          3
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 457,
+        "unordered_duad": [
+          2,
+          3
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 68,
+        "unordered_duad": [
+          2,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 121,
+        "unordered_duad": [
+          2,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 68,
+        "unordered_duad": [
+          2,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 121,
+        "unordered_duad": [
+          2,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 198,
+        "unordered_duad": [
+          3,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 0,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 314,
+        "unordered_duad": [
+          3,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          0
+        ],
+        "root": 198,
+        "unordered_duad": [
+          3,
+          4
+        ]
+      },
+      {
+        "bridge_count": 1,
+        "epsilon": 1,
+        "matching_map_indices": [
+          1
+        ],
+        "root": 314,
+        "unordered_duad": [
+          3,
+          4
+        ]
+      }
+    ],
+    "compatible_anchor_count": 40,
+    "without_anchor_bridge_count": 2
+  },
+  "audit_pass": true,
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json": {
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "hash_match": true,
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_five_petersen_matching_equivariance_audit_078.json": {
+      "expected_sha256": "db01304b44015a25e8f207d3fe869ad96ebcd82d3d2bd7017908a9ed7c843ec7",
+      "hash_match": true,
+      "sha256": "db01304b44015a25e8f207d3fe869ad96ebcd82d3d2bd7017908a9ed7c843ec7"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_duad_orientation_bridge_census_011g.v1.json": {
+      "expected_sha256": "abc9e038b323fdd5af852a91b87aca4c5a1e35a6e484608af27a04a399c52e9c",
+      "hash_match": true,
+      "sha256": "abc9e038b323fdd5af852a91b87aca4c5a1e35a6e484608af27a04a399c52e9c"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_full_A_orientation_character_extension_preregistration_011n.v1.json": {
+      "expected_sha256": "ce0671b9d0ad33880c8b3d043878366abe885438976481f6fef3fbde16c21097",
+      "hash_match": true,
+      "sha256": "ce0671b9d0ad33880c8b3d043878366abe885438976481f6fef3fbde16c21097"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_minimal_directional_datum_census_011i.v1.json": {
+      "expected_sha256": "6d7164f98d686dc9d54b8146f19ab56c22c8aa70009f65bbcad7c7c88e9b962d",
+      "hash_match": true,
+      "sha256": "6d7164f98d686dc9d54b8146f19ab56c22c8aa70009f65bbcad7c7c88e9b962d"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_parity_twisted_duad_cover_census_011m.v1.json": {
+      "expected_sha256": "8c556050e4ea028cc41eca4514366c3a0d6baa83620831259151dbed0b046a7e",
+      "hash_match": true,
+      "sha256": "8c556050e4ea028cc41eca4514366c3a0d6baa83620831259151dbed0b046a7e"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_root_stabilizer_action_type_census_011k.v1.json": {
+      "expected_sha256": "6685932b584a9784410ed57eabe7cfab27de43365ac74bc844c166f375b31574",
+      "hash_match": true,
+      "sha256": "6685932b584a9784410ed57eabe7cfab27de43365ac74bc844c166f375b31574"
+    }
+  },
+  "boundary": {
+    "bounded_anchor_sufficiency": true,
+    "full_A_source_action_constructed": true,
+    "geometry_claim": false,
+    "global_minimality_claim": false,
+    "manuscript_mutated": false,
+    "orientation_selected_without_anchor": false,
+    "physical_claim": false,
+    "physical_direction_claim": false,
+    "unique_supporting_character_identified": true
+  },
+  "bridge_census": {
+    "alpha_0_bridge_count": 0,
+    "alpha_0_map_sha256s": [],
+    "alpha_0_rejected_conflict_roots": [
+      13,
+      37,
+      67,
+      68,
+      88,
+      121,
+      126,
+      198,
+      209,
+      230,
+      247,
+      270,
+      314,
+      331,
+      354,
+      370,
+      400,
+      420,
+      457,
+      477
+    ],
+    "alpha_1_bridge_count": 2,
+    "alpha_1_map_sha256s": [
+      "782dbcb9dae045cfc5dadd1b81f51895e447e981491263e09514c9077dfe1728",
+      "bb61e5018270d8954e8115bb9c1fbbcfb07f360ba307c451cb16103ef7336c01"
+    ],
+    "alpha_1_maps_equal_011m": true,
+    "locked_011m_map_sha256s": [
+      "782dbcb9dae045cfc5dadd1b81f51895e447e981491263e09514c9077dfe1728",
+      "bb61e5018270d8954e8115bb9c1fbbcfb07f360ba307c451cb16103ef7336c01"
+    ],
+    "reversal_failure_count": 0,
+    "reversal_rows": [
+      {
+        "map_index": 0,
+        "reversal_changes_map": true,
+        "root_inversion_map_indices": [
+          1
+        ],
+        "sheet_reversal_equals_root_inversion": true,
+        "sheet_reversal_map_indices": [
+          1
+        ]
+      },
+      {
+        "map_index": 1,
+        "reversal_changes_map": true,
+        "root_inversion_map_indices": [
+          0
+        ],
+        "sheet_reversal_equals_root_inversion": true,
+        "sheet_reversal_map_indices": [
+          0
+        ]
+      }
+    ],
+    "reversal_verified": true
+  },
+  "candidate_provenance": {
+    "candidate_json_path": "/data/data/com.termux/files/home/tmp/g60_full_A_orientation_character_extension_census_011o.candidate.v1.json",
+    "candidate_json_sha256": "4a33590b9585a782ea4ae073afb0b778f39c4323e70ff606ab3d12ba66099f21",
+    "computation_script_sha256": "98356ac2b2b0f19b6d8ec6d8f79056877d63b3d0981e4140ac966dd6805cc695",
+    "computation_source_path": "/data/data/com.termux/files/home/tmp/run-g60-full-A-orientation-character-extension-census-011o.py",
+    "raw_run_receipt_sha256": "83e5c75e98f4c4c676cbdac9ef522e516604bac8520f3429563c8f1d7c2bdc28",
+    "raw_run_source_path": "/data/data/com.termux/files/home/tmp/g60_full_A_orientation_character_extension_census_011o.candidate.txt"
+  },
+  "character_census": {
+    "alpha_0_homomorphism_failure_count": 0,
+    "alpha_0_sha256": "21c95a566c02c8de63c4f0158d468948b86e0c1c91a611c672615d15b3b7e79a",
+    "alpha_1_homomorphism_failure_count": 0,
+    "alpha_1_sha256": "3d057f3e36004b4c59aa2754220cf4987587bf0e58ea3492e88f88a31515f39c",
+    "assignment_count": 16,
+    "character_rows": [
+      {
+        "assignment": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "character_sha256": "aec948a8ffccd64de2f518fd561cd81e61ca1e81602150bc4409ae2d51855e05",
+        "conflict": null,
+        "valid": true
+      },
+      {
+        "assignment": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "character_sha256": null,
+        "conflict": {
+          "current": 115,
+          "existing": 0,
+          "predicted": 1,
+          "product": 114,
+          "step": 1
+        },
+        "valid": false
+      },
+      {
+        "assignment": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "character_sha256": null,
+        "conflict": {
+          "current": 14,
+          "existing": 0,
+          "predicted": 1,
+          "product": 10,
+          "step": 2
+        },
+        "valid": false
+      },
+      {
+        "assignment": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "character_sha256": null,
+        "conflict": {
+          "current": 14,
+          "existing": 0,
+          "predicted": 1,
+          "product": 10,
+          "step": 2
+        },
+        "valid": false
+      },
+      {
+        "assignment": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "character_sha256": "21c95a566c02c8de63c4f0158d468948b86e0c1c91a611c672615d15b3b7e79a",
+        "conflict": null,
+        "valid": true
+      },
+      {
+        "assignment": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "character_sha256": null,
+        "conflict": {
+          "current": 115,
+          "existing": 0,
+          "predicted": 1,
+          "product": 114,
+          "step": 1
+        },
+        "valid": false
+      },
+      {
+        "assignment": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "character_sha256": null,
+        "conflict": {
+          "current": 14,
+          "existing": 1,
+          "predicted": 0,
+          "product": 10,
+          "step": 2
+        },
+        "valid": false
+      },
+      {
+        "assignment": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "character_sha256": null,
+        "conflict": {
+          "current": 14,
+          "existing": 1,
+          "predicted": 0,
+          "product": 10,
+          "step": 2
+        },
+        "valid": false
+      },
+      {
+        "assignment": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "character_sha256": null,
+        "conflict": {
+          "current": 115,
+          "existing": 0,
+          "predicted": 1,
+          "product": 114,
+          "step": 1
+        },
+        "valid": false
+      },
+      {
+        "assignment": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "character_sha256": "3d057f3e36004b4c59aa2754220cf4987587bf0e58ea3492e88f88a31515f39c",
+        "conflict": null,
+        "valid": true
+      },
+      {
+        "assignment": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "character_sha256": null,
+        "conflict": {
+          "current": 14,
+          "existing": 1,
+          "predicted": 0,
+          "product": 10,
+          "step": 2
+        },
+        "valid": false
+      },
+      {
+        "assignment": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "character_sha256": null,
+        "conflict": {
+          "current": 14,
+          "existing": 1,
+          "predicted": 0,
+          "product": 10,
+          "step": 2
+        },
+        "valid": false
+      },
+      {
+        "assignment": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "character_sha256": null,
+        "conflict": {
+          "current": 115,
+          "existing": 0,
+          "predicted": 1,
+          "product": 114,
+          "step": 1
+        },
+        "valid": false
+      },
+      {
+        "assignment": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "character_sha256": "f6a65aae2e49825862966b14b59df5a648114838213651b418b1022c25564f70",
+        "conflict": null,
+        "valid": true
+      },
+      {
+        "assignment": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "character_sha256": null,
+        "conflict": {
+          "current": 14,
+          "existing": 0,
+          "predicted": 1,
+          "product": 10,
+          "step": 2
+        },
+        "valid": false
+      },
+      {
+        "assignment": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "character_sha256": null,
+        "conflict": {
+          "current": 14,
+          "existing": 0,
+          "predicted": 1,
+          "product": 10,
+          "step": 2
+        },
+        "valid": false
+      }
+    ],
+    "declared_extension_sha256s": [
+      "21c95a566c02c8de63c4f0158d468948b86e0c1c91a611c672615d15b3b7e79a",
+      "3d057f3e36004b4c59aa2754220cf4987587bf0e58ea3492e88f88a31515f39c"
+    ],
+    "extension_count": 2,
+    "extension_sha256s": [
+      "21c95a566c02c8de63c4f0158d468948b86e0c1c91a611c672615d15b3b7e79a",
+      "3d057f3e36004b4c59aa2754220cf4987587bf0e58ea3492e88f88a31515f39c"
+    ],
+    "extensions_exactly_alpha_0_alpha_1": true,
+    "generator_count": 4,
+    "greedy_generators": [
+      1,
+      2,
+      3,
+      8
+    ],
+    "n_homomorphism_failure_count": 0,
+    "n_sha256": "f6a65aae2e49825862966b14b59df5a648114838213651b418b1022c25564f70",
+    "p_homomorphism_failure_count": 0,
+    "p_sha256": "21c95a566c02c8de63c4f0158d468948b86e0c1c91a611c672615d15b3b7e79a",
+    "residual_character_rows": [
+      {
+        "alpha_0": 0,
+        "alpha_1": 0,
+        "element_index": 0,
+        "n": 0,
+        "p": 0
+      },
+      {
+        "alpha_0": 0,
+        "alpha_1": 1,
+        "element_index": 65,
+        "n": 1,
+        "p": 0
+      },
+      {
+        "alpha_0": 0,
+        "alpha_1": 1,
+        "element_index": 124,
+        "n": 1,
+        "p": 0
+      },
+      {
+        "alpha_0": 0,
+        "alpha_1": 0,
+        "element_index": 326,
+        "n": 0,
+        "p": 0
+      }
+    ],
+    "valid_binary_character_count": 4
+  },
+  "classification": "p_plus_n_unique_full_A_extension_supports_two_bridges",
+  "earned_statement": "The locked N-sheet character has exactly two extensions to the full automorphism group A: p and p+n. Both define valid transitive twenty-object full-group actions. The p-only action has pointwise kernel V4 and admits no equivariant bridge to the orientation roots. The p+n action has pointwise kernel Z1 and admits exactly the two bridges already frozen over N. These two bridges are exchanged by global source-sheet reversal and root inversion. Every compatible anchored source-root choice selects exactly one bridge. Thus p+n is the unique extension of the locked N-sheet character that supports the full-A orientation-root bridge, while the native structure still does not select one orientation without an added anchor.",
+  "earned_statement_candidate": "The locked N-sheet character has exactly two extensions to Aut(G60): p and p+n. Both define valid transitive twenty-object full-group actions. The p-only action has pointwise kernel V4 and admits no equivariant bridge to the roots. The p+n action has pointwise kernel Z1 and admits exactly the two bridges already frozen over N. These bridges are exchanged by sheet reversal and root inversion, and every compatible anchor selects exactly one.",
+  "full_actions": {
+    "alpha_0": {
+      "action_valid": true,
+      "closure_failure_count": 0,
+      "formula": "p",
+      "identity_failure_count": 0,
+      "orbit_count": 1,
+      "orbit_size_profile": [
+        20
+      ],
+      "pointwise_kernel": [
+        0,
+        65,
+        124,
+        326
+      ],
+      "stabilizer_match_failure_count": 40,
+      "transitive": true
+    },
+    "alpha_1": {
+      "action_valid": true,
+      "closure_failure_count": 0,
+      "formula": "p+n",
+      "identity_failure_count": 0,
+      "orbit_count": 1,
+      "orbit_size_profile": [
+        20
+      ],
+      "pointwise_kernel": [
+        0,
+        326
+      ],
+      "stabilizer_match_failure_count": 0,
+      "transitive": true
+    }
+  },
+  "group_reconstruction": {
+    "canonical_N_order": 240,
+    "closure_failure_count": 0,
+    "group_order": 480,
+    "identity_index": 0,
+    "inverse_failure_count": 0,
+    "operation_ok": true
+  },
+  "locked_head": "dfd715e Preregister G60 full-A orientation character test",
+  "mode": "frozen_complete_full_A_character_extension_census",
+  "packet": "g60_full_A_orientation_character_extension_census_011o",
+  "prediction_matches": true,
+  "promotion": {
+    "candidate_promoted_without_recomputation": true,
+    "computation_script_copied_byte_for_byte": true,
+    "manuscript_mutated": false,
+    "raw_run_receipt_copied_byte_for_byte": true,
+    "syntax_failed_preliminary_build_promoted": false
+  },
+  "repository": {
+    "project_mutation_performed": false,
+    "status_after": [
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ],
+    "status_before": [
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ],
+    "status_preserved": true
+  },
+  "result_frozen": true
+}
