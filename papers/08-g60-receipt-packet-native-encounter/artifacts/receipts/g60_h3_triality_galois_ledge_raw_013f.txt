@@ -1,0 +1,184 @@
+== EXACT Q(SQRT5) CHARACTER-EXCHANGE CERTIFICATE ==
+SOURCE_AUDIT_PASS: True
+B_GOLDEN_PROJECTOR_RANK: 3
+AB_GOLDEN_PROJECTOR_RANK: 3
+GOLDEN_EIGENVALUE: 1+1*sqrt5
+PROJECTOR_DIAGONAL: 1/5
+COMMUTATOR_RANK: 14
+CROSS_SQUARE_RANK: 3
+TRANSVERSE_SINGULAR_VALUE_SQUARED: 56/25+24/25*sqrt5
+LONGITUDINAL_SINGULAR_VALUE_SQUARED: 376/25+168/25*sqrt5
+SINGULAR_VALUE_GAIN_RATIO: phi^2 = 3/2+1/2*sqrt5
+LONGITUDINAL_PROJECTOR_RANK: 1
+CLOSEST_ROOT_AXIS_INDICES: [10, 11]
+CLOSEST_SCORE_SQUARED: 5/8+1/8*sqrt5
+CLOSEST_ROOT_PAIR_INNER_PRODUCT: 1/4+1/4*sqrt5
+LONGITUDINAL_IS_EXACT_ROOT_PAIR_BISECTOR: True
+CHECK_COUNT: 21
+FAILED_CHECK_COUNT: 0
+FAILED_CHECKS: []
+CERTIFICATE_PASS: True
+CLASSIFICATION: golden_character_exchange_selects_an_exact_adjacent_H3_root_pair_bisector_over_Q_sqrt5
+ABSOLUTE_AXIS_SIGN_SELECTED: false
+PHYSICAL_SPACE_IDENTIFIED: false
+G900_IDENTIFIED: false
+PROJECT_MUTATION_PERFORMED: false
+== EXACT H3 BISECTOR-ORBIT G60 CERTIFICATE ==
+H3_ROOT_COUNT: 30
+H3_ROOT_NORM_SET: ['1']
+H3_REFLECTION_GROUP_ORDER: 120
+STANDARD_ADJACENT_ROOT_PAIR: [0, 1]
+STANDARD_ROOT_PAIR_INNER_PRODUCT: 1/4+1/4*sqrt5
+BISECTOR_NORM_SQUARED: 5/2+1/2*sqrt5
+PROJECTIVE_BISECTOR_LINE_COUNT: 30
+ORIENTED_BISECTOR_POINT_COUNT: 60
+ANTIPODAL_CLOSURE: True
+EXACT_G60_RELATION_0: -1/4-1/20*sqrt5
+EXACT_G60_RELATION_1: -1/4+1/20*sqrt5
+EXACT_G60_RELATION_2: ['1/2-1/5*sqrt5', '1/2+1/5*sqrt5']
+NATIVE_CHECKS: {'vertices_60': True, 'edges_120': True, 'degree_4': True, 'connected': True, 'diameter_6': True, 'shells': True}
+PRESENTATION 0 RELATIONS ['-1/4-1/20*sqrt5'] CHECKS {'vertices_60': True, 'edges_120': True, 'degree_4': True, 'connected': True, 'diameter_6': True, 'shells': True} NATIVE_ISOMORPHIC True
+PRESENTATION 1 RELATIONS ['-1/4+1/20*sqrt5'] CHECKS {'vertices_60': True, 'edges_120': True, 'degree_4': True, 'connected': True, 'diameter_6': True, 'shells': True} NATIVE_ISOMORPHIC True
+PRESENTATION 2 RELATIONS ['1/2-1/5*sqrt5', '1/2+1/5*sqrt5'] CHECKS {'vertices_60': True, 'edges_120': True, 'degree_4': True, 'connected': True, 'diameter_6': True, 'shells': True} NATIVE_ISOMORPHIC True
+EXACT_DOT_VALUE_COUNT: 21
+CHECK_COUNT: 12
+FAILED_CHECK_COUNT: 0
+FAILED_CHECKS: []
+CERTIFICATE_PASS: True
+CLASSIFICATION: native_G60_has_three_exact_Q_sqrt5_spherical_presentations_on_the_oriented_H3_adjacent_root_bisector_orbit
+PHYSICAL_SPACE_IDENTIFIED: false
+G900_IDENTIFIED: false
+PROJECT_MUTATION_PERFORMED: false
+== THREE-PRESENTATION ALGEBRA GATE ==
+EDGE_INTERSECTIONS: {(0, 1): 0, (0, 2): 0, (1, 2): 0}
+COMMUTATOR_ROWS: [{'pair': [0, 1], 'zero': False, 'rank': 10, 'nonzero_entry_count': 480, 'frobenius_squared': 480}, {'pair': [0, 2], 'zero': False, 'rank': 10, 'nonzero_entry_count': 480, 'frobenius_squared': 480}, {'pair': [1, 2], 'zero': False, 'rank': 10, 'nonzero_entry_count': 480, 'frobenius_squared': 480}]
+FIRST_SPAN_RANK: 4
+DEGREE_TWO_ALGEBRA_RANK: 11
+MAXIMUM_PRODUCT_CLOSURE_RESIDUAL: 26.832815729997478
+DIRECT_V4_CHARACTER_ALGEBRA: False
+THREE_PRESENTATIONS_CANONICALLY_IDENTIFIED_WITH_NONTRIVIAL_V4_CHARACTERS: False
+INTERPRETATION: cardinality_three_is_not_yet_a_V4_character_identification
+PROJECT_MUTATION_PERFORMED: false
+== G60 PRESENTATION TRIALITY TEST ==
+CYCLE_COLOR_ACTION: [1, 2, 0]
+SWAP_COLOR_ACTION: [1, 0, 2]
+CYCLE_CONJUGATOR_COUNT: 240
+CYCLE_ORDER_PROFILE: {3: 84, 15: 96, 6: 60}
+ORDER_THREE_CYCLE_COUNT: 84
+SWAP_CONJUGATOR_COUNT: 240
+SWAP_ORDER_PROFILE: {2: 20, 4: 140, 6: 40, 12: 40}
+ORDER_TWO_SWAP_COUNT: 20
+TRIALITY_CHECKS: {'cyclic_conjugator_exists': True, 'order_three_cycle_exists': True, 'swap_conjugator_exists': True, 'order_two_swap_exists': True, 's3_relations_realized': True}
+ORDER_THREE_PERMUTATION_FIRST_TWENTY: [0, 12, 33, 31, 38, 21, 5, 22, 17, 9, 53, 11, 15, 16, 19, 1, 26, 28, 59, 47]
+ORDER_TWO_PERMUTATION_FIRST_TWENTY: [0, 56, 2, 58, 4, 54, 49, 13, 47, 11, 53, 9, 51, 7, 28, 30, 43, 19, 41, 17]
+PRESENTATION_TRIALITY_PROVED: True
+PRESENTATION_S3_ACTION_PROVED: True
+CLASSIFICATION: three_native_G60_spherical_presentations_form_an_S3_triality_on_one_60_point_carrier
+RUNTIME_SECONDS: 8.63
+PHYSICAL_SPACE_IDENTIFIED: false
+G900_IDENTIFIED: false
+PROJECT_MUTATION_PERFORMED: false
+== G60 TRIALITY DIRECTION AUDIT ==
+TRIALITY_CYCLE_LENGTH_PROFILE: {1: 3, 3: 19}
+FIXED_POINT_COUNT: 3
+FIXED_POINTS: [0, 9, 11]
+THREE_CYCLE_COUNT: 19
+EXACT_CYCLE_WORD_PROFILE: {('-1/4+1/4*sqrt5', '3/10*sqrt5', '1/4+1/20*sqrt5'): 3, ('-1/5*sqrt5', '1/5*sqrt5', '-1/5*sqrt5'): 3, ('-1/4+1/20*sqrt5', '1/2-1/5*sqrt5', '-1/4-1/20*sqrt5'): 1, ('-1/4-1/20*sqrt5', '-1/4+1/20*sqrt5', '1/2-1/5*sqrt5'): 2, ('-1/2-1/5*sqrt5', '1/4+1/4*sqrt5', '-3/4-1/20*sqrt5'): 3, ('-1/5*sqrt5', '1/5*sqrt5', '-1'): 2, ('-1', '-1/5*sqrt5', '1/5*sqrt5'): 1, ('-3/10*sqrt5', '3/4-1/20*sqrt5', '1/4-1/20*sqrt5'): 2, ('3/4-1/20*sqrt5', '1/4-1/20*sqrt5', '-3/10*sqrt5'): 1, ('1/5*sqrt5', '1/5*sqrt5', '1/5*sqrt5'): 1}
+CYCLE_SIGN_PROFILE: {('+', '+', '+'): 4, ('-', '+', '-'): 9, ('-', '-', '+'): 3, ('-', '+', '+'): 2, ('+', '+', '-'): 1}
+CYCLE_ORIENTATION_PROFILE: {'positive': 3, 'negative': 13, 'zero': 3}
+FIRST_FIVE_NONTRIVIAL_CYCLES: [{'cycle': [1, 12, 15], 'word': ['-1/4+1/4*sqrt5', '3/10*sqrt5', '1/4+1/20*sqrt5'], 'sign_word': ['+', '+', '+'], 'orientation': '-5/2-1*sqrt5', 'orientation_label': 'negative'}, {'cycle': [2, 33, 37], 'word': ['-1/5*sqrt5', '1/5*sqrt5', '-1/5*sqrt5'], 'sign_word': ['-', '+', '-'], 'orientation': '-3-1*sqrt5', 'orientation_label': 'negative'}, {'cycle': [3, 31, 25], 'word': ['-1/4+1/4*sqrt5', '3/10*sqrt5', '1/4+1/20*sqrt5'], 'sign_word': ['+', '+', '+'], 'orientation': '-5/2-1*sqrt5', 'orientation_label': 'negative'}, {'cycle': [4, 38, 27], 'word': ['-1/4+1/20*sqrt5', '1/2-1/5*sqrt5', '-1/4-1/20*sqrt5'], 'sign_word': ['-', '+', '-'], 'orientation': '-3-3/2*sqrt5', 'orientation_label': 'negative'}, {'cycle': [5, 21, 6], 'word': ['-1/4+1/4*sqrt5', '3/10*sqrt5', '1/4+1/20*sqrt5'], 'sign_word': ['+', '+', '+'], 'orientation': '-5/2-1*sqrt5', 'orientation_label': 'negative'}]
+CYCLE_COMMUTES_WITH_ANTIPODE: False
+REVERSER_COMMUTES_WITH_ANTIPODE: True
+REVERSER_REVERSES_CYCLE: True
+ANTIPODAL_CYCLE_PAIRING: False
+PRESENTATION_POLARITY_WORD: ('negative_single_shell', 'negative_single_shell', 'positive_double_shell')
+TWO_NEGATIVE_ONE_POSITIVE_PHASE: True
+DIRECTION_CHECKS: {'cycle_order_3': True, 'reverser_order_2': True, 'cycle_decomposition_covers_60': True, 'only_lengths_1_or_3': True, 'cycle_commutes_with_antipode': False, 'reverser_commutes_with_antipode': True, 'reverser_reverses_cycle': True, 'antipodal_cycle_pairing': False, 'two_negative_one_positive_phase': True}
+DIRECTION_AUDIT_PASS: False
+CLASSIFICATION: triality_direction_structure_requires_refinement
+LITERAL_PHYSICAL_MOTION_DERIVED: false
+PHYSICAL_SPACE_IDENTIFIED: false
+G900_IDENTIFIED: false
+PROJECT_MUTATION_PERFORMED: false
+== TRIALITY ORIENTATION-SHEET CENSUS ==
+ORDER_THREE_TRIALITY_COUNT: 84
+ORDER_THREE_COMMUTING_WITH_ANTIPODE_COUNT: 0
+ORDER_THREE_CYCLE_PROFILE_CENSUS: {((1, 3), (3, 19)): 80, ((3, 20),): 4}
+SHEET_DEFECT_CENSUS: {(2, ((2, 30),)): 84}
+ORDER_TWO_REVERSER_COUNT: 20
+ORDER_TWO_COMMUTING_WITH_ANTIPODE_COUNT: 20
+ORDER_TWO_CYCLE_PROFILE_CENSUS: {((1, 6), (2, 27)): 20}
+ALL_TRIALITY_CYCLES_MIX_ORIENTATION_SHEET: True
+ALL_INVOLUTIVE_REVERSERS_PRESERVE_ANTIPODAL_PAIRING: True
+ORIENTATION_SHEET_CENSUS_PASS: True
+CLASSIFICATION: XY_reversal_descends_projectively_while_XYZ_triality_is_intrinsically_oriented
+LITERAL_PHYSICAL_MOTION_DERIVED: false
+PHYSICAL_SPACE_IDENTIFIED: false
+G900_IDENTIFIED: false
+PROJECT_MUTATION_PERFORMED: false
+== ORIENTATION-SHEET V4 AND S4 TEST ==
+SHEET_INVOLUTION_FIXED_POINT_COUNTS: [0, 0, 0]
+SHEET_INVOLUTION_ORDER_PROFILE: [2, 2, 2]
+PAIR_PRODUCTS: {(0, 1): 2, (0, 2): 1, (1, 2): 0}
+SHEET_V4_ORDER: 4
+C_SHEET_ACTION: [1, 2, 0]
+R_SHEET_ACTION: [0, 2, 1]
+SHEET_EXTENSION_ORDER: 24
+SHEET_EXTENSION_ORDER_PROFILE: {1: 1, 2: 9, 3: 8, 4: 6}
+SHEET_V4_NORMAL: True
+SHEET_CHECKS: {'three_distinct_sheet_involutions': True, 'all_sheet_maps_order_two': True, 'all_sheet_maps_fixed_point_free': True, 'sheet_involutions_pairwise_commute': True, 'pair_products_give_third': True, 'generated_sheet_group_is_v4': True, 'C_cycles_sheet_involutions': True, 'R_is_sheet_transposition': True, 'generated_extension_order_24': True, 's4_order_profile': True, 'v4_normal_in_extension': True}
+ORIENTATION_SHEET_V4_PROVED: True
+ORIENTATION_SHEET_S4_PROVED: True
+CLASSIFICATION: three_orientation_sheet_involutions_form_V4_and_triality_extends_them_to_S4
+LITERAL_PHYSICAL_MOTION_DERIVED: false
+PHYSICAL_SPACE_IDENTIFIED: false
+G900_IDENTIFIED: false
+PROJECT_MUTATION_PERFORMED: false
+== A5 V4 KERNEL AND ORDER-1440 EXTENSION TEST ==
+ROTATION_MATRIX_COUNT: 60
+A5_PERMUTATION_ORDER: 60
+A5_ORDER_PROFILE: {1: 1, 2: 15, 3: 20, 5: 24}
+ROTATIONS_PRESERVE_ALL_PRESENTATIONS: True
+A5_V4_COMMUTE: True
+A5_V4_INTERSECTION_ORDER: 1
+A5_V4_PRODUCT_ORDER: 240
+GENERATED_KERNEL_ORDER: 240
+KERNEL_ORDER_PROFILE: {1: 1, 2: 63, 3: 20, 5: 24, 6: 60, 10: 72}
+C_NORMALIZES_A5: True
+R_NORMALIZES_A5: True
+A5_S4_INTERSECTION_ORDER: 1
+A5_COMMUTES_WITH_SHEET_S4: False
+FULL_EXTENSION_ORDER: 1440
+KERNEL_NORMAL_IN_FULL: True
+A5_NORMAL_IN_FULL: True
+KERNEL_CHECKS: {'rotation_group_order_60': True, 'rotation_profile_is_A5': True, 'rotations_preserve_all_presentations': True, 'A5_and_V4_commute': True, 'A5_V4_intersection_identity': True, 'A5_V4_product_order_240': True, 'generated_kernel_order_240': True, 'kernel_profile_is_A5_times_V4': True, 'C_normalizes_A5': True, 'R_normalizes_A5': True, 'A5_S4_intersection_identity': True, 'full_extension_order_1440': True, 'kernel_normal_in_full': True, 'A5_normal_in_full': True}
+KERNEL_A5_TIMES_V4_PROVED: True
+FULL_ORDER_1440_EXTENSION_PROVED: True
+FULL_GROUP_STRUCTURE: A5_semidirect_S4
+CLASSIFICATION: common_presentation_kernel_is_A5_times_V4_inside_an_order_1440_A5_by_S4_extension
+LITERAL_PHYSICAL_MOTION_DERIVED: false
+PHYSICAL_SPACE_IDENTIFIED: false
+G900_IDENTIFIED: false
+PROJECT_MUTATION_PERFORMED: false
+== A5 OUTER AUTOMORPHISM AND GOLDEN GALOIS TEST ==
+A5_CONJUGACY_CLASS_ROWS: [{'index': 0, 'order': 1, 'size': 1}, {'index': 1, 'order': 2, 'size': 15}, {'index': 2, 'order': 3, 'size': 20}, {'index': 3, 'order': 5, 'size': 12}, {'index': 4, 'order': 5, 'size': 12}]
+ORDER_FIVE_CLASS_INDICES: [3, 4]
+C_CLASS_ACTION: [0, 1, 2, 3, 4]
+R_CLASS_ACTION: [0, 1, 2, 4, 3]
+C_INNER_IMPLEMENTER_COUNT: 1
+R_INNER_IMPLEMENTER_COUNT: 0
+C_ACTION_IS_INNER: True
+R_ACTION_IS_OUTER: True
+C_PRESERVES_ORDER_FIVE_CLASSES: True
+R_SWAPS_ORDER_FIVE_CLASSES: True
+GOLDEN_GALOIS_PRESENTATION_ACTION: [1, 0, 2]
+GOLDEN_GALOIS_MATCHES_R_COLOR_ACTION: True
+A5_WITH_R_ORDER: 120
+A5_WITH_C_ORDER: 180
+GALOIS_CHECKS: {'A5_has_five_conjugacy_classes': True, 'A5_class_size_order_profile': True, 'C_class_action_uniform': True, 'R_class_action_uniform': True, 'C_action_inner': True, 'C_preserves_order_five_classes': True, 'R_action_outer': True, 'R_swaps_order_five_classes': True, 'golden_conjugation_action_defined': True, 'golden_conjugation_matches_R': True, 'A5_with_R_has_order_120': True, 'A5_with_C_has_order_180': True}
+GOLDEN_GALOIS_OUTER_AUTOMORPHISM_PROVED: True
+CLASSIFICATION: triality_cycler_acts_internally_on_A5_while_the_reverser_realizes_sqrt5_Galois_conjugation_as_the_outer_A5_automorphism
+LITERAL_PHYSICAL_MOTION_DERIVED: false
+PHYSICAL_SPACE_IDENTIFIED: false
+G900_IDENTIFIED: false
+PROJECT_MUTATION_PERFORMED: false

@@ -1,0 +1,62 @@
+== G60 H3 TRIALITY-GALOIS INDEPENDENT GUARD ==
+CHECK_COUNT: 54
+FAILED_CHECK_COUNT: 0
+CHECK head: true
+CHECK derive-g60-character-exchange-exact-q5.py_exists: true
+CHECK derive-g60-character-exchange-exact-q5.py_hash: true
+CHECK g60-h3-triality-galois-ledge.raw.txt_exists: true
+CHECK g60-h3-triality-galois-ledge.raw.txt_hash: true
+CHECK firm-g60-h3-triality-galois-ledge.py_exists: true
+CHECK firm-g60-h3-triality-galois-ledge.py_hash: true
+CHECK g60_h3_triality_galois_ledge.candidate.v1.json_exists: true
+CHECK g60_h3_triality_galois_ledge.candidate.v1.json_hash: true
+CHECK packet_name: true
+CHECK packet_version: true
+CHECK packet_mode: true
+CHECK candidate_pass: true
+CHECK candidate_not_frozen: true
+CHECK candidate_not_promoted: true
+CHECK packet_check_count: true
+CHECK packet_failed_zero: true
+CHECK packet_failed_empty: true
+CHECK carrier_size_60: true
+CHECK projective_line_count_30: true
+CHECK presentation_count_3: true
+CHECK presentation_triality: true
+CHECK sheet_kernel_v4: true
+CHECK sheet_extension_s4: true
+CHECK kernel_a5_times_v4: true
+CHECK kernel_order_240: true
+CHECK full_order_1440: true
+CHECK full_group_structure: true
+CHECK cycler_inner: true
+CHECK reverser_outer: true
+CHECK galois_field_map: true
+CHECK galois_presentation_action: true
+CHECK galois_matches_reverser: true
+CHECK early_probe_false_preserved: true
+CHECK refinement_passed: true
+CHECK boundary_absolute_axis_sign_selected: true
+CHECK boundary_g900_identified: true
+CHECK boundary_literal_physical_motion_derived: true
+CHECK boundary_physical_space_identified: true
+CHECK boundary_project_mutated: true
+CHECK receipt_longitudinal_is_exact_root_pair_bisector:_true: true
+CHECK receipt_presentation_s3_action_proved:_true: true
+CHECK receipt_direction_audit_pass:_false: true
+CHECK receipt_orientation_sheet_census_pass:_true: true
+CHECK receipt_orientation_sheet_v4_proved:_true: true
+CHECK receipt_orientation_sheet_s4_proved:_true: true
+CHECK receipt_kernel_a5_times_v4_proved:_true: true
+CHECK receipt_full_order_1440_extension_proved:_true: true
+CHECK receipt_c_action_is_inner:_true: true
+CHECK receipt_r_action_is_outer:_true: true
+CHECK receipt_golden_galois_matches_r_color_action:_true: true
+CHECK receipt_golden_galois_outer_automorphism_proved:_true: true
+CHECK nothing_promoted: true
+CHECK repository_status_preserved: true
+FAILED_CHECKS: []
+GUARD_PASS: True
+CANDIDATE_FROZEN: false
+CANDIDATE_PROMOTED: false
+PROJECT_MUTATION_PERFORMED: false

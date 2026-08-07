@@ -1,0 +1,87 @@
+{
+  "audit_pass": true,
+  "authorities": {
+    "consolidation_script": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/firm_g60_h3_triality_galois_ledge_013f.py",
+      "sha256": "60b925d715c645df52f368bda442d7ab5bc102391552049d68afd415bd5d5d72"
+    },
+    "exact_derivation_script": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/derive_g60_h3_triality_galois_ledge_013f.py",
+      "sha256": "49363d7a4893416e02edad7ef1558fdc30f9f957eea0cb7043908c517b60e617"
+    },
+    "independent_candidate_guard": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/guard_g60_h3_triality_galois_candidate_013f.py",
+      "sha256": "1f9aee99f2b74163a758517a56108e0d24195dbf8a3b9225aac44aefc897f346"
+    },
+    "independent_guard_receipt": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_h3_triality_galois_ledge_guard_013f.txt",
+      "sha256": "284fec797694ac15179ca6632be010595c9da58e31c1cc4245041ee55edc9a20"
+    },
+    "raw_run_receipt": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_h3_triality_galois_ledge_raw_013f.txt",
+      "sha256": "ad4b1be4d6f7a5d7e61a7f31792dc119fbe0d1b0aed9b85ceff81c212b029272"
+    },
+    "source_candidate": {
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_h3_triality_galois_ledge_013f.source_candidate.v1.json",
+      "sha256": "11b4e1b1b9ef2126fe61a9a0f43dde07e41505d3cadafc4e9149c893e3b83c58"
+    }
+  },
+  "boundary": {
+    "absolute_axis_sign_selected": false,
+    "g900_identified": false,
+    "literal_physical_motion_derived": false,
+    "physical_space_identified": false,
+    "project_mutated": false
+  },
+  "candidate_frozen": true,
+  "candidate_pass": true,
+  "candidate_promoted": true,
+  "check_count": 62,
+  "earned_statement": "Native G60 has three exact spherical presentations over Q(sqrt5) on the oriented H3 adjacent-root-bisector orbit. They form an S3 triality on one sixty-point carrier. The three orientation-sheet involutions form V4 and triality extends them to S4. The common presentation kernel is A5 times V4 of order 240 inside a full order-1440 A5-by-S4 extension. The triality cycler acts internally on A5, while the reverser exchanges the two order-five classes and realizes sqrt5-to-minus-sqrt5 Galois conjugation as the outer automorphism of A5.",
+  "failed_check_count": 0,
+  "failed_checks": [],
+  "mode": "frozen_exact_h3_triality_galois_ledge",
+  "packet": "g60_h3_triality_galois_ledge_013f",
+  "promotion": {
+    "candidate_check_count": 62,
+    "candidate_failed_check_count": 0,
+    "candidate_promoted_without_recomputation": true,
+    "guard_check_count": 54,
+    "guard_failed_check_count": 0,
+    "guard_passed": true,
+    "locked_head": "814a6d4 Preregister G60 root relative-sign kernel",
+    "manuscript_mutated": false
+  },
+  "refined_negative_result": {
+    "early_direction_audit_passed": false,
+    "reason": "cyclic_triality_does_not_descend_through_the_antipodal_projective_quotient",
+    "refinement": "reversal_preserves_antipodal_pairing_while_cyclic_triality_intrinsically_mixes_orientation_sheets",
+    "refinement_passed": true
+  },
+  "result_frozen": true,
+  "theorem": {
+    "carrier": "oriented_H3_adjacent_root_bisector_orbit",
+    "carrier_size": 60,
+    "common_presentation_kernel": "A5_times_V4",
+    "common_presentation_kernel_order": 240,
+    "full_extension_order": 1440,
+    "full_group_structure": "A5_semidirect_S4",
+    "golden_galois_action": {
+      "field_map": "sqrt5_maps_to_minus_sqrt5",
+      "matches_triality_reverser": true,
+      "presentation_permutation": [
+        1,
+        0,
+        2
+      ]
+    },
+    "orientation_sheet_extension": "S4",
+    "orientation_sheet_kernel": "V4",
+    "presentation_symmetry": "S3_triality",
+    "projective_line_count": 30,
+    "spherical_presentation_count": 3,
+    "triality_cycler_action_on_A5": "inner",
+    "triality_reverser_action_on_A5": "outer"
+  },
+  "version": 1
+}
