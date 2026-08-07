@@ -1,0 +1,85 @@
+== G60 UPPER-CENTRAL RECEIPT TOWER AUDIT 010c ==
+PACKET: g60_upper_central_receipt_tower_unblinding_010c
+MODE: frozen_phase_b_unblinding
+JSON_SHA256: 63fcdb0ff8e1d243eb5f44dd9cd630a361d777ef609c094a9009b8cc12029f2e
+NOTE_SHA256: d0118b52b1098bb42b2796604928bc6e2400a0d2d88e910a9dbb44c7fba0ec98
+COMPUTATION_SCRIPT_SHA256: 1b9430e13e4ecf74f38b3f5183c1801ba90eba33270154e37254944d17bd38dc
+RAW_RUN_RECEIPT_SHA256: ae987a2fad038af4c8f2f120999fdbd420f1c1b7fe7429667906b01ba50ae07d
+PHASE_A_010B_SHA256: 6c69d4e6c6a5eca1c5b7d15840a8958cc93eff5a13c1fe62a8840fe2bf0e8f26
+TOWER_009_SHA256: 894831f19bcdcc289f30cee96cdef51a4d0e5990b171cf0eed7355c9d6a254d4
+Z1_MEMBER_INDICES: [0, 326]
+CLASS_22_C2_MEMBER_INDICES: [0, 326]
+Z1_EQUALS_CLASS_22_C2: true
+Z2_MEMBER_INDICES: [0, 65, 124, 326]
+CLASS_20_V4_MEMBER_INDICES: [0, 65, 124, 326]
+Z2_EQUALS_CLASS_20_V4: true
+Z1_PROPER_SUBSET_Z2: true
+Z3_EQUALS_Z2: true
+Z1_EXACT_LABELED_G30: true
+Z2_EXACT_LABELED_G15: true
+TOWER_FACTORIZATION_EXACT: true
+Z1_BINARY_VOLTAGE_COMPATIBLE: true
+Z1_HOLONOMY_IMAGE: C2
+Z2_V4_VOLTAGE_COMPATIBLE: true
+Z2_HOLONOMY_IMAGE: V4
+USES_CENTER: true
+USES_SECOND_CENTER: true
+USES_SMALLEST_ORDER: false
+USES_ADDITIONAL_SELECTOR: false
+BLIND_SPECTRUM_CLASS_COUNT: 22
+CHECK_COUNT: 49
+FAILED_CHECK_COUNT: 0
+CHECK packet_name: true
+CHECK mode_frozen_phase_b: true
+CHECK phase_a_hash: true
+CHECK tower_009_hash: true
+CHECK candidate_json_provenance: true
+CHECK compute_script_hash: true
+CHECK raw_receipt_hash: true
+CHECK candidate_checks_all_pass: true
+CHECK candidate_failed_check_count_zero: true
+CHECK candidate_audit_pass: true
+CHECK Z1_order_2: true
+CHECK Z1_members: true
+CHECK prior_C2_class_22: true
+CHECK prior_C2_members: true
+CHECK Z1_exact_C2_equality: true
+CHECK Z2_order_4: true
+CHECK Z2_members: true
+CHECK prior_V4_class_20: true
+CHECK prior_V4_members: true
+CHECK Z2_exact_V4_equality: true
+CHECK Z1_proper_subset_Z2: true
+CHECK Z3_equals_Z2: true
+CHECK Z1_exact_G30: true
+CHECK Z2_exact_G15: true
+CHECK tower_factor_exact: true
+CHECK Z1_binary_voltage: true
+CHECK Z1_holonomy_C2: true
+CHECK Z2_v4_voltage: true
+CHECK Z2_holonomy_V4: true
+CHECK certificate033_identity_chart: true
+CHECK uses_center: true
+CHECK uses_second_center: true
+CHECK uses_upper_central_series: true
+CHECK uses_inclusion: true
+CHECK no_smallest_order: true
+CHECK no_additional_selector: true
+CHECK no_replacement_selector: true
+CHECK classification_exact: true
+CHECK phase_b_frozen: true
+CHECK canonical_one_tower: true
+CHECK not_every_receipt_unique: true
+CHECK blind_spectrum_22: true
+CHECK theorem_claim: true
+CHECK no_manuscript_mutation: true
+CHECK no_orientation_claim: true
+CHECK no_geometry_claim: true
+CHECK no_physical_claim: true
+CHECK promotion_result_unchanged: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+CLASSIFICATION: upper_central_series_exactly_selects_certified_C2_V4_receipt_tower
+THEOREM_STATEMENT: The raw native graph determines its full automorphism group. The first two terms of the upper-central series of that group are exactly the previously recovered normal C2 and V4 receipt actions. Their orbit quotients reproduce the exact G60 -> G30 -> G15 tower.
+MANUSCRIPT_MUTATED: false

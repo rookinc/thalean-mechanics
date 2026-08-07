@@ -1,0 +1,89 @@
+== G60 UPPER-CENTRAL RECEIPT TOWER UNBLINDING 010c ==
+MODE: read-only Phase B candidate
+PHASE_A_HEAD: 0be43e1 Lock blind G60 upper-central census
+PHASE_A_JSON_SHA256: 6c69d4e6c6a5eca1c5b7d15840a8958cc93eff5a13c1fe62a8840fe2bf0e8f26
+TOWER_009_JSON_SHA256: 894831f19bcdcc289f30cee96cdef51a4d0e5990b171cf0eed7355c9d6a254d4
+ALL_PRIOR_RECEIPT_HASHES_MATCH: true
+FROZEN_Z1_MEMBER_INDICES: [0, 326]
+PRIOR_CLASS_22_C2_MEMBER_INDICES: [0, 326]
+Z1_EQUALS_BLIND_CLASS_22_C2: true
+FROZEN_Z2_MEMBER_INDICES: [0, 65, 124, 326]
+PRIOR_CLASS_20_V4_MEMBER_INDICES: [0, 65, 124, 326]
+Z2_EQUALS_BLIND_CLASS_20_V4: true
+Z1_PROPER_SUBSET_Z2: true
+Z3_EQUALS_Z2: true
+Z1_SEMIREGULAR: true
+Z1_FREE_30_ORBITS: true
+Z1_NO_EDGE_INVERSION: true
+Z1_LOCAL_COVERING: true
+Z2_SEMIREGULAR: true
+Z2_FREE_15_ORBITS: true
+Z2_NO_EDGE_INVERSION: true
+Z2_LOCAL_COVERING: true
+Z1_EXACT_LABELED_G30: true
+Z2_EXACT_LABELED_G15: true
+INDUCED_G30_TO_G15_FACTOR_EXACT: true
+Z1_BINARY_VOLTAGE_COMPATIBLE: true
+Z1_HOLONOMY_IMAGE: C2
+Z2_V4_VOLTAGE_COMPATIBLE: true
+Z2_HOLONOMY_IMAGE: V4
+Z2_CERTIFICATE033_IDENTITY_CHART_MATCH: true
+USES_CENTER: true
+USES_SECOND_CENTER: true
+USES_UPPER_CENTRAL_SERIES: true
+USES_SUBGROUP_INCLUSION: true
+USES_SMALLEST_ORDER: false
+USES_ADDITIONAL_SELECTOR: false
+BLIND_SPECTRUM_CLASS_COUNT: 22
+CHECK_COUNT: 41
+FAILED_CHECK_COUNT: 0
+CHECK phase_a_head_locked: true
+CHECK phase_a_json_hash: true
+CHECK tower_009_json_hash: true
+CHECK action_hash: true
+CHECK raw_edge_hash: true
+CHECK all_prior_receipt_hashes: true
+CHECK phase_a_frozen: true
+CHECK phase_a_was_blind: true
+CHECK phase_a_exact_target: true
+CHECK tower_009_audit_pass: true
+CHECK tower_009_all_checks_pass: true
+CHECK Z1_equals_prior_C2: true
+CHECK Z2_equals_prior_V4: true
+CHECK Z1_proper_subset_Z2: true
+CHECK upper_central_series_stabilizes_at_Z2: true
+CHECK prior_C2_class_is_22: true
+CHECK prior_V4_class_is_20: true
+CHECK prior_C2_normal: true
+CHECK prior_V4_normal: true
+CHECK prior_C2_inside_V4: true
+CHECK normal_C2_unique: true
+CHECK normal_V4_unique: true
+CHECK Z1_semiregular: true
+CHECK Z1_free_30_orbits: true
+CHECK Z1_no_edge_inversion: true
+CHECK Z1_local_covering: true
+CHECK Z2_semiregular: true
+CHECK Z2_free_15_orbits: true
+CHECK Z2_no_edge_inversion: true
+CHECK Z2_local_covering: true
+CHECK Z1_quotient_counts_30_60: true
+CHECK Z2_quotient_counts_15_30: true
+CHECK Z1_exact_labeled_G30_transfer: true
+CHECK Z2_exact_labeled_G15_transfer: true
+CHECK induced_G30_to_G15_factor_exact: true
+CHECK Z1_binary_voltage_exact_reconstruction_transfer: true
+CHECK Z2_v4_voltage_exact_reconstruction_transfer: true
+CHECK Z2_certificate033_identity_chart_transfer: true
+CHECK blind_spectrum_still_22: true
+CHECK no_smallest_order_selector: true
+CHECK no_replacement_selector: true
+REPOSITORY_STATUS_PRESERVED: true
+AUDIT_PASS: true
+CLASSIFICATION: upper_central_series_exactly_selects_certified_C2_V4_receipt_tower
+PHASE_B_RESULT_FROZEN: false
+MANUSCRIPT_MUTATED: false
+ORIENTATION_CLAIM: false
+PHYSICAL_CLAIM: false
+CANDIDATE_JSON: /data/data/com.termux/files/home/tmp/g60_upper_central_receipt_tower_unblinding_010c.candidate.v1.json
+CANDIDATE_JSON_SHA256: 629ca0d60be2bcd3bc27afedfee65f358e20dd4cc7d7e392737c6679a08a071c

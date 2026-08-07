@@ -1,0 +1,218 @@
+{
+  "audit_pass": true,
+  "authorities": {
+    "action_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+    "phase_a_010b": {
+      "expected_sha256": "6c69d4e6c6a5eca1c5b7d15840a8958cc93eff5a13c1fe62a8840fe2bf0e8f26",
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_upper_central_series_blind_census_010b.v1.json",
+      "sha256": "6c69d4e6c6a5eca1c5b7d15840a8958cc93eff5a13c1fe62a8840fe2bf0e8f26"
+    },
+    "prior_receipts": {
+      "binary_unblinding_004": {
+        "actual_sha256": "339058c1fe40c50577eafcad3bda2ded753cbca7137a31c9aa7dbe5023f042c7",
+        "exists": true,
+        "expected_sha256": "339058c1fe40c50577eafcad3bda2ded753cbca7137a31c9aa7dbe5023f042c7",
+        "hash_match": true,
+        "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_normal_binary_deck_unblinding_004.txt"
+      },
+      "binary_voltage_005": {
+        "actual_sha256": "fd57c49e368b5e1927e37bae7d8104a16c5fca5e4e64c554e9d70cde2b14ce2b",
+        "exists": true,
+        "expected_sha256": "fd57c49e368b5e1927e37bae7d8104a16c5fca5e4e64c554e9d70cde2b14ce2b",
+        "hash_match": true,
+        "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_native_binary_voltage_holonomy_005.txt"
+      },
+      "blind_adjudication_003": {
+        "actual_sha256": "f49281a06fd90336e4bae5ca9221ee9457e76399ccb2e890b9794887f242ec14",
+        "exists": true,
+        "expected_sha256": "f49281a06fd90336e4bae5ca9221ee9457e76399ccb2e890b9794887f242ec14",
+        "hash_match": true,
+        "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_blind_receipt_action_adjudication_003.txt"
+      },
+      "blind_census_002": {
+        "actual_sha256": "9d0f1ef5975cd8cd2575192012c8bfeefe15c2856d6646e827ffc4ada851f383",
+        "exists": true,
+        "expected_sha256": "9d0f1ef5975cd8cd2575192012c8bfeefe15c2856d6646e827ffc4ada851f383",
+        "hash_match": true,
+        "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_native_semiregular_receipt_action_census_002_mac.txt"
+      },
+      "v4_unblinding_007": {
+        "actual_sha256": "0a5f257592d3ce6d9553c0f6b9ef529282fbe5ede3bdac557e3658ff8d002f17",
+        "exists": true,
+        "expected_sha256": "0a5f257592d3ce6d9553c0f6b9ef529282fbe5ede3bdac557e3658ff8d002f17",
+        "hash_match": true,
+        "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_normal_v4_g15_quotient_unblinding_007.txt"
+      },
+      "v4_voltage_008": {
+        "actual_sha256": "08b67ac74e0cf88b80a27ce0021200c1c2566b046e294bf72bfb85dd14c3eaa0",
+        "exists": true,
+        "expected_sha256": "08b67ac74e0cf88b80a27ce0021200c1c2566b046e294bf72bfb85dd14c3eaa0",
+        "hash_match": true,
+        "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_native_v4_voltage_certificate_comparison_008.txt"
+      }
+    },
+    "raw_edge_sha256": "c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f",
+    "receipt_tower_009": {
+      "expected_sha256": "894831f19bcdcc289f30cee96cdef51a4d0e5990b171cf0eed7355c9d6a254d4",
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_receipt_tower_theorem_009.v1.json",
+      "sha256": "894831f19bcdcc289f30cee96cdef51a4d0e5990b171cf0eed7355c9d6a254d4"
+    }
+  },
+  "boundary": {
+    "blind_spectrum_class_count": 22,
+    "canonical_filtration_selects_one_nested_tower": true,
+    "claims_every_receipt_action_uniquely_selected": false,
+    "geometry_claim": false,
+    "manuscript_mutated": false,
+    "orientation_claim": false,
+    "phase_b_candidate_only": false,
+    "phase_b_result_frozen": true,
+    "physical_claim": false,
+    "theorem_claim": true
+  },
+  "checks": {
+    "Z1_binary_voltage_exact_reconstruction_transfer": true,
+    "Z1_equals_prior_C2": true,
+    "Z1_exact_labeled_G30_transfer": true,
+    "Z1_free_30_orbits": true,
+    "Z1_local_covering": true,
+    "Z1_no_edge_inversion": true,
+    "Z1_proper_subset_Z2": true,
+    "Z1_quotient_counts_30_60": true,
+    "Z1_semiregular": true,
+    "Z2_certificate033_identity_chart_transfer": true,
+    "Z2_equals_prior_V4": true,
+    "Z2_exact_labeled_G15_transfer": true,
+    "Z2_free_15_orbits": true,
+    "Z2_local_covering": true,
+    "Z2_no_edge_inversion": true,
+    "Z2_quotient_counts_15_30": true,
+    "Z2_semiregular": true,
+    "Z2_v4_voltage_exact_reconstruction_transfer": true,
+    "action_hash": true,
+    "all_prior_receipt_hashes": true,
+    "blind_spectrum_still_22": true,
+    "induced_G30_to_G15_factor_exact": true,
+    "no_replacement_selector": true,
+    "no_smallest_order_selector": true,
+    "normal_C2_unique": true,
+    "normal_V4_unique": true,
+    "phase_a_exact_target": true,
+    "phase_a_frozen": true,
+    "phase_a_head_locked": true,
+    "phase_a_json_hash": true,
+    "phase_a_was_blind": true,
+    "prior_C2_class_is_22": true,
+    "prior_C2_inside_V4": true,
+    "prior_C2_normal": true,
+    "prior_V4_class_is_20": true,
+    "prior_V4_normal": true,
+    "raw_edge_hash": true,
+    "tower_009_all_checks_pass": true,
+    "tower_009_audit_pass": true,
+    "tower_009_json_hash": true,
+    "upper_central_series_stabilizes_at_Z2": true
+  },
+  "classification": "upper_central_series_exactly_selects_certified_C2_V4_receipt_tower",
+  "created_at": "2026-08-06T18:18:46.611300-07:00",
+  "exact_subgroup_equalities": {
+    "Z1_equals_blind_class_22_C2": true,
+    "Z1_proper_subset_Z2": true,
+    "Z2_equals_blind_class_20_V4": true,
+    "Z3_equals_Z2": true
+  },
+  "failed_check_count": 0,
+  "failed_checks": [],
+  "frozen_phase_a": {
+    "Z1_member_indices": [
+      0,
+      326
+    ],
+    "Z1_order": 2,
+    "Z2_member_indices": [
+      0,
+      65,
+      124,
+      326
+    ],
+    "Z2_order": 4,
+    "Z3_member_indices": [
+      0,
+      65,
+      124,
+      326
+    ],
+    "Z3_order": 4,
+    "identity_index": 0,
+    "preregistered_outcome": "exact_target"
+  },
+  "mode": "frozen_phase_b_unblinding",
+  "packet": "g60_upper_central_receipt_tower_unblinding_010c",
+  "promotion": {
+    "candidate_json_sha256": "629ca0d60be2bcd3bc27afedfee65f358e20dd4cc7d7e392737c6679a08a071c",
+    "candidate_report_sha256": "ae987a2fad038af4c8f2f120999fdbd420f1c1b7fe7429667906b01ba50ae07d",
+    "candidate_script_sha256": "1b9430e13e4ecf74f38b3f5183c1801ba90eba33270154e37254944d17bd38dc",
+    "classification_changed": false,
+    "computation_script_copied_byte_for_byte": true,
+    "frozen_at": "2026-08-06T18:21:22.585965-07:00",
+    "mathematical_result_fields_changed": false,
+    "raw_run_receipt_copied_byte_for_byte": true,
+    "subgroup_equalities_changed": false
+  },
+  "quotient_transfer": {
+    "Z1_exact_labeled_G30": true,
+    "Z1_quotient_edge_count": 60,
+    "Z1_quotient_vertex_count": 30,
+    "Z2_exact_labeled_G15": true,
+    "Z2_quotient_edge_count": 30,
+    "Z2_quotient_vertex_count": 15,
+    "induced_G30_to_G15_factor_exact": true,
+    "logical_basis": "Exact subgroup equality transfers the previously certified orbit partitions and labeled quotient maps to Z1 and Z2."
+  },
+  "repository_preservation": {
+    "head_after": "0be43e1 Lock blind G60 upper-central census",
+    "head_before": "0be43e1 Lock blind G60 upper-central census",
+    "project_mutation_performed": false,
+    "repository_status_preserved": true,
+    "status_after_sha256": "0df2dd0a83dc0cd7edb676d01c411492ebf22ff164a1cb5d9d1464a30733cd70",
+    "status_before_sha256": "0df2dd0a83dc0cd7edb676d01c411492ebf22ff164a1cb5d9d1464a30733cd70"
+  },
+  "selector_accounting": {
+    "replacement_selector_searched": false,
+    "uses_additional_selector": false,
+    "uses_center": true,
+    "uses_second_center": true,
+    "uses_smallest_order": false,
+    "uses_subgroup_inclusion": true,
+    "uses_third_center_as_stabilization_check": true,
+    "uses_upper_central_series": true
+  },
+  "theorem_statement": "The raw native graph determines its full automorphism group. The first two terms of the upper-central series of that group are exactly the previously recovered normal C2 and V4 receipt actions. Their orbit quotients reproduce the exact G60 -> G30 -> G15 tower.",
+  "theorem_statement_candidate": "The raw native graph determines its full automorphism group. The first two terms of the upper-central series of that group are exactly the previously recovered normal C2 and V4 receipt actions. Their orbit quotients reproduce the exact G60 -> G30 -> G15 tower.",
+  "unblinded_prior_chain": {
+    "C2_is_subgroup_of_V4": true,
+    "normal_C2_blind_class_index": 22,
+    "normal_C2_member_indices": [
+      0,
+      326
+    ],
+    "normal_V4_blind_class_index": 20,
+    "normal_V4_member_indices": [
+      0,
+      65,
+      124,
+      326
+    ]
+  },
+  "version": 1,
+  "voltage_transfer": {
+    "Z1_binary_voltage_compatible": true,
+    "Z1_holonomy_image": "C2",
+    "Z2_certificate033_identity_chart_match": true,
+    "Z2_holonomy_image": "V4",
+    "Z2_v4_voltage_compatible": true,
+    "logical_basis": "Exact subgroup equality transfers the certified binary and V4 voltage constructions to the upper-central layers."
+  }
+}
