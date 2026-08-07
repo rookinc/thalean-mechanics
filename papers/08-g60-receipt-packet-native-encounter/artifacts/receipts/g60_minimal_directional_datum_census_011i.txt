@@ -1,0 +1,87 @@
+== G60 MINIMAL DIRECTIONAL DATUM CENSUS AUDIT 011i ==
+PACKET: g60_minimal_directional_datum_census_011i
+MODE: frozen_complete_minimal_datum_ladder_census
+JSON_SHA256: 6d7164f98d686dc9d54b8146f19ab56c22c8aa70009f65bbcad7c7c88e9b962d
+NOTE_SHA256: d4b5b5be1b64a93f51e9585814b7c79b8335000ac92cd3d83ca55be87913b85c
+COMPUTATION_SCRIPT_SHA256: 1fabafd5b7fa10334030a3872163e9e33339ae447a2186d5fed5d708cb328319
+RAW_RUN_RECEIPT_SHA256: ffdcb95f0a7ad27147efa020119411d6b5347f12b9ed2be7b6ebdfeaa9d5991f
+COMPLEMENT_COUNT: 2
+CANONICAL_N_ORDER: 240
+N_SOURCE_STABILIZER_ORDER: 12
+N_FIXED_TARGET_COUNT: 0
+N_BRIDGE_COUNT: 0
+COMPLEMENT_BRIDGE_COUNTS: [0, 0]
+ANCHOR_COUNT: 40
+ANCHOR_BRIDGE_PROFILE: {'0': 40}
+ONE_BIT_DESCRIPTION_EARNED: false
+CLASSIFICATION: canonical_subgroup_has_no_oriented_bridge
+CHECK_COUNT: 61
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK head: true
+CHECK result_frozen: true
+CHECK candidate_hash: true
+CHECK raw_hash: true
+CHECK compute_hash: true
+CHECK raw_copied: true
+CHECK compute_copied: true
+CHECK group_480: true
+CHECK identity_0: true
+CHECK closure_zero: true
+CHECK inverse_zero: true
+CHECK block_consistent: true
+CHECK operation_ok: true
+CHECK transposition_lifts_4: true
+CHECK five_cycle_lifts_4: true
+CHECK lift_pairs_16: true
+CHECK complements_2: true
+CHECK complement_action_closed: true
+CHECK normalizers_240: true
+CHECK N_exists: true
+CHECK N_order_240: true
+CHECK N_index_2: true
+CHECK N_normal: true
+CHECK N_subgroup: true
+CHECK normalizers_equal: true
+CHECK family_kernel_equals_N: true
+CHECK N_intersection_Z2_is_Z1: true
+CHECK full_A_zero: true
+CHECK N_zero: true
+CHECK N_stabilizer_12: true
+CHECK N_fixed_targets_zero: true
+CHECK two_complement_rows: true
+CHECK complements_zero: true
+CHECK complement_stabilizers_6: true
+CHECK complement_fixed_targets_zero: true
+CHECK complement_map_sets_identical: true
+CHECK complement_maps_equal_N: true
+CHECK not_inverse_pair_of_maps: true
+CHECK reversal_failures_zero: true
+CHECK anchors_40: true
+CHECK anchor_profile_all_zero: true
+CHECK complement_anchor_profiles_zero: true
+CHECK anchors_not_unique: true
+CHECK without_anchor_zero: true
+CHECK one_bit_not_earned: true
+CHECK prediction_failed: true
+CHECK classification: true
+CHECK bounded_scope: true
+CHECK no_global_minimality: true
+CHECK local_anchor_names_root: true
+CHECK anchor_not_global: true
+CHECK no_minimal_datum: true
+CHECK no_replacement: true
+CHECK no_physical_direction: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physics: true
+CHECK repository_preserved: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: The complete conjugacy family of the two native S5 complements canonically determines one normal index-two subgroup N of order 240. Nevertheless, N and each individual S5 complement admit zero equivariant bijections from ordered five-block duads to orientation roots. The ordered-duad stabilizer has order 12 in N and order 6 in each complement, and in every case it fixes no orientation root. Therefore choosing a complement or anchoring one local root does not propagate to a global equivariant orientation rule. No sufficient minimal directional datum is identified within the preregistered D0-D4 ladder.
+MINIMAL_DIRECTIONAL_DATUM_IDENTIFIED: false
+REPLACEMENT_DATUM_SEARCHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
