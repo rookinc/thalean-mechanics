@@ -1,0 +1,60 @@
+== G60 FOURTH-ROOT STRUCTURED ABSENCE AUDIT 011d ==
+PACKET: g60_fourth_root_structured_absence_anatomy_011d
+JSON_SHA256: 0ad32f6908e1cf8f7ad1093aafa9ff51ce8b3ff03481aa2a4a9d18b841f26691
+NOTE_SHA256: c576d25790442ce27ae59002664b934b806bb4fc787e839b4f004c39cd69856d
+COMPUTATION_SCRIPT_SHA256: 149737b18adf7cfac32dcbb3d50b3a6bcb083892a5bb568c3506bef27bbe871b
+RAW_RUN_RECEIPT_SHA256: dd8c774b23d95d40b342753230dcfe7b0cd0db496824f3148bea3faafa6601ef
+ELEMENT_ORDER_PROFILE: {'1': 1, '10': 72, '12': 40, '2': 83, '3': 20, '4': 140, '5': 24, '6': 100}
+ORDER8_ELEMENT_COUNT: 0
+TAU_SQUARE_ROOT_COUNT: 20
+TAU_SQUARE_ROOT_ORDER_PROFILE: {'4': 20}
+TAU_SQUARE_ROOT_CONJUGACY_ORBITS: 1
+TAU_FOURTH_ROOT_COUNT: 0
+ROOT_STAGE_CLASSIFICATION: tau_has_order4_square_roots_but_none_has_a_native_square_root
+VERTEX_STABILIZER_GROUP_TYPE: D8_order_8_from_profile_1_identity_5_involutions_2_order4
+VERTEX_STABILIZER_ORDER_PROFILE: {'8': 60}
+STABILIZER_INTERSECTION_Z2_PROFILE: {'(0,)': 60}
+STABILIZER_PRODUCT_Z2_SIZE_PROFILE: {'32': 60}
+CHECK_COUNT: 36
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode_frozen: true
+CHECK candidate_provenance: true
+CHECK compute_hash: true
+CHECK raw_hash: true
+CHECK authorities: true
+CHECK operation_ok: true
+CHECK group_order_480: true
+CHECK order_profile_exact: true
+CHECK no_order8: true
+CHECK tau_square_roots_20: true
+CHECK tau_roots_order4: true
+CHECK tau_roots_one_class: true
+CHECK all_second_stage_counts_zero: true
+CHECK tau_fourth_roots_zero: true
+CHECK root_stage_classification: true
+CHECK outer_Z2_roots_zero: true
+CHECK transitive: true
+CHECK stabilizers_order8: true
+CHECK stabilizer_profile_D8: true
+CHECK stabilizers_noncyclic: true
+CHECK stabilizer_Z1_trivial: true
+CHECK stabilizer_Z2_trivial: true
+CHECK product_size32: true
+CHECK quotients_240_120: true
+CHECK structured_absence: true
+CHECK no_replacement: true
+CHECK larger_carrier_absent: true
+CHECK result_frozen: true
+CHECK no_native_H: true
+CHECK orientation_not_instantiated: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physics: true
+CHECK promotion_unchanged: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: Aut(G60) contains no element of order 8. The canonical central involution tau has exactly 20 square roots, all order-4 elements in one conjugacy class, but none of those square roots is itself a square. Thus the native group realizes the C2-to-C4 receipt doubling and excludes the C4-to-C8 evolver doubling.
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
