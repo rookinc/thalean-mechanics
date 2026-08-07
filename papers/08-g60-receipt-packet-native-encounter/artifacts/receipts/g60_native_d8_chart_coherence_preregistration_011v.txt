@@ -1,0 +1,80 @@
+== G60 NATIVE D8 CHART-COHERENCE PREREGISTRATION AUDIT 011v ==
+PACKET: g60_native_d8_chart_coherence_preregistration_011v
+MODE: post_center_quotient_bridge_native_chart_coherence_preregistration
+JSON_SHA256: 916a39858e97a64763b7dc35b1731e51362276934051a893a5548294fd16ea6c
+NOTE_SHA256: b148343c2ada46e512b3001ff5391c6f624a83ce34b3d71c4ee98bc950291473
+LOCKED_HEAD: 7e43c41 Lock G60 center-quotient character bridge
+PREDICTED_CHART_ORBITS_PER_PRESENTATION: [40, 40]
+PREDICTED_CHART_STABILIZER_ORDER: 12
+PREDICTED_EQUIVARIANT_SECTION_COUNT: 0
+PREDICTED_CLASSIFICATION: native_D8_chart_bundle_has_exact_outer_C2_obstruction_to_equivariant_section
+CHART_ORBIT_CENSUS_PERFORMED: false
+CHECK_COUNT: 59
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK status: true
+CHECK head: true
+CHECK json_hash: true
+CHECK note_hash: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK group_480: true
+CHECK base_count_10: true
+CHECK presentations_2: true
+CHECK charts_each_8: true
+CHECK pairs_20: true
+CHECK charts_total_160: true
+CHECK prediction_declared: true
+CHECK prediction_not_blind: true
+CHECK predict_subgroups_10: true
+CHECK predict_base_transitive: true
+CHECK predict_base_stabilizer_48: true
+CHECK predict_charts_80: true
+CHECK predict_charts_160: true
+CHECK predict_aut_D8_8: true
+CHECK predict_inner_4: true
+CHECK predict_outer_2: true
+CHECK predict_chart_stabilizer_12: true
+CHECK predict_two_orbits: true
+CHECK predict_40_40: true
+CHECK predict_four_total_orbits: true
+CHECK predict_total_profile: true
+CHECK predict_fiber_image_4: true
+CHECK predict_fiber_two_orbits: true
+CHECK predict_fiber_profile: true
+CHECK predict_inner_action: true
+CHECK predict_outer_gauge: true
+CHECK predict_section_zero: true
+CHECK predict_no_section: true
+CHECK predict_alpha_constant: true
+CHECK predict_q_constant: true
+CHECK predict_no_locked_selection: true
+CHECK predict_gauge_equivalent: true
+CHECK predict_bundle_classifiable: true
+CHECK predict_no_update: true
+CHECK required_tests: true
+CHECK outcomes: true
+CHECK falsifiers: true
+CHECK no_orbit_claim: true
+CHECK no_section_test: true
+CHECK no_bundle_classification: true
+CHECK no_chart_selected: true
+CHECK no_update_law: true
+CHECK no_mechanics_cell: true
+CHECK no_orientation: true
+CHECK no_side_identity: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physical_direction: true
+CHECK no_physics: true
+CHECK note_exists: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+GAUGE_COVARIANT_BUNDLE_CLASSIFIED: false
+STRICT_EQUIVARIANT_CHART_SELECTED: false
+NATIVE_UPDATE_LAW_CONSTRUCTED: false
+MECHANICS_STATE_CELL_ESTABLISHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false

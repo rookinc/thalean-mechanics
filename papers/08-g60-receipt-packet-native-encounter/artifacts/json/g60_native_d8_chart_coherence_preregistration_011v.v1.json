@@ -1,0 +1,160 @@
+{
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/s3_sign_v4_d8_local_system_audit_021.json": {
+      "expected_sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa",
+      "hash_match": true,
+      "sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json": {
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "hash_match": true,
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_s5_extension_splitting_audit_079.json": {
+      "expected_sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221",
+      "hash_match": true,
+      "sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_center_quotient_character_bridge_census_011u.v1.json": {
+      "expected_sha256": "9d5163f4c56ed1309a73902b8327e7747adcfa1cbef1566838af56c2768f90a7",
+      "hash_match": true,
+      "sha256": "9d5163f4c56ed1309a73902b8327e7747adcfa1cbef1566838af56c2768f90a7"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_local_global_side_obstruction_census_011s.v1.json": {
+      "expected_sha256": "d50e3a7d83e9bff2a1dc7c97516e3c7c670528f34b704cf58a9d3f05e40d95b0",
+      "hash_match": true,
+      "sha256": "d50e3a7d83e9bff2a1dc7c97516e3c7c670528f34b704cf58a9d3f05e40d95b0"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_two_sided_slider_cocycle_census_011q.v1.json": {
+      "expected_sha256": "63034d0c0fe4a35480bf879209a1da5dae0d5a581eeef063e489d8be1be2459e",
+      "hash_match": true,
+      "sha256": "63034d0c0fe4a35480bf879209a1da5dae0d5a581eeef063e489d8be1be2459e"
+    }
+  },
+  "boundary": {
+    "chart_maps_must_be_reconstructed": true,
+    "chart_orbit_census_performed": false,
+    "equivariant_section_test_performed": false,
+    "finite_chart_bundle_test_only": true,
+    "gauge_covariant_bundle_classified": false,
+    "geometry_claim": false,
+    "global_minimality_claim": false,
+    "local_side_equals_011o_orientation_sheet": false,
+    "manuscript_mutated": false,
+    "mechanics_state_cell_established": false,
+    "native_update_law_constructed": false,
+    "orientation_selected": false,
+    "physical_claim": false,
+    "physical_direction_claim": false,
+    "strict_equivariant_chart_selected": false
+  },
+  "falsifiers": [
+    "the 480-element group operation fails reconstruction",
+    "the native transposition-local subgroup count differs from ten",
+    "either local presentation fails to supply eighty exact charts",
+    "conjugation fails to define an action on the chart bundle",
+    "the ten native D8 subgroups are not one full-A orbit",
+    "either presentation has other than two chart orbits of size forty",
+    "the native D8 normalizer order differs from forty-eight",
+    "the chart stabilizer order differs from twelve",
+    "the normalizer fiber image differs from Inner(D8) of order four",
+    "a strict equivariant one-chart-per-subgroup section exists",
+    "alpha_1 or the q-axis signature distinguishes the two outer orbits",
+    "the two gauge-related cocycle presentations have inequivalent chart bundles"
+  ],
+  "locked_head": "7e43c41 Lock G60 center-quotient character bridge",
+  "mode": "post_center_quotient_bridge_native_chart_coherence_preregistration",
+  "outcome_order": [
+    "computation_failure",
+    "authority_failure",
+    "native_D8_subgroup_count_mismatch",
+    "chart_reconstruction_failure",
+    "full_A_chart_action_failure",
+    "base_action_not_transitive",
+    "chart_orbit_profile_mismatch",
+    "normalizer_or_stabilizer_order_mismatch",
+    "fiber_action_not_inner_automorphism_group",
+    "strict_equivariant_section_exists",
+    "outer_orbit_selected_by_locked_character_data",
+    "gauge_presentations_have_inequivalent_chart_bundles",
+    "native_D8_chart_bundle_has_exact_outer_C2_obstruction_to_equivariant_section"
+  ],
+  "packet": "g60_native_d8_chart_coherence_preregistration_011v",
+  "predictions": {
+    "alpha_1_character_constant_across_chart_orbits": true,
+    "automorphism_group_order_D8": 8,
+    "base_action_transitive": true,
+    "base_stabilizer_order": 48,
+    "chart_count_both_presentations": 160,
+    "chart_count_per_presentation": 80,
+    "chart_orbit_count_both_presentations": 4,
+    "chart_orbit_count_per_presentation": 2,
+    "chart_orbit_size_profile_both_presentations": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "chart_orbit_size_profile_per_presentation": [
+      40,
+      40
+    ],
+    "chart_stabilizer_order": 12,
+    "equivariant_one_chart_per_subgroup_section_count": 0,
+    "gauge_covariant_D8_chart_bundle_classifiable": true,
+    "gauge_related_presentations_have_equivalent_chart_bundles": true,
+    "inner_automorphism_group_order_D8": 4,
+    "locked_character_data_selects_one_outer_orbit": false,
+    "native_D8_subgroup_count": 10,
+    "native_update_law_predicted": false,
+    "normalizer_fiber_action_equals_inner_automorphisms": true,
+    "normalizer_fiber_action_order": 4,
+    "normalizer_fiber_orbit_count": 2,
+    "normalizer_fiber_orbit_size_profile": [
+      4,
+      4
+    ],
+    "outer_C2_is_residual_chart_gauge": true,
+    "outer_automorphism_group_order_D8": 2,
+    "predicted_classification": "native_D8_chart_bundle_has_exact_outer_C2_obstruction_to_equivariant_section",
+    "prediction_blind": false,
+    "prediction_declared_before_computation": true,
+    "q_axis_signature_constant_across_chart_orbits": true,
+    "reason": "The count prediction is informed by orbit-stabilizer analysis of A acting on the transposition-local D8 chart torsor. The census remains required to verify the exact native action and presentation compatibility.",
+    "strict_equivariant_chart_selection_exists": false
+  },
+  "registered_surface": {
+    "base_action": "conjugation of the ten native D8 subgroups, equivalently the S5 action on its ten transpositions",
+    "base_object": "ten_native_transposition_local_D8_subgroups",
+    "base_object_count": 10,
+    "chart_definition": "a group isomorphism from one selected local D8 presentation to one native transposition-local D8 subgroup",
+    "charts_per_presentation_subgroup_pair": 8,
+    "full_A_chart_action": "postcompose a chart with conjugation by the acting full-group element on its native target subgroup",
+    "full_group": "A=Aut(G60)",
+    "full_group_order": 480,
+    "local_model": "selected_011q_D8_central_extension",
+    "local_presentation_count": 2,
+    "presentation_subgroup_pair_count": 20,
+    "total_chart_count_both_presentations": 160
+  },
+  "required_tests": [
+    "reconstruct_exact_480_element_group_operation",
+    "reconstruct_ten_native_transposition_local_D8_subgroups",
+    "reconstruct_both_selected_011q_D8_presentations",
+    "reconstruct_all_160_isomorphism_maps",
+    "verify_full_A_conjugation_permutes_the_ten_native_D8_subgroups",
+    "construct_full_A_action_on_each_80_chart_presentation_bundle",
+    "verify_chart_action_identity_and_closure",
+    "classify_chart_orbits_per_presentation",
+    "compute_native_D8_subgroup_normalizer_orders",
+    "compute_chart_stabilizer_orders",
+    "compute_normalizer_action_on_each_eight_chart_fiber",
+    "compare_normalizer_fiber_action_with_Inner_D8",
+    "classify_residual_outer_automorphism_quotient",
+    "enumerate_strict_equivariant_one_chart_per_subgroup_sections",
+    "test_alpha_1_and_q_axis_constancy_across_outer_orbits",
+    "construct_explicit_gauge_isomorphism_between_presentations",
+    "compare_chart_orbit bundles_under_the_gauge_isomorphism"
+  ],
+  "status": "frozen_before_chart_orbit_census"
+}
