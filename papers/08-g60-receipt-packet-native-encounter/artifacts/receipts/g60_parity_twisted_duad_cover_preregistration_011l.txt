@@ -1,0 +1,77 @@
+== G60 PARITY-TWISTED DUAD COVER PREREGISTRATION AUDIT 011l ==
+PACKET: g60_parity_twisted_duad_cover_preregistration_011l
+MODE: post_stabilizer_embedding_preregistration
+JSON_SHA256: b576049b323ba72ffcd069070f0941b134241595fad954a3c59d37fa2e57d7a2
+NOTE_SHA256: 53f92b53071b8c5135c1edb9a1c9367350d3733a64a4c686b4e8258db56d55a9
+LOCKED_HEAD: e5d6876 Lock G60 root stabilizer embedding obstruction
+SOURCE_ACTION: parity_twisted_unordered_duad_double_cover
+DECLARED_OBJECT_COUNT: 20
+PREDICTED_BRIDGE_COUNT: 2
+PREDICTED_ANCHORED_BRIDGE_COUNT: 1
+PREDICTION_BLIND: false
+SOURCE_ACTION_CONSTRUCTED: false
+BRIDGE_ENUMERATION_PERFORMED: false
+OUTCOME_ORDER: ['computation_failure', 'authority_failure', 'declared_source_action_invalid', 'declared_source_action_not_transitive', 'source_and_root_stabilizers_mismatch', 'no_equivariant_bridge', 'unexpected_unique_unanchored_bridge', 'more_than_two_unanchored_bridges', 'two_bridges_not_reversal_related', 'anchor_does_not_select_unique_bridge', 'exactly_two_inversion_related_bridges_anchor_selects_one']
+CHECK_COUNT: 55
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK frozen: true
+CHECK head: true
+CHECK json_hash: true
+CHECK note_hash: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK authorities_tracked: true
+CHECK group_480: true
+CHECK N_240: true
+CHECK N_index_two: true
+CHECK N_normal: true
+CHECK N_image_S5: true
+CHECK N_kernel_Z1: true
+CHECK known_counts: true
+CHECK source_named: true
+CHECK source_count_20: true
+CHECK sheet_C2: true
+CHECK not_endpoint_ordering: true
+CHECK ordered_action_not_reused: true
+CHECK no_source_construction: true
+CHECK no_source_validation: true
+CHECK no_bridge_enumeration: true
+CHECK no_anchor_ablation: true
+CHECK prediction_declared: true
+CHECK prediction_not_blind: true
+CHECK predict_transitive: true
+CHECK predict_stabilizer_12: true
+CHECK predict_even_S3: true
+CHECK predict_orbits_2_3: true
+CHECK predict_exact_stabilizers: true
+CHECK predict_two_bridges: true
+CHECK predict_sheet_reversal: true
+CHECK predict_root_inversion: true
+CHECK predict_anchor_one: true
+CHECK predict_without_anchor_two: true
+CHECK predict_no_complement_choice: true
+CHECK fourteen_tests: true
+CHECK eleven_outcomes: true
+CHECK falsifiers_present: true
+CHECK no_source_claim: true
+CHECK no_bridge_claim: true
+CHECK no_count_claim: true
+CHECK no_anchor_claim: true
+CHECK no_minimal_datum: true
+CHECK no_orientation: true
+CHECK no_replacement_A_set: true
+CHECK bounded_test: true
+CHECK no_global_minimality: true
+CHECK no_replacement_selector: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physics: true
+CHECK note_exists: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+ORIENTATION_SELECTED: false
+MINIMAL_DIRECTIONAL_DATUM_IDENTIFIED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false

@@ -1,0 +1,151 @@
+{
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_five_petersen_matching_equivariance_audit_078.json": {
+      "expected_sha256": "db01304b44015a25e8f207d3fe869ad96ebcd82d3d2bd7017908a9ed7c843ec7",
+      "git_tracked": true,
+      "hash_match": true,
+      "sha256": "db01304b44015a25e8f207d3fe869ad96ebcd82d3d2bd7017908a9ed7c843ec7"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_duad_orientation_bridge_census_011g.v1.json": {
+      "expected_sha256": "abc9e038b323fdd5af852a91b87aca4c5a1e35a6e484608af27a04a399c52e9c",
+      "git_tracked": true,
+      "hash_match": true,
+      "sha256": "abc9e038b323fdd5af852a91b87aca4c5a1e35a6e484608af27a04a399c52e9c"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_minimal_directional_datum_census_011i.v1.json": {
+      "expected_sha256": "6d7164f98d686dc9d54b8146f19ab56c22c8aa70009f65bbcad7c7c88e9b962d",
+      "git_tracked": true,
+      "hash_match": true,
+      "sha256": "6d7164f98d686dc9d54b8146f19ab56c22c8aa70009f65bbcad7c7c88e9b962d"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_root_stabilizer_action_type_census_011k.v1.json": {
+      "expected_sha256": "6685932b584a9784410ed57eabe7cfab27de43365ac74bc844c166f375b31574",
+      "git_tracked": true,
+      "hash_match": true,
+      "sha256": "6685932b584a9784410ed57eabe7cfab27de43365ac74bc844c166f375b31574"
+    }
+  },
+  "boundary": {
+    "bounded_test_of_one_preregistered_replacement_source_action": true,
+    "geometry_claim": false,
+    "global_minimality_claim": false,
+    "manuscript_mutated": false,
+    "physical_claim": false,
+    "physical_direction_claim": false,
+    "replacement_selector_searched": false
+  },
+  "claims_withheld": {
+    "anchor_is_sufficient": false,
+    "bridge_count_is_two": false,
+    "equivariant_bridge_exists": false,
+    "minimal_directional_datum_identified": false,
+    "orientation_selected": false,
+    "replacement_source_A_set_constructed": false,
+    "source_action_is_valid": false
+  },
+  "falsifiers": [
+    "the declared action fails closure",
+    "the declared action is not transitive",
+    "a source stabilizer differs from its assigned root stabilizer",
+    "the unanchored bridge count is not two",
+    "the two bridges are not exchanged by sheet reversal and root inversion",
+    "a compatible anchor admits zero or more than one bridge",
+    "the result depends on choosing one native S5 complement"
+  ],
+  "known_structure": {
+    "canonical_N_five_point_image": "S5",
+    "canonical_N_five_point_kernel": "Z1(A)",
+    "canonical_N_index_in_A": 2,
+    "canonical_N_kernel_indices": [
+      0,
+      326
+    ],
+    "canonical_N_normal": true,
+    "canonical_N_order": 240,
+    "canonical_propagation_subgroup": "N",
+    "full_group_order": 480,
+    "inverse_root_pair_count": 10,
+    "ordered_duad_count": 20,
+    "orientation_root_count": 20,
+    "unique_unordered_duad_to_inverse_pair_bridge": true,
+    "unordered_duad_count": 10
+  },
+  "locked_head": "e5d6876 Lock G60 root stabilizer embedding obstruction",
+  "mode": "post_stabilizer_embedding_preregistration",
+  "outcome_order": [
+    "computation_failure",
+    "authority_failure",
+    "declared_source_action_invalid",
+    "declared_source_action_not_transitive",
+    "source_and_root_stabilizers_mismatch",
+    "no_equivariant_bridge",
+    "unexpected_unique_unanchored_bridge",
+    "more_than_two_unanchored_bridges",
+    "two_bridges_not_reversal_related",
+    "anchor_does_not_select_unique_bridge",
+    "exactly_two_inversion_related_bridges_anchor_selects_one"
+  ],
+  "packet": "g60_parity_twisted_duad_cover_preregistration_011l",
+  "predictions": {
+    "anchored_bridge_count": 1,
+    "compatible_anchor_selects_unique_bridge": true,
+    "complement_choice_required": false,
+    "one_binary_sheet_choice_sufficient_within_this_source_action": true,
+    "prediction_blind": false,
+    "prediction_declared_before_computation": true,
+    "reason": "011k identifies every root-stabilizer image with the even setwise stabilizer of its assigned unordered duad",
+    "root_and_source_stabilizers_exactly_equal": true,
+    "source_action_transitive": true,
+    "source_point_stabilizer_image_order_in_S5": 6,
+    "source_point_stabilizer_image_type": "all_even_S3",
+    "source_point_stabilizer_orbit_profile": [
+      2,
+      3
+    ],
+    "source_point_stabilizer_order_in_N": 12,
+    "source_point_stabilizer_parity_profile": {
+      "even": 6
+    },
+    "two_bridges_related_by_global_sheet_reversal": true,
+    "two_bridges_related_by_root_inversion": true,
+    "unanchored_N_equivariant_bridge_count": 2,
+    "without_anchor_bridge_count": 2
+  },
+  "preregistered_source_action": {
+    "action_formula": "g.(D,epsilon)=(gD,epsilon+parity(five_point_image(g)) mod 2)",
+    "anchor_ablation_performed": false,
+    "base_objects": "ten_unordered_duads_of_five_point_set",
+    "bridge_enumeration_performed": false,
+    "declared_object_count": 20,
+    "epsilon_values": [
+      0,
+      1
+    ],
+    "name": "parity_twisted_unordered_duad_double_cover",
+    "notation": "D_tilde",
+    "object_form": "(unordered_duad, epsilon)",
+    "ordered_duad_action_reused": false,
+    "ordinary_endpoint_ordering_used": false,
+    "sheet_group": "C2",
+    "source_action_constructed": false,
+    "source_action_validated": false
+  },
+  "required_tests": [
+    "reconstruct_exact_group_operation",
+    "reconstruct_canonical_N",
+    "construct_twenty_parity_twisted_duad_objects",
+    "verify_declared_N_action_is_closed",
+    "verify_declared_N_action_is_transitive",
+    "verify_source_point_stabilizer_order_twelve",
+    "verify_source_stabilizer_image_is_all_even_S3",
+    "compare_source_and_root_stabilizers_exactly",
+    "enumerate_all_N_equivariant_source_to_root_bijections",
+    "test_global_sheet_reversal_relation",
+    "test_root_inversion_relation",
+    "ablate_anchor_and_count_bridges",
+    "anchor_each_compatible_source_root_pair",
+    "test_complement_choice_independence"
+  ],
+  "status": "frozen_before_computation",
+  "version": 1
+}
