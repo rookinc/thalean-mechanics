@@ -1,0 +1,1196 @@
+{
+  "audit_pass": true,
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/s3_sign_v4_d8_local_system_audit_021.json": {
+      "expected_sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa",
+      "hash_match": true,
+      "sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/synthematic_total_534_transport_tower_audit_020.json": {
+      "expected_sha256": "bd45e9224afaa22ae39855fb87ed391221340a6bb5b9375edcc012d2610449e4",
+      "hash_match": true,
+      "sha256": "bd45e9224afaa22ae39855fb87ed391221340a6bb5b9375edcc012d2610449e4"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_s5_extension_splitting_audit_079.json": {
+      "expected_sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221",
+      "hash_match": true,
+      "sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_v4_recovery_052.json": {
+      "expected_sha256": "8ddf9791ff0814ced4b72ea14a4c7f330f1b0de577579ec3755b0d411f83f9ca",
+      "hash_match": true,
+      "sha256": "8ddf9791ff0814ced4b72ea14a4c7f330f1b0de577579ec3755b0d411f83f9ca"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_full_A_orientation_character_extension_census_011o.v1.json": {
+      "expected_sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941",
+      "hash_match": true,
+      "sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_two_sided_slider_cocycle_preregistration_011p.v1.json": {
+      "expected_sha256": "5c09a3f307b05bf25c8ed11606ee3c58a93da16a973699b3905fa03c1b51b7bf",
+      "hash_match": true,
+      "sha256": "5c09a3f307b05bf25c8ed11606ee3c58a93da16a973699b3905fa03c1b51b7bf"
+    }
+  },
+  "base_register": {
+    "group": "V4",
+    "labels": {
+      "0": "1",
+      "1": "a",
+      "2": "b",
+      "3": "ab"
+    },
+    "native_visible_V4_match": true,
+    "operation": "bitwise_xor",
+    "visible_state_count": 4
+  },
+  "boundary": {
+    "AB_BA_distinguished_in_selected_class": true,
+    "finite_central_extension_theorem_candidate": true,
+    "geometry_claim": false,
+    "global_minimality_claim": false,
+    "local_side_equals_011o_orientation_sheet": false,
+    "local_to_global_side_map_constructed": false,
+    "manuscript_mutated": false,
+    "mechanics_state_cell_established": false,
+    "native_axis_class_selected": true,
+    "native_update_law_constructed": false,
+    "orientation_selected": false,
+    "physical_claim": false,
+    "physical_direction_claim": false,
+    "two_sided_slider_cocycle_constructed": true,
+    "unique_cocycle_representative_selected": false
+  },
+  "candidate_provenance": {
+    "candidate_json_path": "/data/data/com.termux/files/home/tmp/g60_two_sided_slider_cocycle_census_011q.candidate.v1.json",
+    "candidate_json_sha256": "32612473622fe94010a6cfec95d5634e2d5385c3f699ff5ff1d9bf70e2c07935",
+    "computation_script_sha256": "e59520d11362c5684a57edbcb5f2224624d5dbb95bdf2359a142f52fca7b3c6b",
+    "computation_source_path": "/data/data/com.termux/files/home/tmp/run-g60-two-sided-slider-cocycle-census-011q.py",
+    "failed_profile_uniform_json_path": "/data/data/com.termux/files/home/tmp/g60_two_sided_slider_cocycle_census_011q.failed-profile-uniform.v1.json",
+    "failed_profile_uniform_json_sha256": "cc3eca8b31f896421548038e9f9895d5ce759ca19ef790178fc0fcdde5683559",
+    "failed_profile_uniform_report_path": "/data/data/com.termux/files/home/tmp/g60_two_sided_slider_cocycle_census_011q.failed-profile-uniform.txt",
+    "failed_profile_uniform_report_sha256": "78b97c4ef311630c055b44ba7914969be271d87ca0bebefe313ea5fe840f5792",
+    "failed_profile_uniform_script_path": "/data/data/com.termux/files/home/tmp/g60_two_sided_slider_cocycle_census_011q.failed-profile-uniform.py",
+    "failed_profile_uniform_script_sha256": "5cb15da661a4c255d1d8eb8d7b12a5f66d0b7be87e2e3521a9df89d5f98483c1",
+    "raw_run_receipt_sha256": "80a211d001e162059328b5cca7c8a81cb445bcac748ecb14eb0e8572c12abe64",
+    "raw_run_source_path": "/data/data/com.termux/files/home/tmp/g60_two_sided_slider_cocycle_census_011q.candidate.txt"
+  },
+  "classification": "unique_native_axis_D8_class_separates_AB_BA_without_orientation_sheet_identification",
+  "cochain_enumeration": {
+    "coboundary_rows": [
+      {
+        "bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "sha256": "2ec39b8e5281419b8e38ee0825032600b5f9708a1c3289347a7e3507991facae"
+      },
+      {
+        "bits": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "sha256": "9803d28903a9f89a9c997b9c76f1a8f100a2ffa4a9e4f57c922fb3281d7eb3b3"
+      }
+    ],
+    "cocycle_rows": [
+      {
+        "AB": [
+          3,
+          1
+        ],
+        "BA": [
+          3,
+          0
+        ],
+        "bits": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "center_order": 2,
+        "class_index": 6,
+        "cocycle_sha256": "0bca8a34381bf7990bccc78994be5f491b9630513a054d24fcf598d7260fc78a",
+        "group_type": "D8",
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 1,
+          "ab": 0,
+          "b": 0
+        }
+      },
+      {
+        "AB": [
+          3,
+          0
+        ],
+        "BA": [
+          3,
+          0
+        ],
+        "bits": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "center_order": 8,
+        "class_index": 5,
+        "cocycle_sha256": "1d10b5d9065d148e29fa78786fc026aaf69ba643d586e3d82ad8036a6bf761d8",
+        "group_type": "C4_x_C2",
+        "opposite_central_sides": false,
+        "order_profile": {
+          "1": 1,
+          "2": 3,
+          "4": 4
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 0,
+        "square_signature": {
+          "a": 1,
+          "ab": 0,
+          "b": 1
+        }
+      },
+      {
+        "AB": [
+          3,
+          0
+        ],
+        "BA": [
+          3,
+          1
+        ],
+        "bits": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "center_order": 2,
+        "class_index": 7,
+        "cocycle_sha256": "29f7d1bdc10b4d26f53eaaa49cc9884d16193522051f3b80fd85d211f9543a5a",
+        "group_type": "Q8",
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 1,
+          "4": 6
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 1,
+          "ab": 1,
+          "b": 1
+        }
+      },
+      {
+        "AB": [
+          3,
+          0
+        ],
+        "BA": [
+          3,
+          0
+        ],
+        "bits": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "center_order": 8,
+        "class_index": 0,
+        "cocycle_sha256": "2ec39b8e5281419b8e38ee0825032600b5f9708a1c3289347a7e3507991facae",
+        "group_type": "C2_x_C2_x_C2",
+        "opposite_central_sides": false,
+        "order_profile": {
+          "1": 1,
+          "2": 7
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 0,
+        "square_signature": {
+          "a": 0,
+          "ab": 0,
+          "b": 0
+        }
+      },
+      {
+        "AB": [
+          3,
+          0
+        ],
+        "BA": [
+          3,
+          1
+        ],
+        "bits": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "center_order": 2,
+        "class_index": 6,
+        "cocycle_sha256": "45f386719813421e4d395b88a498b4982201d7af5e4b761fe1d6baeef10fef63",
+        "group_type": "D8",
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 1,
+          "ab": 0,
+          "b": 0
+        }
+      },
+      {
+        "AB": [
+          3,
+          1
+        ],
+        "BA": [
+          3,
+          1
+        ],
+        "bits": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "center_order": 8,
+        "class_index": 1,
+        "cocycle_sha256": "4c076fba1e851f6e171a1a1aaf273afee1724b4d320ed71f375316583ba6bae0",
+        "group_type": "C4_x_C2",
+        "opposite_central_sides": false,
+        "order_profile": {
+          "1": 1,
+          "2": 3,
+          "4": 4
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 0,
+        "square_signature": {
+          "a": 0,
+          "ab": 1,
+          "b": 1
+        }
+      },
+      {
+        "AB": [
+          3,
+          1
+        ],
+        "BA": [
+          3,
+          0
+        ],
+        "bits": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "center_order": 2,
+        "class_index": 7,
+        "cocycle_sha256": "52aa911450fdfc1488d5d013627d389b1d89b94c4df3c64f99c1db1790533ef8",
+        "group_type": "Q8",
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 1,
+          "4": 6
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 1,
+          "ab": 1,
+          "b": 1
+        }
+      },
+      {
+        "AB": [
+          3,
+          0
+        ],
+        "BA": [
+          3,
+          1
+        ],
+        "bits": [
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "center_order": 2,
+        "class_index": 2,
+        "cocycle_sha256": "597bef2955bf99ad42171698c8172e1482dfe5715317e8bae400291ba9f9a566",
+        "group_type": "D8",
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 0,
+          "ab": 1,
+          "b": 0
+        }
+      },
+      {
+        "AB": [
+          3,
+          1
+        ],
+        "BA": [
+          3,
+          0
+        ],
+        "bits": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "center_order": 2,
+        "class_index": 2,
+        "cocycle_sha256": "6153e32be7a569e50e183ade361188b751ea86c596016aa3f6f9216f30df8924",
+        "group_type": "D8",
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 0,
+          "ab": 1,
+          "b": 0
+        }
+      },
+      {
+        "AB": [
+          3,
+          1
+        ],
+        "BA": [
+          3,
+          1
+        ],
+        "bits": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "center_order": 8,
+        "class_index": 0,
+        "cocycle_sha256": "9803d28903a9f89a9c997b9c76f1a8f100a2ffa4a9e4f57c922fb3281d7eb3b3",
+        "group_type": "C2_x_C2_x_C2",
+        "opposite_central_sides": false,
+        "order_profile": {
+          "1": 1,
+          "2": 7
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 0,
+        "square_signature": {
+          "a": 0,
+          "ab": 0,
+          "b": 0
+        }
+      },
+      {
+        "AB": [
+          3,
+          0
+        ],
+        "BA": [
+          3,
+          0
+        ],
+        "bits": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "center_order": 8,
+        "class_index": 1,
+        "cocycle_sha256": "a45fd8797fdb27d3e7a0d16bb74da3ee1afdb8051c596039396360b083331027",
+        "group_type": "C4_x_C2",
+        "opposite_central_sides": false,
+        "order_profile": {
+          "1": 1,
+          "2": 3,
+          "4": 4
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 0,
+        "square_signature": {
+          "a": 0,
+          "ab": 1,
+          "b": 1
+        }
+      },
+      {
+        "AB": [
+          3,
+          0
+        ],
+        "BA": [
+          3,
+          1
+        ],
+        "bits": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "center_order": 2,
+        "class_index": 3,
+        "cocycle_sha256": "c395644f3b0532ede1216b9a3946b4700ec6b200a64358959704be63d2f19e39",
+        "group_type": "D8",
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 0,
+          "ab": 0,
+          "b": 1
+        }
+      },
+      {
+        "AB": [
+          3,
+          1
+        ],
+        "BA": [
+          3,
+          0
+        ],
+        "bits": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "center_order": 2,
+        "class_index": 3,
+        "cocycle_sha256": "c5e15e1410eeabbdef9d7b359a184358af4a0e7aa0919922dc4f64865e00418e",
+        "group_type": "D8",
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 0,
+          "ab": 0,
+          "b": 1
+        }
+      },
+      {
+        "AB": [
+          3,
+          1
+        ],
+        "BA": [
+          3,
+          1
+        ],
+        "bits": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "center_order": 8,
+        "class_index": 4,
+        "cocycle_sha256": "ca1642b62e51fe34650206bfa045df0be79e752a2fc74c1b2259ce217a47741c",
+        "group_type": "C4_x_C2",
+        "opposite_central_sides": false,
+        "order_profile": {
+          "1": 1,
+          "2": 3,
+          "4": 4
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 0,
+        "square_signature": {
+          "a": 1,
+          "ab": 1,
+          "b": 0
+        }
+      },
+      {
+        "AB": [
+          3,
+          0
+        ],
+        "BA": [
+          3,
+          0
+        ],
+        "bits": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "center_order": 8,
+        "class_index": 4,
+        "cocycle_sha256": "d1d08a814bfe7d359c0370c2095e0fcf11c1e96b6a08b6caa8f867a823794ff9",
+        "group_type": "C4_x_C2",
+        "opposite_central_sides": false,
+        "order_profile": {
+          "1": 1,
+          "2": 3,
+          "4": 4
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 0,
+        "square_signature": {
+          "a": 1,
+          "ab": 1,
+          "b": 0
+        }
+      },
+      {
+        "AB": [
+          3,
+          1
+        ],
+        "BA": [
+          3,
+          1
+        ],
+        "bits": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "center_order": 8,
+        "class_index": 5,
+        "cocycle_sha256": "ffa67a04ede8ea3fb83a0e788d7ad388b5f2f01c759f8ad61d19de7aa139e981",
+        "group_type": "C4_x_C2",
+        "opposite_central_sides": false,
+        "order_profile": {
+          "1": 1,
+          "2": 3,
+          "4": 4
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 0,
+        "square_signature": {
+          "a": 1,
+          "ab": 0,
+          "b": 1
+        }
+      }
+    ],
+    "distinct_normalized_coboundary_count": 2,
+    "normalized_cocycle_count": 16,
+    "normalized_function_count": 512,
+    "normalized_one_cochain_count": 8,
+    "normalized_pair_order": [
+      [
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "ab"
+      ],
+      [
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "ab"
+      ],
+      [
+        "ab",
+        "a"
+      ],
+      [
+        "ab",
+        "b"
+      ],
+      [
+        "ab",
+        "ab"
+      ]
+    ]
+  },
+  "cohomology": {
+    "all_classes_have_two_representatives": true,
+    "all_extension_operations_valid": true,
+    "class_count": 8,
+    "class_rows": [
+      {
+        "associativity_failure_count": 0,
+        "center_order": 8,
+        "central_flip_in_center": true,
+        "class_index": 0,
+        "class_sha256": "4ff4a3f2ced0cded8b8d126111d899ca90d1e4f97cc9146f1c773e91147d8cdb",
+        "group_type": "C2_x_C2_x_C2",
+        "identity_failure_count": 0,
+        "inverse_failure_count": 0,
+        "opposite_central_sides": false,
+        "order_profile": {
+          "1": 1,
+          "2": 7
+        },
+        "profile_uniform": true,
+        "representative_count": 2,
+        "representative_sha256s": [
+          "2ec39b8e5281419b8e38ee0825032600b5f9708a1c3289347a7e3507991facae",
+          "9803d28903a9f89a9c997b9c76f1a8f100a2ffa4a9e4f57c922fb3281d7eb3b3"
+        ],
+        "same_visible_endpoint": true,
+        "side_discrepancy": 0,
+        "square_signature": {
+          "a": 0,
+          "ab": 0,
+          "b": 0
+        }
+      },
+      {
+        "associativity_failure_count": 0,
+        "center_order": 8,
+        "central_flip_in_center": true,
+        "class_index": 1,
+        "class_sha256": "ac453f930542c874301a47446d7f4dd2508f35951e732d2b3ce3d189e5f91bac",
+        "group_type": "C4_x_C2",
+        "identity_failure_count": 0,
+        "inverse_failure_count": 0,
+        "opposite_central_sides": false,
+        "order_profile": {
+          "1": 1,
+          "2": 3,
+          "4": 4
+        },
+        "profile_uniform": true,
+        "representative_count": 2,
+        "representative_sha256s": [
+          "a45fd8797fdb27d3e7a0d16bb74da3ee1afdb8051c596039396360b083331027",
+          "4c076fba1e851f6e171a1a1aaf273afee1724b4d320ed71f375316583ba6bae0"
+        ],
+        "same_visible_endpoint": true,
+        "side_discrepancy": 0,
+        "square_signature": {
+          "a": 0,
+          "ab": 1,
+          "b": 1
+        }
+      },
+      {
+        "associativity_failure_count": 0,
+        "center_order": 2,
+        "central_flip_in_center": true,
+        "class_index": 2,
+        "class_sha256": "0af7d3e84ef716d006e4c8c83b791e4d6306eb4d67d5459a03464dd2c13f21e5",
+        "group_type": "D8",
+        "identity_failure_count": 0,
+        "inverse_failure_count": 0,
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "profile_uniform": true,
+        "representative_count": 2,
+        "representative_sha256s": [
+          "597bef2955bf99ad42171698c8172e1482dfe5715317e8bae400291ba9f9a566",
+          "6153e32be7a569e50e183ade361188b751ea86c596016aa3f6f9216f30df8924"
+        ],
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 0,
+          "ab": 1,
+          "b": 0
+        }
+      },
+      {
+        "associativity_failure_count": 0,
+        "center_order": 2,
+        "central_flip_in_center": true,
+        "class_index": 3,
+        "class_sha256": "362bbdd7ea4608204a82acea3aa82ab1592779eae5d0528ca67ef044e70a28de",
+        "group_type": "D8",
+        "identity_failure_count": 0,
+        "inverse_failure_count": 0,
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "profile_uniform": true,
+        "representative_count": 2,
+        "representative_sha256s": [
+          "c395644f3b0532ede1216b9a3946b4700ec6b200a64358959704be63d2f19e39",
+          "c5e15e1410eeabbdef9d7b359a184358af4a0e7aa0919922dc4f64865e00418e"
+        ],
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 0,
+          "ab": 0,
+          "b": 1
+        }
+      },
+      {
+        "associativity_failure_count": 0,
+        "center_order": 8,
+        "central_flip_in_center": true,
+        "class_index": 4,
+        "class_sha256": "d7b7ac35ae57fad7914e7b43d8842cb7d423d1a5e8ef5983ddcf462a17887de0",
+        "group_type": "C4_x_C2",
+        "identity_failure_count": 0,
+        "inverse_failure_count": 0,
+        "opposite_central_sides": false,
+        "order_profile": {
+          "1": 1,
+          "2": 3,
+          "4": 4
+        },
+        "profile_uniform": true,
+        "representative_count": 2,
+        "representative_sha256s": [
+          "d1d08a814bfe7d359c0370c2095e0fcf11c1e96b6a08b6caa8f867a823794ff9",
+          "ca1642b62e51fe34650206bfa045df0be79e752a2fc74c1b2259ce217a47741c"
+        ],
+        "same_visible_endpoint": true,
+        "side_discrepancy": 0,
+        "square_signature": {
+          "a": 1,
+          "ab": 1,
+          "b": 0
+        }
+      },
+      {
+        "associativity_failure_count": 0,
+        "center_order": 8,
+        "central_flip_in_center": true,
+        "class_index": 5,
+        "class_sha256": "4e0a0b554e1ac3fe9a5d47f688c09d3b25ecd763a13ba025e61ab5f5b9940ba2",
+        "group_type": "C4_x_C2",
+        "identity_failure_count": 0,
+        "inverse_failure_count": 0,
+        "opposite_central_sides": false,
+        "order_profile": {
+          "1": 1,
+          "2": 3,
+          "4": 4
+        },
+        "profile_uniform": true,
+        "representative_count": 2,
+        "representative_sha256s": [
+          "1d10b5d9065d148e29fa78786fc026aaf69ba643d586e3d82ad8036a6bf761d8",
+          "ffa67a04ede8ea3fb83a0e788d7ad388b5f2f01c759f8ad61d19de7aa139e981"
+        ],
+        "same_visible_endpoint": true,
+        "side_discrepancy": 0,
+        "square_signature": {
+          "a": 1,
+          "ab": 0,
+          "b": 1
+        }
+      },
+      {
+        "associativity_failure_count": 0,
+        "center_order": 2,
+        "central_flip_in_center": true,
+        "class_index": 6,
+        "class_sha256": "79f20a7d4c6593e5ff144216a6e41aee5338c22d9c4d8935322877c6b18cfc3b",
+        "group_type": "D8",
+        "identity_failure_count": 0,
+        "inverse_failure_count": 0,
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "profile_uniform": true,
+        "representative_count": 2,
+        "representative_sha256s": [
+          "45f386719813421e4d395b88a498b4982201d7af5e4b761fe1d6baeef10fef63",
+          "0bca8a34381bf7990bccc78994be5f491b9630513a054d24fcf598d7260fc78a"
+        ],
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 1,
+          "ab": 0,
+          "b": 0
+        }
+      },
+      {
+        "associativity_failure_count": 0,
+        "center_order": 2,
+        "central_flip_in_center": true,
+        "class_index": 7,
+        "class_sha256": "f5be45c3d56b1ba9887deb3efbf1713051dd817d180bb30a6f4ea87ece97f8d2",
+        "group_type": "Q8",
+        "identity_failure_count": 0,
+        "inverse_failure_count": 0,
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 1,
+          "4": 6
+        },
+        "profile_uniform": true,
+        "representative_count": 2,
+        "representative_sha256s": [
+          "29f7d1bdc10b4d26f53eaaa49cc9884d16193522051f3b80fd85d211f9543a5a",
+          "52aa911450fdfc1488d5d013627d389b1d89b94c4df3c64f99c1db1790533ef8"
+        ],
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 1,
+          "ab": 1,
+          "b": 1
+        }
+      }
+    ],
+    "extension_type_class_profile": {
+      "C2_x_C2_x_C2": 1,
+      "C4_x_C2": 3,
+      "D8": 3,
+      "Q8": 1
+    }
+  },
+  "earned_statement": "The complete normalized C2-valued cocycle census on the native visible V4 register has eight cohomology classes with extension-type profile C2^3, three C4xC2 classes, three D8 classes, and one Q8 class. Exactly four nonabelian classes distinguish A-then-B from B-then-A by a central side bit while preserving the visible endpoint ab. The native D8 order profile together with q(a)=1, q(b)=0, q(ab)=0 selects exactly one D8 cohomology class, represented by two gauge-related normalized cocycles. The representatives reverse the absolute side labels but preserve the nonzero AB/BA side discrepancy. Thus the ordinary four-state slider is lifted to a bounded two-sided local history witness. This result does not identify the central side with the 011o orientation sheet, select an absolute side, construct a native update law, or establish a mechanics state cell.",
+  "earned_statement_candidate": "The complete normalized C2-valued cocycle census on the native visible V4 register has eight cohomology classes with extension-type profile C2^3, 3 C4xC2, 3 D8, and Q8. Four nonabelian classes distinguish A-then-B from B-then-A by a central side bit while preserving the visible endpoint ab. The native D8 order profile together with q(a)=1, q(b)=0, q(ab)=0 selects exactly one D8 class, represented by two gauge-related normalized cocycles. This proves a bounded two-sided local history lift but does not identify its central side with the 011o orientation sheet.",
+  "locked_head": "449c222 Preregister G60 two-sided slider cocycle test",
+  "mode": "frozen_complete_normalized_cocycle_census",
+  "native_filter": {
+    "declared_axis_square_signature": {
+      "a": 1,
+      "ab": 0,
+      "b": 0
+    },
+    "native_abstract_D8_match": true,
+    "native_authority_center_order": 2,
+    "native_authority_group_type": "D8",
+    "native_authority_order_profile": {
+      "1": 1,
+      "2": 5,
+      "4": 2
+    },
+    "selected_class_count": 1,
+    "selected_class_rows": [
+      {
+        "associativity_failure_count": 0,
+        "center_order": 2,
+        "central_flip_in_center": true,
+        "class_index": 6,
+        "class_sha256": "79f20a7d4c6593e5ff144216a6e41aee5338c22d9c4d8935322877c6b18cfc3b",
+        "group_type": "D8",
+        "identity_failure_count": 0,
+        "inverse_failure_count": 0,
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "profile_uniform": true,
+        "representative_count": 2,
+        "representative_sha256s": [
+          "45f386719813421e4d395b88a498b4982201d7af5e4b761fe1d6baeef10fef63",
+          "0bca8a34381bf7990bccc78994be5f491b9630513a054d24fcf598d7260fc78a"
+        ],
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 1,
+          "ab": 0,
+          "b": 0
+        }
+      }
+    ],
+    "selected_class_separates_AB_BA": true,
+    "selected_cocycle_count": 2,
+    "selected_cocycle_rows": [
+      {
+        "AB": [
+          3,
+          0
+        ],
+        "BA": [
+          3,
+          1
+        ],
+        "bits": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "center_order": 2,
+        "class_index": 6,
+        "cocycle_sha256": "45f386719813421e4d395b88a498b4982201d7af5e4b761fe1d6baeef10fef63",
+        "group_type": "D8",
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 1,
+          "ab": 0,
+          "b": 0
+        }
+      },
+      {
+        "AB": [
+          3,
+          1
+        ],
+        "BA": [
+          3,
+          0
+        ],
+        "bits": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "center_order": 2,
+        "class_index": 6,
+        "cocycle_sha256": "0bca8a34381bf7990bccc78994be5f491b9630513a054d24fcf598d7260fc78a",
+        "group_type": "D8",
+        "opposite_central_sides": true,
+        "order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "same_visible_endpoint": true,
+        "side_discrepancy": 1,
+        "square_signature": {
+          "a": 1,
+          "ab": 0,
+          "b": 0
+        }
+      }
+    ],
+    "selected_representatives_gauge_related": true
+  },
+  "packet": "g60_two_sided_slider_cocycle_census_011q",
+  "prediction_comparison": {
+    "counts_match": true,
+    "extension_type_profile_matches": true,
+    "native_selection_matches": true,
+    "prediction_matches": true,
+    "route_counts_match": true
+  },
+  "prediction_matches": true,
+  "promotion": {
+    "candidate_promoted_without_recomputation": true,
+    "computation_script_copied_byte_for_byte": true,
+    "failed_profile_uniform_run_preserved": true,
+    "failed_profile_uniform_run_promoted": false,
+    "gauge_invariant_profile_correction_applied": true,
+    "manuscript_mutated": false,
+    "raw_run_receipt_copied_byte_for_byte": true
+  },
+  "repository": {
+    "project_mutation_performed": false,
+    "status_after": [
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ],
+    "status_before": [
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ],
+    "status_preserved": true
+  },
+  "result_frozen": true,
+  "route_test": {
+    "all_route_separating_classes_nonabelian": true,
+    "route_pair": [
+      "A_then_B",
+      "B_then_A"
+    ],
+    "route_separating_class_count": 4,
+    "route_separating_class_indices": [
+      2,
+      3,
+      6,
+      7
+    ],
+    "route_separating_cocycle_count": 8,
+    "route_separating_type_profile": {
+      "D8": 3,
+      "Q8": 1
+    },
+    "visible_endpoint": "ab"
+  }
+}

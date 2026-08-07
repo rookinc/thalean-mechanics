@@ -1,0 +1,130 @@
+== G60 TWO-SIDED SLIDER COCYCLE CENSUS AUDIT 011q ==
+PACKET: g60_two_sided_slider_cocycle_census_011q
+MODE: frozen_complete_normalized_cocycle_census
+JSON_SHA256: 63034d0c0fe4a35480bf879209a1da5dae0d5a581eeef063e489d8be1be2459e
+NOTE_SHA256: 29d7aa584a6e76c75bc28cac452211986dc0142de333d799858c07d5633f0d47
+COMPUTATION_SCRIPT_SHA256: e59520d11362c5684a57edbcb5f2224624d5dbb95bdf2359a142f52fca7b3c6b
+RAW_RUN_RECEIPT_SHA256: 80a211d001e162059328b5cca7c8a81cb445bcac748ecb14eb0e8572c12abe64
+NORMALIZED_FUNCTION_COUNT: 512
+NORMALIZED_COCYCLE_COUNT: 16
+COHOMOLOGY_CLASS_COUNT: 8
+EXTENSION_TYPE_CLASS_PROFILE: {'C2_x_C2_x_C2': 1, 'C4_x_C2': 3, 'D8': 3, 'Q8': 1}
+ROUTE_SEPARATING_CLASS_COUNT: 4
+NATIVE_SELECTED_CLASS_COUNT: 1
+NATIVE_SELECTED_COCYCLE_COUNT: 2
+SELECTED_CLASS_SHA256: 79f20a7d4c6593e5ff144216a6e41aee5338c22d9c4d8935322877c6b18cfc3b
+SELECTED_REPRESENTATIVE_SHA256S: ['45f386719813421e4d395b88a498b4982201d7af5e4b761fe1d6baeef10fef63', '0bca8a34381bf7990bccc78994be5f491b9630513a054d24fcf598d7260fc78a']
+SELECTED_CLASS_SEPARATES_AB_BA: true
+CLASSIFICATION: unique_native_axis_D8_class_separates_AB_BA_without_orientation_sheet_identification
+CHECK_COUNT: 102
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK locked_head: true
+CHECK result_frozen: true
+CHECK audit_pass_recorded: true
+CHECK json_hash: true
+CHECK raw_hash: true
+CHECK note_hash: true
+CHECK compute_hash: true
+CHECK candidate_hash: true
+CHECK candidate_promoted: true
+CHECK raw_copied: true
+CHECK compute_copied: true
+CHECK failed_run_preserved: true
+CHECK failed_run_not_promoted: true
+CHECK gauge_correction: true
+CHECK promotion_no_manuscript: true
+CHECK failed_script_hash: true
+CHECK failed_json_hash: true
+CHECK failed_report_hash: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK base_group_V4: true
+CHECK base_count_4: true
+CHECK base_operation_xor: true
+CHECK base_labels: true
+CHECK native_visible_V4: true
+CHECK normalized_functions_512: true
+CHECK normalized_cocycles_16: true
+CHECK normalized_one_cochains_8: true
+CHECK coboundaries_2: true
+CHECK cocycle_rows_16: true
+CHECK coboundary_rows_2: true
+CHECK pair_order_9: true
+CHECK cocycle_bits_9: true
+CHECK coboundary_hashes: true
+CHECK class_count_8: true
+CHECK class_rows_8: true
+CHECK class_indices: true
+CHECK two_representatives_each: true
+CHECK representative_counts: true
+CHECK profiles_uniform: true
+CHECK operations_valid: true
+CHECK operation_failures_zero: true
+CHECK extension_type_profile: true
+CHECK route_pair: true
+CHECK visible_endpoint_ab: true
+CHECK route_cocycles_8: true
+CHECK route_classes_4: true
+CHECK route_indices: true
+CHECK route_type_profile: true
+CHECK route_classes_nonabelian: true
+CHECK native_type_D8: true
+CHECK native_order_profile: true
+CHECK native_center_2: true
+CHECK declared_signature: true
+CHECK native_D8_match: true
+CHECK selected_class_count_1: true
+CHECK selected_cocycle_count_2: true
+CHECK selected_class_index_6: true
+CHECK selected_class_hash: true
+CHECK selected_class_D8: true
+CHECK selected_order_profile: true
+CHECK selected_center_2: true
+CHECK selected_central_flip: true
+CHECK selected_signature: true
+CHECK selected_profile_uniform: true
+CHECK selected_same_endpoint: true
+CHECK selected_side_discrepancy_1: true
+CHECK selected_opposite_sides: true
+CHECK selected_representative_hashes: true
+CHECK selected_cocycle_hashes: true
+CHECK selected_cocycle_endpoints: true
+CHECK selected_cocycle_opposite_sides: true
+CHECK selected_gauge_related: true
+CHECK selected_separates_AB_BA: true
+CHECK counts_match: true
+CHECK type_profile_matches: true
+CHECK route_counts_match: true
+CHECK native_selection_matches: true
+CHECK prediction_comparison: true
+CHECK prediction_matches: true
+CHECK classification: true
+CHECK slider_constructed: true
+CHECK native_class_selected: true
+CHECK AB_BA_distinguished: true
+CHECK finite_extension_candidate: true
+CHECK no_unique_representative: true
+CHECK no_sheet_identification: true
+CHECK no_local_global_map: true
+CHECK no_update_law: true
+CHECK no_mechanics_cell: true
+CHECK no_orientation: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physical_direction: true
+CHECK no_physics: true
+CHECK repository_preserved: true
+CHECK candidate_no_project_mutation: true
+CHECK earned_statement_present: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: The complete normalized C2-valued cocycle census on the native visible V4 register has eight cohomology classes with extension-type profile C2^3, three C4xC2 classes, three D8 classes, and one Q8 class. Exactly four nonabelian classes distinguish A-then-B from B-then-A by a central side bit while preserving the visible endpoint ab. The native D8 order profile together with q(a)=1, q(b)=0, q(ab)=0 selects exactly one D8 cohomology class, represented by two gauge-related normalized cocycles. The representatives reverse the absolute side labels but preserve the nonzero AB/BA side discrepancy. Thus the ordinary four-state slider is lifted to a bounded two-sided local history witness. This result does not identify the central side with the 011o orientation sheet, select an absolute side, construct a native update law, or establish a mechanics state cell.
+LOCAL_SIDE_EQUALS_011O_ORIENTATION_SHEET: false
+NATIVE_UPDATE_LAW_CONSTRUCTED: false
+MECHANICS_STATE_CELL_ESTABLISHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
