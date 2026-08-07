@@ -1,0 +1,80 @@
+== G60 CENTER-QUOTIENT CHARACTER BRIDGE PREREGISTRATION AUDIT 011t ==
+PACKET: g60_center_quotient_character_bridge_preregistration_011t
+MODE: post_direct_side_obstruction_center_quotient_bridge_preregistration
+JSON_SHA256: 002c78d86b0477aef0b351260c894e40f493d5d3f6f2b2cfa118f6b2f2b011b7
+NOTE_SHA256: 37313967a66630d6f8f5fafb0bb340b86f35ce4d0612df08e1387b3e66bf3d2f
+LOCKED_HEAD: 1424fec Lock G60 local-global side obstruction
+PREDICTED_NATIVE_D8_SUBGROUP_COUNT: 10
+PREDICTED_TOTAL_COMPARISON_COUNT: 160
+PREDICTED_UNIQUE_CHARACTER: {'1': 0, 'a': 0, 'ab': 1, 'b': 1}
+PREDICTED_CLASSIFICATION: unique_center_quotient_character_bridge
+CENTER_QUOTIENT_CENSUS_PERFORMED: false
+CHECK_COUNT: 59
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK status: true
+CHECK head: true
+CHECK json_hash: true
+CHECK note_hash: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK group_480: true
+CHECK quotient_S5: true
+CHECK transpositions_10: true
+CHECK native_indices: true
+CHECK alpha_restriction: true
+CHECK selected_D8: true
+CHECK selected_representatives_2: true
+CHECK selected_center_2: true
+CHECK selected_signature: true
+CHECK obstruction_locked: true
+CHECK locked_isomorphisms_16: true
+CHECK prediction_declared: true
+CHECK prediction_not_blind: true
+CHECK predict_lifts_40: true
+CHECK predict_subgroups_10: true
+CHECK predict_four_lifts: true
+CHECK predict_presentations_2: true
+CHECK predict_eight_isomorphisms: true
+CHECK predict_pairs_20: true
+CHECK predict_comparisons_160: true
+CHECK predict_center_killed: true
+CHECK predict_all_descend: true
+CHECK predict_unique_character: true
+CHECK predict_character_profile: true
+CHECK predict_kernel: true
+CHECK predict_q_axis: true
+CHECK predict_kernel_C4: true
+CHECK predict_same_gauge: true
+CHECK predict_bridge: true
+CHECK predict_no_side_identity: true
+CHECK predict_classification: true
+CHECK required_test_count: true
+CHECK outcome_count: true
+CHECK falsifier_count: true
+CHECK no_subgroup_claim: true
+CHECK no_census_claim: true
+CHECK no_bridge_claim: true
+CHECK no_unique_claim: true
+CHECK no_side_identity: true
+CHECK no_update_law: true
+CHECK no_mechanics_cell: true
+CHECK no_orientation: true
+CHECK bounded_test: true
+CHECK quotient_forgets_side: true
+CHECK obstruction_not_reversed: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physical_direction: true
+CHECK no_physics: true
+CHECK note_exists: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+CENTER_QUOTIENT_CHARACTER_BRIDGE_CONSTRUCTED: false
+LOCAL_SIDE_EQUALS_011O_ORIENTATION_SHEET: false
+NATIVE_UPDATE_LAW_CONSTRUCTED: false
+MECHANICS_STATE_CELL_ESTABLISHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false

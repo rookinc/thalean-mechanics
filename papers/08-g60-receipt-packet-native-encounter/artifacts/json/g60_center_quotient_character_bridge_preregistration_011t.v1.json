@@ -1,0 +1,170 @@
+{
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/s3_sign_v4_d8_local_system_audit_021.json": {
+      "expected_sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa",
+      "hash_match": true,
+      "sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json": {
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "hash_match": true,
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_s5_extension_splitting_audit_079.json": {
+      "expected_sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221",
+      "hash_match": true,
+      "sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_v4_recovery_052.json": {
+      "expected_sha256": "8ddf9791ff0814ced4b72ea14a4c7f330f1b0de577579ec3755b0d411f83f9ca",
+      "hash_match": true,
+      "sha256": "8ddf9791ff0814ced4b72ea14a4c7f330f1b0de577579ec3755b0d411f83f9ca"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_full_A_orientation_character_extension_census_011o.v1.json": {
+      "expected_sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941",
+      "hash_match": true,
+      "sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_local_global_side_obstruction_census_011s.v1.json": {
+      "expected_sha256": "d50e3a7d83e9bff2a1dc7c97516e3c7c670528f34b704cf58a9d3f05e40d95b0",
+      "hash_match": true,
+      "sha256": "d50e3a7d83e9bff2a1dc7c97516e3c7c670528f34b704cf58a9d3f05e40d95b0"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_two_sided_slider_cocycle_census_011q.v1.json": {
+      "expected_sha256": "63034d0c0fe4a35480bf879209a1da5dae0d5a581eeef063e489d8be1be2459e",
+      "hash_match": true,
+      "sha256": "63034d0c0fe4a35480bf879209a1da5dae0d5a581eeef063e489d8be1be2459e"
+    }
+  },
+  "boundary": {
+    "bounded_center_quotient_character_test_only": true,
+    "direct_side_obstruction_reversed": false,
+    "geometry_claim": false,
+    "global_minimality_claim": false,
+    "local_route_side_preserved_by_quotient": false,
+    "manuscript_mutated": false,
+    "physical_claim": false,
+    "physical_direction_claim": false
+  },
+  "claims_withheld": {
+    "center_quotient_character_bridge_constructed": false,
+    "isomorphism_character_census_performed": false,
+    "local_side_identified_with_011o_orientation_sheet": false,
+    "mechanics_state_cell_established": false,
+    "native_D8_subgroups_enumerated": false,
+    "native_update_law_constructed": false,
+    "orientation_selected": false,
+    "unique_descended_character_verified": false
+  },
+  "falsifiers": [
+    "the 480-element group operation fails reconstruction",
+    "the number of five-point transposition lifts differs from forty",
+    "the transposition lifts generate other than ten native D8 subgroups",
+    "a native D8 subgroup contains other than four transposition lifts",
+    "either selected 011q presentation fails to reconstruct D8",
+    "any presentation-subgroup pair admits other than eight isomorphisms",
+    "any pulled-back alpha_1 character is nonzero on the local center",
+    "any pulled-back character fails to descend to the center quotient",
+    "more than one descended V4 character profile occurs",
+    "the unique profile differs from 0,0,1,1 on 1,a,b,ab",
+    "the descended kernel differs from the q-distinguished axis",
+    "the two gauge-related presentations yield different character data"
+  ],
+  "known_structure": {
+    "011o_alpha_1_restriction_to_native_V4": {
+      "1": 0,
+      "a": 0,
+      "ab": 1,
+      "b": 1
+    },
+    "011s_isomorphism_count": 16,
+    "direct_side_identification_obstructed_by_011s": true,
+    "five_point_quotient": "S5",
+    "five_point_transposition_count": 10,
+    "full_group_order": 480,
+    "native_V4_indices": {
+      "1": 0,
+      "a": 326,
+      "ab": 65,
+      "b": 124
+    },
+    "selected_011q_center_order": 2,
+    "selected_011q_extension_type": "D8",
+    "selected_011q_representative_count": 2,
+    "selected_011q_square_signature": {
+      "q(a)": 1,
+      "q(ab)": 0,
+      "q(b)": 0
+    }
+  },
+  "locked_head": "1424fec Lock G60 local-global side obstruction",
+  "mode": "post_direct_side_obstruction_center_quotient_bridge_preregistration",
+  "outcome_order": [
+    "computation_failure",
+    "authority_failure",
+    "native_D8_subgroup_count_mismatch",
+    "transposition_lift_partition_mismatch",
+    "selected_extension_not_D8",
+    "isomorphism_count_mismatch",
+    "pulled_back_character_does_not_kill_center",
+    "quotient_character_not_well_defined",
+    "multiple_descended_character_profiles",
+    "descended_character_profile_mismatch",
+    "descended_kernel_not_q_distinguished_axis",
+    "unique_center_quotient_character_bridge"
+  ],
+  "packet": "g60_center_quotient_character_bridge_preregistration_011t",
+  "predictions": {
+    "all_characters_descend_to_visible_V4": true,
+    "all_pulled_back_characters_kill_local_center": true,
+    "both_gauge_presentations_give_same_character": true,
+    "center_quotient_character_bridge_constructed_if_prediction_passes": true,
+    "descended_character_kernel": [
+      "1",
+      "a"
+    ],
+    "descended_kernel_equals_q_distinguished_axis": true,
+    "distinct_descended_character_count": 1,
+    "isomorphism_count_per_presentation_subgroup_pair": 8,
+    "local_side_identified_with_011o_sheet": false,
+    "native_D8_subgroup_count": 10,
+    "predicted_classification": "unique_center_quotient_character_bridge",
+    "prediction_blind": false,
+    "prediction_declared_before_center_quotient_census": true,
+    "presentation_count": 2,
+    "presentation_subgroup_pair_count": 20,
+    "pulled_back_kernel_group_type": "C4",
+    "reason": "The prediction follows from the characteristic center of D8, the ten transpositions of S5, the four V4 lifts over each transposition, and the locked alpha_1 restriction.",
+    "total_isomorphism_character_comparison_count": 160,
+    "transposition_lift_element_count": 40,
+    "transposition_lifts_per_native_D8_subgroup": 4,
+    "unique_descended_character": {
+      "1": 0,
+      "a": 0,
+      "ab": 1,
+      "b": 1
+    }
+  },
+  "required_tests": [
+    "reconstruct_exact_480_element_group_operation",
+    "reconstruct_native_V4_with_indices_0_326_124_65",
+    "identify_all_elements_with_transposition_five_point_image",
+    "generate_native_D8_subgroup_from_native_V4_and_each_transposition_lift",
+    "deduplicate_native_D8_subgroups",
+    "verify_ten_native_D8_subgroups",
+    "verify_four_transposition_lifts_per_native_D8_subgroup",
+    "reconstruct_both_selected_011q_D8_presentations",
+    "enumerate_isomorphisms_from_each_selected_presentation_to_each_native_D8",
+    "verify_eight_isomorphisms_per_presentation_subgroup_pair",
+    "pull_back_011o_alpha_1_across_every_isomorphism",
+    "verify_every_pulled_back_character_kills_the_local_center",
+    "descend_every_character_to_the_visible_V4_quotient",
+    "classify_all_descended_V4_characters",
+    "verify_unique_descended_character_profile",
+    "verify_descended_kernel_is_the_q_distinguished_axis",
+    "verify_pulled_back_kernel_is_C4",
+    "compare_both_gauge_related_cocycle_presentations"
+  ],
+  "status": "frozen_before_center_quotient_character_census",
+  "version": 1
+}
