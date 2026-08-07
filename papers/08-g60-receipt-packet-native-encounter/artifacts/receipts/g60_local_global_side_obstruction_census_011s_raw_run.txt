@@ -1,0 +1,44 @@
+== G60 LOCAL/GLOBAL SIDE OBSTRUCTION CENSUS 011s ==
+MODE: temporary read-only complete marked-action census
+LOCKED_HEAD: 1aaaadf Preregister G60 local-global side obstruction test
+ALL_AUTHORITY_HASHES_MATCH: true
+
+NATIVE_INDEX_IDENTIFICATION_BEGIN
+NATIVE_V4_INDICES: {'a': 326, 'b': 124, 'ab': 65, '1': 0}
+ALPHA_1_RESTRICTION: {'1': 0, 'a': 0, 'b': 1, 'ab': 1}
+NATIVE_INDEX_IDENTIFICATION_END
+
+NATIVE_D8_RECONSTRUCTION_BEGIN
+NATIVE_GROUP_PROFILE: {'group_type': 'D8', 'order': 8, 'identity_index': 0, 'center_indices': [0, 7], 'center_order': 2, 'element_order_profile': {'1': 1, '2': 5, '4': 2}}
+NATIVE_NAMED_GROUP_INDICES: {'1': 0, 'a': 7, 'b': 2, 'ab': 5}
+NATIVE_NONIDENTITY_CENTER: [7]
+NATIVE_D8_RECONSTRUCTION_END
+
+ISOMORPHISM_ENUMERATION_BEGIN
+ISOMORPHISM_ENUMERATION_END
+
+== FINAL LOCAL/GLOBAL SIDE OBSTRUCTION REPORT ==
+NATIVE_V4_INDICES: {'a': 326, 'b': 124, 'ab': 65, '1': 0}
+ALPHA_1_RESTRICTION: {'1': 0, 'a': 0, 'b': 1, 'ab': 1}
+NATIVE_GROUP_PROFILE: {'group_type': 'D8', 'order': 8, 'identity_index': 0, 'center_indices': [0, 7], 'center_order': 2, 'element_order_profile': {'1': 1, '2': 5, '4': 2}}
+LOCAL_GROUP_TYPES: ['D8', 'D8']
+ISOMORPHISM_COUNTS: [8, 8]
+TOTAL_ISOMORPHISM_COUNT: 16
+ALL_ISOMORPHISMS_MAP_LOCAL_CENTER_TO_NATIVE_A: true
+LOCAL_SIDE_DELTA_PROFILE: {1: 16}
+011O_SHEET_DELTA_PROFILE: {0: 16}
+DIRECT_MARKED_SIDE_IDENTIFICATION_COUNT: 0
+REPRESENTATIVES_GAUGE_RELATED: true
+PREDICTION_MATCHES: true
+CLASSIFICATION: native_center_kernel_obstructs_direct_side_identification
+REPOSITORY_STATUS_PRESERVED: true
+PROJECT_MUTATION_PERFORMED: false
+DIRECT_SIDE_IDENTIFICATION_OBSTRUCTED: true
+LOCAL_SIDE_EQUALS_011O_ORIENTATION_SHEET: false
+INTERMEDIATE_BRIDGE_CONSTRUCTED: false
+NATIVE_UPDATE_LAW_CONSTRUCTED: false
+MECHANICS_STATE_CELL_ESTABLISHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
+CANDIDATE_JSON: /data/data/com.termux/files/home/tmp/g60_local_global_side_obstruction_census_011s.candidate.v1.json
+CANDIDATE_JSON_SHA256: 968268859ed369da18d103e3e1986d2ad0c6b36ccc308a017de2cdfe63ff56a9

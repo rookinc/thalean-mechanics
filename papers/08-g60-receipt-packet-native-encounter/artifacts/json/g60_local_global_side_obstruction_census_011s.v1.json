@@ -1,0 +1,614 @@
+{
+  "audit_pass": true,
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/s3_sign_v4_d8_local_system_audit_021.json": {
+      "expected_sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa",
+      "hash_match": true,
+      "sha256": "e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json": {
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "hash_match": true,
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_s5_extension_splitting_audit_079.json": {
+      "expected_sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221",
+      "hash_match": true,
+      "sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_v4_recovery_052.json": {
+      "expected_sha256": "8ddf9791ff0814ced4b72ea14a4c7f330f1b0de577579ec3755b0d411f83f9ca",
+      "hash_match": true,
+      "sha256": "8ddf9791ff0814ced4b72ea14a4c7f330f1b0de577579ec3755b0d411f83f9ca"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_full_A_orientation_character_extension_census_011o.v1.json": {
+      "expected_sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941",
+      "hash_match": true,
+      "sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_local_global_side_obstruction_preregistration_011r.v1.json": {
+      "expected_sha256": "66156d68d525a45fa6e7800e3b6093f911306352080725e08249f25ffe69c59d",
+      "hash_match": true,
+      "sha256": "66156d68d525a45fa6e7800e3b6093f911306352080725e08249f25ffe69c59d"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_two_sided_slider_cocycle_census_011q.v1.json": {
+      "expected_sha256": "63034d0c0fe4a35480bf879209a1da5dae0d5a581eeef063e489d8be1be2459e",
+      "hash_match": true,
+      "sha256": "63034d0c0fe4a35480bf879209a1da5dae0d5a581eeef063e489d8be1be2459e"
+    }
+  },
+  "boundary": {
+    "bounded_marked_D8_comparison_complete": true,
+    "broader_local_global_relation_ruled_out": false,
+    "direct_side_identification_obstructed": true,
+    "geometry_claim": false,
+    "global_minimality_claim": false,
+    "intermediate_bridge_constructed": false,
+    "local_side_equals_011o_orientation_sheet": false,
+    "manuscript_mutated": false,
+    "mechanics_state_cell_established": false,
+    "native_update_law_constructed": false,
+    "orientation_selected": false,
+    "physical_claim": false,
+    "physical_direction_claim": false
+  },
+  "candidate_provenance": {
+    "candidate_json_path": "/data/data/com.termux/files/home/tmp/g60_local_global_side_obstruction_census_011s.candidate.v1.json",
+    "candidate_json_sha256": "968268859ed369da18d103e3e1986d2ad0c6b36ccc308a017de2cdfe63ff56a9",
+    "computation_script_sha256": "d4b5e9d988405f63e51916cde168e78eb8d1f4364b3d0b0d4945ae830921e00e",
+    "computation_source_path": "/data/data/com.termux/files/home/tmp/run-g60-local-global-side-obstruction-census-011s.py",
+    "failed_classifier_guard_json_sha256": "449302395d63834d2b6d1a9c0f425a1b4f5a4c8c8e420d4fbdf5b717ba6e00d2",
+    "failed_classifier_guard_report_sha256": "6a7c9320a66ff752a1c900ad5b1c6c282433fff181027cccb123082dc9e76791",
+    "failed_classifier_guard_script_sha256": "27acee2d3afbc038e3ac431a328ced75aa154cc3e0c16a17ba8b3a99ec52d1ea",
+    "failed_native_square_label_json_sha256": "743da70de7691c90c1ec1da1656e29cf9ee490fa2796aeb001defa5720ac25bd",
+    "failed_native_square_label_report_sha256": "db3efe13d30457fa863ba40e8fb5bc90be9edd4b4c151555f2b7c60bfaa19b30",
+    "failed_native_square_label_script_sha256": "572498a4d35d5d1989e350a42656a78ff93ba9f611ffc7cd1e72328946b2885d",
+    "raw_run_receipt_sha256": "4f998141d0dd973fce233d234a5dce04728be29a645aac281da153eb2410e2f7",
+    "raw_run_source_path": "/data/data/com.termux/files/home/tmp/g60_local_global_side_obstruction_census_011s.candidate.txt"
+  },
+  "classification": "native_center_kernel_obstructs_direct_side_identification",
+  "earned_statement": "Both gauge-related presentations of the selected 011q central extension reconstruct D8. Each admits exactly eight group isomorphisms to the native local D8, giving sixteen isomorphisms in total. Every isomorphism maps the local central flip to the unique nonidentity native center a. The local central flip changes the two-sided slider coordinate, whereas native a lies in the kernel of the 011o alpha_1 orientation-sheet character. Thus no direct marked identification of the local central side with the 011o orientation sheet exists. This center-action obstruction does not rule out a broader relation mediated by an intermediate bridge.",
+  "earned_statement_candidate": "Both gauge-related presentations of the selected 011q central extension reconstruct D8. Each admits exactly eight group isomorphisms to the native local D8, and every one of the sixteen isomorphisms maps the local central flip to the unique nonidentity native center a. The local central flip changes the 011q side coordinate, whereas native a lies in the kernel of the 011o alpha_1 sheet character. Therefore no direct marked identification of the two binary witnesses exists. This center-action obstruction does not rule out a relation mediated by an intermediate bridge.",
+  "locked_head": "1aaaadf Preregister G60 local-global side obstruction test",
+  "marked_action_comparison": {
+    "011o_sheet_delta_profile": {
+      "0": 16
+    },
+    "all_isomorphisms_map_local_center_to_native_a": true,
+    "center_mapping_failure_count": 0,
+    "direct_marked_side_identification_count": 0,
+    "direct_side_identification_obstructed": true,
+    "isomorphism_count_per_representative": [
+      8,
+      8
+    ],
+    "local_center_flips_side": true,
+    "local_side_delta_profile": {
+      "1": 16
+    },
+    "native_center_preserves_011o_sheet": true,
+    "total_isomorphism_count": 16
+  },
+  "mode": "frozen_complete_marked_action_census",
+  "native_D8": {
+    "closure_failure_count": 0,
+    "group_profile": {
+      "center_indices": [
+        0,
+        7
+      ],
+      "center_order": 2,
+      "element_order_profile": {
+        "1": 1,
+        "2": 5,
+        "4": 2
+      },
+      "group_type": "D8",
+      "identity_index": 0,
+      "order": 8
+    },
+    "named_group_indices": {
+      "1": 0,
+      "a": 7,
+      "ab": 5,
+      "b": 2
+    },
+    "native_a_group_index": 7,
+    "native_center_is_a": true,
+    "nonidentity_center_indices": [
+      7
+    ]
+  },
+  "native_index_identification": {
+    "011o_alpha_1_restriction": {
+      "1": 0,
+      "a": 0,
+      "ab": 1,
+      "b": 1
+    },
+    "alpha_restriction_ok": true,
+    "expected_011o_alpha_1_restriction": {
+      "1": 0,
+      "a": 0,
+      "ab": 1,
+      "b": 1
+    },
+    "expected_native_V4_indices": {
+      "1": 0,
+      "a": 326,
+      "ab": 65,
+      "b": 124
+    },
+    "index_identification_ok": true,
+    "native_V4_indices": {
+      "1": 0,
+      "a": 326,
+      "ab": 65,
+      "b": 124
+    }
+  },
+  "packet": "g60_local_global_side_obstruction_census_011s",
+  "prediction_matches": true,
+  "promotion": {
+    "candidate_promoted_without_recomputation": true,
+    "classifier_guard_failure_preserved": true,
+    "classifier_guard_failure_promoted": false,
+    "computation_script_copied_byte_for_byte": true,
+    "manuscript_mutated": false,
+    "native_square_label_failure_preserved": true,
+    "native_square_label_failure_promoted": false,
+    "raw_run_receipt_copied_byte_for_byte": true
+  },
+  "repository": {
+    "project_mutation_performed": false,
+    "status_after": [
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ],
+    "status_before": [
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ],
+    "status_preserved": true
+  },
+  "result_frozen": true,
+  "selected_extensions": {
+    "representative_count": 2,
+    "representative_difference": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "representative_rows": [
+      {
+        "all_isomorphisms_map_center_to_native_a": true,
+        "bits": [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "cocycle_sha256": "45f386719813421e4d395b88a498b4982201d7af5e4b761fe1d6baeef10fef63",
+        "direct_marked_side_identification_count": 0,
+        "isomorphism_count": 8,
+        "isomorphism_rows": [
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 0,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              3,
+              4,
+              1,
+              6,
+              2,
+              5
+            ],
+            "mapping_sha256": "c9369737e86ddeede4fe75c23d724b8948ee56ccc75ac182bc15d14a26206397",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 0
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 1,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              3,
+              4,
+              2,
+              5,
+              6,
+              1
+            ],
+            "mapping_sha256": "5314305d882ce9aaa133bf21b82ca261b6324cf7d25948df4313df61dcde6807",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 0
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 2,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              3,
+              4,
+              5,
+              2,
+              1,
+              6
+            ],
+            "mapping_sha256": "4eadc90e9319d8e7b1c6c20d441938679b80831d156c88cc0cb3947cb515a2b8",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 0
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 3,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              3,
+              4,
+              6,
+              1,
+              5,
+              2
+            ],
+            "mapping_sha256": "37a303d2f5e29777fea5419a1a98eb2acf06ee54fd0a53bb2cd432db496df4b4",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 0
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 4,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              4,
+              3,
+              1,
+              6,
+              5,
+              2
+            ],
+            "mapping_sha256": "50eab2eccfbf90bf24b4de1557ba01d70d3761bac65688debda9af57040561f3",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 0
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 5,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              4,
+              3,
+              2,
+              5,
+              1,
+              6
+            ],
+            "mapping_sha256": "84e8f20886a5b7f10f5e94bdf66822476ede28b5033d4115c848375f5d7e2f49",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 0
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 6,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              4,
+              3,
+              5,
+              2,
+              6,
+              1
+            ],
+            "mapping_sha256": "ffc9feff2f5c5540abb179e92008bf7da9902f44384ca4d0b7f99fb08fedceb0",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 0
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 7,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              4,
+              3,
+              6,
+              1,
+              2,
+              5
+            ],
+            "mapping_sha256": "15703f898a21fdf24264c5984d6bf3b8cb572be4f4ddffb1f92e3ec13e344743",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 0
+          }
+        ],
+        "local_central_flip_index": 1,
+        "local_group_profile": {
+          "center_indices": [
+            0,
+            1
+          ],
+          "center_order": 2,
+          "element_order_profile": {
+            "1": 1,
+            "2": 5,
+            "4": 2
+          },
+          "group_type": "D8",
+          "identity_index": 0,
+          "order": 8
+        },
+        "local_side_delta_profile": {
+          "1": 8
+        },
+        "representative_index": 0
+      },
+      {
+        "all_isomorphisms_map_center_to_native_a": true,
+        "bits": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "cocycle_sha256": "0bca8a34381bf7990bccc78994be5f491b9630513a054d24fcf598d7260fc78a",
+        "direct_marked_side_identification_count": 0,
+        "isomorphism_count": 8,
+        "isomorphism_rows": [
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 0,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              3,
+              4,
+              1,
+              6,
+              5,
+              2
+            ],
+            "mapping_sha256": "ea4333629451a9314ee51408fdcfbf3cd197c92ef3ceed62c4dd24b421e87fa7",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 1
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 1,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              3,
+              4,
+              2,
+              5,
+              1,
+              6
+            ],
+            "mapping_sha256": "f56802be598a3efba868e33f1471ed4458366d36bef8b6d535697ee210891226",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 1
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 2,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              3,
+              4,
+              5,
+              2,
+              6,
+              1
+            ],
+            "mapping_sha256": "6498cf955e60402a375d3f08a123592d90e3ddec2c1b8fce0b774e3f3810c4c8",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 1
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 3,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              3,
+              4,
+              6,
+              1,
+              2,
+              5
+            ],
+            "mapping_sha256": "b887cf79384e0ebd17338ab9ccdb8af2bb82f1bb7b07b5ec50ab55464e3cd208",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 1
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 4,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              4,
+              3,
+              1,
+              6,
+              2,
+              5
+            ],
+            "mapping_sha256": "af49acc209e1b8f4db8c06f144eedd8c6fed1f4b14d992a3ba2c75a95ac83441",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 1
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 5,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              4,
+              3,
+              2,
+              5,
+              6,
+              1
+            ],
+            "mapping_sha256": "fc902495ba18b7778e4b26bb19e95f3d09e3460253fc550f77cc667e89dc3035",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 1
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 6,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              4,
+              3,
+              5,
+              2,
+              1,
+              6
+            ],
+            "mapping_sha256": "ad2da26c6faaded0ad68c2ac2b52a1805fc370c8e14be3ce24469b902c524c7b",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 1
+          },
+          {
+            "011o_sheet_delta": 0,
+            "direct_marked_side_compatible": false,
+            "isomorphism_index": 7,
+            "local_central_flip_index": 1,
+            "local_side_delta": 1,
+            "mapping": [
+              0,
+              7,
+              4,
+              3,
+              6,
+              1,
+              5,
+              2
+            ],
+            "mapping_sha256": "5a8931b1fb1e69502bc5ce2a2e05a52638bae61bde0ca802475d24e2ff58d2e5",
+            "native_center_image_index": 7,
+            "native_center_image_name": "a",
+            "representative_index": 1
+          }
+        ],
+        "local_central_flip_index": 1,
+        "local_group_profile": {
+          "center_indices": [
+            0,
+            1
+          ],
+          "center_order": 2,
+          "element_order_profile": {
+            "1": 1,
+            "2": 5,
+            "4": 2
+          },
+          "group_type": "D8",
+          "identity_index": 0,
+          "order": 8
+        },
+        "local_side_delta_profile": {
+          "1": 8
+        },
+        "representative_index": 1
+      }
+    ],
+    "representatives_gauge_related": true
+  }
+}

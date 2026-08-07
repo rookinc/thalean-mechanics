@@ -1,0 +1,117 @@
+== G60 LOCAL/GLOBAL SIDE OBSTRUCTION CENSUS AUDIT 011s ==
+PACKET: g60_local_global_side_obstruction_census_011s
+MODE: frozen_complete_marked_action_census
+JSON_SHA256: d50e3a7d83e9bff2a1dc7c97516e3c7c670528f34b704cf58a9d3f05e40d95b0
+NOTE_SHA256: 1e031d6be32e830d2d9f829ab13e471fdc613be8c07413a52bc9dd7ff273938e
+COMPUTATION_SCRIPT_SHA256: d4b5e9d988405f63e51916cde168e78eb8d1f4364b3d0b0d4945ae830921e00e
+RAW_RUN_RECEIPT_SHA256: 4f998141d0dd973fce233d234a5dce04728be29a645aac281da153eb2410e2f7
+NATIVE_V4_INDICES: {'1': 0, 'a': 326, 'ab': 65, 'b': 124}
+ALPHA_1_RESTRICTION: {'1': 0, 'a': 0, 'ab': 1, 'b': 1}
+NATIVE_GROUP_PROFILE: {'center_indices': [0, 7], 'center_order': 2, 'element_order_profile': {'1': 1, '2': 5, '4': 2}, 'group_type': 'D8', 'identity_index': 0, 'order': 8}
+ISOMORPHISM_COUNTS: [8, 8]
+TOTAL_ISOMORPHISM_COUNT: 16
+LOCAL_SIDE_DELTA_PROFILE: {'1': 16}
+011O_SHEET_DELTA_PROFILE: {'0': 16}
+DIRECT_MARKED_SIDE_IDENTIFICATION_COUNT: 0
+CLASSIFICATION: native_center_kernel_obstructs_direct_side_identification
+CHECK_COUNT: 90
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK locked_head: true
+CHECK result_frozen: true
+CHECK audit_pass_recorded: true
+CHECK json_hash: true
+CHECK raw_hash: true
+CHECK note_hash: true
+CHECK compute_hash: true
+CHECK candidate_hash: true
+CHECK candidate_promoted: true
+CHECK raw_copied: true
+CHECK compute_copied: true
+CHECK label_failure_preserved: true
+CHECK label_failure_not_promoted: true
+CHECK guard_failure_preserved: true
+CHECK guard_failure_not_promoted: true
+CHECK promotion_no_manuscript: true
+CHECK failed_label_script_hash: true
+CHECK failed_label_json_hash: true
+CHECK failed_label_report_hash: true
+CHECK failed_guard_script_hash: true
+CHECK failed_guard_json_hash: true
+CHECK failed_guard_report_hash: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK native_indices: true
+CHECK expected_native_indices: true
+CHECK index_identification_ok: true
+CHECK alpha_restriction: true
+CHECK expected_alpha_restriction: true
+CHECK alpha_restriction_ok: true
+CHECK native_group_D8: true
+CHECK native_group_order_8: true
+CHECK native_identity_0: true
+CHECK native_center_indices: true
+CHECK native_center_order_2: true
+CHECK native_order_profile: true
+CHECK native_closure_zero: true
+CHECK native_named_indices: true
+CHECK native_a_index_7: true
+CHECK native_nonidentity_center: true
+CHECK native_center_is_a: true
+CHECK representative_count_2: true
+CHECK representative_hashes: true
+CHECK representatives_gauge_related: true
+CHECK representative_difference: true
+CHECK local_groups_D8: true
+CHECK local_group_orders_8: true
+CHECK local_centers_2: true
+CHECK local_operations_valid: true
+CHECK local_central_flip_index_1: true
+CHECK local_side_delta_each: true
+CHECK eight_isomorphisms_each: true
+CHECK eight_isomorphism_rows_each: true
+CHECK representative_center_maps: true
+CHECK representative_direct_counts_zero: true
+CHECK all_isomorphism_center_names_a: true
+CHECK all_isomorphism_local_delta_1: true
+CHECK all_isomorphism_global_delta_0: true
+CHECK no_compatible_isomorphism_rows: true
+CHECK isomorphism_counts: true
+CHECK total_isomorphisms_16: true
+CHECK center_mapping_failures_zero: true
+CHECK all_centers_map_a: true
+CHECK local_delta_profile: true
+CHECK global_delta_profile: true
+CHECK local_center_flips: true
+CHECK native_center_preserves_sheet: true
+CHECK direct_identifications_zero: true
+CHECK direct_obstruction: true
+CHECK classification: true
+CHECK prediction_matches: true
+CHECK bounded_comparison: true
+CHECK boundary_obstruction: true
+CHECK no_sheet_identity: true
+CHECK no_bridge: true
+CHECK broader_relation_open: true
+CHECK no_update_law: true
+CHECK no_mechanics_cell: true
+CHECK no_orientation: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physical_direction: true
+CHECK no_physics: true
+CHECK repository_preserved: true
+CHECK candidate_no_project_mutation: true
+CHECK earned_statement_present: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: Both gauge-related presentations of the selected 011q central extension reconstruct D8. Each admits exactly eight group isomorphisms to the native local D8, giving sixteen isomorphisms in total. Every isomorphism maps the local central flip to the unique nonidentity native center a. The local central flip changes the two-sided slider coordinate, whereas native a lies in the kernel of the 011o alpha_1 orientation-sheet character. Thus no direct marked identification of the local central side with the 011o orientation sheet exists. This center-action obstruction does not rule out a broader relation mediated by an intermediate bridge.
+DIRECT_SIDE_IDENTIFICATION_OBSTRUCTED: true
+LOCAL_SIDE_EQUALS_011O_ORIENTATION_SHEET: false
+INTERMEDIATE_BRIDGE_CONSTRUCTED: false
+MECHANICS_STATE_CELL_ESTABLISHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
