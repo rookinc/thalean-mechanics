@@ -1,0 +1,51 @@
+== G60 ROOT STABILIZER ACTION-TYPE PREREGISTRATION AUDIT 011j ==
+PACKET: g60_root_stabilizer_action_type_preregistration_011j
+MODE: post_obstruction_stabilizer_embedding_preregistration
+JSON_SHA256: 3e87e98d4d1095a1aa3188d442fe77b18ec5611f3786c3257f4ce80ec13459c8
+NOTE_SHA256: bbb06645c01bec091f68b7eeb1d6f23739aaa6fec1b48a3e6ef609bf35351115
+LOCKED_HEAD: 578325f Lock G60 minimal directional datum obstruction
+PREDICTED_ROOT_PROFILE: S3 all-even, orbits 2+3
+PREDICTED_ORDERED_DUAD_PROFILE: S3 mixed-parity, orbits 1+1+3
+STABILIZER_CENSUS_PERFORMED: false
+OUTCOME_ORDER: ['computation_failure', 'authority_failure', 'mixed_or_nonuniform_stabilizer_profiles', 'same_stabilizer_conjugacy_class', 'different_abstract_stabilizer_types', 'same_abstract_type_nonconjugate_embedding', 'root_stabilizer_exactly_matches_even_duad_setwise_stabilizer']
+CHECK_COUNT: 33
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK frozen: true
+CHECK head: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK roots_20: true
+CHECK duads_20: true
+CHECK N_240: true
+CHECK two_complements: true
+CHECK known_stabilizer_orders: true
+CHECK known_fixed_roots_zero: true
+CHECK no_census: true
+CHECK no_replacement: true
+CHECK twelve_tests: true
+CHECK prediction_not_blind: true
+CHECK prediction_declared: true
+CHECK predict_same_abstract: true
+CHECK predict_nonconjugate: true
+CHECK predict_root_2_3: true
+CHECK predict_ordered_1_1_3: true
+CHECK prediction_not_result: true
+CHECK seven_outcomes: true
+CHECK all_outcomes_defined: true
+CHECK classification_only: true
+CHECK no_source_set: true
+CHECK no_selector: true
+CHECK no_minimal_datum: true
+CHECK no_orientation: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_physics: true
+CHECK note_exists: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+REPLACEMENT_SOURCE_A_SET_CONSTRUCTED: false
+ORIENTATION_SELECTED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false

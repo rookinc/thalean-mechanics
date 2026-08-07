@@ -1,0 +1,141 @@
+{
+  "authorities": {
+    "duad_kernel_obstruction_011g": {
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_duad_orientation_bridge_census_011g.v1.json",
+      "sha256": "abc9e038b323fdd5af852a91b87aca4c5a1e35a6e484608af27a04a399c52e9c"
+    },
+    "exact_action_044": {
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json",
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "extension_splitting_079": {
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_s5_extension_splitting_audit_079.json",
+      "sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221"
+    },
+    "five_point_action_078": {
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_five_petersen_matching_equivariance_audit_078.json",
+      "sha256": "db01304b44015a25e8f207d3fe869ad96ebcd82d3d2bd7017908a9ed7c843ec7"
+    },
+    "minimal_datum_obstruction_011i": {
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_minimal_directional_datum_census_011i.v1.json",
+      "sha256": "6d7164f98d686dc9d54b8146f19ab56c22c8aa70009f65bbcad7c7c88e9b962d"
+    },
+    "minimal_datum_receipt_011i": {
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_minimal_directional_datum_census_011i.txt",
+      "sha256": "9a8d0cbe58f6179b9c6ad768bd640471adcf56ed93bd893c56f4fec26a5f5729"
+    }
+  },
+  "boundary": {
+    "classification_only": true,
+    "geometry_claim": false,
+    "manuscript_mutation_allowed": false,
+    "minimal_directional_datum_identified": false,
+    "new_selector_searched": false,
+    "orientation_selected": false,
+    "physical_claim": false,
+    "replacement_source_A_set_constructed": false
+  },
+  "candidate_profiles": {
+    "even_duad_setwise_stabilizer": {
+      "definition": "Stab_S5({i,j}) intersect A5",
+      "five_point_orbit_profile_candidate": [
+        2,
+        3
+      ],
+      "order_candidate": 6
+    },
+    "ordered_duad_stabilizer": {
+      "abstract_type_candidate": "S3",
+      "five_point_orbit_profile_candidate": [
+        1,
+        1,
+        3
+      ],
+      "parity_candidate": "mixed"
+    },
+    "root_stabilizer": {
+      "abstract_type_candidate": "S3",
+      "five_point_orbit_profile_candidate": [
+        2,
+        3
+      ],
+      "parity_candidate": "all_even"
+    }
+  },
+  "created_at": "2026-08-06T19:47:13.296941-07:00",
+  "frozen_census": [
+    "compute the root stabilizer in N for every root",
+    "compute the root stabilizer in each complement for every root",
+    "compute the ordered-duad stabilizer in N and each complement for every ordered duad",
+    "project every stabilizer through the canonical five-point action",
+    "record subgroup order and element-order profile",
+    "record five-point cycle-type profile",
+    "record five-point orbit-size profile",
+    "record parity profile",
+    "test conjugacy of projected stabilizers inside the full S5 image",
+    "construct the even intersection of every unordered-duad setwise stabilizer",
+    "test exact equality and conjugacy against every projected root stabilizer",
+    "test uniformity across all roots, duads, and both complements"
+  ],
+  "known_before_test": {
+    "N_order": 240,
+    "N_ordered_duad_stabilizer_order": 12,
+    "complement_count": 2,
+    "complement_ordered_duad_stabilizer_order": 6,
+    "fixed_root_count_for_these_stabilizers": 0,
+    "ordered_duad_count": 20,
+    "replacement_source_action_constructed": false,
+    "root_count": 20,
+    "root_stabilizer_action_type_computed": false
+  },
+  "locked_head": "578325f Lock G60 minimal directional datum obstruction",
+  "mode": "post_obstruction_stabilizer_embedding_preregistration",
+  "outcome_order": [
+    "computation_failure",
+    "authority_failure",
+    "mixed_or_nonuniform_stabilizer_profiles",
+    "same_stabilizer_conjugacy_class",
+    "different_abstract_stabilizer_types",
+    "same_abstract_type_nonconjugate_embedding",
+    "root_stabilizer_exactly_matches_even_duad_setwise_stabilizer"
+  ],
+  "outcome_predicates": {
+    "authority_failure": "a frozen hash or prior obstruction result fails",
+    "computation_failure": "the exact group or projected stabilizers cannot be reconstructed",
+    "different_abstract_stabilizer_types": "their abstract element-order profiles differ",
+    "mixed_or_nonuniform_stabilizer_profiles": "profiles vary across roots, duads, or complements",
+    "root_stabilizer_exactly_matches_even_duad_setwise_stabilizer": "every projected root stabilizer is conjugate to and occurs among the even intersections of unordered-duad setwise stabilizers, with the predicted 2+3 orbit and even-parity profiles",
+    "same_abstract_type_nonconjugate_embedding": "abstract profiles agree but five-point embeddings are nonconjugate",
+    "same_stabilizer_conjugacy_class": "root and ordered-duad stabilizers are conjugate in the five-point S5"
+  },
+  "packet": "g60_root_stabilizer_action_type_preregistration_011j",
+  "repository_baseline": {
+    "status_short_before_preregistration": [
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ],
+    "status_used_as_clean_worktree_claim": false
+  },
+  "status": "frozen_before_root_stabilizer_action_type_census",
+  "structural_prediction": {
+    "declared_before_computation": true,
+    "not_blind": true,
+    "predicted_conjugate_in_S5": false,
+    "predicted_exact_match": "root_stabilizer_equals_even_unordered_duad_setwise_stabilizer",
+    "predicted_ordered_duad_profile": "S3_mixed_parity_orbits_1_1_3",
+    "predicted_root_profile": "S3_all_even_orbits_2_3",
+    "predicted_same_abstract_type": true,
+    "prediction_is_not_a_result": true
+  },
+  "version": 1
+}
