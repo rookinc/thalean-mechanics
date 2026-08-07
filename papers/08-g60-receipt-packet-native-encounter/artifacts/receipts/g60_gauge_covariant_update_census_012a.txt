@@ -1,0 +1,101 @@
+== G60 GAUGE-COVARIANT UPDATE CENSUS AUDIT 012a ==
+PACKET: g60_gauge_covariant_update_census_012a
+MODE: frozen_complete_gauge_covariant_update_descent_census
+JSON_SHA256: 4e6936b9b48c6f033b826df7c3ad4ac70ec3480129c5c73ec6a24630077096d2
+NOTE_SHA256: c7d7f620ae67ffb646b9ef717a7915d0b36dd2451e625eddc94897efbdb84f20
+COMPUTATION_SCRIPT_SHA256: 9f1b83513933001f5dd2abdfac48351d8d8093cf70fa795cf6c124e8409ef034
+RAW_RUN_RECEIPT_SHA256: 6090c7e61e616931af20fa55ed1a03ac5cb63c1203f095c14a95a177694b5a22
+ELEMENT_ORBIT_PROFILES: [[1, 1, 2, 4], [1, 1, 2, 4]]
+DECORATED_UPDATE_ROW_COUNTS: [5120, 5120]
+GAUGE_ORBIT_COUNTS: [640, 640]
+MATCHED_GAUGE_INTERTWINER_COUNT: 4
+CLASSIFICATION: gauge_covariant_instruction_parametrized_D8_update_descends_without_autonomous_instruction_selection
+CHECK_COUNT: 78
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK locked_head: true
+CHECK current_head: true
+CHECK result_frozen: true
+CHECK audit_pass_recorded: true
+CHECK json_hash: true
+CHECK raw_hash: true
+CHECK note_hash: true
+CHECK compute_hash: true
+CHECK candidate_hash: true
+CHECK guard_script_hash: true
+CHECK guard_report_hash: true
+CHECK candidate_promoted: true
+CHECK guard_passed: true
+CHECK candidate_no_mutation: true
+CHECK promotion_no_manuscript: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK native_group_480: true
+CHECK native_indices: true
+CHECK identity_0: true
+CHECK presentations_2: true
+CHECK charts_80: true
+CHECK chart_failures_zero: true
+CHECK automorphisms_8: true
+CHECK aut_profiles: true
+CHECK element_profiles: true
+CHECK element_orbits: true
+CHECK order4_elements: true
+CHECK order4_invariant_zero: true
+CHECK decorated_rows_10240: true
+CHECK quotient_orbits_1280: true
+CHECK quotient_groups_2: true
+CHECK quotient_rows_640: true
+CHECK orbit_sizes_8: true
+CHECK subgroup_profiles: true
+CHECK no_duplicate_rows: true
+CHECK native_products: true
+CHECK summary_decorated: true
+CHECK summary_orbits: true
+CHECK summary_orbit_profiles: true
+CHECK summary_well_defined: true
+CHECK summary_bijective: true
+CHECK summary_no_missing: true
+CHECK summary_no_extra: true
+CHECK relations_equal: true
+CHECK presentation_isomorphisms_8: true
+CHECK gauge_maps_4: true
+CHECK matched_gauge_4: true
+CHECK gauge_rows_4: true
+CHECK gauge_failures_zero: true
+CHECK gauge_intertwines: true
+CHECK selector_candidates_2: true
+CHECK selector_invariant_zero: true
+CHECK no_autonomous_instruction: true
+CHECK no_torsor_identity: true
+CHECK prediction_matches: true
+CHECK prediction_checks: true
+CHECK classification: true
+CHECK earned_statement: true
+CHECK census_performed: true
+CHECK aut_recomputed: true
+CHECK rows_enumerated: true
+CHECK quotient_computed: true
+CHECK covariant_update: true
+CHECK no_native_update_law: true
+CHECK no_absolute_chart: true
+CHECK no_strict_chart: true
+CHECK no_cell: true
+CHECK no_side_identity: true
+CHECK no_orientation: true
+CHECK no_global_minimality: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_direction: true
+CHECK no_physics: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: For each of the two gauge-related selected D8 presentations, the eighty locked charts support 5,120 chart-decorated state-instruction update rows. The order-eight local automorphism group acts freely on these rows, producing 640 gauge orbits, exactly sixty-four over each of the ten native D8 subgroups. Every orbit has a single chart-independent native evaluation, and quotient evaluation is bijective onto the native subgroup multiplication graph. The two cocycle presentations yield the same native relation, and all four locked presentation gauge maps intertwine it. The local element orbit profile is 1,1,2,4; the q-axis contains two order-four instruction candidates and neither is fixed by the full chart gauge. Thus a gauge-covariant, instruction-parametrized local update operation exists, but no autonomous noncentral instruction or unary native evolution law is selected.
+GAUGE_COVARIANT_INSTRUCTION_PARAMETRIZED_UPDATE_CONSTRUCTED: true
+AUTONOMOUS_NATIVE_UPDATE_INSTRUCTION_SELECTED: false
+NATIVE_UPDATE_LAW_CONSTRUCTED: false
+MECHANICS_STATE_CELL_ESTABLISHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
