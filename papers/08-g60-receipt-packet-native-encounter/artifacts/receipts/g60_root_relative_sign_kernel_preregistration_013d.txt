@@ -1,0 +1,42 @@
+== G60 ROOT RELATIVE-SIGN KERNEL PREREGISTRATION GUARD 013d ==
+CHECK_COUNT: 35
+FAILED_CHECK_COUNT: 0
+CHECK head: true
+CHECK maker_hash: true
+CHECK candidate_hash: true
+CHECK packet: true
+CHECK locked_head: true
+CHECK authority_count: true
+CHECK 011g_exists: true
+CHECK 011g_hash: true
+CHECK 011m_exists: true
+CHECK 011m_hash: true
+CHECK 011o_exists: true
+CHECK 011o_hash: true
+CHECK carrier: true
+CHECK supporting_character: true
+CHECK absolute_sign_false: true
+CHECK two_bridges: true
+CHECK twenty_rows: true
+CHECK twenty_roots: true
+CHECK epsilon_profile: true
+CHECK equal_root_sets: true
+CHECK exact_complements: true
+CHECK equal_kernels: true
+CHECK same_pairs_200: true
+CHECK opposite_pairs_200: true
+CHECK rank_one: true
+CHECK trace_twenty: true
+CHECK row_sums_zero: true
+CHECK inverse_pairs_opposed: true
+CHECK required_test_count: true
+CHECK classification: true
+CHECK all_boundaries_false: true
+CHECK candidate_only: true
+CHECK census_not_performed: true
+CHECK not_promoted: true
+CHECK repository_status_preserved: true
+GUARD_PASS: true
+FAILED_CHECKS: []
+CANDIDATE_PROMOTED: false
+PROJECT_MUTATION_PERFORMED: false
