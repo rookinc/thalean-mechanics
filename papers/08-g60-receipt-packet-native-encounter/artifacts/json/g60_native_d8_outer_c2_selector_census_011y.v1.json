@@ -1,0 +1,902 @@
+{
+  "audit_pass": true,
+  "authorities": {
+    "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json": {
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "hash_match": true,
+      "sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_d8_chart_coherence_census_011w.v1.json": {
+      "expected_sha256": "e5630a02b4e4c28caac017906aebae10b00c5b1a8e1ccdf640a414c1174f6919",
+      "hash_match": true,
+      "sha256": "e5630a02b4e4c28caac017906aebae10b00c5b1a8e1ccdf640a414c1174f6919"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_d8_outer_c2_selector_preregistration_011x.v1.json": {
+      "expected_sha256": "a093ff51f40063d6bdf6754dc3dd8406b10c3ddcea62954cb8520f0331a9a201",
+      "hash_match": true,
+      "sha256": "a093ff51f40063d6bdf6754dc3dd8406b10c3ddcea62954cb8520f0331a9a201"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_d8_outer_c2_selector_preregistration_correction_011x1.v1.json": {
+      "expected_sha256": "f1960c60fc243612dca4c769eb7783f784243c2b7bb4a736ba594b2f94d032de",
+      "hash_match": true,
+      "sha256": "f1960c60fc243612dca4c769eb7783f784243c2b7bb4a736ba594b2f94d032de"
+    },
+    "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_native_d8_outer_c2_selector_preregistration_correction_011x1.txt": {
+      "expected_sha256": "96f6a46259e5c50d1ab3c095c4b0e6ba8386200a67550f2d2f33fe9d79e7d8fc",
+      "hash_match": true,
+      "sha256": "96f6a46259e5c50d1ab3c095c4b0e6ba8386200a67550f2d2f33fe9d79e7d8fc"
+    }
+  },
+  "boundary": {
+    "absolute_chart_orbit_selected": false,
+    "bounded_native_D8_chart_model_only": true,
+    "extra_binary_datum_proved_necessary_within_bounded_model": true,
+    "geometry_claim": false,
+    "global_minimality_claim": false,
+    "local_D8_automorphisms_enumerated": true,
+    "local_side_equals_011o_orientation_sheet": false,
+    "manuscript_mutated": false,
+    "mechanics_state_cell_established": false,
+    "native_update_law_constructed": false,
+    "orientation_selected": false,
+    "outer_C2_exchange_verified": true,
+    "outer_selector_census_performed": true,
+    "physical_claim": false,
+    "physical_direction_claim": false,
+    "strict_equivariant_chart_selected": false
+  },
+  "candidate_provenance": {
+    "candidate_path": "/data/data/com.termux/files/home/tmp/g60_native_d8_outer_c2_selector_census_011y.candidate.v1.json",
+    "candidate_promoted": true,
+    "candidate_sha256": "a5b4fe24225705b8fd75b9c02eefd801e3bfb1455ebc1a9f7b072c771ed7a8e9",
+    "computation_script_path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g60_native_d8_outer_c2_selector_census_011y.py",
+    "computation_script_sha256": "c3753ebc61d8f81c70f39454fa630d28a225d192d49e3309a30ca22f0b52230a",
+    "raw_run_receipt_path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g60_native_d8_outer_c2_selector_census_011y_raw_run.txt",
+    "raw_run_receipt_sha256": "4ceed9abb77444fea6af5fb60e2e47a2d8832af0d9dc5a1c6b2dc3610fd6f0a9",
+    "result_frozen": true
+  },
+  "classification": "native_D8_chart_orbit_selection_requires_one_external_outer_C2_torsor_choice",
+  "earned_statement": "For each of the two gauge-related selected D8 presentations, the local automorphism group has order eight with order profile 1,5,2 in orders 1,2,4. Its inner subgroup is V4 with order profile 1,3, while the four-element outer coset contains exactly two involutions and two order-four representatives. Every inner automorphism preserves each locked chart-orbit class, and every outer representative exchanges the two four-chart fiber classes and the two global forty-chart orbits. Each genuine outer involution commutes with the native chart action. The native 480-element group has effective chart-action image order 240 because its central subgroup {1,a} is the pointwise kernel. Adjoining an outer involution gives an abstract group of order 960 with effective image order 480, transitive on eighty charts; the abstract stabilizer has order twelve and its effective image has order six. The locked alpha_1 character and q-axis signature remain constant, and all four presentation gauge maps transport the same outer-C2 torsor. Thus no single chart orbit is invariant under the residual outer gauge. Within the bounded native D8 chart model, absolute orbit selection requires one additional two-valued outer-C2 torsor choice.",
+  "local_automorphism_census": {
+    "automorphism_rows_by_presentation": [
+      [
+        {
+          "automorphism_index": 0,
+          "automorphism_sha256": "29101ebf1ead685029508789eee51c4d4fff65524064d8e32a48efded7036982",
+          "class": "inner",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[0, 1]": 10
+          },
+          "induced_chart_permutation_order": 1,
+          "induced_chart_permutation_sha256": "79fa3b3356020254021629e96d31e3f0d5a3a18f7c09b007ca16a9d342694d86",
+          "induced_global_orbit_permutation": [
+            0,
+            1
+          ],
+          "mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "order": 1
+        },
+        {
+          "automorphism_index": 1,
+          "automorphism_sha256": "17b1fb60721c0cab225c2e511a45cd1de43424e5059be8202c58cea2c042ab8c",
+          "class": "inner",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[0, 1]": 10
+          },
+          "induced_chart_permutation_order": 2,
+          "induced_chart_permutation_sha256": "b8a97fbfd2b38452749b3fb69e8cf1025ed96559607840957fcc2c42c2046c72",
+          "induced_global_orbit_permutation": [
+            0,
+            1
+          ],
+          "mapping": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7,
+            6
+          ],
+          "order": 2
+        },
+        {
+          "automorphism_index": 2,
+          "automorphism_sha256": "72cd6198f2c3fbb96bce00039fe13df53a7bacfb11ba2f8228c9e145faef5078",
+          "class": "outer",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[1, 0]": 10
+          },
+          "induced_chart_permutation_order": 4,
+          "induced_chart_permutation_sha256": "bd9c3432d2729db7d147fd87a20c9f5347b4269d622d2ec8496c18473793cc46",
+          "induced_global_orbit_permutation": [
+            1,
+            0
+          ],
+          "mapping": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            5,
+            4
+          ],
+          "order": 4
+        },
+        {
+          "automorphism_index": 3,
+          "automorphism_sha256": "45dc0b77ed95669fc5f9d0a012ed509b73418d01c85a57f9c301725c3931b689",
+          "class": "outer",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[1, 0]": 10
+          },
+          "induced_chart_permutation_order": 4,
+          "induced_chart_permutation_sha256": "c1a541e91de82c39cec38ea1b1587bab5da35d0be3fc32bedb1271f3e0e6e774",
+          "induced_global_orbit_permutation": [
+            1,
+            0
+          ],
+          "mapping": [
+            0,
+            1,
+            2,
+            3,
+            7,
+            6,
+            4,
+            5
+          ],
+          "order": 4
+        },
+        {
+          "automorphism_index": 4,
+          "automorphism_sha256": "b59c62dcb0da73382f4f3d58f3533e669a889caa3e63cb9d6f6ff3720549bd5d",
+          "class": "inner",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[0, 1]": 10
+          },
+          "induced_chart_permutation_order": 2,
+          "induced_chart_permutation_sha256": "506575b3f57a1f396e0d777e61369eb84b0642da918307e32e159ed73af32609",
+          "induced_global_orbit_permutation": [
+            0,
+            1
+          ],
+          "mapping": [
+            0,
+            1,
+            3,
+            2,
+            4,
+            5,
+            7,
+            6
+          ],
+          "order": 2
+        },
+        {
+          "automorphism_index": 5,
+          "automorphism_sha256": "89a0ad7f6d1d4acecacd8189fb4d638af643d7e665cbb781fa79b3cb6af5a573",
+          "class": "inner",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[0, 1]": 10
+          },
+          "induced_chart_permutation_order": 2,
+          "induced_chart_permutation_sha256": "72b2d3bf5e283e790a4626e74ea88d2e7f8a354351b346724b2a328e9423fb7a",
+          "induced_global_orbit_permutation": [
+            0,
+            1
+          ],
+          "mapping": [
+            0,
+            1,
+            3,
+            2,
+            5,
+            4,
+            6,
+            7
+          ],
+          "order": 2
+        },
+        {
+          "automorphism_index": 6,
+          "automorphism_sha256": "b7f1695e3261e245773093b706971d5b2cc42548ab32aa29f2306282d252e040",
+          "class": "outer",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[1, 0]": 10
+          },
+          "induced_chart_permutation_order": 2,
+          "induced_chart_permutation_sha256": "4cbee1b38ad77ff3e13205d720cffa612275a43e149f0ebd8789ca837b7905ea",
+          "induced_global_orbit_permutation": [
+            1,
+            0
+          ],
+          "mapping": [
+            0,
+            1,
+            3,
+            2,
+            6,
+            7,
+            4,
+            5
+          ],
+          "order": 2
+        },
+        {
+          "automorphism_index": 7,
+          "automorphism_sha256": "4df271ec661095ff750c005c096a4666eb5808017f2988fed2bda9e1726c9d59",
+          "class": "outer",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[1, 0]": 10
+          },
+          "induced_chart_permutation_order": 2,
+          "induced_chart_permutation_sha256": "d695773d603272991f5d9ca635bb2643a7e3d6233786727858961201cc01cfb7",
+          "induced_global_orbit_permutation": [
+            1,
+            0
+          ],
+          "mapping": [
+            0,
+            1,
+            3,
+            2,
+            7,
+            6,
+            5,
+            4
+          ],
+          "order": 2
+        }
+      ],
+      [
+        {
+          "automorphism_index": 0,
+          "automorphism_sha256": "29101ebf1ead685029508789eee51c4d4fff65524064d8e32a48efded7036982",
+          "class": "inner",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[0, 1]": 10
+          },
+          "induced_chart_permutation_order": 1,
+          "induced_chart_permutation_sha256": "79fa3b3356020254021629e96d31e3f0d5a3a18f7c09b007ca16a9d342694d86",
+          "induced_global_orbit_permutation": [
+            0,
+            1
+          ],
+          "mapping": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "order": 1
+        },
+        {
+          "automorphism_index": 1,
+          "automorphism_sha256": "17b1fb60721c0cab225c2e511a45cd1de43424e5059be8202c58cea2c042ab8c",
+          "class": "inner",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[0, 1]": 10
+          },
+          "induced_chart_permutation_order": 2,
+          "induced_chart_permutation_sha256": "b8a97fbfd2b38452749b3fb69e8cf1025ed96559607840957fcc2c42c2046c72",
+          "induced_global_orbit_permutation": [
+            0,
+            1
+          ],
+          "mapping": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7,
+            6
+          ],
+          "order": 2
+        },
+        {
+          "automorphism_index": 2,
+          "automorphism_sha256": "72cd6198f2c3fbb96bce00039fe13df53a7bacfb11ba2f8228c9e145faef5078",
+          "class": "outer",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[1, 0]": 10
+          },
+          "induced_chart_permutation_order": 4,
+          "induced_chart_permutation_sha256": "bd9c3432d2729db7d147fd87a20c9f5347b4269d622d2ec8496c18473793cc46",
+          "induced_global_orbit_permutation": [
+            1,
+            0
+          ],
+          "mapping": [
+            0,
+            1,
+            2,
+            3,
+            6,
+            7,
+            5,
+            4
+          ],
+          "order": 4
+        },
+        {
+          "automorphism_index": 3,
+          "automorphism_sha256": "45dc0b77ed95669fc5f9d0a012ed509b73418d01c85a57f9c301725c3931b689",
+          "class": "outer",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[1, 0]": 10
+          },
+          "induced_chart_permutation_order": 4,
+          "induced_chart_permutation_sha256": "c1a541e91de82c39cec38ea1b1587bab5da35d0be3fc32bedb1271f3e0e6e774",
+          "induced_global_orbit_permutation": [
+            1,
+            0
+          ],
+          "mapping": [
+            0,
+            1,
+            2,
+            3,
+            7,
+            6,
+            4,
+            5
+          ],
+          "order": 4
+        },
+        {
+          "automorphism_index": 4,
+          "automorphism_sha256": "b59c62dcb0da73382f4f3d58f3533e669a889caa3e63cb9d6f6ff3720549bd5d",
+          "class": "inner",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[0, 1]": 10
+          },
+          "induced_chart_permutation_order": 2,
+          "induced_chart_permutation_sha256": "506575b3f57a1f396e0d777e61369eb84b0642da918307e32e159ed73af32609",
+          "induced_global_orbit_permutation": [
+            0,
+            1
+          ],
+          "mapping": [
+            0,
+            1,
+            3,
+            2,
+            4,
+            5,
+            7,
+            6
+          ],
+          "order": 2
+        },
+        {
+          "automorphism_index": 5,
+          "automorphism_sha256": "89a0ad7f6d1d4acecacd8189fb4d638af643d7e665cbb781fa79b3cb6af5a573",
+          "class": "inner",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[0, 1]": 10
+          },
+          "induced_chart_permutation_order": 2,
+          "induced_chart_permutation_sha256": "72b2d3bf5e283e790a4626e74ea88d2e7f8a354351b346724b2a328e9423fb7a",
+          "induced_global_orbit_permutation": [
+            0,
+            1
+          ],
+          "mapping": [
+            0,
+            1,
+            3,
+            2,
+            5,
+            4,
+            6,
+            7
+          ],
+          "order": 2
+        },
+        {
+          "automorphism_index": 6,
+          "automorphism_sha256": "b7f1695e3261e245773093b706971d5b2cc42548ab32aa29f2306282d252e040",
+          "class": "outer",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[1, 0]": 10
+          },
+          "induced_chart_permutation_order": 2,
+          "induced_chart_permutation_sha256": "4cbee1b38ad77ff3e13205d720cffa612275a43e149f0ebd8789ca837b7905ea",
+          "induced_global_orbit_permutation": [
+            1,
+            0
+          ],
+          "mapping": [
+            0,
+            1,
+            3,
+            2,
+            6,
+            7,
+            4,
+            5
+          ],
+          "order": 2
+        },
+        {
+          "automorphism_index": 7,
+          "automorphism_sha256": "4df271ec661095ff750c005c096a4666eb5808017f2988fed2bda9e1726c9d59",
+          "class": "outer",
+          "fiber_failure_count": 0,
+          "fiber_orbit_permutation_profile": {
+            "[1, 0]": 10
+          },
+          "induced_chart_permutation_order": 2,
+          "induced_chart_permutation_sha256": "d695773d603272991f5d9ca635bb2643a7e3d6233786727858961201cc01cfb7",
+          "induced_global_orbit_permutation": [
+            1,
+            0
+          ],
+          "mapping": [
+            0,
+            1,
+            3,
+            2,
+            7,
+            6,
+            5,
+            4
+          ],
+          "order": 2
+        }
+      ]
+    ],
+    "expected_automorphism_order_profile": {
+      "1": 1,
+      "2": 5,
+      "4": 2
+    },
+    "expected_inner_order_profile": {
+      "1": 1,
+      "2": 3
+    },
+    "expected_outer_coset_order_profile": {
+      "2": 2,
+      "4": 2
+    },
+    "presentation_count": 2,
+    "presentation_rows": [
+      {
+        "all_inner_preserve_fiber_orbits": true,
+        "all_inner_preserve_global_orbits": true,
+        "all_outer_exchange_fiber_orbits": true,
+        "all_outer_exchange_global_orbits": true,
+        "automorphism_count": 8,
+        "automorphism_order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "cocycle_sha256": "0bca8a34381bf7990bccc78994be5f491b9630513a054d24fcf598d7260fc78a",
+        "fiber_failure_count": 0,
+        "inner_automorphism_count": 4,
+        "inner_automorphism_order_profile": {
+          "1": 1,
+          "2": 3
+        },
+        "outer_coset_count": 4,
+        "outer_coset_order_profile": {
+          "2": 2,
+          "4": 2
+        },
+        "outer_involution_count": 2,
+        "outer_order_four_count": 2,
+        "presentation_index": 0
+      },
+      {
+        "all_inner_preserve_fiber_orbits": true,
+        "all_inner_preserve_global_orbits": true,
+        "all_outer_exchange_fiber_orbits": true,
+        "all_outer_exchange_global_orbits": true,
+        "automorphism_count": 8,
+        "automorphism_order_profile": {
+          "1": 1,
+          "2": 5,
+          "4": 2
+        },
+        "cocycle_sha256": "45f386719813421e4d395b88a498b4982201d7af5e4b761fe1d6baeef10fef63",
+        "fiber_failure_count": 0,
+        "inner_automorphism_count": 4,
+        "inner_automorphism_order_profile": {
+          "1": 1,
+          "2": 3
+        },
+        "outer_coset_count": 4,
+        "outer_coset_order_profile": {
+          "2": 2,
+          "4": 2
+        },
+        "outer_involution_count": 2,
+        "outer_order_four_count": 2,
+        "presentation_index": 1
+      }
+    ],
+    "profiles_match": true
+  },
+  "locked_head": "fe5a31e Correct G60 outer-C2 selector preregistration",
+  "locked_observable_comparison": {
+    "alpha_1_constant_under_outer_exchange": true,
+    "alpha_1_rows": [
+      {
+        "1": 0,
+        "a": 0,
+        "ab": 1,
+        "b": 1
+      },
+      {
+        "1": 0,
+        "a": 0,
+        "ab": 1,
+        "b": 1
+      },
+      {
+        "1": 0,
+        "a": 0,
+        "ab": 1,
+        "b": 1
+      },
+      {
+        "1": 0,
+        "a": 0,
+        "ab": 1,
+        "b": 1
+      }
+    ],
+    "q_axis_signature_constant_under_outer_exchange": true,
+    "q_axis_signature_rows": [
+      {
+        "a": 1,
+        "ab": 0,
+        "b": 0
+      },
+      {
+        "a": 1,
+        "ab": 0,
+        "b": 0
+      },
+      {
+        "a": 1,
+        "ab": 0,
+        "b": 0
+      },
+      {
+        "a": 1,
+        "ab": 0,
+        "b": 0
+      }
+    ]
+  },
+  "mode": "frozen_complete_native_D8_outer_C2_selector_census",
+  "native_chart_action_reconstruction": {
+    "abstract_full_group_order": 480,
+    "action_failure_counts": [
+      0,
+      0
+    ],
+    "action_kernel_indices_by_presentation": [
+      [
+        0,
+        326
+      ],
+      [
+        0,
+        326
+      ]
+    ],
+    "action_kernel_names": [
+      "1",
+      "a"
+    ],
+    "action_kernel_orders": [
+      2,
+      2
+    ],
+    "effective_action_image_orders": [
+      240,
+      240
+    ],
+    "identity_index": 0,
+    "orbit_profiles": [
+      [
+        40,
+        40
+      ],
+      [
+        40,
+        40
+      ]
+    ]
+  },
+  "outer_involution_extensions": {
+    "all_match_corrected_prediction": true,
+    "order_four_measurements_not_preregistered": [
+      {
+        "automorphism_index": 2,
+        "automorphism_sha256": "72cd6198f2c3fbb96bce00039fe13df53a7bacfb11ba2f8228c9e145faef5078",
+        "commutation_failure_count": 0,
+        "measured_abstract_generated_group_order": 1920,
+        "measured_action_kernel_order": 2,
+        "measured_effective_action_image_order": 960,
+        "measured_orbit_profile": [
+          80
+        ],
+        "outer_automorphism_order": 4,
+        "preregistered_action_order_prediction": null,
+        "presentation_index": 0
+      },
+      {
+        "automorphism_index": 3,
+        "automorphism_sha256": "45dc0b77ed95669fc5f9d0a012ed509b73418d01c85a57f9c301725c3931b689",
+        "commutation_failure_count": 0,
+        "measured_abstract_generated_group_order": 1920,
+        "measured_action_kernel_order": 2,
+        "measured_effective_action_image_order": 960,
+        "measured_orbit_profile": [
+          80
+        ],
+        "outer_automorphism_order": 4,
+        "preregistered_action_order_prediction": null,
+        "presentation_index": 0
+      },
+      {
+        "automorphism_index": 2,
+        "automorphism_sha256": "72cd6198f2c3fbb96bce00039fe13df53a7bacfb11ba2f8228c9e145faef5078",
+        "commutation_failure_count": 0,
+        "measured_abstract_generated_group_order": 1920,
+        "measured_action_kernel_order": 2,
+        "measured_effective_action_image_order": 960,
+        "measured_orbit_profile": [
+          80
+        ],
+        "outer_automorphism_order": 4,
+        "preregistered_action_order_prediction": null,
+        "presentation_index": 1
+      },
+      {
+        "automorphism_index": 3,
+        "automorphism_sha256": "45dc0b77ed95669fc5f9d0a012ed509b73418d01c85a57f9c301725c3931b689",
+        "commutation_failure_count": 0,
+        "measured_abstract_generated_group_order": 1920,
+        "measured_action_kernel_order": 2,
+        "measured_effective_action_image_order": 960,
+        "measured_orbit_profile": [
+          80
+        ],
+        "outer_automorphism_order": 4,
+        "preregistered_action_order_prediction": null,
+        "presentation_index": 1
+      }
+    ],
+    "row_count": 4,
+    "rows": [
+      {
+        "abstract_extended_group_order": 960,
+        "abstract_extended_stabilizer_order_profile": {
+          "12": 80
+        },
+        "automorphism_index": 6,
+        "automorphism_sha256": "b7f1695e3261e245773093b706971d5b2cc42548ab32aa29f2306282d252e040",
+        "commutation_failure_count": 0,
+        "effective_extended_action_image_order": 480,
+        "effective_extended_stabilizer_order_profile": {
+          "6": 80
+        },
+        "extended_action_kernel_order": 2,
+        "extended_orbit_profile": [
+          80
+        ],
+        "outer_automorphism_order": 2,
+        "presentation_index": 0
+      },
+      {
+        "abstract_extended_group_order": 960,
+        "abstract_extended_stabilizer_order_profile": {
+          "12": 80
+        },
+        "automorphism_index": 7,
+        "automorphism_sha256": "4df271ec661095ff750c005c096a4666eb5808017f2988fed2bda9e1726c9d59",
+        "commutation_failure_count": 0,
+        "effective_extended_action_image_order": 480,
+        "effective_extended_stabilizer_order_profile": {
+          "6": 80
+        },
+        "extended_action_kernel_order": 2,
+        "extended_orbit_profile": [
+          80
+        ],
+        "outer_automorphism_order": 2,
+        "presentation_index": 0
+      },
+      {
+        "abstract_extended_group_order": 960,
+        "abstract_extended_stabilizer_order_profile": {
+          "12": 80
+        },
+        "automorphism_index": 6,
+        "automorphism_sha256": "b7f1695e3261e245773093b706971d5b2cc42548ab32aa29f2306282d252e040",
+        "commutation_failure_count": 0,
+        "effective_extended_action_image_order": 480,
+        "effective_extended_stabilizer_order_profile": {
+          "6": 80
+        },
+        "extended_action_kernel_order": 2,
+        "extended_orbit_profile": [
+          80
+        ],
+        "outer_automorphism_order": 2,
+        "presentation_index": 1
+      },
+      {
+        "abstract_extended_group_order": 960,
+        "abstract_extended_stabilizer_order_profile": {
+          "12": 80
+        },
+        "automorphism_index": 7,
+        "automorphism_sha256": "4df271ec661095ff750c005c096a4666eb5808017f2988fed2bda9e1726c9d59",
+        "commutation_failure_count": 0,
+        "effective_extended_action_image_order": 480,
+        "effective_extended_stabilizer_order_profile": {
+          "6": 80
+        },
+        "extended_action_kernel_order": 2,
+        "extended_orbit_profile": [
+          80
+        ],
+        "outer_automorphism_order": 2,
+        "presentation_index": 1
+      }
+    ]
+  },
+  "packet": "g60_native_d8_outer_c2_selector_census_011y",
+  "prediction_matches": true,
+  "preregistration": {
+    "correction_applied": true,
+    "correction_packet": "g60_native_d8_outer_c2_selector_preregistration_correction_011x1",
+    "correction_status": "frozen_before_local_D8_automorphism_enumeration",
+    "original_packet": "g60_native_d8_outer_c2_selector_preregistration_011x"
+  },
+  "presentation_gauge_torsor_comparison": {
+    "gauge_map_count": 4,
+    "gauge_related_presentations_have_equivalent_outer_C2_torsors": true,
+    "gauge_rows": [
+      {
+        "conjugates_outer_flip_to_outer_flip": true,
+        "function_bits": [
+          0,
+          0,
+          1
+        ],
+        "gauge_index": 0,
+        "preserves_orbit_labels": true
+      },
+      {
+        "conjugates_outer_flip_to_outer_flip": true,
+        "function_bits": [
+          0,
+          1,
+          0
+        ],
+        "gauge_index": 1,
+        "preserves_orbit_labels": true
+      },
+      {
+        "conjugates_outer_flip_to_outer_flip": true,
+        "function_bits": [
+          1,
+          0,
+          0
+        ],
+        "gauge_index": 2,
+        "preserves_orbit_labels": true
+      },
+      {
+        "conjugates_outer_flip_to_outer_flip": true,
+        "function_bits": [
+          1,
+          1,
+          1
+        ],
+        "gauge_index": 3,
+        "preserves_orbit_labels": true
+      }
+    ]
+  },
+  "promotion": {
+    "abstract_effective_semantic_correction_applied": true,
+    "candidate_promoted_without_recomputation": true,
+    "candidate_sha256": "a5b4fe24225705b8fd75b9c02eefd801e3bfb1455ebc1a9f7b072c771ed7a8e9",
+    "compute_script_copied_without_recomputation": true,
+    "compute_script_sha256": "c3753ebc61d8f81c70f39454fa630d28a225d192d49e3309a30ca22f0b52230a",
+    "effective_vs_abstract_failure_preserved": true,
+    "failed_run": {
+      "candidate_json_path": "/data/data/com.termux/files/home/tmp/g60_native_d8_outer_c2_selector_census_011y.failed-effective-vs-abstract-order.v1.json",
+      "candidate_json_sha256": "6d3c3dfc03249a5c971ca495d8ae5a315c1f496bd56f5c43990e65266ba6dffd",
+      "classification": "outer_involution_extended_action_failure",
+      "raw_report_path": "/data/data/com.termux/files/home/tmp/g60_native_d8_outer_c2_selector_census_011y.failed-effective-vs-abstract-order.txt",
+      "raw_report_sha256": "a9429754429e041a7ec54208a54670bf91b23e45c4d9128d51981919551a3d38",
+      "reason": "The first temporary classifier compared the effective permutation-image order 480 and stabilizer 6 against the preregistered abstract group order 960 and stabilizer 12.",
+      "script_path": "/data/data/com.termux/files/home/tmp/g60_native_d8_outer_c2_selector_census_011y.failed-effective-vs-abstract-order.py",
+      "script_sha256": "f1d8a8ebb77be0ce0f7441795d78bc71b5496a2c6d42d65375f87db1e78b3dbc"
+    },
+    "failed_run_promoted": false,
+    "locked_head": "fe5a31e Correct G60 outer-C2 selector preregistration",
+    "manuscript_mutated": false,
+    "note_path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/notes/g60_native_d8_outer_c2_selector_census_011y.md",
+    "note_sha256": "d44a51547334f9a192354ede6f78e07e7c2ad9ff6f215cbc026978f0cfb9e927",
+    "promotion_guard_passed": true,
+    "promotion_guard_report_path": "/data/data/com.termux/files/home/tmp/g60-native-d8-outer-c2-selector-011y-promotion-guard.txt",
+    "promotion_guard_report_sha256": "e951183c4451537d24429d766f74c0acf107583dd5141b8e2f62b2f58148b594",
+    "promotion_guard_script_path": "/data/data/com.termux/files/home/tmp/guard-g60-native-d8-outer-c2-selector-census-011y.py",
+    "promotion_guard_script_sha256": "a87ca600ba9762f50e6315f91e2e3b1f8f49a427de93d0df0a8b9b770637259d",
+    "raw_receipt_copied_without_recomputation": true,
+    "raw_receipt_sha256": "4ceed9abb77444fea6af5fb60e2e47a2d8832af0d9dc5a1c6b2dc3610fd6f0a9"
+  },
+  "repository": {
+    "project_mutation_performed": false,
+    "status_after": [
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ],
+    "status_before": [
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ],
+    "status_preserved": true
+  },
+  "result_frozen": true,
+  "selector_result": {
+    "absolute_orbit_selected": false,
+    "bounded_model_necessity_established": true,
+    "full_A_invariant_single_orbit_choice_count": 2,
+    "minimal_extra_binary_choice_count": 1,
+    "minimal_extra_torsor_cardinality": 2,
+    "outer_gauge_invariant_single_orbit_selector_count": 0
+  }
+}

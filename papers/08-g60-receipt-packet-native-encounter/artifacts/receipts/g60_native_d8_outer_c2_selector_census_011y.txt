@@ -1,0 +1,112 @@
+== G60 NATIVE D8 OUTER-C2 SELECTOR CENSUS AUDIT 011y ==
+PACKET: g60_native_d8_outer_c2_selector_census_011y
+MODE: frozen_complete_native_D8_outer_C2_selector_census
+JSON_SHA256: d5a9036cf96aa97dd8848cd947bff4d07c711db0db2e3dca3ad13ec1c9cdfdab
+NOTE_SHA256: d44a51547334f9a192354ede6f78e07e7c2ad9ff6f215cbc026978f0cfb9e927
+COMPUTATION_SCRIPT_SHA256: c3753ebc61d8f81c70f39454fa630d28a225d192d49e3309a30ca22f0b52230a
+RAW_RUN_RECEIPT_SHA256: 4ceed9abb77444fea6af5fb60e2e47a2d8832af0d9dc5a1c6b2dc3610fd6f0a9
+AUTOMORPHISM_ORDER_PROFILES: [{'1': 1, '2': 5, '4': 2}, {'1': 1, '2': 5, '4': 2}]
+FULL_A_ABSTRACT_GROUP_ORDER: 480
+FULL_A_EFFECTIVE_IMAGE_ORDERS: [240, 240]
+FULL_A_ACTION_KERNEL_INDICES: [[0, 326], [0, 326]]
+OUTER_INVOLUTION_ABSTRACT_GROUP_ORDERS: [960, 960, 960, 960]
+OUTER_INVOLUTION_EFFECTIVE_IMAGE_ORDERS: [480, 480, 480, 480]
+OUTER_GAUGE_INVARIANT_SELECTOR_COUNT: 0
+MINIMAL_EXTRA_TORSOR_CARDINALITY: 2
+CLASSIFICATION: native_D8_chart_orbit_selection_requires_one_external_outer_C2_torsor_choice
+CHECK_COUNT: 85
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode: true
+CHECK locked_head: true
+CHECK current_head: true
+CHECK result_frozen: true
+CHECK audit_pass_recorded: true
+CHECK json_hash: true
+CHECK raw_hash: true
+CHECK note_hash: true
+CHECK compute_hash: true
+CHECK candidate_hash: true
+CHECK guard_script_hash: true
+CHECK guard_report_hash: true
+CHECK failed_script_hash: true
+CHECK failed_json_hash: true
+CHECK failed_report_hash: true
+CHECK candidate_promoted: true
+CHECK raw_copied: true
+CHECK compute_copied: true
+CHECK guard_passed: true
+CHECK failure_preserved: true
+CHECK failure_not_promoted: true
+CHECK semantic_correction: true
+CHECK promotion_no_manuscript: true
+CHECK authority_count: true
+CHECK authority_hashes: true
+CHECK presentations_two: true
+CHECK eight_automorphisms_each: true
+CHECK mapping_orders: true
+CHECK aut_profiles: true
+CHECK inner_profiles: true
+CHECK outer_profiles: true
+CHECK outer_involutions_two: true
+CHECK outer_order4_two: true
+CHECK inner_preserves: true
+CHECK outer_exchanges: true
+CHECK fiber_failures_zero: true
+CHECK abstract_native_480: true
+CHECK effective_native_240: true
+CHECK native_kernel_two: true
+CHECK native_kernel_indices: true
+CHECK native_kernel_names: true
+CHECK native_action_valid: true
+CHECK native_orbits: true
+CHECK extension_rows_four: true
+CHECK abstract_extensions_960: true
+CHECK effective_extensions_480: true
+CHECK extension_kernel_two: true
+CHECK extension_commutes: true
+CHECK extension_orbits_80: true
+CHECK effective_stabilizers_6: true
+CHECK abstract_stabilizers_12: true
+CHECK order4_rows_four: true
+CHECK order4_abstract_1920: true
+CHECK order4_effective_960: true
+CHECK alpha_constant: true
+CHECK q_constant: true
+CHECK gauge_maps_four: true
+CHECK gauge_equivalent: true
+CHECK full_A_choices_two: true
+CHECK outer_selector_zero: true
+CHECK torsor_two: true
+CHECK binary_one: true
+CHECK bounded_necessity: true
+CHECK no_absolute_orbit: true
+CHECK prediction_matches: true
+CHECK classification: true
+CHECK repository_preserved: true
+CHECK candidate_no_project_mutation: true
+CHECK earned_statement: true
+CHECK bounded_boundary: true
+CHECK census_performed: true
+CHECK outer_exchange_verified: true
+CHECK bounded_binary_necessity: true
+CHECK no_global_minimality: true
+CHECK no_chart_selected: true
+CHECK no_update: true
+CHECK no_cell: true
+CHECK no_side_identity: true
+CHECK no_orientation: true
+CHECK no_manuscript: true
+CHECK no_geometry: true
+CHECK no_direction: true
+CHECK no_physics: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+EARNED_STATEMENT: For each of the two gauge-related selected D8 presentations, the local automorphism group has order eight with order profile 1,5,2 in orders 1,2,4. Its inner subgroup is V4 with order profile 1,3, while the four-element outer coset contains exactly two involutions and two order-four representatives. Every inner automorphism preserves each locked chart-orbit class, and every outer representative exchanges the two four-chart fiber classes and the two global forty-chart orbits. Each genuine outer involution commutes with the native chart action. The native 480-element group has effective chart-action image order 240 because its central subgroup {1,a} is the pointwise kernel. Adjoining an outer involution gives an abstract group of order 960 with effective image order 480, transitive on eighty charts; the abstract stabilizer has order twelve and its effective image has order six. The locked alpha_1 character and q-axis signature remain constant, and all four presentation gauge maps transport the same outer-C2 torsor. Thus no single chart orbit is invariant under the residual outer gauge. Within the bounded native D8 chart model, absolute orbit selection requires one additional two-valued outer-C2 torsor choice.
+EXTRA_BINARY_DATUM_PROVED_NECESSARY_WITHIN_BOUNDED_MODEL: true
+ABSOLUTE_CHART_ORBIT_SELECTED: false
+NATIVE_UPDATE_LAW_CONSTRUCTED: false
+MECHANICS_STATE_CELL_ESTABLISHED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false
