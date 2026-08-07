@@ -1,0 +1,65 @@
+== G60 DUAD ORIENTATION BRIDGE PREREGISTRATION AUDIT 011f ==
+PACKET: g60_duad_orientation_bridge_preregistration_011f
+MODE: structural_preregistration_after_authority_schema_inspection
+JSON_SHA256: af7eda5bad497faf6f68d5225bce35c0f8184a577853d2b50ea055af4356aa37
+NOTE_SHA256: 20dfbd76f897203574a26d018167260fc880610f2bf550026dad79ab0c5b2416
+LOCKED_HEAD: 38155e3 Lock native G60 orientation-root obstruction
+FIVE_POINT_IMAGE: S5
+FIVE_POINT_KERNEL: native_V4
+ORDERED_DUAD_COUNT: 20
+UNORDERED_DUAD_COUNT: 10
+ROOT_COUNT: 20
+INVERSE_PAIR_COUNT: 10
+PREDICTED_ORDERED_BRIDGE_COUNT: 0
+PREDICTED_UNORDERED_BRIDGE_COUNT: 1
+PREDICTION_BLIND: false
+BRIDGE_COMPUTATION_PERFORMED: false
+KERNEL_ACTION_COMPUTED: false
+OUTCOME_ORDER: ['computation_failure', 'authority_failure', 'oriented_bridge_exists', 'no_equivariant_unordered_bridge', 'unique_unordered_bridge_with_oriented_kernel_obstruction', 'multiple_unordered_bridges_with_oriented_kernel_obstruction', 'unordered_bridge_without_verified_kernel_obstruction']
+CHECK_COUNT: 39
+FAILED_CHECK_COUNT: 0
+CHECK packet: true
+CHECK mode_post_schema: true
+CHECK status_frozen_before_computation: true
+CHECK head_38155e3: true
+CHECK hash_five_matching_partition_077: true
+CHECK tracked_five_matching_partition_077: true
+CHECK hash_five_matching_equivariance_078: true
+CHECK tracked_five_matching_equivariance_078: true
+CHECK hash_s5_extension_splitting_079: true
+CHECK tracked_s5_extension_splitting_079: true
+CHECK hash_orientation_root_reversal_011e: true
+CHECK tracked_orientation_root_reversal_011e: true
+CHECK five_blocks: true
+CHECK S5_order_120: true
+CHECK kernel_V4: true
+CHECK duad_counts_20_10: true
+CHECK root_counts_20_10: true
+CHECK schema_inspected: true
+CHECK no_equality_test: true
+CHECK no_bridge_count: true
+CHECK no_kernel_test: true
+CHECK prediction_declared: true
+CHECK prediction_not_blind: true
+CHECK predicted_unordered_one: true
+CHECK predicted_ordered_zero: true
+CHECK prediction_not_result: true
+CHECK seven_outcomes: true
+CHECK all_outcomes_defined: true
+CHECK falsifiers_present: true
+CHECK no_unordered_claim: true
+CHECK no_oriented_exclusion_claim: true
+CHECK ordering_not_sufficient: true
+CHECK no_minimal_datum: true
+CHECK no_replacement: true
+CHECK no_manuscript: true
+CHECK no_orientation: true
+CHECK no_geometry: true
+CHECK no_physics: true
+CHECK note_exists: true
+PREREGISTRATION_PASS: true
+FAILED_CHECKS: []
+ORIENTATION_SELECTED: false
+MINIMAL_DIRECTIONAL_DATUM_IDENTIFIED: false
+MANUSCRIPT_MUTATED: false
+PHYSICAL_CLAIM: false

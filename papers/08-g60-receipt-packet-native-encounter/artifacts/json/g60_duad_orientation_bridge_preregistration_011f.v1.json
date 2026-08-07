@@ -1,0 +1,156 @@
+{
+  "authorities": {
+    "five_matching_equivariance_078": {
+      "git_tracked": true,
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_five_petersen_matching_equivariance_audit_078.json",
+      "sha256": "db01304b44015a25e8f207d3fe869ad96ebcd82d3d2bd7017908a9ed7c843ec7"
+    },
+    "five_matching_partition_077": {
+      "git_tracked": true,
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_five_petersen_matching_partition_theorem_077.json",
+      "sha256": "7db5162f2dbd9d53b44e8a9716f097394e5a75040951eceb8ec1e6ddbbb372b0"
+    },
+    "orientation_root_reversal_011e": {
+      "git_tracked": true,
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_orientation_root_reversal_census_011e.v1.json",
+      "sha256": "15ef444f6ed6bfbf0dc2611985edeffd0c38ec41142dfeb2f9ca53ef32813623"
+    },
+    "s5_extension_splitting_079": {
+      "git_tracked": true,
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_s5_extension_splitting_audit_079.json",
+      "sha256": "728071622f7a6a98042a8dd4d1a6fa01cdcc8a456bd2bd5b5aadcf22965f5221"
+    }
+  },
+  "boundary": {
+    "geometry_claim": false,
+    "larger_evolver_carrier_not_constructed": true,
+    "manuscript_mutation_allowed": false,
+    "minimal_directional_datum_not_identified": true,
+    "ordering_a_visible_duad_not_claimed_sufficient": true,
+    "orientation_selected": false,
+    "oriented_bridge_not_yet_excluded_by_computation": true,
+    "physical_claim": false,
+    "replacement_selector_forbidden": true,
+    "unordered_bridge_not_yet_proved": true
+  },
+  "candidate_A_sets": {
+    "inverse_root_pairs": {
+      "action": "g.{c,c_inverse}={g.c,g.c_inverse}",
+      "cardinality": 10,
+      "definition": "P_tau={{c,c_inverse}: c in C_tau}"
+    },
+    "ordered_duads": {
+      "action": "g.(i,j)=(g.i,g.j) using certificate078 block_image",
+      "cardinality": 20,
+      "definition": "D_oriented={(i,j): i and j are distinct canonical matching blocks}",
+      "reversal": "rho(i,j)=(j,i)"
+    },
+    "orientation_roots": {
+      "action": "g.c=g*c*g_inverse under reconstructed exact group operation",
+      "cardinality": 20,
+      "definition": "C_tau={c in Aut(G60): c^2=tau}",
+      "reversal": "iota(c)=c_inverse"
+    },
+    "unordered_duads": {
+      "action": "g.{i,j}={g.i,g.j} using certificate078 block_image",
+      "cardinality": 10,
+      "definition": "D_unordered={{i,j}: i and j are distinct canonical matching blocks}"
+    }
+  },
+  "created_at": "2026-08-06T19:15:29.143119-07:00",
+  "falsifiers": [
+    "the five matching blocks fail to define the frozen canonical S5 action",
+    "native V4 is not the pointwise kernel of the duad actions",
+    "native V4 fixes every orientation root",
+    "native V4 fails to act trivially on inverse root pairs",
+    "no equivariant unordered-duad bridge exists",
+    "more than one equivariant unordered-duad bridge exists",
+    "root inversion fails to descend to the computed inverse-pair action"
+  ],
+  "frozen_tests": {
+    "authority_reconstruction": [
+      "all source hashes match",
+      "certificate078 supplies 480 indexed block actions",
+      "the block action has image S5 and kernel native V4",
+      "the reconstructed group operation agrees with the exact action set"
+    ],
+    "enumeration_method": "For each transitive source A-set, fix one source basepoint. For every target candidate fixed by the source stabilizer, propagate its image through the complete A action. Retain exactly the well-defined bijective equivariant maps.",
+    "equivariant_maps": [
+      "count all A-equivariant bijections from ordered duads to orientation roots",
+      "count all A-equivariant bijections from unordered duads to inverse root pairs",
+      "test whether ordered-duad reversal corresponds to root inversion",
+      "do not choose a map after inspecting the result"
+    ],
+    "kernel_actions": [
+      "compute the pointwise kernel on ordered duads",
+      "compute the pointwise kernel on unordered duads",
+      "compute the pointwise kernel on orientation roots",
+      "compute the pointwise kernel on inverse root pairs",
+      "test every native V4 element on every root",
+      "test whether nontrivial native V4 elements fix roots or exchange inverse partners"
+    ]
+  },
+  "known_before_test": {
+    "duad_root_equality_test_performed": false,
+    "equivariant_bridge_counted": false,
+    "five_matching_block_count": 5,
+    "five_point_action_kernel": "native_V4",
+    "five_point_image_order": 120,
+    "five_point_image_type": "S5",
+    "inverse_pair_set_is_one_conjugacy_orbit": true,
+    "inverse_root_pair_count": 10,
+    "kernel_action_test_performed": false,
+    "ordered_duad_count": 20,
+    "orientation_root_count": 20,
+    "root_set_is_one_conjugacy_orbit": true,
+    "schema_inspection_performed": true,
+    "unordered_duad_count": 10
+  },
+  "locked_head": "38155e3 Lock native G60 orientation-root obstruction",
+  "mode": "structural_preregistration_after_authority_schema_inspection",
+  "outcome_order": [
+    "computation_failure",
+    "authority_failure",
+    "oriented_bridge_exists",
+    "no_equivariant_unordered_bridge",
+    "unique_unordered_bridge_with_oriented_kernel_obstruction",
+    "multiple_unordered_bridges_with_oriented_kernel_obstruction",
+    "unordered_bridge_without_verified_kernel_obstruction"
+  ],
+  "outcome_predicates": {
+    "authority_failure": "a frozen authority hash, action cardinality, kernel, or declared certificate check fails",
+    "computation_failure": "the exact group operation or required finite actions cannot be reconstructed consistently",
+    "multiple_unordered_bridges_with_oriented_kernel_obstruction": "the ordered bridge count is zero, the unordered bridge count exceeds one, and the oriented kernel obstruction is verified",
+    "no_equivariant_unordered_bridge": "the ordered bridge count is zero and the unordered bridge count is zero",
+    "oriented_bridge_exists": "at least one A-equivariant bijection exists from ordered duads to roots",
+    "unique_unordered_bridge_with_oriented_kernel_obstruction": "the ordered bridge count is zero, the unordered bridge count is one, native V4 is the duad kernel, native V4 acts trivially on inverse pairs, and some native V4 element exchanges every root with its inverse",
+    "unordered_bridge_without_verified_kernel_obstruction": "the ordered bridge count is zero, at least one unordered bridge exists, but the proposed native V4 kernel mechanism is not verified"
+  },
+  "packet": "g60_duad_orientation_bridge_preregistration_011f",
+  "preregistration_status": "frozen_before_duad_root_action_computation",
+  "repository_baseline": {
+    "status_short_before_packet_creation": [
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip",
+      "?? dist/a-blind-encounter-between-finite-receipt-algebra-and-the-native-g60-graph-overleaf.zip.sha256",
+      "?? dist/g60-native-receipt-tower-overleaf.zip",
+      "?? dist/g60-native-receipt-tower-overleaf.zip.sha256",
+      "?? paper/",
+      "?? scripts/zipit.sh"
+    ],
+    "status_used_as_clean_worktree_claim": false
+  },
+  "structural_prediction": {
+    "declared_before_computation": true,
+    "not_blind": true,
+    "predicted_mechanism": "native V4 acts trivially on visible duads and inverse pairs but nontrivially on roots by exchanging c with c_inverse",
+    "predicted_ordered_bridge_count": 0,
+    "predicted_unordered_bridge_count": 1,
+    "prediction_is_not_a_result": true,
+    "reason_not_blind": "Certificate078 already exposes native V4 as the five-point kernel, while Packet011e witness inventories visibly contain native V4 elements among root reversers."
+  },
+  "version": 1
+}
