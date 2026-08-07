@@ -1,0 +1,54 @@
+== G60 VARIANCE-COMPLETED CHART PREREGISTRATION GUARD 012f ==
+CHECK_COUNT: 47
+FAILED_CHECK_COUNT: 0
+CHECK head: true
+CHECK maker_hash: true
+CHECK candidate_hash: true
+CHECK packet: true
+CHECK mode: true
+CHECK locked_head: true
+CHECK authority_count: true
+CHECK authority_names: true
+CHECK authority_hashes: true
+CHECK ordinary_chart_definition: true
+CHECK opposite_chart_definition: true
+CHECK anti_law_definition: true
+CHECK extended_symmetry_definition: true
+CHECK instruction_character_formula: true
+CHECK prediction_presentation_count: true
+CHECK prediction_ordinary_chart_count_each: true
+CHECK prediction_opposite_chart_count_each: true
+CHECK prediction_variance_completed_chart_count_each: true
+CHECK prediction_opposite_charts_distinct_each: true
+CHECK prediction_ordinary_and_opposite_chart_sets_disjoint: true
+CHECK prediction_ordinary_chart_homomorphism_failures: true
+CHECK prediction_opposite_chart_anti_homomorphism_failures: true
+CHECK prediction_opposite_chart_ordinary_failure_count_each_chart: true
+CHECK prediction_inversion_commutes_with_all_automorphisms: true
+CHECK prediction_local_automorphism_count_each: true
+CHECK prediction_extended_transformation_count_each: true
+CHECK prediction_extended_group_structure: true
+CHECK prediction_chart_variance_class_count_each: true
+CHECK prediction_chart_variance_character_image: true
+CHECK prediction_three_character_joint_image: true
+CHECK prediction_three_character_joint_kernel_order: true
+CHECK prediction_three_local_binary_characters_pairwise_distinct: true
+CHECK prediction_pairwise_equivariant_bijection_count: true
+CHECK prediction_locked_presentation_gauge_map_count: true
+CHECK prediction_all_gauge_maps_commute_with_inversion: true
+CHECK prediction_all_gauge_maps_preserve_variance_sheet: true
+CHECK prediction_all_gauge_maps_preserve_character_decomposition: true
+CHECK prediction_orientation_bridge_common_action_established: true
+CHECK prediction_orientation_to_variance_canonical_map_established: true
+CHECK prediction_orientation_anchor_selects_instruction: true
+CHECK prediction_orientation_anchor_selects_chart_orbit: true
+CHECK prediction_key_count: true
+CHECK required_test_count: true
+CHECK classification: true
+CHECK all_boundaries_false: true
+CHECK repository_no_mutation: true
+CHECK scoped_status_preserved: true
+GUARD_PASS: true
+FAILED_CHECKS: []
+CANDIDATE_PROMOTED: false
+PROJECT_MUTATION_PERFORMED: false
