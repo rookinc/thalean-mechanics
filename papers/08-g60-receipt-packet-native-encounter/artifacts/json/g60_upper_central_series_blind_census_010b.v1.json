@@ -1,0 +1,562 @@
+{
+  "authorities": {
+    "action_hash_match": true,
+    "action_path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json",
+    "action_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+    "preregistration_hash_match": true,
+    "preregistration_path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_upper_central_receipt_selector_preregistration_010a.v1.json",
+    "preregistration_sha256": "f43a9d1b3e97133d62d6f1b193409617226c63caba304e7613de4745182be2ea",
+    "raw_edge_hash_match": true,
+    "raw_edge_path": "/data/data/com.termux/files/home/dev/cori/research/physics/quantum_mechanics/01-the-electron-spins-twice/paper/data/g60_local_edges.csv",
+    "raw_edge_sha256": "c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f"
+  },
+  "blindness": {
+    "action_fields_accessed": [
+      "actual_index",
+      "actual_permutation",
+      "actual_order"
+    ],
+    "historical_reference_fields_accessed": false,
+    "phase_b_unblinding_performed": false,
+    "prior_class_identities_accessed": false,
+    "prior_quotient_labels_accessed": false,
+    "prior_voltage_certificates_accessed": false
+  },
+  "boundary": {
+    "candidate_report_only": false,
+    "geometry_claim": false,
+    "historical_tower_comparison_performed": false,
+    "manuscript_mutated": false,
+    "orientation_claim": false,
+    "phase_a_result_frozen": true,
+    "phase_b_allowed_now": false,
+    "phase_b_requires_010b_commit": true,
+    "physical_claim": false,
+    "theorem_claim": false,
+    "unblinding_performed": false
+  },
+  "central_series": {
+    "Z1_subset_Z2": true,
+    "Z2_subset_Z3": true,
+    "center_member_indices": [
+      0,
+      326
+    ],
+    "center_order": 2,
+    "increment_element_order_profiles": {
+      "Z1": {
+        "1": 1,
+        "2": 1
+      },
+      "Z2_minus_Z1": {
+        "2": 2
+      },
+      "Z3_minus_Z2": {}
+    },
+    "second_center_member_indices": [
+      0,
+      65,
+      124,
+      326
+    ],
+    "second_center_order": 4,
+    "third_center_member_indices": [
+      0,
+      65,
+      124,
+      326
+    ],
+    "third_center_order": 4
+  },
+  "classification": {
+    "outcome_predicate_changed_after_result": false,
+    "preregistered_outcome": "exact_target",
+    "replacement_selector_searched": false,
+    "smallest_order_selector_used": false
+  },
+  "created_at": "2026-08-06T18:07:18.200206-07:00",
+  "group_reconstruction": {
+    "associativity_source": "Exact permutation composition.",
+    "closure_failure_count": 0,
+    "closure_failures_first_20": [],
+    "commutator_convention": "inverse(g)*inverse(h)*g*h",
+    "composition_convention": "compose(p,q)[v] = p[q[v]]",
+    "declared_order_consistency_failure_count": 0,
+    "declared_order_consistency_failures_first_20": [],
+    "duplicate_permutation_failure_count": 0,
+    "group_order": 480,
+    "identity_candidate_count": 1,
+    "identity_index": 0,
+    "identity_law_failure_count": 0,
+    "identity_law_failures_first_20": [],
+    "inverse_failure_count": 0,
+    "inverse_failures_first_20": [],
+    "mapping_row_count": 480,
+    "multiplication_consistency_failure_count": 0,
+    "operation_reconstruction_ok": true,
+    "permutation_dictionary_size": 480,
+    "product_lookup_mismatch_count": 0,
+    "schema_failure_count": 0,
+    "schema_failures": []
+  },
+  "mode": "frozen_blind_phase_a",
+  "native_graph_action": {
+    "central_action_checks_pass": true,
+    "central_layer_profiles": {
+      "Z1": {
+        "edge_inversion_failure_member_count": 0,
+        "edge_inversion_failures": {},
+        "edge_multiplicity_failure_count": 0,
+        "edge_multiplicity_failures_first_20": [],
+        "edge_orbit_count": 60,
+        "edge_orbit_size_profile": {
+          "2": 60
+        },
+        "element_order_profile": {
+          "1": 1,
+          "2": 1
+        },
+        "fixed_point_failure_member_count": 0,
+        "fixed_point_failures": {},
+        "local_covering_failure_count": 0,
+        "local_covering_failures_first_20": [],
+        "member_indices": [
+          0,
+          326
+        ],
+        "name": "Z1",
+        "order": 2,
+        "quotient_degree_profile": {
+          "4": 30
+        },
+        "quotient_edge_count": 60,
+        "quotient_edge_multiplicity_profile": {
+          "2": 60
+        },
+        "quotient_loop_count": 0,
+        "quotient_vertex_count": 30,
+        "semiregular": true,
+        "subgroup_contains_identity": true,
+        "vertex_orbit_count": 30,
+        "vertex_orbit_size_profile": {
+          "2": 30
+        },
+        "vertex_orbits": [
+          [
+            0,
+            40
+          ],
+          [
+            1,
+            50
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            20
+          ],
+          [
+            4,
+            30
+          ],
+          [
+            5,
+            35
+          ],
+          [
+            6,
+            45
+          ],
+          [
+            7,
+            55
+          ],
+          [
+            8,
+            15
+          ],
+          [
+            9,
+            25
+          ],
+          [
+            11,
+            46
+          ],
+          [
+            12,
+            43
+          ],
+          [
+            13,
+            32
+          ],
+          [
+            14,
+            29
+          ],
+          [
+            16,
+            31
+          ],
+          [
+            17,
+            38
+          ],
+          [
+            18,
+            47
+          ],
+          [
+            19,
+            54
+          ],
+          [
+            21,
+            56
+          ],
+          [
+            22,
+            53
+          ],
+          [
+            23,
+            42
+          ],
+          [
+            24,
+            39
+          ],
+          [
+            26,
+            41
+          ],
+          [
+            27,
+            48
+          ],
+          [
+            28,
+            57
+          ],
+          [
+            33,
+            52
+          ],
+          [
+            34,
+            49
+          ],
+          [
+            36,
+            51
+          ],
+          [
+            37,
+            58
+          ],
+          [
+            44,
+            59
+          ]
+        ]
+      },
+      "Z2": {
+        "edge_inversion_failure_member_count": 0,
+        "edge_inversion_failures": {},
+        "edge_multiplicity_failure_count": 0,
+        "edge_multiplicity_failures_first_20": [],
+        "edge_orbit_count": 30,
+        "edge_orbit_size_profile": {
+          "4": 30
+        },
+        "element_order_profile": {
+          "1": 1,
+          "2": 3
+        },
+        "fixed_point_failure_member_count": 0,
+        "fixed_point_failures": {},
+        "local_covering_failure_count": 0,
+        "local_covering_failures_first_20": [],
+        "member_indices": [
+          0,
+          65,
+          124,
+          326
+        ],
+        "name": "Z2",
+        "order": 4,
+        "quotient_degree_profile": {
+          "4": 15
+        },
+        "quotient_edge_count": 30,
+        "quotient_edge_multiplicity_profile": {
+          "4": 30
+        },
+        "quotient_loop_count": 0,
+        "quotient_vertex_count": 15,
+        "semiregular": true,
+        "subgroup_contains_identity": true,
+        "vertex_orbit_count": 15,
+        "vertex_orbit_size_profile": {
+          "4": 15
+        },
+        "vertex_orbits": [
+          [
+            0,
+            8,
+            15,
+            40
+          ],
+          [
+            1,
+            9,
+            25,
+            50
+          ],
+          [
+            2,
+            5,
+            10,
+            35
+          ],
+          [
+            3,
+            6,
+            20,
+            45
+          ],
+          [
+            4,
+            7,
+            30,
+            55
+          ],
+          [
+            11,
+            24,
+            39,
+            46
+          ],
+          [
+            12,
+            17,
+            38,
+            43
+          ],
+          [
+            13,
+            32,
+            37,
+            58
+          ],
+          [
+            14,
+            29,
+            36,
+            51
+          ],
+          [
+            16,
+            31,
+            44,
+            59
+          ],
+          [
+            18,
+            23,
+            42,
+            47
+          ],
+          [
+            19,
+            26,
+            41,
+            54
+          ],
+          [
+            21,
+            34,
+            49,
+            56
+          ],
+          [
+            22,
+            27,
+            48,
+            53
+          ],
+          [
+            28,
+            33,
+            52,
+            57
+          ]
+        ]
+      },
+      "Z3": {
+        "edge_inversion_failure_member_count": 0,
+        "edge_inversion_failures": {},
+        "edge_multiplicity_failure_count": 0,
+        "edge_multiplicity_failures_first_20": [],
+        "edge_orbit_count": 30,
+        "edge_orbit_size_profile": {
+          "4": 30
+        },
+        "element_order_profile": {
+          "1": 1,
+          "2": 3
+        },
+        "fixed_point_failure_member_count": 0,
+        "fixed_point_failures": {},
+        "local_covering_failure_count": 0,
+        "local_covering_failures_first_20": [],
+        "member_indices": [
+          0,
+          65,
+          124,
+          326
+        ],
+        "name": "Z3",
+        "order": 4,
+        "quotient_degree_profile": {
+          "4": 15
+        },
+        "quotient_edge_count": 30,
+        "quotient_edge_multiplicity_profile": {
+          "4": 30
+        },
+        "quotient_loop_count": 0,
+        "quotient_vertex_count": 15,
+        "semiregular": true,
+        "subgroup_contains_identity": true,
+        "vertex_orbit_count": 15,
+        "vertex_orbit_size_profile": {
+          "4": 15
+        },
+        "vertex_orbits": [
+          [
+            0,
+            8,
+            15,
+            40
+          ],
+          [
+            1,
+            9,
+            25,
+            50
+          ],
+          [
+            2,
+            5,
+            10,
+            35
+          ],
+          [
+            3,
+            6,
+            20,
+            45
+          ],
+          [
+            4,
+            7,
+            30,
+            55
+          ],
+          [
+            11,
+            24,
+            39,
+            46
+          ],
+          [
+            12,
+            17,
+            38,
+            43
+          ],
+          [
+            13,
+            32,
+            37,
+            58
+          ],
+          [
+            14,
+            29,
+            36,
+            51
+          ],
+          [
+            16,
+            31,
+            44,
+            59
+          ],
+          [
+            18,
+            23,
+            42,
+            47
+          ],
+          [
+            19,
+            26,
+            41,
+            54
+          ],
+          [
+            21,
+            34,
+            49,
+            56
+          ],
+          [
+            22,
+            27,
+            48,
+            53
+          ],
+          [
+            28,
+            33,
+            52,
+            57
+          ]
+        ]
+      }
+    },
+    "full_action_graph_automorphism_failure_count": 0,
+    "full_action_graph_automorphism_failures_first_20": [],
+    "raw_edge_count": 120,
+    "raw_vertex_count": 60
+  },
+  "packet": "g60_upper_central_series_blind_census_010b",
+  "promotion": {
+    "candidate_json_sha256": "47373c2ba46b6d78b5497bbadf9be5482b674f1aa9d34cd55652980ee12e9ab8",
+    "candidate_report_sha256": "90006795538194dede0fbdde40a5a279ec14402041a1e390e5c1c51bb16d8c70",
+    "candidate_script_sha256": "7216e04fabceaaa97ce7423a54cb7e65b619c4e666153fe4996efb058b049f76",
+    "computation_script_copied_byte_for_byte": true,
+    "frozen_at": "2026-08-06T18:10:04.170816-07:00",
+    "mathematical_result_fields_changed": false,
+    "member_index_sets_changed": false,
+    "outcome_classification_changed": false,
+    "raw_run_receipt_copied_byte_for_byte": true
+  },
+  "repository_preservation": {
+    "head_after": "5a07165 Preregister G60 upper-central selector test",
+    "head_before": "5a07165 Preregister G60 upper-central selector test",
+    "project_mutation_performed": false,
+    "repository_status_preserved": true,
+    "status_after_row_count": 19,
+    "status_after_sha256": "0df2dd0a83dc0cd7edb676d01c411492ebf22ff164a1cb5d9d1464a30733cd70",
+    "status_before_row_count": 19,
+    "status_before_sha256": "0df2dd0a83dc0cd7edb676d01c411492ebf22ff164a1cb5d9d1464a30733cd70"
+  },
+  "version": 1
+}

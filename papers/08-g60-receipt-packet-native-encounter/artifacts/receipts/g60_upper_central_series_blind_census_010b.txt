@@ -1,0 +1,91 @@
+== G60 UPPER-CENTRAL BLIND CENSUS AUDIT 010b ==
+PACKET: g60_upper_central_series_blind_census_010b
+MODE: frozen_blind_phase_a
+JSON_SHA256: 6c69d4e6c6a5eca1c5b7d15840a8958cc93eff5a13c1fe62a8840fe2bf0e8f26
+NOTE_SHA256: 4783d05ec8677ffea7f42ec3024c85e898c52f9b30529169fdeff78cad49d821
+COMPUTATION_SCRIPT_SHA256: 7216e04fabceaaa97ce7423a54cb7e65b619c4e666153fe4996efb058b049f76
+RAW_RUN_RECEIPT_SHA256: 90006795538194dede0fbdde40a5a279ec14402041a1e390e5c1c51bb16d8c70
+ACTION_SHA256: b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21
+RAW_EDGE_SHA256: c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f
+PREREGISTRATION_SHA256: f43a9d1b3e97133d62d6f1b193409617226c63caba304e7613de4745182be2ea
+GROUP_ORDER: 480
+IDENTITY_INDEX: 0
+CLOSURE_FAILURE_COUNT: 0
+INVERSE_FAILURE_COUNT: 0
+MULTIPLICATION_CONSISTENCY_FAILURE_COUNT: 0
+CENTER_ORDER: 2
+CENTER_MEMBER_INDICES: [0, 326]
+SECOND_CENTER_ORDER: 4
+SECOND_CENTER_MEMBER_INDICES: [0, 65, 124, 326]
+THIRD_CENTER_ORDER: 4
+THIRD_CENTER_MEMBER_INDICES: [0, 65, 124, 326]
+Z1_SEMIREGULAR: true
+Z1_VERTEX_ORBIT_PROFILE: {'2': 30}
+Z1_EDGE_ORBIT_PROFILE: {'2': 60}
+Z1_LOCAL_COVERING_FAILURE_COUNT: 0
+Z2_SEMIREGULAR: true
+Z2_VERTEX_ORBIT_PROFILE: {'4': 15}
+Z2_EDGE_ORBIT_PROFILE: {'4': 30}
+Z2_LOCAL_COVERING_FAILURE_COUNT: 0
+PREREGISTERED_OUTCOME: exact_target
+REPOSITORY_STATUS_PRESERVED: true
+PHASE_A_RESULT_FROZEN: true
+PHASE_B_ALLOWED_NOW: false
+UNBLINDING_PERFORMED: false
+CHECK_COUNT: 52
+FAILED_CHECK_COUNT: 0
+CHECK packet_name: true
+CHECK mode_frozen_blind_phase_a: true
+CHECK action_hash: true
+CHECK raw_edge_hash: true
+CHECK preregistration_hash: true
+CHECK candidate_json_provenance: true
+CHECK computation_script_hash: true
+CHECK raw_receipt_hash: true
+CHECK mapping_rows_480: true
+CHECK group_order_480: true
+CHECK identity_index_present: true
+CHECK closure_zero: true
+CHECK inverse_zero: true
+CHECK multiplication_consistency_zero: true
+CHECK declared_order_consistency_zero: true
+CHECK operation_reconstruction_ok: true
+CHECK center_order_2: true
+CHECK center_members_frozen: true
+CHECK second_center_order_4: true
+CHECK second_center_members_frozen: true
+CHECK third_center_equals_second: true
+CHECK Z1_subset_Z2: true
+CHECK Z2_subset_Z3: true
+CHECK full_action_preserves_graph: true
+CHECK Z1_semiregular: true
+CHECK Z1_vertex_orbits_30: true
+CHECK Z1_vertex_orbit_sizes: true
+CHECK Z1_edge_orbits_60: true
+CHECK Z1_no_edge_inversion: true
+CHECK Z1_quotient_30_60: true
+CHECK Z1_local_covering: true
+CHECK Z2_semiregular: true
+CHECK Z2_vertex_orbits_15: true
+CHECK Z2_vertex_orbit_sizes: true
+CHECK Z2_edge_orbits_30: true
+CHECK Z2_no_edge_inversion: true
+CHECK Z2_quotient_15_30: true
+CHECK Z2_local_covering: true
+CHECK Z3_profile_equals_Z2: true
+CHECK central_action_checks_pass: true
+CHECK outcome_exact_target: true
+CHECK no_replacement_selector: true
+CHECK no_smallest_order_selector: true
+CHECK repository_preserved: true
+CHECK candidate_hashes_preserved: true
+CHECK phase_a_frozen: true
+CHECK phase_b_requires_commit: true
+CHECK phase_b_not_yet_allowed: true
+CHECK no_unblinding: true
+CHECK no_historical_comparison: true
+CHECK no_theorem_claim: true
+CHECK note_exists: true
+AUDIT_PASS: true
+FAILED_CHECKS: []
+THEOREM_CLAIM: false
