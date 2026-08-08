@@ -1,0 +1,79 @@
+== G900 ABSOLUTE-ORIENTATION OBSTRUCTION AUDIT 014B ==
+PACKET: g900_absolute_orientation_obstruction_014b
+HEAD: d6e4c9d
+JSON_SHA256: 7d08c51d7d0fa52c7cbcf09b34baf65d06b97c280247f74155210b4dc43eb984
+NOTE_SHA256: 81033756aa8db85679c0bea02fa05994d4980893ab645e1dcd0b013f5a98da5e
+RECEIPT_SHA256: fd37933874e4fd339e9e3ce1d44098b9d3a5f29dbe930cbafaa871bc7e138c1c
+DRIVER_SHA256: e458d2b51cbe6cc73953289b2e9590776283d051cee8f7f49a05dd0a807ae8fe
+SOURCE_COUNT: 8
+RAW_RUN_RECEIPT_COUNT: 8
+AUTHORITY_COUNT: 11
+CLAIM_CHECK_COUNT: 14
+RADIAL_UNIQUE_STATE_COUNTS: {'0': 38, '1': 42, '2': 50, '3': 50, '4': 45, '5': 36, '6': 0}
+CLASSIFICATION: canonical_G900_orientation_hinge_with_unanchored_absolute_orientation_obstruction
+CHECK_COUNT: 53
+FAILED_CHECK_COUNT: 0
+FAILED_CHECKS: []
+CHECK head_is_preregistered_commit: true
+CHECK untracked_013e_preserved: true
+CHECK json_hash: true
+CHECK note_hash: true
+CHECK consolidated_receipt_hash: true
+CHECK driver_hash: true
+CHECK preregistration_hash: true
+CHECK source_count_8: true
+CHECK source_name_set_exact: true
+CHECK all_source_hashes_exact: true
+CHECK raw_run_count_8: true
+CHECK raw_run_name_set_exact: true
+CHECK all_raw_run_hashes_exact: true
+CHECK packet: true
+CHECK mode: true
+CHECK consonance_scalar: true
+CHECK locked_commit: true
+CHECK audit_pass: true
+CHECK classification: true
+CHECK failed_claim_count_zero: true
+CHECK failed_claims_empty: true
+CHECK all_claim_checks_true: true
+CHECK all_preflight_checks_true: true
+CHECK authority_count_11: true
+CHECK authority_rows_self_consistent: true
+CHECK custody_row_count_8: true
+CHECK custody_rows_exact: true
+CHECK source_run_count_8: true
+CHECK source_run_ids_exact: true
+CHECK source_runs_pass: true
+CHECK source_run_output_hashes_match_receipts: true
+CHECK v4_alignment: true
+CHECK transverse_v4_excluded: true
+CHECK exact_A60: true
+CHECK surface_character: true
+CHECK S60_closure_obstruction: true
+CHECK no_vertex_root_map: true
+CHECK half_flip_centralizer: true
+CHECK half_flip_incidence_profile: true
+CHECK canonical_mixed_hinge: true
+CHECK nearest_root_profile: true
+CHECK radial_profile: true
+CHECK half_flip_orbit_profile: true
+CHECK canonical_hinge_boundary: true
+CHECK tested_families_closed: true
+CHECK no_global_impossibility_overclaim: true
+CHECK no_unanchored_absolute_orientation: true
+CHECK no_physical_claims: true
+CHECK candidate_promotion_state: true
+CHECK repository_boundary: true
+CHECK note_boundary_language: true
+CHECK receipt_boundary_language: true
+CHECK repository_not_mutated_by_guard: true
+AUDIT_PASS: True
+INDEPENDENT_GUARD_PERFORMED: true
+RESULT_FROZEN: true
+ABSOLUTE_ORIENTATION_SELECTED: false
+GLOBAL_SELECTOR_IMPOSSIBILITY_CLAIM: false
+PHYSICAL_CLAIM: false
+COMMIT_PERFORMED: false
+PUSH_PERFORMED: false
+UNTRACKED_013E_PRESERVED: True
+REPOSITORY_MUTATION_PERFORMED: false

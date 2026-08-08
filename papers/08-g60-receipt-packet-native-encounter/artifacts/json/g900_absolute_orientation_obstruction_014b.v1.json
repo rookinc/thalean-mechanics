@@ -1,0 +1,399 @@
+{
+  "audit_pass": true,
+  "authorities": [
+    {
+      "actual_sha256": "abc9e038b323fdd5af852a91b87aca4c5a1e35a6e484608af27a04a399c52e9c",
+      "exists": true,
+      "expected_sha256": "abc9e038b323fdd5af852a91b87aca4c5a1e35a6e484608af27a04a399c52e9c",
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_duad_orientation_bridge_census_011g.v1.json"
+    },
+    {
+      "actual_sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941",
+      "exists": true,
+      "expected_sha256": "ad684db8bb65c5eb731c972d33e685ffc18a947f63c9ba4e9758f815821f0941",
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_full_A_orientation_character_extension_census_011o.v1.json"
+    },
+    {
+      "actual_sha256": "920635dd384d4325d2f415945811a7c816b0df5d0d475e974367010110a7a923",
+      "exists": true,
+      "expected_sha256": "920635dd384d4325d2f415945811a7c816b0df5d0d475e974367010110a7a923",
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_h3_triality_galois_ledge_013f.v1.json"
+    },
+    {
+      "actual_sha256": "b6e3df135c93b27dcc0a823eb7ab036f6740a82664c7502f420d2a76a2cb962a",
+      "exists": true,
+      "expected_sha256": "b6e3df135c93b27dcc0a823eb7ab036f6740a82664c7502f420d2a76a2cb962a",
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/scripts/lib/project41_native.py"
+    },
+    {
+      "actual_sha256": "deb534de0ec401a60ccaf80ce23b460c3c66b49436a6fdb3b7156d35afb08c7d",
+      "exists": true,
+      "expected_sha256": "deb534de0ec401a60ccaf80ce23b460c3c66b49436a6fdb3b7156d35afb08c7d",
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/scripts/audit_external_carrier_native_frame_compatibility_030p.py"
+    },
+    {
+      "actual_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "exists": true,
+      "expected_sha256": "b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21",
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json"
+    },
+    {
+      "actual_sha256": "b7671045c8dee327d9f02d6a04c5707231f46815e05596b2b1074bed564b2ae8",
+      "exists": true,
+      "expected_sha256": "b7671045c8dee327d9f02d6a04c5707231f46815e05596b2b1074bed564b2ae8",
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/45-native-g60-surface-complex/artifacts/json/native_g60_surface_orientation_004.json"
+    },
+    {
+      "actual_sha256": "87090707d5f018fbf9f4db5ad793fc6b492e9fd6fec3f3c54af89d985f2d5d63",
+      "exists": true,
+      "expected_sha256": "87090707d5f018fbf9f4db5ad793fc6b492e9fd6fec3f3c54af89d985f2d5d63",
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/45-native-g60-surface-complex/artifacts/json/g60_generated_extension_group_016.json"
+    },
+    {
+      "actual_sha256": "8f85f690366e283148feb49bdd00a836244c054a2a0ac55422e6ac568754b484",
+      "exists": true,
+      "expected_sha256": "8f85f690366e283148feb49bdd00a836244c054a2a0ac55422e6ac568754b484",
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/45-native-g60-surface-complex/artifacts/json/g900_full_automorphism_group_census_021.json"
+    },
+    {
+      "actual_sha256": "92d91c90dbf88127a5d2972d9445c29a4ed98e2f7dc67ee5b262b692463493a5",
+      "exists": true,
+      "expected_sha256": "92d91c90dbf88127a5d2972d9445c29a4ed98e2f7dc67ee5b262b692463493a5",
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/45-native-g60-surface-complex/artifacts/json/g900_residual_involution_slot_maps_022.json"
+    },
+    {
+      "actual_sha256": "c9186b3a5df08d1591691881ca375f4ede865aa0708a12a7374f03395333ee9c",
+      "exists": true,
+      "expected_sha256": "c9186b3a5df08d1591691881ca375f4ede865aa0708a12a7374f03395333ee9c",
+      "hash_match": true,
+      "path": "/data/data/com.termux/files/home/dev/cori/research/mathematics/45-native-g60-surface-complex/artifacts/json/g900_projection_and_automorphism_wrapup_023.json"
+    }
+  ],
+  "boundary": {
+    "absolute_orientation_selected_without_anchor": false,
+    "canonical_orientation_hinge_proved": true,
+    "energy_claim": false,
+    "force_claim": false,
+    "global_impossibility_over_all_graph_definable_selectors": false,
+    "physical_claim": false,
+    "quantum_claim": false,
+    "spacetime_claim": false,
+    "tested_selector_families_closed": true
+  },
+  "claim_checks": {
+    "A60_H60_closure_is_S60": true,
+    "all_eight_runs_pass": true,
+    "external_anchor_required": true,
+    "half_flip_centralizer_trivial": true,
+    "no_H60_equivariant_vertex_root_map": true,
+    "radial_profile_exact": true,
+    "radius_zero_inversion_covariant": true,
+    "surface_character_does_not_extend": true,
+    "surface_character_homomorphism": true,
+    "surface_character_not_permutation_parity": true,
+    "transverse_v4_excluded_from_tricycle_extension": true,
+    "transverse_v4_pair_generates_exact_A60": true,
+    "tricycle_v4_alignment": true,
+    "unique_mixed_fixed_hinge": true
+  },
+  "classification": "canonical_G900_orientation_hinge_with_unanchored_absolute_orientation_obstruction",
+  "consonance_scalar": "G900",
+  "derived_results": {
+    "closure_from_A60_and_H60": "S60",
+    "external_anchor_required": true,
+    "fixed_slots": [
+      6,
+      12,
+      13
+    ],
+    "generated_group_order": "4160493556370695072138170591611682190377086303180622976224638848204800000000000000",
+    "half_flip_centralizer_order_in_H60": 1,
+    "half_flip_orbit_count": 30,
+    "half_flip_state_match_count_profile": {
+      "0": 40,
+      "1": 20
+    },
+    "half_orbit_duad_count_profile": {
+      "1": 19,
+      "2": 10,
+      "4": 1
+    },
+    "mixed_fixed_slots": [
+      6
+    ],
+    "nearest_root_minimizer_count_profile": {
+      "1": 38,
+      "2": 20,
+      "8": 2
+    },
+    "radial_unique_state_counts": {
+      "0": 38,
+      "1": 42,
+      "2": 50,
+      "3": 50,
+      "4": 45,
+      "5": 36,
+      "6": 0
+    },
+    "radius_zero_inversion_covariance": true,
+    "relative_character_extends": false,
+    "surface_character_differs_from_parity": true,
+    "surface_character_is_homomorphism": true,
+    "transverse_v4_pair_generates_A60": true,
+    "tricycle_extension_excludes_transverse_v4": true,
+    "tricycle_v4_alignment_proved": true,
+    "vertex_root_equivariant_map_count": 0
+  },
+  "earned_statement": "The G900 consonance scalar contains a canonical mixed fixed hinge at slot 6. Its native tricycle V4 and half-flip-transverse V4 generate exact A60, while the oriented-surface character on H60 does not extend through the resulting S60 closure. No H60-equivariant vertex-to-root map exists, direct half-flip incidence is nonfunctional, and none of the tested radial hinge-germ rules selects a root at every local state. Thus an absolute orientation is not selected without an added anchor within the preregistered character, equivariant-map, incidence, nearest-root, and radial-germ families.",
+  "failed_claim_count": 0,
+  "failed_claims": [],
+  "locked_preregistration_commit": "d6e4c9d",
+  "mode": "permanent_preregistered_consolidated_recomputation",
+  "packet": "g900_absolute_orientation_obstruction_014b",
+  "permanent_source_custody": [
+    {
+      "actual_sha256": "b2a39e05fa64f37aab281b8dacb7de196d7fcc4ece7a545c349a46126b5c3f30",
+      "exists": true,
+      "expected_sha256": "b2a39e05fa64f37aab281b8dacb7de196d7fcc4ece7a545c349a46126b5c3f30",
+      "hash_match": true,
+      "path": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/absolute_orientation_character_011.py"
+    },
+    {
+      "actual_sha256": "eb2c74b82e35630a55fad345023da68acc332fbfa965f4d2a3fa6f0f813647f7",
+      "exists": true,
+      "expected_sha256": "eb2c74b82e35630a55fad345023da68acc332fbfa965f4d2a3fa6f0f813647f7",
+      "hash_match": true,
+      "path": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/half_flip_nearest_root_016.py"
+    },
+    {
+      "actual_sha256": "95e211068305a6831b18f5938353237524d0baccd218254c0b0db95ef668ee37",
+      "exists": true,
+      "expected_sha256": "95e211068305a6831b18f5938353237524d0baccd218254c0b0db95ef668ee37",
+      "hash_match": true,
+      "path": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/half_flip_relative_root_incidence_015.py"
+    },
+    {
+      "actual_sha256": "df109d2347b7e6c52ccca1f4ee30f7695d3c1d19af44567bc4a08105d46e4d7e",
+      "exists": true,
+      "expected_sha256": "df109d2347b7e6c52ccca1f4ee30f7695d3c1d19af44567bc4a08105d46e4d7e",
+      "hash_match": true,
+      "path": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/half_flip_root_germ_017.py"
+    },
+    {
+      "actual_sha256": "1d575e2e00af0677ce8c2024501ad21ffc18de043e7f1695964821c3896ff1d7",
+      "exists": true,
+      "expected_sha256": "1d575e2e00af0677ce8c2024501ad21ffc18de043e7f1695964821c3896ff1d7",
+      "hash_match": true,
+      "path": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/transverse_v4_exact_order_010.py"
+    },
+    {
+      "actual_sha256": "17b641f90a5ed0a615565765c9c9a2a1a168e94d4c772c8a25ac86b2f3866b3a",
+      "exists": true,
+      "expected_sha256": "17b641f90a5ed0a615565765c9c9a2a1a168e94d4c772c8a25ac86b2f3866b3a",
+      "hash_match": true,
+      "path": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/tricycle_extension_membership_008.py"
+    },
+    {
+      "actual_sha256": "ba495c8266002cab382d9fd0e228f81ac7763675d2ee4c56357d40d11fb1c5a8",
+      "exists": true,
+      "expected_sha256": "ba495c8266002cab382d9fd0e228f81ac7763675d2ee4c56357d40d11fb1c5a8",
+      "hash_match": true,
+      "path": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/tricycle_v4_alignment_004.py"
+    },
+    {
+      "actual_sha256": "49606d2670b8180b0326a35b48b0352cc3f4816a8bf3d762523234a3dea3aa4a",
+      "exists": true,
+      "expected_sha256": "49606d2670b8180b0326a35b48b0352cc3f4816a8bf3d762523234a3dea3aa4a",
+      "hash_match": true,
+      "path": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/vertex_orientation_root_bridge_014.py"
+    }
+  ],
+  "preflight_checks": {
+    "all_authorities_present": true,
+    "all_authority_hashes_match": true,
+    "all_permanent_source_hashes_match": true,
+    "eight_permanent_sources_present": true,
+    "head_is_preregistered_commit": true,
+    "preregistration_hash_matches": true,
+    "preregistration_present": true,
+    "untracked_013e_preserved": true
+  },
+  "preregistration": {
+    "actual_sha256": "0a43dc5524b6564e8de2656391fe71059f7193c294e70d550f61ff6917c44ca5",
+    "expected_sha256": "0a43dc5524b6564e8de2656391fe71059f7193c294e70d550f61ff6917c44ca5",
+    "hash_match": true,
+    "path": "artifacts/json/g900_absolute_orientation_obstruction_preregistration_014a.v1.json"
+  },
+  "promotion": {
+    "commit_performed": false,
+    "consolidated_computation_performed": true,
+    "independent_guard_performed": false,
+    "push_performed": false,
+    "result_candidate_written": true,
+    "result_frozen": false
+  },
+  "repository": {
+    "preexisting_out_of_scope_status": [
+      "?? scripts/audits/compute_g60_root_relative_sign_kernel_census_013e.py"
+    ],
+    "untracked_013e_preserved": true
+  },
+  "source_runs": [
+    {
+      "audit_id": "004_v4_alignment",
+      "audit_pass": null,
+      "classification": "tricycle_sheet_V4_is_native_V4_under_each_spherical_to_native_G60_identification",
+      "command_arguments": [
+        "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/derive_g60_h3_triality_galois_ledge_013f.py",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/45-native-g60-surface-complex/artifacts/json/g60_generated_extension_group_016.json",
+        "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_duad_orientation_bridge_census_011g.v1.json"
+      ],
+      "missing_markers": [],
+      "output_line_count": 22,
+      "output_sha256": "22c4ab3ab510274e253dc836087518984a9f52e5985ca74a410cb573b3a68cc4",
+      "passed": true,
+      "receipt": "artifacts/receipts/g900_absolute_orientation_obstruction_014b_runs/004_v4_alignment.txt",
+      "required_marker_count": 3,
+      "return_code": 0,
+      "source": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/tricycle_v4_alignment_004.py"
+    },
+    {
+      "audit_id": "008_extension_membership",
+      "audit_pass": "True",
+      "classification": "transverse_V4_universally_excluded_from_tricycle_full_extension",
+      "command_arguments": [
+        "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/derive_g60_h3_triality_galois_ledge_013f.py",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/45-native-g60-surface-complex/artifacts/json/g60_generated_extension_group_016.json",
+        "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_duad_orientation_bridge_census_011g.v1.json",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue"
+      ],
+      "missing_markers": [],
+      "output_line_count": 44,
+      "output_sha256": "271bd7419ce8faf3158fefa32942041d4e75658c03d2634c9d1a5b2d9d852c0f",
+      "passed": true,
+      "receipt": "artifacts/receipts/g900_absolute_orientation_obstruction_014b_runs/008_extension_membership.txt",
+      "required_marker_count": 3,
+      "return_code": 0,
+      "source": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/tricycle_extension_membership_008.py"
+    },
+    {
+      "audit_id": "010_exact_A60",
+      "audit_pass": "True",
+      "classification": "transverse_V4_pair_generates_exact_A60",
+      "command_arguments": [
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/45-native-g60-surface-complex/artifacts/json/g60_generated_extension_group_016.json",
+        "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_duad_orientation_bridge_census_011g.v1.json"
+      ],
+      "missing_markers": [],
+      "output_line_count": 32,
+      "output_sha256": "d68a42bc186873743a17e5d8894cffad07af9990b6bda201a3aa04b9a7492609",
+      "passed": true,
+      "receipt": "artifacts/receipts/g900_absolute_orientation_obstruction_014b_runs/010_exact_A60.txt",
+      "required_marker_count": 4,
+      "return_code": 0,
+      "source": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/transverse_v4_exact_order_010.py"
+    },
+    {
+      "audit_id": "011_absolute_character",
+      "audit_pass": "True",
+      "classification": null,
+      "command_arguments": [
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/45-native-g60-surface-complex/artifacts/json/g60_generated_extension_group_016.json",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/45-native-g60-surface-complex/artifacts/json/native_g60_surface_orientation_004.json",
+        "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_duad_orientation_bridge_census_011g.v1.json"
+      ],
+      "missing_markers": [],
+      "output_line_count": 30,
+      "output_sha256": "ce9d873c4263b9a093336b167bbd38d26f5a2a6138d0d2ea7c2ffd72d578b75b",
+      "passed": true,
+      "receipt": "artifacts/receipts/g900_absolute_orientation_obstruction_014b_runs/011_absolute_character.txt",
+      "required_marker_count": 9,
+      "return_code": 0,
+      "source": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/absolute_orientation_character_011.py"
+    },
+    {
+      "audit_id": "014_vertex_root_bridge",
+      "audit_pass": "True",
+      "classification": "no_H60_equivariant_vertex_to_orientation_root_map",
+      "command_arguments": [
+        "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups"
+      ],
+      "missing_markers": [],
+      "output_line_count": 31,
+      "output_sha256": "d87232b0f23f709caba31b3d17c8d056b8367733708c409852697524b1af0f73",
+      "passed": true,
+      "receipt": "artifacts/receipts/g900_absolute_orientation_obstruction_014b_runs/014_vertex_root_bridge.txt",
+      "required_marker_count": 5,
+      "return_code": 0,
+      "source": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/vertex_orientation_root_bridge_014.py"
+    },
+    {
+      "audit_id": "015_half_flip_incidence",
+      "audit_pass": "True",
+      "classification": "half_flip_relative_root_incidence_nonfunctional",
+      "command_arguments": [
+        "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups"
+      ],
+      "missing_markers": [],
+      "output_line_count": 122,
+      "output_sha256": "a8bfee166817647c30223ed109d384bbfa58fb10269b279a12aa2a072cf493d5",
+      "passed": true,
+      "receipt": "artifacts/receipts/g900_absolute_orientation_obstruction_014b_runs/015_half_flip_incidence.txt",
+      "required_marker_count": 6,
+      "return_code": 0,
+      "source": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/half_flip_relative_root_incidence_015.py"
+    },
+    {
+      "audit_id": "016_nearest_root",
+      "audit_pass": "True",
+      "classification": "half_flip_nearest_root_rule_partially_unique",
+      "command_arguments": [
+        "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/45-native-g60-surface-complex"
+      ],
+      "missing_markers": [],
+      "output_line_count": 88,
+      "output_sha256": "65d5a985f70def44fa0a2ad26b7f9ad148b820142908604930c5ea84f648b1d2",
+      "passed": true,
+      "receipt": "artifacts/receipts/g900_absolute_orientation_obstruction_014b_runs/016_nearest_root.txt",
+      "required_marker_count": 7,
+      "return_code": 0,
+      "source": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/half_flip_nearest_root_016.py"
+    },
+    {
+      "audit_id": "017_root_germ",
+      "audit_pass": "True",
+      "classification": "first_order_hinge_germ_reduces_but_does_not_close_root_ambiguity",
+      "command_arguments": [
+        "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue",
+        "/data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups"
+      ],
+      "missing_markers": [],
+      "output_line_count": 124,
+      "output_sha256": "bc2d9fcf983d39a1682892f2d3385790a9591f4599ed39894deccd39a3744156",
+      "passed": true,
+      "receipt": "artifacts/receipts/g900_absolute_orientation_obstruction_014b_runs/017_root_germ.txt",
+      "required_marker_count": 7,
+      "return_code": 0,
+      "source": "scripts/audits/g900_absolute_orientation_obstruction_014b_sources/half_flip_root_germ_017.py"
+    }
+  ]
+}

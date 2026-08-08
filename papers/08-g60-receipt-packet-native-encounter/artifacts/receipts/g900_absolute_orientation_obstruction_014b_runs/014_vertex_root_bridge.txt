@@ -1,0 +1,31 @@
+== G60 VERTEX-TO-ORIENTATION-ROOT BRIDGE AUDIT 014 ==
+ACTION_PATH: /data/data/com.termux/files/home/dev/cori/research/mathematics/42-graph-automorphism-groups/artifacts/json/native_g60_fiber_product_isomorphism_044.json
+ACTION_SHA256: b37313b135495752b11e525bb61979163fdf54aec4be4f5d027dcee64c9efc21
+BRIDGE_PATH: /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_duad_orientation_bridge_census_011g.v1.json
+BRIDGE_SHA256: abc9e038b323fdd5af852a91b87aca4c5a1e35a6e484608af27a04a399c52e9c
+H60_ORDER: 480
+PERMUTATION_DEGREE: 60
+IDENTITY_INDICES: [0]
+ORIENTATION_ROOT_COUNT: 20
+ORIENTATION_ROOTS: [13, 37, 67, 68, 88, 121, 126, 198, 209, 230, 247, 270, 314, 331, 354, 370, 400, 420, 457, 477]
+VERTEX_ORBIT_SIZE: 60
+ROOT_ORBIT_SIZE: 20
+BASE_VERTEX: 0
+VERTEX_STABILIZER_ORDER: 8
+ROOT_STABILIZER_ORDER_PROFILE: {24: 20}
+VERTEX_STABILIZER_FIXED_ROOT_COUNT: 0
+VERTEX_STABILIZER_FIXED_ROOTS: []
+CONSTRUCTION_CONFLICT_COUNT: 0
+VALID_EQUIVARIANT_MAP_COUNT: 0
+DISTINCT_EQUIVARIANT_MAP_COUNT: 0
+
+CHECKS: {'group_order_480': True, 'degree_60': True, 'identity_unique': True, 'inverse_closure': True, 'multiplication_closure': True, 'root_count_20': True, 'root_indices_are_group_elements': True, 'root_action_closed': True, 'vertex_action_transitive': True, 'root_action_transitive': True, 'vertex_stabilizer_order_8': True, 'root_stabilizer_order_24': True, 'candidate_construction_conflict_free': True}
+FAILED_CHECK_COUNT: 0
+FAILED_CHECKS: []
+AUDIT_PASS: True
+CLASSIFICATION: no_H60_equivariant_vertex_to_orientation_root_map
+VERTEX_ROOT_CROSSWALK_PROVED: False
+EPSILON_CROSSWALK_PROVED: false
+ABSOLUTE_ORIENTATION_SELECTED: false
+PHYSICAL_CLAIM: false
+PROJECT_MUTATION_PERFORMED: false
