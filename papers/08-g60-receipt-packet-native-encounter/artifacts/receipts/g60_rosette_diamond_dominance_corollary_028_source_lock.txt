@@ -1,0 +1,6 @@
+PACKET: g60_rosette_diamond_dominance_corollary_028_source_lock
+MODE: exact inherited-authority hash lock
+998ff19afc27d9b66b454f2d07451a3c3f64d823890b6a4c2aab78fecb0dca0f  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_rosette_pipe_null_corollary_025.v1.json
+e5630a02b4e4c28caac017906aebae10b00c5b1a8e1ccdf640a414c1174f6919  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_d8_chart_coherence_census_011w.v1.json
+d5a9036cf96aa97dd8848cd947bff4d07c711db0db2e3dca3ad13ec1c9cdfdab  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_d8_outer_c2_selector_census_011y.v1.json
+SOURCE_LOCK_COMPLETE: true

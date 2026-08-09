@@ -1,0 +1,76 @@
+{
+  "audit_pass": true,
+  "boundary": {
+    "absolute_vertex_labeling_selected": false,
+    "external_C2_bit_required": true,
+    "native_registration_dominant_section_selected": false,
+    "native_signature_dominant_section_selected": false,
+    "physical_claim": false,
+    "physical_dominance_claim": false,
+    "pink_diamond_is_full_eight_chart_fiber": false,
+    "pink_diamond_selects_absolute_section": false,
+    "post_scout_not_blinded": true
+  },
+  "checks": {
+    "all_scouts_return_zero": true,
+    "all_scouts_theorem_pass": true,
+    "all_scouts_zero_failures": true,
+    "dominance_obstruction_identified": true,
+    "pink_diamond_quotient_identified": true,
+    "scout_count_2": true
+  },
+  "classification": "pink_diamond_side_forgetting_quotient_and_registration_signature_outer_C2_obstruction_passed",
+  "created_at": "2026-08-09T12:03:04.106242-07:00",
+  "diagram_rule": {
+    "covariant_role_pair": [
+      "registration_dominant",
+      "signature_dominant"
+    ],
+    "external_bit_rule": {
+      "r_0": {
+        "E": "registration_dominant",
+        "E_inverse": "signature_dominant"
+      },
+      "r_1": {
+        "E": "signature_dominant",
+        "E_inverse": "registration_dominant"
+      }
+    },
+    "fixed_left_right_dominance_labels_allowed": false,
+    "pink_diamond_role": "four_leaf_side_forgetting_quotient"
+  },
+  "earned_statement": "The pink diamond is the four-leaf quotient of the eight-arc rosette obtained by forgetting the binary arc side. It is neither the full eight-chart fiber nor one absolute four-chart section. No native outer-C2-invariant binary observable separates the two four-chart sections. Registration-dominant and signature-dominant roles are available only as a covariant exchanged pair, and an external C2 registration bit is required to name them.",
+  "failed_checks": [],
+  "mode": "post_scout_corollary_consolidation",
+  "packet": "g60_rosette_diamond_dominance_corollary_028",
+  "repository_mutation": {
+    "artifact_write_requested": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_rosette_diamond_dominance_corollary_028.v1.json",
+    "commit_performed": false,
+    "permanent_artifact_written": true,
+    "push_performed": false
+  },
+  "runs": [
+    {
+      "classification": "pink_diamond_is_the_four_leaf_side_forgetting_quotient_of_the_eight_arc_rosette_not_the_full_eight_chart_fiber_or_an_absolute_section",
+      "failed_check_count": "0",
+      "packet": "g900_pink_diamond_role_probe_026",
+      "returncode": 0,
+      "script": "scripts/audits/compute_g60_pink_diamond_role_scout_026.py",
+      "script_sha256": "f61aae82bdc936d476c27e206d373fc960655be3a499fa657c3f7800985d370c",
+      "stderr": "",
+      "stdout": "PACKET: g900_pink_diamond_role_probe_026\nMODE: four-vertex orbit and side-forgetting quotient test\nDIAMOND_VERTICES: ((0, 1), (1, 0), (0, -1), (-1, 0))\nDIAMOND_D8_ACTION_ORDER: 8\nDIAMOND_ORBIT_SIZE: 4\nDIAMOND_POINT_STABILIZER_ORDER: 2\nDIAMOND_V4_ACTION_ORDER: 4\nDIAMOND_V4_ORBIT_SIZE: 4\nDIAMOND_V4_NONIDENTITY_FIXED_COUNTS: [0, 0, 0]\nEQUIVARIANT_LEAF_DIAMOND_LABELING_COUNT: 8\nPROJECTION_FIBER_SIZES: {'(0, 0)': 2, '(1, 0)': 2, '(0, 1)': 2, '(1, 1)': 2}\nSECTION_PROJECTIONS_EQUAL: True\nCHECKS: {'source_025_audit_pass': True, 'diamond_vertex_count_4': True, 'diamond_full_action_order_8': True, 'diamond_full_action_transitive': True, 'diamond_point_stabilizer_order_2': True, 'diamond_not_regular_D8_set': True, 'diamond_v4_action_order_4': True, 'diamond_v4_action_transitive': True, 'diamond_v4_action_free': True, 'abstract_leaf_action_is_D8_order_8': True, 'abstract_leaf_v4_order_4': True, 'named_action_equivariant_labeling_exists': True, 'eight_arcs_project_two_to_one_to_leaves': True, 'both_sections_have_same_diamond_projection': True, 'diamond_cannot_select_arc_side': True}\nFAILED_CHECK_COUNT: 0\nFAILED_CHECKS: []\nTHEOREM_PASS: True\nCLASSIFICATION: pink_diamond_is_the_four_leaf_side_forgetting_quotient_of_the_eight_arc_rosette_not_the_full_eight_chart_fiber_or_an_absolute_section\nPINK_DIAMOND_IS_FULL_EIGHT_CHART_FIBER: False\nPINK_DIAMOND_SELECTS_ONE_SECTION: False\nPINK_DIAMOND_IS_FOUR_LEAF_QUOTIENT: True\nABSOLUTE_VERTEX_LABELING_SELECTED: False\nPHYSICAL_CLAIM: False\nMUTATION_PERFORMED: False\n",
+      "theorem_pass": "True"
+    },
+    {
+      "classification": "native_outer_C2_forbids_absolute_registration_signature_dominance_but_allows_an_externally_oriented_covariant_pair",
+      "failed_check_count": "0",
+      "packet": "g900_registration_signature_dominance_probe_027",
+      "returncode": 0,
+      "script": "scripts/audits/compute_g60_registration_signature_dominance_scout_027.py",
+      "script_sha256": "8918dacda0a716090f1c4d32bcf1419974be15c2c11a921048528c4c655bafeb",
+      "stderr": "",
+      "stdout": "PACKET: g900_registration_signature_dominance_probe_027\nMODE: native outer-C2 selector obstruction\nALL_BINARY_LABELINGS: [{'outputs': (0, 0), 'outer_invariant': True, 'separates_sections': False}, {'outputs': (0, 1), 'outer_invariant': False, 'separates_sections': True}, {'outputs': (1, 0), 'outer_invariant': False, 'separates_sections': True}, {'outputs': (1, 1), 'outer_invariant': True, 'separates_sections': False}]\nINVARIANT_LABELING_COUNT: 2\nSEPARATING_LABELING_COUNT: 2\nINVARIANT_SEPARATING_LABELING_COUNT: 0\nSEPARATING_ORIENTATION_PAIR: [(0, 1), (1, 0)]\nCHECKS: {'source_011y_audit_pass': True, 'source_011w_audit_pass': True, 'source_025_audit_pass': True, 'both_presentations_loaded': True, 'all_outer_exchange_fiber_orbits': True, 'alpha1_constant_under_outer_exchange': True, 'q_axis_constant_under_outer_exchange': True, 'native_single_orbit_selector_count_zero': True, 'locked_character_does_not_select_orbit': True, 'residual_outer_gauge_is_C2': True, 'binary_property_count_4': True, 'outer_invariant_property_count_2': True, 'section_separating_property_count_2': True, 'no_invariant_property_separates_sections': True, 'separating_pair_is_orientation_pair': True}\nFAILED_CHECK_COUNT: 0\nFAILED_CHECKS: []\nTHEOREM_PASS: True\nCLASSIFICATION: native_outer_C2_forbids_absolute_registration_signature_dominance_but_allows_an_externally_oriented_covariant_pair\nNATIVE_REGISTRATION_DOMINANT_SECTION_SELECTED: False\nNATIVE_SIGNATURE_DOMINANT_SECTION_SELECTED: False\nCOVARIANT_DOMINANCE_PAIR_AVAILABLE: True\nEXTERNAL_C2_BIT_REQUIRED_TO_NAME_PAIR: True\nPHYSICAL_DOMINANCE_CLAIM: False\nMUTATION_PERFORMED: False\n",
+      "theorem_pass": "True"
+    }
+  ]
+}
