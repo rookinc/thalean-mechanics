@@ -1,0 +1,31 @@
+PACKET: g900_native_k33_cube_affine_capstone_062
+MODE: post_scout_capstone_consolidation
+SCOUT: g900_native_g15_edge_bisector_bridge_038b EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_k33_frame_pentagon_register_probe_040b EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_k33_to_native_g15_projection_distortion_043b EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_flat_edge_triangle_tip_projection_044 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_native_double_triangle_spoke_bridge_045 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_native_c5_edge_affine_twist_046 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_native_c5_affine_twist_gauge_census_047 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_spoke_twist_carrier_direction_join_049 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_affine_twist_one_four_angle_role_050 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_affine_twist_square_half_turn_051 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_twist_invariant_angle_placement_052 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_spoke_midpoint_invertibility_053 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_midpoint_quotient_reverse_obstruction_054 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_five_bridge_affine_group_055 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_k33_five_four_half_turn_join_056 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_k33_six_nine_barycentric_shadow_057 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_k33_cube_face_cross_incidence_058 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_k33_reflection_cube_symmetry_059 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_cube_face_native_distance_join_060 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_cube_placement_residual_gauge_061 EXISTS=True RC=0 PASS=True FAILURES=0
+CHECKS: {'source015_exists': True, 'source019_exists': True, 'source015_audit_pass': True, 'source019_audit_pass': True, 'scout_count_20': True, 'all_scout_scripts_exist': True, 'all_scouts_return_zero': True, 'all_packet_names_match': True, 'all_scouts_theorem_pass': True, 'all_scouts_zero_failures': True, 'native_bisector_bridge_pass': True, 'projection_is_nonfaithful_pass': True, 'native_distance_roles_pass': True, 'affine_twist_pass': True, 'affine_gauge_pass': True, 'common_half_turn_pass': True, 'angle_placement_pass': True, 'native_midpoint_inverse_pass': True, 'quotient_reverse_obstruction_pass': True, 'AGL15_register_algebra_pass': True, 'five_four_edge_split_pass': True, 'six_nine_shadow_pass': True, 'cube_face_cross_incidence_pass': True, 'cube_reflection_pass': True, 'cube_native_distance_join_pass': True, 'residual_cube_gauge_pass': True}
+FAILED_CHECK_COUNT: 0
+FAILED_CHECKS: []
+AUDIT_PASS: True
+CLASSIFICATION: native_G15_K3_3_signed_axis_cube_projection_affine_twist_midpoint_quotient_capstone_passed
+OUTPUT: /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g900_native_k33_cube_affine_capstone_062.v1.json
+PERMANENT_ARTIFACT_WRITTEN: True
+COMMIT_PERFORMED: False
+PUSH_PERFORMED: False
