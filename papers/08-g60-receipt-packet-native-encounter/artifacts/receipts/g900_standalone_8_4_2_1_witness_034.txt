@@ -1,0 +1,15 @@
+PACKET: g900_standalone_8_4_2_1_witness_034
+MODE: standalone_frozen_witness_quotient_audit
+QUOTIENT_PROFILE: {'arc_count': 8, 'leaf_count': 4, 'receipt_count': 2, 'aggregate_count': 1, 'arc_to_leaf_fiber_sizes': [2, 2, 2, 2], 'leaf_to_receipt_fiber_sizes': [2, 2], 'receipt_to_aggregate_fiber_size': 2}
+TYPE_COUNT: 9
+TYPE_FAILURE_COUNT: 0
+CHECKS: {'witness_033_audit_pass': True, 'source_025_audit_pass': True, 'source_028_audit_pass': True, 'registered_type_count_9': True, 'arc_count_8': True, 'leaf_count_4': True, 'receipt_count_2': True, 'aggregate_count_1': True, 'eight_to_four_fiber_profile_2_2_2_2': True, 'four_to_two_fiber_profile_2_2': True, 'two_to_one_fiber_profile_2': True, 'outer_arc_side_is_separate_from_signatory_bit': True, 'all_nine_types_exact': True}
+FAILED_CHECK_COUNT: 0
+FAILED_CHECKS: []
+AUDIT_PASS: True
+CLASSIFICATION: frozen_minimal_register_witness_proves_exact_eight_to_four_to_two_to_one_quotient_ladder_across_all_nine_response_types
+DISCOVERY_ANCESTRY_EXECUTED: False
+OUTER_ARC_SIDE_EQUALS_SIGNATORY_BIT: False
+OUTPUT: /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g900_standalone_8_4_2_1_witness_034.v1.json
+PERMANENT_ARTIFACT_WRITTEN: True
+MUTATION_PERFORMED: False

@@ -1,0 +1,11 @@
+PACKET: g900_standalone_8_4_2_1_witness_034_source_lock
+MODE: compressed discovery-provenance hash lock
+0629641c155082ccc3931d236e18a65a36e5ea1691893920cf3fe7ac86422e31  /data/data/com.termux/files/home/tmp/probe-g900-exact-inward-inequality-law-015.py
+3970b2306986a9c3df3c546b1e80dbf7b8d11acb77d6ab105abd9472bc8d800f  /data/data/com.termux/files/home/tmp/probe-g900-minimal-law-register-factorization-019.py
+25b17c291fed86020809a49200b8dbf065f603bb7931d1a93c1b94257942ab68  /data/data/com.termux/files/home/tmp/probe-g900-capstone-quotient-section-020.py
+fe497b1f163919e6cc3ed9f65bb2ad0b3b5751daecf73e1d46afd43090f0b272  /data/data/com.termux/files/home/tmp/probe-g900-rosette-capstone-8-4-2-1-029.py
+6275e6477b3e94f3bf59ec831e737c7edeb42ecdc53ec6839e67f9692f6e60df  /data/data/com.termux/files/home/tmp/g900_capstone_recursive_ancestry_032.txt
+998ff19afc27d9b66b454f2d07451a3c3f64d823890b6a4c2aab78fecb0dca0f  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_rosette_pipe_null_corollary_025.v1.json
+4c49a712d740963559daf2adf287c86542ba8bafe5abcbf1e6c5d51cb0f0020e  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_rosette_diamond_dominance_corollary_028.v1.json
+DISCOVERY_ANCESTRY_EXECUTED_BY_PERMANENT_AUDIT: false
+SOURCE_LOCK_COMPLETE: true
