@@ -1,0 +1,263 @@
+{
+  "audit_pass": true,
+  "boundary": {
+    "absolute_affine_orientation_selected": false,
+    "canonical_K33_split_selected": false,
+    "canonical_completion_sheet_selected": false,
+    "canonical_decomposition_selected": false,
+    "canonical_frame_selected": false,
+    "expected_falsifier_070_preserved": true,
+    "force_claim": false,
+    "gravity_claim": false,
+    "numeric_angle_values_derived_from_graph": false,
+    "orthogonality_is_unconditional_graph_claim": false,
+    "physical_cube_claim": false,
+    "physical_distance_claim": false,
+    "physical_rotation_claim": false,
+    "sheet_equals_affine_orientation": false,
+    "single_120_frame_torsor_claim": false
+  },
+  "checks": {
+    "all_expected_failure_counts_match": true,
+    "all_expected_theorem_statuses_match": true,
+    "all_packet_names_match": true,
+    "all_required_markers_present": true,
+    "all_return_zero": true,
+    "all_scripts_exist": true,
+    "double_cover_070b_passed": true,
+    "scout_count_11": true,
+    "sheet_affine_independence_072_passed": true,
+    "sheet_completion_071_passed": true,
+    "torsor_070_falsified_exactly": true
+  },
+  "classification": "native_G15_six_register_synthematic_K3_3_double_sheet_affine_root_capstone_passed",
+  "derived": {
+    "K33_cross_duad_count_per_split": 9,
+    "base_reflection_frame_count": 60,
+    "capstone_stabilizer": "AGL(1,5)",
+    "capstone_stabilizer_order": 20,
+    "centered_affine_roots_per_frame": 2,
+    "choices_per_base_frame": 4,
+    "complete_five_four_frame_count": 120,
+    "distance_rule": {
+      "1": "disjoint_duads_in_different_synthemes",
+      "2": "duads_intersect_in_one_register_point",
+      "3": "disjoint_duads_in_the_same_syntheme"
+    },
+    "duad_count": 15,
+    "intrinsic_decomposition_count": 6,
+    "native_G15_state_count": 15,
+    "native_completion_sheet_count": 2,
+    "native_completion_sheet_size": 60,
+    "orthogonal_language": {
+      "one_step": "orthogonal_once_under_faithful_metric_realization",
+      "repeated_step": "orthogonal_again_under_faithful_metric_realization"
+    },
+    "root_automorphism_group_order": 120,
+    "same_side_duad_count_per_split": 6,
+    "six_register_point_count": 6,
+    "syntheme_count": 5,
+    "three_plus_three_split_count": 10
+  },
+  "earned_statement": "Native G15 intrinsically determines six double-C5 decompositions corresponding to the six perfect matchings of its Petersen root. Pairwise intersections identify the fifteen G15 states with the fifteen duads of a six-point register. A native synthematic total reconstructs the full G15 distance metric on those duads. The ten three-plus-three splits of the register produce ten intrinsic abstract K3,3 cross-duad carriers, each with a six same-side plus nine cross-duad partition. Adding a same-side closure produces sixty reflection frames. Their one hundred twenty complete five-four placements do not form one native torsor: they split into two native sheets of sixty, exactly the two reflection-invariant synthematic-total completions of AB, CE, DF. Each base frame also has two inverse centered order-four square roots of its reflection. The completion sheet and affine-root orientation are independent binary choices, yielding four choices per base frame.",
+  "failed_checks": [],
+  "interpretation": "The order-four root supplies the intrinsic combinatorial notion of one step and its repeated step. Under an explicitly chosen faithful square-grid or inner-product realization, these may be read as orthogonal once and orthogonal again. The graph alone derives the order-four action and its involutive square, not numerical 90-degree or 180-degree angles.",
+  "mode": "post_scout_intrinsic_six_register_capstone",
+  "packet": "g900_six_register_synthematic_capstone_073",
+  "repository_mutation": {
+    "artifact_write_requested": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g900_six_register_synthematic_capstone_073.v1.json",
+    "commit_performed": false,
+    "permanent_artifact_written": true,
+    "push_performed": false,
+    "staging_performed": false
+  },
+  "scout_runs": [
+    {
+      "expected_failed_check_count": 0,
+      "expected_packet": "g900_native_double_c5_spoke_decomposition_063",
+      "expected_theorem_pass": true,
+      "failed_check_count": 0,
+      "marker_checks": {
+        "KNOWN_PARTITION_RECOVERED: True": true,
+        "SOLUTION_COUNT: 6": true
+      },
+      "packet": "g900_native_double_c5_spoke_decomposition_063",
+      "returncode": 0,
+      "script": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_native_double_c5_spoke_decomposition_063.py",
+      "script_exists": true,
+      "sha256": "c9871d155ab502e93256f425524becbfa209947c151b427774876475d388f1ae",
+      "stderr": "",
+      "theorem_pass": true
+    },
+    {
+      "expected_failed_check_count": 0,
+      "expected_packet": "g900_six_decomposition_duad_register_064",
+      "expected_theorem_pass": true,
+      "failed_check_count": 0,
+      "marker_checks": {
+        "DECOMPOSITION_COUNT: 6": true,
+        "NATIVE_G15_STATE_TO_SIX_REGISTER_DUAD_DERIVED: True": true
+      },
+      "packet": "g900_six_decomposition_duad_register_064",
+      "returncode": 0,
+      "script": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_six_decomposition_duad_register_064.py",
+      "script_exists": true,
+      "sha256": "b4460709c8ace0b2bae2e36f13390c2c5f011ce0625e6bc5f46884e7e200f3d0",
+      "stderr": "",
+      "theorem_pass": true
+    },
+    {
+      "expected_failed_check_count": 0,
+      "expected_packet": "g900_petersen_six_register_stabilizer_065",
+      "expected_theorem_pass": true,
+      "failed_check_count": 0,
+      "marker_checks": {
+        "CAPSTONE_STABILIZER_IS_AGL15: True": true,
+        "ROOT_AUTOMORPHISM_GROUP_ORDER: 120": true
+      },
+      "packet": "g900_petersen_six_register_stabilizer_065",
+      "returncode": 0,
+      "script": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_petersen_six_register_stabilizer_065.py",
+      "script_exists": true,
+      "sha256": "3402d1441bc071e829976bc73bc222bbf38acc913659ee63ee5fa763bf3af95a",
+      "stderr": "",
+      "theorem_pass": true
+    },
+    {
+      "expected_failed_check_count": 0,
+      "expected_packet": "g900_six_register_pair_orbit_reconstruction_066",
+      "expected_theorem_pass": true,
+      "failed_check_count": 0,
+      "marker_checks": {
+        "G15_DISTANCE_PARTITION_FROM_PAIR_ORBITS_DERIVED: True": true,
+        "PAIR_ORBIT_SIZE_PROFILE: {15: 1, 30: 1, 60: 1}": true
+      },
+      "packet": "g900_six_register_pair_orbit_reconstruction_066",
+      "returncode": 0,
+      "script": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_six_register_pair_orbit_reconstruction_066.py",
+      "script_exists": true,
+      "sha256": "a0706e3ce01b7930e816ca27ae2339a989d0dc07e3692e335e68a9453528d4f5",
+      "stderr": "",
+      "theorem_pass": true
+    },
+    {
+      "expected_failed_check_count": 0,
+      "expected_packet": "g900_six_register_synthematic_total_067",
+      "expected_theorem_pass": true,
+      "failed_check_count": 0,
+      "marker_checks": {
+        "DIRECT_SIX_POINT_G15_METRIC_RULE_DERIVED: True": true,
+        "NATIVE_SYNTHEMATIC_TOTAL_DERIVED: True": true
+      },
+      "packet": "g900_six_register_synthematic_total_067",
+      "returncode": 0,
+      "script": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_six_register_synthematic_total_067.py",
+      "script_exists": true,
+      "sha256": "ca2e0561445e0821a2f8dc0ad167f10d904774b8dfcb0023f8d701ee2f537bb5",
+      "stderr": "",
+      "theorem_pass": true
+    },
+    {
+      "expected_failed_check_count": 0,
+      "expected_packet": "g900_six_register_k33_cross_duad_family_068",
+      "expected_theorem_pass": true,
+      "failed_check_count": 0,
+      "marker_checks": {
+        "INTRINSIC_K33_CROSS_DUAD_FAMILY_DERIVED: True": true,
+        "THREE_PLUS_THREE_SPLIT_COUNT: 10": true
+      },
+      "packet": "g900_six_register_k33_cross_duad_family_068",
+      "returncode": 0,
+      "script": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_six_register_k33_cross_duad_family_068.py",
+      "script_exists": true,
+      "sha256": "5f41c68240311f82cd3a109d131577c0cefe6752e67cd9b21fe583ad220ae350",
+      "stderr": "",
+      "theorem_pass": true
+    },
+    {
+      "expected_failed_check_count": 0,
+      "expected_packet": "g900_k33_closure_syntheme_reflection_069",
+      "expected_theorem_pass": true,
+      "failed_check_count": 0,
+      "marker_checks": {
+        "DECORATED_FRAME_COUNT: 60": true,
+        "DRAWING_REFLECTION_DERIVED: True": true
+      },
+      "packet": "g900_k33_closure_syntheme_reflection_069",
+      "returncode": 0,
+      "script": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_k33_closure_syntheme_reflection_069.py",
+      "script_exists": true,
+      "sha256": "98b5a61b9c48f61d24ab5c88078d255bc99c8eceb5556b2dd825d4d09e7084cf",
+      "stderr": "",
+      "theorem_pass": true
+    },
+    {
+      "expected_failed_check_count": 3,
+      "expected_packet": "g900_k33_five_four_frame_torsor_070",
+      "expected_theorem_pass": false,
+      "failed_check_count": 3,
+      "marker_checks": {
+        "CLASSIFICATION: complete_K3_3_five_four_frame_torsor_not_derived": true,
+        "COMPLETE_FRAME_IS_NATIVE_SYMMETRY_TORSOR: False": true
+      },
+      "packet": "g900_k33_five_four_frame_torsor_070",
+      "returncode": 0,
+      "script": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_k33_five_four_frame_torsor_falsifier_070.py",
+      "script_exists": true,
+      "sha256": "d723049cb9813f17bc979a95efd838b95971658037feb05940d600c21ef107f6",
+      "stderr": "",
+      "theorem_pass": false
+    },
+    {
+      "expected_failed_check_count": 0,
+      "expected_packet": "g900_k33_five_four_frame_double_cover_070b",
+      "expected_theorem_pass": true,
+      "failed_check_count": 0,
+      "marker_checks": {
+        "ORBIT_SIZE_PROFILE: {60: 2}": true,
+        "TWO_NATIVE_FRAME_SHEETS_DERIVED: True": true
+      },
+      "packet": "g900_k33_five_four_frame_double_cover_070b",
+      "returncode": 0,
+      "script": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_k33_five_four_frame_double_cover_070b.py",
+      "script_exists": true,
+      "sha256": "9e70ad9266ce50b39aa9025e5f202de758acfc90988ea95b493843e41ac488ca",
+      "stderr": "",
+      "theorem_pass": true
+    },
+    {
+      "expected_failed_check_count": 0,
+      "expected_packet": "g900_k33_sheet_synthematic_completion_071",
+      "expected_theorem_pass": true,
+      "failed_check_count": 0,
+      "marker_checks": {
+        "FRAME_SHEET_BIT_DERIVED: True": true,
+        "REFLECTION_CLASS_COUNT: 2": true
+      },
+      "packet": "g900_k33_sheet_synthematic_completion_071",
+      "returncode": 0,
+      "script": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_k33_sheet_synthematic_completion_071.py",
+      "script_exists": true,
+      "sha256": "5ecbd02cfbdebd74b358fdb014f41f155eb8a24cbe6356f7de21f0bb4eb89870",
+      "stderr": "",
+      "theorem_pass": true
+    },
+    {
+      "expected_failed_check_count": 0,
+      "expected_packet": "g900_sheet_affine_square_root_join_072",
+      "expected_theorem_pass": true,
+      "failed_check_count": 0,
+      "marker_checks": {
+        "CHOICES_PER_BASE_FRAME: 4": true,
+        "SHEET_AND_AFFINE_ORIENTATION_ARE_INDEPENDENT: True": true
+      },
+      "packet": "g900_sheet_affine_square_root_join_072",
+      "returncode": 0,
+      "script": "/data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_sheet_affine_square_root_join_072.py",
+      "script_exists": true,
+      "sha256": "b063282ba386374a4d4520ac2db7aca32bb1da11b0da16a82e91b30a60454bf0",
+      "stderr": "",
+      "theorem_pass": true
+    }
+  ]
+}

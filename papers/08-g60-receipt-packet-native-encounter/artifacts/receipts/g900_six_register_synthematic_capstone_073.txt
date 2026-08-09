@@ -1,0 +1,23 @@
+PACKET: g900_six_register_synthematic_capstone_073
+MODE: post_scout_intrinsic_six_register_capstone
+SCOUT: g900_native_double_c5_spoke_decomposition_063 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_six_decomposition_duad_register_064 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_petersen_six_register_stabilizer_065 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_six_register_pair_orbit_reconstruction_066 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_six_register_synthematic_total_067 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_six_register_k33_cross_duad_family_068 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_k33_closure_syntheme_reflection_069 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_k33_five_four_frame_torsor_070 EXISTS=True RC=0 PASS=False FAILURES=3
+SCOUT: g900_k33_five_four_frame_double_cover_070b EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_k33_sheet_synthematic_completion_071 EXISTS=True RC=0 PASS=True FAILURES=0
+SCOUT: g900_sheet_affine_square_root_join_072 EXISTS=True RC=0 PASS=True FAILURES=0
+CHECKS: {'scout_count_11': True, 'all_scripts_exist': True, 'all_return_zero': True, 'all_packet_names_match': True, 'all_expected_theorem_statuses_match': True, 'all_expected_failure_counts_match': True, 'all_required_markers_present': True, 'torsor_070_falsified_exactly': True, 'double_cover_070b_passed': True, 'sheet_completion_071_passed': True, 'sheet_affine_independence_072_passed': True}
+FAILED_CHECK_COUNT: 0
+FAILED_CHECKS: []
+AUDIT_PASS: True
+CLASSIFICATION: native_G15_six_register_synthematic_K3_3_double_sheet_affine_root_capstone_passed
+OUTPUT: /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g900_six_register_synthematic_capstone_073.v1.json
+PERMANENT_ARTIFACT_WRITTEN: True
+STAGING_PERFORMED: False
+COMMIT_PERFORMED: False
+PUSH_PERFORMED: False

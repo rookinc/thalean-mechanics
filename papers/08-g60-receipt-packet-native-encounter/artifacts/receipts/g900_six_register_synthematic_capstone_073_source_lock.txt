@@ -1,0 +1,15 @@
+PACKET: g900_six_register_synthematic_capstone_073
+SOURCE_LOCK_VERSION: 1
+SOURCE_FILE_COUNT: 12
+c9871d155ab502e93256f425524becbfa209947c151b427774876475d388f1ae  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_native_double_c5_spoke_decomposition_063.py
+b4460709c8ace0b2bae2e36f13390c2c5f011ce0625e6bc5f46884e7e200f3d0  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_six_decomposition_duad_register_064.py
+3402d1441bc071e829976bc73bc222bbf38acc913659ee63ee5fa763bf3af95a  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_petersen_six_register_stabilizer_065.py
+a0706e3ce01b7930e816ca27ae2339a989d0dc07e3692e335e68a9453528d4f5  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_six_register_pair_orbit_reconstruction_066.py
+ca2e0561445e0821a2f8dc0ad167f10d904774b8dfcb0023f8d701ee2f537bb5  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_six_register_synthematic_total_067.py
+5f41c68240311f82cd3a109d131577c0cefe6752e67cd9b21fe583ad220ae350  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_six_register_k33_cross_duad_family_068.py
+98b5a61b9c48f61d24ab5c88078d255bc99c8eceb5556b2dd825d4d09e7084cf  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_k33_closure_syntheme_reflection_069.py
+d723049cb9813f17bc979a95efd838b95971658037feb05940d600c21ef107f6  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_k33_five_four_frame_torsor_falsifier_070.py
+9e70ad9266ce50b39aa9025e5f202de758acfc90988ea95b493843e41ac488ca  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_k33_five_four_frame_double_cover_070b.py
+5ecbd02cfbdebd74b358fdb014f41f155eb8a24cbe6356f7de21f0bb4eb89870  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_k33_sheet_synthematic_completion_071.py
+b063282ba386374a4d4520ac2db7aca32bb1da11b0da16a82e91b30a60454bf0  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/compute_g900_sheet_affine_square_root_join_072.py
+778bc6719400d28b1735f6fe720c21d432473b5248eec7c30ed2e93103823c30  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/scripts/audits/audit_g900_six_register_synthematic_capstone_073.py
