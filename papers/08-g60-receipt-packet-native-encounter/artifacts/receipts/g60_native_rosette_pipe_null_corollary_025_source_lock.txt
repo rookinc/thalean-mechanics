@@ -1,0 +1,10 @@
+PACKET: g60_native_rosette_pipe_null_corollary_025_source_lock
+MODE: exact inherited-authority hash lock
+3fb57c89de5d829d6e241f359e0be1c9d9b46487b478ac850ff4f8e7468c4edf  /data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/notes/v4_fourfold_edge_lift_square_audit_001.md
+e0b14cb81a3a28838b180e7bb0aacb17686b7d040171d3f90c59a713437008fa  /data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/s3_sign_v4_d8_local_system_audit_021.json
+bd45e9224afaa22ae39855fb87ed391221340a6bb5b9375edcc012d2610449e4  /data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/json/synthematic_total_534_transport_tower_audit_020.json
+9d5046dec7ea5d32f88782aa158a79082d4facf6f0b4fd4a7d3a3e4c552a0f70  /data/data/com.termux/files/home/dev/cori/research/mathematics/41-order-4-dodecahedral-residue/artifacts/paper42/project42_native_voltage_derivation_certificate_033.json
+e5630a02b4e4c28caac017906aebae10b00c5b1a8e1ccdf640a414c1174f6919  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_d8_chart_coherence_census_011w.v1.json
+d5a9036cf96aa97dd8848cd947bff4d07c711db0db2e3dca3ad13ec1c9cdfdab  /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_d8_outer_c2_selector_census_011y.v1.json
+SOURCE_LOCK_COMPLETE: true
+MUTATION_SCOPE: source-lock receipt only

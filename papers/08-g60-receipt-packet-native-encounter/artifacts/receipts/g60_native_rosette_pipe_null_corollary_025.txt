@@ -1,0 +1,15 @@
+PACKET: g60_native_rosette_pipe_null_corollary_025
+MODE: post_scout_corollary_consolidation
+SCOUT: g900_native_eight_arc_rosette_probe_021 RC=0 PASS=True FAILURES=0
+SCOUT: g900_rosette_quarter_turn_probe_022 RC=0 PASS=True FAILURES=0
+SCOUT: g900_rosette_four_lane_pipe_probe_023 RC=0 PASS=True FAILURES=0
+SCOUT: g900_rosette_null_center_probe_024 RC=0 PASS=True FAILURES=0
+CHECKS: {'scout_count_4': True, 'all_scouts_return_zero': True, 'all_scouts_theorem_pass': True, 'all_scouts_zero_failures': True, 'rosette_equivariant_identification_pass': True, 'quarter_turn_geometry_pass': True, 'four_lane_pipe_join_pass': True, 'null_center_quotient_pass': True}
+FAILED_CHECK_COUNT: 0
+FAILED_CHECKS: []
+AUDIT_PASS: True
+CLASSIFICATION: native_D8_eight_chart_rosette_quarter_turn_four_lane_pipe_and_fixed_null_center_corollary_passed
+OUTPUT: /data/data/com.termux/files/home/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g60_native_rosette_pipe_null_corollary_025.v1.json
+PERMANENT_ARTIFACT_WRITTEN: True
+COMMIT_PERFORMED: False
+PUSH_PERFORMED: False
