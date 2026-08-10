@@ -1,0 +1,51 @@
+PACKET: g900_combined_sheet_root_deck_group_075k
+MODE: exact combined completion-sheet and affine-root cover audit
+BASE_FRAME_COUNT: 60
+COMPLETION_CANDIDATE_COUNT: 120
+FRAME_ROOT_COUNT: 120
+COMBINED_STATE_COUNT: 240
+ROOT_TRANSPORT_FAILURE_COUNT: 0
+COMBINED_TRANSPORT_FAILURE_COUNT: 28128
+SHEET_DECK_FIXED_POINT_COUNT: 0
+ROOT_DECK_FIXED_POINT_COUNT: 0
+COMBINED_DECK_FIXED_POINT_COUNT: 0
+DECK_INVOLUTIONS_COMMUTE: True
+DECK_GROUP_ORDER: 4
+DECK_GROUP_IS_V4: True
+DECK_ACTION_REGULAR_ON_FRAME_FIBERS: True
+SHEET_DECK_COMMUTATION_FAILURE_COUNT: 0
+ROOT_DECK_COMMUTATION_FAILURE_COUNT: 0
+COMBINED_NATIVE_ORBIT_COUNT: 0
+COMBINED_NATIVE_ORBIT_SIZE_PROFILE: {}
+COMBINED_ORBIT_ROWS: []
+SHEET_DECK_ORBIT_PROFILE: {}
+ROOT_DECK_ORBIT_PROFILE: {}
+COMBINED_DECK_ORBIT_PROFILE: {}
+CHECKS: {'source_069_theorem_pass': True, 'source_072_theorem_pass': True, 'frame_count_60': True, 'two_completion_candidates_per_frame': True, 'two_roots_per_frame': True, 'combined_state_count_240': True, 'root_transport_failure_count_zero': True, 'combined_transport_failure_count_zero': False, 'all_native_combined_actions_bijective': False, 'sheet_deck_is_fixed_point_free_involution': True, 'root_deck_is_fixed_point_free_involution': True, 'combined_deck_is_fixed_point_free_involution': True, 'deck_involutions_commute': True, 'deck_group_order_4': True, 'deck_group_regular_on_each_frame_fiber': True, 'sheet_deck_central': True, 'root_deck_central': True, 'four_native_orbits_of_size_60': False, 'each_orbit_projects_bijectively_to_frames': True}
+FAILED_CHECK_COUNT: 3
+FAILED_CHECKS: ['combined_transport_failure_count_zero', 'all_native_combined_actions_bijective', 'four_native_orbits_of_size_60']
+THEOREM_PASS: False
+CLASSIFICATION: combined_sheet_root_Klein_four_cover_not_derived
+CANONICAL_COMPLETION_SHEET_SELECTED: False
+CANONICAL_AFFINE_ORIENTATION_SELECTED: False
+NUMERIC_ANGLE_VALUES_DERIVED: False
+PHYSICAL_CLAIM: False
+MUTATION_PERFORMED: False
+        0.20 real         0.19 user         0.00 sys
+            24428544  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                2161  page reclaims
+                  78  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   5  voluntary context switches
+                  23  involuntary context switches
+          3721271240  instructions retired
+           755694802  cycles elapsed
+            17236376  peak memory footprint

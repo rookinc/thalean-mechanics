@@ -1,0 +1,49 @@
+PACKET: g900_sheet_root_action_order_bridge_075l
+MODE: exact restored-frame action-order reconciliation
+FRAME_COUNT: 60
+COMPLETION_CANDIDATE_COUNT: 120
+CANDIDATE_ACTION_COUNT: 120
+SIX_ACTION_COUNT: 120
+CANDIDATE_FRAME_ACTION_DISTINCT_COUNT: 120
+SIX_FRAME_ACTION_DISTINCT_COUNT: 120
+CANDIDATE_FRAME_FAILURE_COUNT: 0
+SIX_FRAME_FAILURE_COUNT: 0
+RAW_INDEX_FRAME_ACTION_MATCH_COUNT: 2
+RAW_INVERSE_INDEX_FRAME_ACTION_MATCH_COUNT: 2
+DIRECT_BRIDGE_COUNT: 120
+DIRECT_BRIDGE_MISSING_COUNT: 0
+DIRECT_BRIDGE_AMBIGUOUS_COUNT: 0
+DIRECT_BRIDGE_COMPLETE: True
+INVERSE_BRIDGE_COUNT: 120
+INVERSE_BRIDGE_MISSING_COUNT: 0
+INVERSE_BRIDGE_AMBIGUOUS_COUNT: 0
+INVERSE_BRIDGE_COMPLETE: True
+SELECTED_CONVENTION: both
+SELECTED_BRIDGE_IS_BIJECTION: True
+BRIDGE_DISPLACEMENT_PROFILE: {-107: 1, -105: 1, -102: 1, -99: 1, -95: 1, -80: 1, -79: 1, -77: 1, -75: 1, -73: 1, -71: 1, -69: 2, -65: 1, -64: 1, -59: 1, -58: 1, -57: 2, -56: 1, -53: 1, -52: 1, -51: 2, -48: 1, -45: 1, -43: 1, -41: 1, -38: 1, -37: 1, -36: 1, -34: 1, -33: 1, -29: 1, -27: 2, -23: 2, -20: 2, -17: 1, -16: 2, -15: 3, -13: 1, -11: 2, -10: 1, -8: 1, -5: 1, -4: 1, -3: 1, -2: 1, 0: 2, 1: 3, 2: 1, 3: 2, 4: 1, 5: 1, 6: 3, 7: 1, 8: 1, 10: 1, 11: 2, 12: 1, 13: 2, 14: 1, 19: 2, 21: 1, 24: 1, 26: 1, 29: 1, 30: 2, 31: 1, 32: 1, 33: 1, 35: 1, 37: 1, 41: 1, 43: 1, 44: 1, 47: 1, 48: 2, 49: 1, 51: 1, 52: 1, 55: 1, 56: 1, 58: 2, 59: 1, 62: 3, 63: 1, 64: 1, 68: 1, 69: 2, 70: 2, 75: 2, 81: 1, 99: 1, 104: 2}
+BRIDGE_PREVIEW: ((0, 49), (1, 44), (2, 23), (3, 107), (4, 108), (5, 74), (6, 43), (7, 65), (8, 8), (9, 17), (10, 5), (11, 79), (12, 45), (13, 88), (14, 76), (15, 90), (16, 0), (17, 9), (18, 48), (19, 6), (20, 119), (21, 77), (22, 103), (23, 85), (24, 59), (25, 51), (26, 36), (27, 57), (28, 30), (29, 40))
+CHECKS: {'source_069_exists': True, 'source_072_exists': True, 'frame_count_60': True, 'candidate_count_120': True, 'candidate_action_count_120': True, 'six_action_count_120': True, 'restored_frame_keys_distinct': True, 'two_candidates_per_frame': True, 'candidate_frame_failures_zero': True, 'six_frame_failures_zero': True, 'exact_action_order_bridge_exists': True}
+FAILED_CHECK_COUNT: 0
+FAILED_CHECKS: []
+THEOREM_PASS: True
+CLASSIFICATION: the_completion_candidate_action_and_the_restored_affine_root_action_have_the_same_native_frame_action_after_an_explicit_action_order_bridge
+COMBINED_COVER_TEST_PERFORMED: False
+REPOSITORY_MUTATION: none
+        0.16 real         0.15 user         0.00 sys
+            20660224  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1930  page reclaims
+                  78  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   2  voluntary context switches
+                  23  involuntary context switches
+          2881962509  instructions retired
+           595447452  cycles elapsed
+            13484464  peak memory footprint

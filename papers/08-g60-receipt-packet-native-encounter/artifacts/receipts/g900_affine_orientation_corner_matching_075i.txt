@@ -1,0 +1,36 @@
+PACKET: g900_affine_orientation_corner_matching_075i
+MODE: exact centered-root corner-matching invariant test
+FRAME_COUNT: 60
+STATE_COUNT: 120
+CORNER_MATCHING_ORBIT_PROFILE: {(0, 0): 30, (0, 1): 30, (1, 0): 30, (1, 1): 30}
+ORBIT_TO_CORNER_SETS: {0: (0, 1), 1: (0, 1)}
+CORNER_TO_ORBIT_SETS: {0: (0, 1), 1: (0, 1)}
+UNMATCHED_COUNT: 0
+UNMATCHED_PREVIEW: []
+ROW_PREVIEW: [{'frame_id': 0, 'root_slot': 0, 'orbit_id': 0, 'corner_matching_index': 0, 'root_maps_closure_to_opposite': True, 'closure_duad': (0, 1), 'opposite_duad': (3, 4), 'induced_matching': ((0, 3), (1, 4))}, {'frame_id': 0, 'root_slot': 1, 'orbit_id': 1, 'corner_matching_index': 1, 'root_maps_closure_to_opposite': True, 'closure_duad': (0, 1), 'opposite_duad': (3, 4), 'induced_matching': ((0, 4), (1, 3))}, {'frame_id': 1, 'root_slot': 0, 'orbit_id': 1, 'corner_matching_index': 0, 'root_maps_closure_to_opposite': True, 'closure_duad': (0, 2), 'opposite_duad': (4, 5), 'induced_matching': ((0, 4), (2, 5))}, {'frame_id': 1, 'root_slot': 1, 'orbit_id': 0, 'corner_matching_index': 1, 'root_maps_closure_to_opposite': True, 'closure_duad': (0, 2), 'opposite_duad': (4, 5), 'induced_matching': ((0, 5), (2, 4))}, {'frame_id': 2, 'root_slot': 0, 'orbit_id': 1, 'corner_matching_index': 0, 'root_maps_closure_to_opposite': True, 'closure_duad': (1, 2), 'opposite_duad': (3, 5), 'induced_matching': ((1, 3), (2, 5))}, {'frame_id': 2, 'root_slot': 1, 'orbit_id': 0, 'corner_matching_index': 1, 'root_maps_closure_to_opposite': True, 'closure_duad': (1, 2), 'opposite_duad': (3, 5), 'induced_matching': ((1, 5), (2, 3))}, {'frame_id': 3, 'root_slot': 0, 'orbit_id': 1, 'corner_matching_index': 1, 'root_maps_closure_to_opposite': True, 'closure_duad': (3, 4), 'opposite_duad': (0, 1), 'induced_matching': ((0, 4), (1, 3))}, {'frame_id': 3, 'root_slot': 1, 'orbit_id': 0, 'corner_matching_index': 0, 'root_maps_closure_to_opposite': True, 'closure_duad': (3, 4), 'opposite_duad': (0, 1), 'induced_matching': ((0, 3), (1, 4))}, {'frame_id': 4, 'root_slot': 0, 'orbit_id': 0, 'corner_matching_index': 1, 'root_maps_closure_to_opposite': True, 'closure_duad': (3, 5), 'opposite_duad': (1, 2), 'induced_matching': ((1, 5), (2, 3))}, {'frame_id': 4, 'root_slot': 1, 'orbit_id': 1, 'corner_matching_index': 0, 'root_maps_closure_to_opposite': True, 'closure_duad': (3, 5), 'opposite_duad': (1, 2), 'induced_matching': ((1, 3), (2, 5))}, {'frame_id': 5, 'root_slot': 0, 'orbit_id': 0, 'corner_matching_index': 1, 'root_maps_closure_to_opposite': True, 'closure_duad': (4, 5), 'opposite_duad': (0, 2), 'induced_matching': ((0, 5), (2, 4))}, {'frame_id': 5, 'root_slot': 1, 'orbit_id': 1, 'corner_matching_index': 0, 'root_maps_closure_to_opposite': True, 'closure_duad': (4, 5), 'opposite_duad': (0, 2), 'induced_matching': ((0, 4), (2, 5))}, {'frame_id': 6, 'root_slot': 0, 'orbit_id': 0, 'corner_matching_index': 1, 'root_maps_closure_to_opposite': True, 'closure_duad': (0, 1), 'opposite_duad': (2, 5), 'induced_matching': ((0, 5), (1, 2))}, {'frame_id': 6, 'root_slot': 1, 'orbit_id': 1, 'corner_matching_index': 0, 'root_maps_closure_to_opposite': True, 'closure_duad': (0, 1), 'opposite_duad': (2, 5), 'induced_matching': ((0, 2), (1, 5))}, {'frame_id': 7, 'root_slot': 0, 'orbit_id': 0, 'corner_matching_index': 1, 'root_maps_closure_to_opposite': True, 'closure_duad': (0, 3), 'opposite_duad': (2, 4), 'induced_matching': ((0, 4), (2, 3))}, {'frame_id': 7, 'root_slot': 1, 'orbit_id': 1, 'corner_matching_index': 0, 'root_maps_closure_to_opposite': True, 'closure_duad': (0, 3), 'opposite_duad': (2, 4), 'induced_matching': ((0, 2), (3, 4))}, {'frame_id': 8, 'root_slot': 0, 'orbit_id': 0, 'corner_matching_index': 0, 'root_maps_closure_to_opposite': True, 'closure_duad': (1, 3), 'opposite_duad': (4, 5), 'induced_matching': ((1, 4), (3, 5))}, {'frame_id': 8, 'root_slot': 1, 'orbit_id': 1, 'corner_matching_index': 1, 'root_maps_closure_to_opposite': True, 'closure_duad': (1, 3), 'opposite_duad': (4, 5), 'induced_matching': ((1, 5), (3, 4))}, {'frame_id': 9, 'root_slot': 0, 'orbit_id': 1, 'corner_matching_index': 0, 'root_maps_closure_to_opposite': True, 'closure_duad': (2, 4), 'opposite_duad': (0, 3), 'induced_matching': ((0, 2), (3, 4))}, {'frame_id': 9, 'root_slot': 1, 'orbit_id': 0, 'corner_matching_index': 1, 'root_maps_closure_to_opposite': True, 'closure_duad': (2, 4), 'opposite_duad': (0, 3), 'induced_matching': ((0, 4), (2, 3))}]
+CHECKS: {'source_069_exists': True, 'source_069_theorem_pass': True, 'compact_source_pass': True, 'frame_count_60': True, 'ledger_state_count_120': True, 'state_row_count_120': True, 'every_root_maps_closure_to_opposite': True, 'every_root_matches_one_corner_pair': True, 'corner_matching_selects_orbit': False}
+FAILED_CHECK_COUNT: 1
+FAILED_CHECKS: ['corner_matching_selects_orbit']
+THEOREM_PASS: False
+CLASSIFICATION: corner_matching_does_not_alone_name_the_native_affine_orientation_orbits
+ABSOLUTE_ORIENTATION_SELECTED: False
+PHYSICAL_CLAIM: False
+MUTATION_PERFORMED: False
+        0.05 real         0.04 user         0.00 sys
+            19234816  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1842  page reclaims
+                  79  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   3  voluntary context switches
+                  23  involuntary context switches
+           571591930  instructions retired
+           168540110  cycles elapsed
+            12042672  peak memory footprint

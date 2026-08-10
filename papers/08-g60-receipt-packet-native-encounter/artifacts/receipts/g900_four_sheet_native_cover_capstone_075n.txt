@@ -1,0 +1,20 @@
+SCOUT: 075f EXISTS=True PACKET=g900_compact_frame_collision_anatomy_075f PASS=True FAILURES=0 ROW_PASS=True
+SCOUT: 075g EXISTS=True PACKET=g900_restored_frame_root_action_075g PASS=True FAILURES=0 ROW_PASS=True
+SCOUT: 075h EXISTS=True PACKET=g900_affine_orientation_orbit_ledger_075h PASS=True FAILURES=0 ROW_PASS=True
+SCOUT: 075i EXISTS=True PACKET=g900_affine_orientation_corner_matching_075i PASS=False FAILURES=1 ROW_PASS=True
+SCOUT: 075j EXISTS=True PACKET=g900_affine_orientation_deck_involution_075j PASS=True FAILURES=0 ROW_PASS=True
+SCOUT: 075k EXISTS=True PACKET=g900_combined_sheet_root_deck_group_075k PASS=False FAILURES=3 ROW_PASS=True
+SCOUT: 075l EXISTS=True PACKET=g900_sheet_root_action_order_bridge_075l PASS=True FAILURES=0 ROW_PASS=True
+SCOUT: 075m EXISTS=True PACKET=g900_combined_sheet_root_bridged_cover_075m PASS=True FAILURES=0 ROW_PASS=True
+PACKET: g900_four_sheet_native_cover_capstone_075n
+MODE: post-scout four-sheet native-cover capstone
+CHECKS: {'receipt_count_8': True, 'all_receipts_exist': True, 'all_packet_names_match': True, 'all_expected_theorem_statuses_match': True, 'all_expected_failure_counts_match': True, 'all_required_markers_present': True, 'corner_selector_075i_falsified_exactly': True, 'raw_index_join_075k_falsified_exactly': True, 'action_bridge_075l_passed': True, 'four_sheet_cover_075m_passed': True}
+FAILED_CHECK_COUNT: 0
+FAILED_CHECKS: []
+AUDIT_PASS: True
+CLASSIFICATION: the_sixty_intrinsic_frames_support_a_four_sheeted_native_cover_with_independent_synthematic_completion_and_affine_orientation_coordinates_and_central_Klein_four_deck_group
+OUTPUT: /Users/scottcave/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/json/g900_four_sheet_native_cover_capstone_075n.v1.json
+PERMANENT_ARTIFACT_WRITTEN: True
+STAGING_PERFORMED: False
+COMMIT_PERFORMED: False
+PUSH_PERFORMED: False

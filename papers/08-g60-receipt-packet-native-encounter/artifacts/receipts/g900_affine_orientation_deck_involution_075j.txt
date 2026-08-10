@@ -1,0 +1,43 @@
+PACKET: g900_affine_orientation_deck_involution_075j
+MODE: exact root-inversion deck transformation audit
+BASE_FRAME_COUNT: 60
+FRAME_ROOT_STATE_COUNT: 120
+TRANSPORT_FAILURE_COUNT: 0
+DECK_MAP_SIZE: 120
+DECK_IS_INVOLUTION: True
+DECK_FIXED_POINT_COUNT: 0
+DECK_PRESERVES_BASE_FRAME: True
+DECK_COMMUTATION_FAILURE_COUNT: 0
+DECK_COMMUTATION_FAILURES: []
+DECK_ORBIT_PROFILE: {(0, 1): 60, (1, 0): 60}
+DECK_EXCHANGES_ORBITS: True
+ORBIT_PROJECTION_ROWS: [{'orbit_id': 0, 'orbit_size': 60, 'projected_frame_count': 60, 'frame_multiplicity_profile': {1: 60}}, {'orbit_id': 1, 'orbit_size': 60, 'projected_frame_count': 60, 'frame_multiplicity_profile': {1: 60}}]
+EACH_ORBIT_PROJECTS_BIJECTIVELY: True
+CHECKS: {'source_069_exists': True, 'source_069_theorem_pass': True, 'compact_source_pass': True, 'frame_count_60': True, 'state_count_120': True, 'restored_key_count_60': True, 'transport_failure_count_zero': True, 'deck_is_bijection': True, 'deck_is_involution': True, 'deck_has_no_fixed_state': True, 'deck_preserves_base_frame': True, 'deck_commutes_with_all_native_actions': True, 'two_native_orbits': True, 'deck_exchanges_native_orbits': True, 'each_orbit_projects_bijectively': True}
+FAILED_CHECK_COUNT: 0
+FAILED_CHECKS: []
+THEOREM_PASS: True
+CLASSIFICATION: the_restored_frame_root_register_is_a_two_sheeted_native_cover_of_the_sixty_frame_register_and_root_inversion_is_a_fixed_point_free_central_deck_involution_exchanging_the_two_affine_orientation_sheets
+LOCAL_ROOT_SLOT_NAMES_SHEET: False
+LOCAL_CORNER_MATCHING_NAMES_SHEET: False
+ABSOLUTE_ORIENTATION_SELECTED: False
+PHYSICAL_CLAIM: False
+MUTATION_PERFORMED: False
+        0.09 real         0.08 user         0.00 sys
+            19922944  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                1885  page reclaims
+                  78  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                  22  involuntary context switches
+          1442848079  instructions retired
+           332966538  cycles elapsed
+            12747208  peak memory footprint

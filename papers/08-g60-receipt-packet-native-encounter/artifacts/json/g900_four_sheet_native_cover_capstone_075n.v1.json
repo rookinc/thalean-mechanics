@@ -1,0 +1,212 @@
+{
+  "audit_pass": true,
+  "boundaries": {
+    "canonical_affine_orientation_selected": false,
+    "canonical_completion_sheet_selected": false,
+    "local_corner_matching_names_orientation": false,
+    "local_root_slot_names_orientation": false,
+    "numeric_angle_values_derived": false,
+    "physical_claim": false
+  },
+  "checks": {
+    "action_bridge_075l_passed": true,
+    "all_expected_failure_counts_match": true,
+    "all_expected_theorem_statuses_match": true,
+    "all_packet_names_match": true,
+    "all_receipts_exist": true,
+    "all_required_markers_present": true,
+    "corner_selector_075i_falsified_exactly": true,
+    "four_sheet_cover_075m_passed": true,
+    "raw_index_join_075k_falsified_exactly": true,
+    "receipt_count_8": true
+  },
+  "classification": "the_sixty_intrinsic_frames_support_a_four_sheeted_native_cover_with_independent_synthematic_completion_and_affine_orientation_coordinates_and_central_Klein_four_deck_group",
+  "commit_performed": false,
+  "failed_check_count": 0,
+  "failed_checks": [],
+  "mode": "post-scout four-sheet native-cover capstone",
+  "packet": "g900_four_sheet_native_cover_capstone_075n",
+  "permanent_artifact_written": true,
+  "push_performed": false,
+  "receipt_rows": [
+    {
+      "checks": {
+        "exists": true,
+        "failure_count_matches": true,
+        "packet_matches": true,
+        "required_markers_present": true,
+        "theorem_status_matches": true
+      },
+      "expected_failed_check_count": "0",
+      "expected_packet": "g900_compact_frame_collision_anatomy_075f",
+      "expected_theorem_pass": "True",
+      "failed_check_count": "0",
+      "missing_markers": [],
+      "packet": "g900_compact_frame_collision_anatomy_075f",
+      "path": "/Users/scottcave/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g900_compact_frame_collision_anatomy_075f.txt",
+      "role": "lossy compact frame coordinate diagnosed",
+      "row_pass": true,
+      "sha256": "3ef05d2e7e7f132bcfd0ba7284d0b9fe2adfa45f2042309a3e0f0d8862595062",
+      "size_bytes": 35401,
+      "step": "075f",
+      "theorem_pass": "True"
+    },
+    {
+      "checks": {
+        "exists": true,
+        "failure_count_matches": true,
+        "packet_matches": true,
+        "required_markers_present": true,
+        "theorem_status_matches": true
+      },
+      "expected_failed_check_count": "0",
+      "expected_packet": "g900_restored_frame_root_action_075g",
+      "expected_theorem_pass": "True",
+      "failed_check_count": "0",
+      "missing_markers": [],
+      "packet": "g900_restored_frame_root_action_075g",
+      "path": "/Users/scottcave/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g900_restored_frame_root_action_075g.txt",
+      "role": "closure-duad coordinate restores native action",
+      "row_pass": true,
+      "sha256": "7346d8b7f28804b87c970c501406f08cdae63b6ea5dcce1a27c06beb2e96de97",
+      "size_bytes": 3287,
+      "step": "075g",
+      "theorem_pass": "True"
+    },
+    {
+      "checks": {
+        "exists": true,
+        "failure_count_matches": true,
+        "packet_matches": true,
+        "required_markers_present": true,
+        "theorem_status_matches": true
+      },
+      "expected_failed_check_count": "0",
+      "expected_packet": "g900_affine_orientation_orbit_ledger_075h",
+      "expected_theorem_pass": "True",
+      "failed_check_count": "0",
+      "missing_markers": [],
+      "packet": "g900_affine_orientation_orbit_ledger_075h",
+      "path": "/Users/scottcave/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g900_affine_orientation_orbit_ledger_075h.txt",
+      "role": "complete affine-orientation orbit ledger",
+      "row_pass": true,
+      "sha256": "ac162e404a4be93f47229790d53c277fb68cf9a471c84a514dcf6eeff6a086e2",
+      "size_bytes": 3987,
+      "step": "075h",
+      "theorem_pass": "True"
+    },
+    {
+      "checks": {
+        "exists": true,
+        "failure_count_matches": true,
+        "packet_matches": true,
+        "required_markers_present": true,
+        "theorem_status_matches": true
+      },
+      "expected_failed_check_count": "1",
+      "expected_packet": "g900_affine_orientation_corner_matching_075i",
+      "expected_theorem_pass": "False",
+      "failed_check_count": "1",
+      "missing_markers": [],
+      "packet": "g900_affine_orientation_corner_matching_075i",
+      "path": "/Users/scottcave/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g900_affine_orientation_corner_matching_075i.txt",
+      "role": "expected local-corner selector falsifier",
+      "row_pass": true,
+      "sha256": "58d9272de258e27482021d3549458a60505f921059a1993565bb995af0f70398",
+      "size_bytes": 5762,
+      "step": "075i",
+      "theorem_pass": "False"
+    },
+    {
+      "checks": {
+        "exists": true,
+        "failure_count_matches": true,
+        "packet_matches": true,
+        "required_markers_present": true,
+        "theorem_status_matches": true
+      },
+      "expected_failed_check_count": "0",
+      "expected_packet": "g900_affine_orientation_deck_involution_075j",
+      "expected_theorem_pass": "True",
+      "failed_check_count": "0",
+      "missing_markers": [],
+      "packet": "g900_affine_orientation_deck_involution_075j",
+      "path": "/Users/scottcave/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g900_affine_orientation_deck_involution_075j.txt",
+      "role": "central root-inversion deck involution",
+      "row_pass": true,
+      "sha256": "e04ad2705216abf427f8280623dc66df09e114f650c773c0d44811b72963d014",
+      "size_bytes": 2395,
+      "step": "075j",
+      "theorem_pass": "True"
+    },
+    {
+      "checks": {
+        "exists": true,
+        "failure_count_matches": true,
+        "packet_matches": true,
+        "required_markers_present": true,
+        "theorem_status_matches": true
+      },
+      "expected_failed_check_count": "3",
+      "expected_packet": "g900_combined_sheet_root_deck_group_075k",
+      "expected_theorem_pass": "False",
+      "failed_check_count": "3",
+      "missing_markers": [],
+      "packet": "g900_combined_sheet_root_deck_group_075k",
+      "path": "/Users/scottcave/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g900_combined_sheet_root_deck_group_075k.txt",
+      "role": "expected raw-action-index join falsifier",
+      "row_pass": true,
+      "sha256": "c816d9f48fa31cb5186a51284f56aa60e8a35feb9367fd6d1f2a7f0b7fb18228",
+      "size_bytes": 2708,
+      "step": "075k",
+      "theorem_pass": "False"
+    },
+    {
+      "checks": {
+        "exists": true,
+        "failure_count_matches": true,
+        "packet_matches": true,
+        "required_markers_present": true,
+        "theorem_status_matches": true
+      },
+      "expected_failed_check_count": "0",
+      "expected_packet": "g900_sheet_root_action_order_bridge_075l",
+      "expected_theorem_pass": "True",
+      "failed_check_count": "0",
+      "missing_markers": [],
+      "packet": "g900_sheet_root_action_order_bridge_075l",
+      "path": "/Users/scottcave/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g900_sheet_root_action_order_bridge_075l.txt",
+      "role": "exact action-order bridge",
+      "row_pass": true,
+      "sha256": "ad26f4d2028ffcee78fca67ea4f1c4451fa65680ed657e5524bcebcad3b32743",
+      "size_bytes": 3165,
+      "step": "075l",
+      "theorem_pass": "True"
+    },
+    {
+      "checks": {
+        "exists": true,
+        "failure_count_matches": true,
+        "packet_matches": true,
+        "required_markers_present": true,
+        "theorem_status_matches": true
+      },
+      "expected_failed_check_count": "0",
+      "expected_packet": "g900_combined_sheet_root_bridged_cover_075m",
+      "expected_theorem_pass": "True",
+      "failed_check_count": "0",
+      "missing_markers": [],
+      "packet": "g900_combined_sheet_root_bridged_cover_075m",
+      "path": "/Users/scottcave/dev/cori/research/thalean_mechanics/papers/08-g60-receipt-packet-native-encounter/artifacts/receipts/g900_combined_sheet_root_bridged_cover_075m.txt",
+      "role": "corrected four-sheet native cover theorem",
+      "row_pass": true,
+      "sha256": "f77b66cbb289bfd0a4885d1f92cd2d4dcea07ac5ae5d7748fc370661e57d0f5c",
+      "size_bytes": 3842,
+      "step": "075m",
+      "theorem_pass": "True"
+    }
+  ],
+  "repository_mutation": "none",
+  "schema": "g900_four_sheet_native_cover_capstone_075n.v1",
+  "staging_performed": false
+}
