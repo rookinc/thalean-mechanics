@@ -82,6 +82,56 @@ Interpreters do not change canonical registration.
 
 ---
 
+## Representation Completeness
+
+A mechanics property of a lawful family of registration interpreters.
+
+The family is representation-complete when its joint action is
+faithful to Canonical Registration.
+
+Representation Completeness does not require any individual
+representation to be faithful.
+
+---
+
+## Joint Faithfulness
+
+A property of a family of registration interpreters.
+
+For
+
+    I_j : R_T -> X_j,
+
+the family is jointly faithful when
+
+    I_j(r) = I_j(r') for every j
+
+implies
+
+    r = r'.
+
+Equivalently, the diagonal interpreter is injective.
+
+---
+
+## Compatibility Locus
+
+The set of representation tuples that arise from one lawful common
+Canonical Registration.
+
+For the diagonal interpreter
+
+    Delta_I(r) = (I_j(r))_j,
+
+the compatibility locus is
+
+    C_I = image(Delta_I).
+
+Compatibility is common-source consistency, not equality among
+different representations.
+
+---
+
 ## Representation
 
 A representation produced from canonical registration.

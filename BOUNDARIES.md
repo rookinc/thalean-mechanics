@@ -8,6 +8,9 @@ Inside this repository
 - informative action
 - evaluation
 - registration interpreters
+- representation completeness
+- joint faithfulness
+- compatibility loci
 - composition
 
 Outside this repository
