@@ -5,3 +5,8 @@ __pycache__/
 *.tmp
 *.log
 .DS_Store
+
+# Standalone paper repositories kept beneath this working tree.
+papers/10-quantum-relativity/
+papers/13-folded-receipt-envelopes/
+papers/14-thalean-relational-saturation/
